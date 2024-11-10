@@ -14,5 +14,5 @@
 ## H - Farm
 ## I - Hunting Grounds
 ### Yldaris
-Major changes IMo are neeeded here, the AP treats it as 1 part room by room combat encounter, and 1 part Length Exposition Dump. IMO both are pretty bad, and overall how it's integrated isn't great 
+Major changes IMO are neeeded here, the AP treats it as 1 part room by room combat encounter, and 1 part Length Exposition Dump. IMO both are pretty bad, and overall how it's integrated isn't great 
 ## J - Temple
