@@ -7,7 +7,7 @@
 ## F - Labs
 ## G - Prison
 #### G10. Urevian's Domain
-- Genrally recommend following some of the advice from Abomination Vaults: Expanded <sup>[AV:E](https://www.drivethrurpg.com/en/product/418672/The-Abomination-Vaults-Expanded)</sup>
+- Generally recommend following some of the advice from Abomination Vaults: Expanded <sup>[AV:E](https://www.drivethrurpg.com/en/product/418672/The-Abomination-Vaults-Expanded)</sup>
   - Replace Urevian's bodyguards with [Levalochs](https://2e.aonprd.com/Monsters.aspx?ID=1114)
   - Use the **Amicia Rajani** character so that there is more of anguish about whether or not to sacrifice Carman, and also an option of who to sacrifice
   - Increase his offered reward to closer to what **AV:E** recommends based on your party's knack for sacrificing people
