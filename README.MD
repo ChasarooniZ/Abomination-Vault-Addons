@@ -7,3 +7,4 @@ Will reference other books/sources as necessary, and will at some point most lik
 - [Changes to the Vaults](/VAULTS.MD)
 - [Otari](/OTARI.MD)
 - [Music](/MUSIC.MD)
+- [Nhimbaloth Curses](/NHIM_CURSE.MD)
