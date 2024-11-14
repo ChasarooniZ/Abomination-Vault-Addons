@@ -1,0 +1,115 @@
+{
+  "id": "abomination-vaults-addons-pf2e",
+  "title": "Abomination Vaults: Addons (PF2e)",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Addons of extra stuff and tweaks for abomination vaults.",
+  "authors": [
+    {
+      "name": "chasarooniZ",
+      "flags": {}
+    },
+    {
+      "name": "weepingminotaur",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "abomination-vaults-addons-items",
+      "label": "Abomination Vaults: Addons - Items",
+      "path": "packs/abomination-vaults-addons-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-addons-actors",
+      "label": "Abomination Vaults: Addons - Actors",
+      "path": "packs/abomination-vaults-addons-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-addons-journals",
+      "label": "Abomination Vaults: Addons - Journals",
+      "path": "packs/abomination-vaults-addons-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-addons-scenes",
+      "label": "Abomination Vaults: Addons - Scenes",
+      "path": "packs/abomination-vaults-addons-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-addons-tables",
+      "label": "Abomination Vaults: Addons - Tables",
+      "path": "packs/abomination-vaults-addons-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-addons-macro",
+      "label": "Abomination Vaults: Addons - Macro",
+      "path": "packs/abomination-vaults-addons-macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "https://github.com/chasarooniZ/Abomination-Vault-Addons/blob/master/README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://thumbor.syrinscape.com/cwQ2ufpfg-vb1IosXyYsg6q4cSo=/fit-in/960x960/filters:quality(90)/https://storage.syrinscape.com/media/dd/product/images/92c7d10295d31536ac3d59eaa7ccd1ec.jpg"
+    }
+  ]
+}
