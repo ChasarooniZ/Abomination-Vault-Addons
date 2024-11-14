@@ -6,9 +6,9 @@ This will contain Music Recommendations/Suggestions for your games to supplement
 
 ## Characters
 ### Otari
-- [Wrin Savinxi]()
+- [Wrin Savinxi](https://www.youtube.com/watch?v=B_pJ6yVpj7Y)
 ### Vaults
-- [Callido Haruvex](https://www.youtube.com/watch?v=svWFk7h0OdM&t=2s). 
+- [Callido Haruvex](https://www.youtube.com/watch?v=svWFk7h0OdM&). 
 - Nhimbaloth.
   - [Satella - Kenichiro Suehiro](https://www.youtube.com/watch?v=qySxjldPd7w)
   - [A Swamp Knows about Death - Mychael Danna](https://youtu.be/K9PFfGrRz24?si=EgZSHDZthNMvEe7G)
