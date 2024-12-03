@@ -12,3 +12,10 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 ### To add
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
+
+
+###  Licensing
+In order under following licenses
+- [Community Use Policy](/license/CUP.MD)
+- [Open Gaming License](/license/OGL.MD)
+- [MIT](/license/MIT.MD)
