@@ -4,6 +4,9 @@
 ## C - Library
 ## D - Belcorra's Retreat
 ## E - Arena
+- Have Siora act as an assassin Hunting the party (make it a creepy feeling of being watched) have her appear for a few rounds and dissappear untila  final encoutner in her room
+- Remove the Mimic Encounter
+- Poltergeists encounter run as an RP encounter
 ## F - Labs
 ## G - Prison
 #### G10. Urevian's Domain
