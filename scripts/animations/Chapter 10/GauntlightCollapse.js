@@ -1,3 +1,6 @@
+import { jb2aVersion } from "../helpers.js"
+
+/** This Macro was originally Written by Maple */
 export async function gauntlightCollapse() {
     const X = 3525
     const Y = 7725
