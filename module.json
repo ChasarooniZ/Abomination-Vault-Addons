@@ -101,6 +101,7 @@
       "flags": {}
     }
   ],
+  "esmodules": ["scripts/module.js"],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
