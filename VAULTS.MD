@@ -4,6 +4,9 @@
 ## C - Library
 ## D - Belcorra's Retreat
 ## E - Arena
+- Have Siora act as an assassin Hunting the party (make it a creepy feeling of being watched) have her appear for a few rounds and dissappear untila  final encoutner in her room
+- Remove the Mimic Encounter
+- Poltergeists encounter run as an RP encounter
 ## F - Labs
 ## G - Prison
 #### G10. Urevian's Domain
@@ -13,6 +16,10 @@
   - Increase his offered reward to closer to what **AV:E** recommends based on your party's knack for sacrificing people
 ## H - Farm
 ## I - Hunting Grounds
+- Caliddo
+  - Theme everything he has with cold
+  - For his final confrontation, have him fight the party one the Lake riding his steed
+  - Take some creative liberty and have his steed freeze a 10 ft. emanation wherever it stops in its movement, this way he will have somewhere to stand post its death.
 ### Yldaris
 Major changes IMO are neeeded here, the AP treats it as 1 part room by room combat encounter, and 1 part Length Exposition Dump. IMO both are pretty bad, and overall how it's integrated isn't great 
 ## J - Temple
