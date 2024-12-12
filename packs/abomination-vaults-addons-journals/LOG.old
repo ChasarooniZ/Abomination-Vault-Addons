@@ -1,8 +1,15 @@
-2024/12/11-17:50:56.138739 ffffa5323160 Recovering log #4
-2024/12/11-17:50:56.143546 ffffa5323160 Delete type=0 #4
-2024/12/11-17:50:56.143567 ffffa5323160 Delete type=3 #2
-2024/12/11-22:33:13.028241 fffd76be6160 Level-0 table #9: started
-2024/12/11-22:33:13.028261 fffd76be6160 Level-0 table #9: 0 bytes OK
-2024/12/11-22:33:13.030775 fffd76be6160 Delete type=0 #7
-2024/12/11-22:33:13.032735 fffd76be6160 Manual compaction at level-0 from '!journal!0AulS7fiIRbJvEWG' @ 72057594037927935 : 1 .. '!journal.pages!0AulS7fiIRbJvEWG.lCCjs78aSuUorjNe' @ 0 : 0; will stop at (end)
-2024/12/11-22:33:13.032756 fffd76be6160 Manual compaction at level-1 from '!journal!0AulS7fiIRbJvEWG' @ 72057594037927935 : 1 .. '!journal.pages!0AulS7fiIRbJvEWG.lCCjs78aSuUorjNe' @ 0 : 0; will stop at (end)
+2024/12/11-22:34:01.509837 ffff97fff160 Recovering log #8
+2024/12/11-22:34:01.514700 ffff97fff160 Delete type=3 #6
+2024/12/11-22:34:01.514724 ffff97fff160 Delete type=0 #8
+2024/12/12-07:45:45.506647 fffd76be6160 Level-0 table #13: started
+2024/12/12-07:45:45.509841 fffd76be6160 Level-0 table #13: 21367 bytes OK
+2024/12/12-07:45:45.512756 fffd76be6160 Delete type=0 #11
+2024/12/12-07:45:45.512970 fffd76be6160 Manual compaction at level-0 from '!folders!OfH0ZqG3hwnrSdpa' @ 72057594037927935 : 1 .. '!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ' @ 0 : 0; will stop at (end)
+2024/12/12-07:45:45.515727 fffd76be6160 Manual compaction at level-1 from '!folders!OfH0ZqG3hwnrSdpa' @ 72057594037927935 : 1 .. '!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ' @ 0 : 0; will stop at '!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ' @ 36 : 1
+2024/12/12-07:45:45.515736 fffd76be6160 Compacting 1@1 + 1@2 files
+2024/12/12-07:45:45.518348 fffd76be6160 Generated table #14@1: 5 keys, 3325 bytes
+2024/12/12-07:45:45.518362 fffd76be6160 Compacted 1@1 + 1@2 files => 3325 bytes
+2024/12/12-07:45:45.520757 fffd76be6160 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/12-07:45:45.520809 fffd76be6160 Delete type=2 #5
+2024/12/12-07:45:45.520935 fffd76be6160 Delete type=2 #13
+2024/12/12-07:45:45.526881 fffd76be6160 Manual compaction at level-1 from '!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ' @ 36 : 1 .. '!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ' @ 0 : 0; will stop at (end)
