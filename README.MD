@@ -13,6 +13,8 @@ Will reference other books/sources as necessary, and will at some point most lik
 ### To add
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
 
+### Assets
+- Hand Swarm (from Caera's free token pack)
 
 ###  Licensing
 In order under following licenses
