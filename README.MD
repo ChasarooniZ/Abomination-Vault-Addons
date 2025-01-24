@@ -15,6 +15,7 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 ### Assets
 - Hand Swarm (from Caera's free token pack)
+- Ruins of the Thirsty Alpaca Rebuild - Credit to @Icarus for the maps
 
 ###  Licensing
 In order under following licenses
