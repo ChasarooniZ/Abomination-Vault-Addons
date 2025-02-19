@@ -1,3 +1,8 @@
+# 0.3.0 - Attack of the 300 Ft Tall Belcorra
+
+- Added Animation
+  - Belcorra Attacks (@ChasarooniZ)
+
 # 0.2.0 - Ruins of the Thirsty Alpaca
 
 - Added maps for Ruins of the Thirsty Alpaca and of its rebuild (credit to @Icarus)
