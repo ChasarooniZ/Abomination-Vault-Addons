@@ -19,6 +19,11 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 ### Showcase
 
+https://github.com/user-attachments/assets/c53de002-dd52-49c9-b479-2df94f430ddc
+
+https://github.com/user-attachments/assets/af1357b3-e80a-4e2b-8dd5-367a23eeee39
+
+https://github.com/user-attachments/assets/39dc8081-115f-4ab3-a174-3b05c9d8911d
 
 ###  Licensing
 In order under following licenses
