@@ -19,6 +19,9 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 ### Showcase
 
+![](preview/gauntlight-collapse.mp4)
+![](preview/belcorra-death.mp4)
+![](preview/belcorra-attacks.mp4)
 
 ###  Licensing
 In order under following licenses
