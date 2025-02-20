@@ -17,6 +17,9 @@ Will reference other books/sources as necessary, and will at some point most lik
 - Hand Swarm (from Caera's free token pack)
 - Ruins of the Thirsty Alpaca Rebuild - Credit to @Icarus for the maps
 
+### Showcase
+
+
 ###  Licensing
 In order under following licenses
 - [Community Use Policy](/license/CUP.MD)
