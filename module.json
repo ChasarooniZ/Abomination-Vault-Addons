@@ -29,76 +29,15 @@
   ],
   "packs": [
     {
-      "name": "abomination-vaults-addons-items",
-      "label": "Abomination Vaults: Addons - Items",
-      "path": "packs/abomination-vaults-addons-items",
-      "type": "Item",
+      "name": "abomination-vaults-addons",
+      "label": "Abomination Vaults: Addons",
+      "path": "packs/abomination-vaults-addons",
+      "type": "Adventure",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "name": "abomination-vaults-addons-actors",
-      "label": "Abomination Vaults: Addons - Actors",
-      "path": "packs/abomination-vaults-addons-actors",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "name": "abomination-vaults-addons-journals",
-      "label": "Abomination Vaults: Addons - Journals",
-      "path": "packs/abomination-vaults-addons-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "name": "abomination-vaults-addons-scenes",
-      "label": "Abomination Vaults: Addons - Scenes",
-      "path": "packs/abomination-vaults-addons-scenes",
-      "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "name": "abomination-vaults-addons-tables",
-      "label": "Abomination Vaults: Addons - Tables",
-      "path": "packs/abomination-vaults-addons-tables",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "name": "abomination-vaults-addons-macro",
-      "label": "Abomination Vaults: Addons - Macro",
-      "path": "packs/abomination-vaults-addons-macro",
-      "type": "Macro",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     }
   ],
   "esmodules": ["scripts/module.js"],
