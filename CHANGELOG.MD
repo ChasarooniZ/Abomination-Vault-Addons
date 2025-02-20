@@ -1,3 +1,9 @@
+# 0.3.1 - A Broom Stick
+
+- Updated Animation
+  - Belcorra Attacks
+    - Changed Easing on scaling to make it move in more vertically
+
 # 0.3.0 - Attack of the 300 Ft Tall Belcorra
 
 - Added Animation

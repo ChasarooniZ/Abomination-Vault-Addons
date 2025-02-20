@@ -135,7 +135,7 @@ export async function belcorraAttacks(volume = 1) {
     })
     .duration(flyInTime + 500)
     .fadeOut(200)
-    .scaleIn(3, flyInTime, { ease: easing, delay: 0 })
+    .scaleIn(3, flyInTime, { ease: "easeOutSine", delay: 0 })
     .waitUntilFinished(-500)
     .animation()
     .on(token)
