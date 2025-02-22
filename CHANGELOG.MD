@@ -1,3 +1,9 @@
+# 0.4.0 - Transitions and a Swarm
+
+- Moved every item except for the `Scenes` to an Adventure (the scenes will remain in their own compendium)
+  - This is to make the update process smoother especially with the addition of "Changes to the Vaults" esque items
+- Added Will-o'-Wisp Swarm (🧠 @Blablablablitz, 🎨@ChasarooniZ)
+
 # 0.3.1 - A Broom Stick
 
 - Updated Animation
