@@ -29,6 +29,18 @@
   ],
   "packs": [
     {
+      "name": "abomination-vaults-addons-scenes",
+      "label": "Abomination Vaults: Addons - Scenes",
+      "path": "packs/abomination-vaults-addons-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
       "name": "abomination-vaults-addons",
       "label": "Abomination Vaults: Addons",
       "path": "packs/abomination-vaults-addons",
