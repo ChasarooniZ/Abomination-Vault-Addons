@@ -25,6 +25,10 @@
     {
       "name": "weepingminotaur",
       "flags": {}
+    },
+    {
+      "name": "Maple",
+      "flags": {}
     }
   ],
   "packs": [
@@ -33,12 +37,11 @@
       "label": "Abomination Vaults: Addons - Scenes",
       "path": "packs/abomination-vaults-addons-scenes",
       "type": "Scene",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "abomination-vaults-addons",
