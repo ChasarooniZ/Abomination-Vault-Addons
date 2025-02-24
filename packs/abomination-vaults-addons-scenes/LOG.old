@@ -1,15 +1,14 @@
-2025/02/20-04:52:06.476776 ffff74ff9160 Recovering log #201
-2025/02/20-04:52:06.481292 ffff74ff9160 Delete type=0 #79
-2025/02/20-04:52:06.481324 ffff74ff9160 Delete type=3 #14
-2025/02/20-04:52:06.481341 ffff74ff9160 Delete type=3 #200
-2025/02/20-04:52:06.481354 ffff74ff9160 Delete type=0 #4
-2025/02/20-04:52:06.481364 ffff74ff9160 Delete type=0 #201
-2025/02/20-04:52:06.481373 ffff74ff9160 Delete type=0 #16
-2025/02/20-04:52:06.481383 ffff74ff9160 Delete type=3 #78
-2025/02/20-04:52:06.481396 ffff74ff9160 Delete type=3 #2
-2025/02/20-04:52:06.481409 ffff74ff9160 Delete type=0 #11
-2025/02/20-04:52:06.481419 ffff74ff9160 Delete type=3 #10
-2025/02/20-05:08:41.162420 ffff72af4160 Level-0 table #205: started
-2025/02/20-05:08:41.162436 ffff72af4160 Level-0 table #205: 0 bytes OK
-2025/02/20-05:08:41.163974 ffff72af4160 Delete type=0 #203
-2025/02/20-05:08:41.167203 ffff72af4160 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!cRCE6pgqAyCtQbq0.zABvKDjJRpbB9Csi' @ 0 : 0; will stop at (end)
+2025/02/22-08:01:58.990726 ffff747f8160 Recovering log #204
+2025/02/22-08:01:58.995497 ffff747f8160 Delete type=0 #204
+2025/02/22-08:01:58.995517 ffff747f8160 Delete type=3 #202
+2025/02/23-07:24:22.930601 ffff72af4160 Level-0 table #209: started
+2025/02/23-07:24:22.932560 ffff72af4160 Level-0 table #209: 5487 bytes OK
+2025/02/23-07:24:22.934024 ffff72af4160 Delete type=0 #207
+2025/02/23-07:24:22.937564 ffff72af4160 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!cRCE6pgqAyCtQbq0.zABvKDjJRpbB9Csi' @ 0 : 0; will stop at '!scenes!cRCE6pgqAyCtQbq0' @ 124 : 1
+2025/02/23-07:24:22.937572 ffff72af4160 Compacting 1@0 + 1@1 files
+2025/02/23-07:24:22.939879 ffff72af4160 Generated table #210@0: 116 keys, 14808 bytes
+2025/02/23-07:24:22.939892 ffff72af4160 Compacted 1@0 + 1@1 files => 14808 bytes
+2025/02/23-07:24:22.941396 ffff72af4160 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/23-07:24:22.941451 ffff72af4160 Delete type=2 #209
+2025/02/23-07:24:22.941504 ffff72af4160 Delete type=2 #85
+2025/02/23-07:24:22.946574 ffff72af4160 Manual compaction at level-0 from '!scenes!cRCE6pgqAyCtQbq0' @ 124 : 1 .. '!scenes.walls!cRCE6pgqAyCtQbq0.zABvKDjJRpbB9Csi' @ 0 : 0; will stop at (end)
