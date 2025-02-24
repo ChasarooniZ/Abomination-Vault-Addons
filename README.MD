@@ -33,6 +33,7 @@ https://github.com/user-attachments/assets/39dc8081-115f-4ab3-a174-3b05c9d8911d
 - Hand Swarm (from Caera's free token pack)
 - Ruins of the Thirsty Alpaca Rebuild - Credit to @Icarus for the maps
 - Swarm of Will-o'-Wisps (@ChasarooniZ)
+- Riser Space Oddity 1 - 3 (by Ovani Sound)
 
 ###  Licensing
 In order under following licenses

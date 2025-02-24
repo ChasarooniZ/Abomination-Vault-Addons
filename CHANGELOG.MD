@@ -1,3 +1,11 @@
+# 0.6.0 - Nhimbaloth's Symbol
+
+- Added a new animation macro `Nhimbaloth's Symbol`
+
+# 0.5.0 - Nhimbaloth's Presence
+
+- Added a new animation macro `Nhimbaloth's Presence`
+
 # 0.4.0 - Transitions and a Swarm
 
 - Moved every item except for the `Scenes` to an Adventure (the scenes will remain in their own compendium)
