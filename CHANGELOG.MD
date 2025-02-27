@@ -1,3 +1,9 @@
+# 0.6.1 - Animation Fixes
+
+- The following animations have been fixed (🐛 @Dalvyn)
+- `Belcorra Attacks`
+- `Gauntlight Collapse`
+
 # 0.6.0 - Nhimbaloth's Symbol
 
 - Added a new animation macro `Nhimbaloth's Symbol`
