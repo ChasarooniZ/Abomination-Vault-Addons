@@ -1,3 +1,12 @@
+# 0.7.0 - Log Fumes and Worms
+
+- New Maps
+  - `Log Flume Loading Tower` - For loading logs that go down the fume to the Giant's Wheel
+  - `Log Flume Down Hill` - A section of the logflume pipe for an encounter while riding down the flume (is enhanced by the TIle Scroll module)
+- New Encounter
+  - **Belcorra's Pet** - Gave minor guidance on changing up the final encounter with Belcorra to use a statted out version of her deceased and recent member of the incorporeal beings, her pet **Cave Worm**
+  - This includes a macro for `Regurgitate` to toss tokens at an enemy (credit to @48787 for the basis for this macro)
+
 # 0.6.1 - Animation Fixes
 
 - The following animations have been fixed (🐛 @Dalvyn)
