@@ -683,19 +683,19 @@ export async function createRotateTilesPuzzle() {
 
   //Lever BG
   for (const tile of lever_bg) {
-    createTile({ locked: true, sort: 1, ...tile }, FLOOR_J);
+    createTile({ ...tile, locked: true, sort: 1 }, FLOOR_J);
   }
   //Lever Base
   for (const tile of levers) {
     createTile(
       {
+        ...tile,
         locked: true,
         sort: 2,
         texture: {
           src: lever_base,
         },
         flags: undefined,
-        ...tile,
       },
       FLOOR_J
     );
@@ -705,9 +705,9 @@ export async function createRotateTilesPuzzle() {
   for (const tile of levers) {
     createTile(
       {
+        ...tile,
         locked: true,
         sort: 3,
-        ...tile,
       },
       FLOOR_J
     );
