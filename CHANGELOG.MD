@@ -1,3 +1,12 @@
+# 0.8.0 - Rotation Puzzle
+
+- `Map Update Macro`
+  - Added a new macro `Setup Rotation Puzzle` (for floor J)
+  - Note, to interact with levers you need to right click on them with a token selected within 1 grid square
+  - Will setup tiles to make a working rotation puzzle as described in journal `J15`
+  - **NOTE:** Requires `Tagger` and `Monk's Active Tiles`
+  - **_Credit_** Huge credit to @darkim for working out the idea originally, all this does is recreate their setup to the best off my ability
+
 # 0.7.0 - Log Fumes and Worms
 
 - New Maps
