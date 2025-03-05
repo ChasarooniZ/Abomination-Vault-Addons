@@ -1,4 +1,12 @@
+# 0.9.0 - Helpful Little Drawings
+
+- Added a new setup macro `Helper Drawing Setup Dialog`
+  - This macro will ask what floors you want to ask text for
+  - It will add some helper text `Drawings` to the floors
+  - This includes some Height Indicators and clarifications on details of the room that are easy to miss due to how it looks visually
+
 # 0.8.1 - Journals & Fixes
+
 - Added Journal entry pages for `Rotation Puzzle` and `Swarm of Will o' Wisp`
 - Fixed issue where `Swarm of Will O' Wisp`'s ID was colliding with `Will o' Wisp`'s (🐛 @Kras Mazov)
 

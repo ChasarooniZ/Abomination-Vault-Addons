@@ -428,6 +428,17 @@ export async function addTextForFloorJ(pct = 0, maxPct = 100) {
         type: "r",
       },
     },
+    // J16. Perilous Controls
+    {
+      text: localizeText("not-toxic-air"),
+      x: 7772,
+      y: 2644,
+      shape: {
+        width: 307,
+        height: 97,
+        type: "r",
+      },
+    },
   ];
 
   return await setupTextandPercent(drawings, floor, pct, maxPct);

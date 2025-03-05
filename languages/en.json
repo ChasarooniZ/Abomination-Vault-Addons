@@ -12,7 +12,8 @@
       "ft-up": "{feet} ft. up",
       "down-to": "Down to {area}",
       "illusory-floor-ceil": "Illusory Floor & Ceiling",
-      "stair-descending": "These Stairs are Descending"
+      "stair-descending": "These Stairs are Descending",
+      "not-toxic-air": "Not toxic air"
     }
   }
 }
