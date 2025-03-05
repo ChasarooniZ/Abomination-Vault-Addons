@@ -4,6 +4,14 @@ import { gauntlightCollapse } from "./animations/Chapter 10/GauntlightCollapse.j
 import { nhimbalothPresence } from "./animations/NhimbalothPresence.js";
 import { nhimbalothSymbol } from "./animations/NhimbalothSymbol.js";
 import {
+  addTextForFloorA,
+  addTextForFloorB,
+  addTextForFloorD,
+  addTextForFloorE,
+  addTextForFloorF,
+  addTextForFloorG,
+  addTextForFloorH,
+  addTextForFloorJ,
   createRotateTilesPuzzle,
   setupAllHeightTextDialog,
 } from "./sceneSetup.js";
