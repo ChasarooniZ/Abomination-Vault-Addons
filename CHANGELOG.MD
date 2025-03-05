@@ -1,3 +1,7 @@
+# 0.8.1 - Journals & Fixes
+- Added Journal entry pages for `Rotation Puzzle` and `Swarm of Will o' Wisp`
+- Fixed issue where `Swarm of Will O' Wisp`'s ID was colliding with `Will o' Wisp`'s (🐛 @Kras Mazov)
+
 # 0.8.0 - Rotation Puzzle
 
 - `Map Update Macro`
