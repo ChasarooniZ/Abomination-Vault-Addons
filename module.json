@@ -31,6 +31,13 @@
       "flags": {}
     }
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
   "packs": [
     {
       "name": "abomination-vaults-addons-scenes",

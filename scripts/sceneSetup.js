@@ -63,7 +63,7 @@ async function processSelectedFloors(html, floors) {
     const isChecked = html.find(`[name="floor${floor}"]`)[0].checked;
     if (isChecked) floorToRun.push(floor);
   }
-  const pctPerRoom = 100 / floorToRun;
+  const pctPerRoom = 100 / floorToRun.length;
   pct = addTextForFloorA(pct, pctPerRoom);
   pct = addTextForFloorB(pct, pctPerRoom);
   pct = addTextForFloorD(pct, pctPerRoom);
@@ -80,7 +80,7 @@ export async function addTextForFloorA(pct = 0, maxPct = 100) {
   const drawings = [
     // A8. Sinkhole
     {
-      text: "10 ft. down",
+      text: localizeText("ft-down", { feet: "10" }),
       x: 5765.625,
       y: 7584.375,
       shape: {
@@ -99,7 +99,7 @@ export async function addTextForFloorB(pct = 0, maxPct = 100) {
   const drawings = [
     // B23. Well
     {
-      text: "Down to C40",
+      text: localizeText("down-to", { area: "C40" }),
       x: 6113,
       y: 5419,
       shape: {
@@ -119,7 +119,7 @@ export async function addTextForFloorD(pct = 0, maxPct = 100) {
     // D11. Torture Chamber
     // Cage 1
     {
-      text: "5 ft. up",
+      text: localizeText("ft-up", { feet: "5" }),
       x: 2231.25,
       y: 2512.5,
       shape: {
@@ -130,7 +130,7 @@ export async function addTextForFloorD(pct = 0, maxPct = 100) {
     },
     // Cage 2
     {
-      text: "5 ft. up",
+      text: localizeText("ft-up", { feet: "5" }),
       x: 2212.5,
       y: 2821.875,
       shape: {
@@ -141,7 +141,7 @@ export async function addTextForFloorD(pct = 0, maxPct = 100) {
     },
     // Cage 3
     {
-      text: "5 ft. up",
+      text: localizeText("ft-up", { feet: "5" }),
       x: 2212.5,
       y: 3131.25,
       shape: {
@@ -152,7 +152,7 @@ export async function addTextForFloorD(pct = 0, maxPct = 100) {
     },
     // D14. Pavilion
     {
-      text: "10 ft. down",
+      text: localizeText("ft-down", { feet: "10" }),
       x: 4725,
       y: 5362.5,
       shape: {
@@ -163,7 +163,7 @@ export async function addTextForFloorD(pct = 0, maxPct = 100) {
     },
     // D17. Disposal Pond
     {
-      text: "20 ft. up",
+      text: localizeText("ft-up", { feet: "20" }),
       x: 4500,
       y: 6628,
       shape: {
@@ -183,7 +183,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     // E1. Upper Shaft
     // Gauntlight Hole
     {
-      text: "80 ft. below",
+      text: localizeText("ft-below", { feet: "80" }),
       x: 5662.5,
       y: 3496.875,
       shape: {
@@ -195,7 +195,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     // E10. Grand Concourse
     // Bridge
     {
-      text: "20 ft. below",
+      text: localizeText("ft-below", { feet: "20" }),
       x: 5588,
       y: 5288,
       shape: {
@@ -207,7 +207,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     // E12. Sentencing Chambers
     // Big Hole 1
     {
-      text: "55 ft. down",
+      text: localizeText("ft-down", { feet: "55" }),
       x: 6928,
       y: 3028,
       shape: {
@@ -218,7 +218,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     },
     // Big Hole 2
     {
-      text: "55 ft. down",
+      text: localizeText("ft-down", { feet: "55" }),
       x: 7396.875,
       y: 3028.125,
       shape: {
@@ -229,7 +229,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     },
     // Small Hole 1
     {
-      text: "55 ft. down",
+      text: localizeText("ft-down", { feet: "55" }),
       x: 6881.25,
       y: 2559.375,
       shape: {
@@ -240,7 +240,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     },
     // Small Hole 2
     {
-      text: "55 ft. down",
+      text: localizeText("ft-down", { feet: "55" }),
       x: 7171.193808504039,
       y: 2564.8960877951954,
       shape: {
@@ -251,7 +251,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     },
     //Small Hole 3
     {
-      text: "55 ft. down",
+      text: localizeText("ft-down", { feet: "55" }),
       x: 7468.702425015808,
       y: 2565.9536775633856,
       shape: {
@@ -262,7 +262,7 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
     },
     // E26. Arena Balcony
     {
-      text: "30 ft. down",
+      text: localizeText("ft-down", { feet: "30" }),
       x: 5662.5,
       y: 8531.25,
       shape: {
@@ -282,7 +282,7 @@ export async function addTextForFloorF(pct = 0, maxPct = 100) {
   const drawings = [
     // F1. Central Shaft
     {
-      text: localizeText("40-ft-down"),
+      text: localizeText("ft-down", { feet: "40" }),
       x: 5081.25,
       y: 3609.375,
       shape: {
@@ -293,7 +293,7 @@ export async function addTextForFloorF(pct = 0, maxPct = 100) {
     },
     // F9. Testing Grounds
     {
-      text: "5 ft. Below",
+      text: localizeText("ft-below", { feet: "5" }),
       x: 6488,
       y: 6563,
       shape: {
@@ -313,7 +313,7 @@ export async function addTextForFloorG(pct = 0, maxPct = 100) {
     // G7. Summoning Chamber
     // Descending Stairs
     {
-      text: "These Stairs are Descending",
+      text: localizeText("stair-descending"),
       x: 5868.75,
       y: 4425,
       shape: {
@@ -325,7 +325,7 @@ export async function addTextForFloorG(pct = 0, maxPct = 100) {
     // G17. Stasis Chambers
     // Catwalk
     {
-      text: "10 ft. up",
+      text: localizeText("ft-up", { feet: "10" }),
       x: 4940.625,
       y: 6065.625,
       shape: {
@@ -336,7 +336,7 @@ export async function addTextForFloorG(pct = 0, maxPct = 100) {
     },
     // Illusions
     {
-      text: "Illusory Floor & Ceiling",
+      text: localizeText("illusory-floor-ceil"),
       x: 5184,
       y: 8091,
       shape: {
@@ -355,7 +355,7 @@ export async function addTextForFloorH(pct = 0, maxPct = 100) {
   const drawings = [
     // H11. Carrion Ambush
     {
-      text: "20 ft. below",
+      text: localizeText("ft-below", { feet: "20" }),
       x: 6871.875,
       y: 4800,
       shape: {
@@ -366,7 +366,7 @@ export async function addTextForFloorH(pct = 0, maxPct = 100) {
     },
     // H13. Isolated Cage
     {
-      text: "30 ft. up",
+      text: localizeText("ft-up", { feet: "30" }),
       x: 6225,
       y: 3918.75,
       shape: {
@@ -377,7 +377,7 @@ export async function addTextForFloorH(pct = 0, maxPct = 100) {
     },
     // H29. West Garden
     {
-      text: "100 ft. down",
+      text: localizeText("ft-down", { feet: "100" }),
       x: 4096.875,
       y: 8887.5,
       shape: {
@@ -397,7 +397,7 @@ export async function addTextForFloorJ(pct = 0, maxPct = 100) {
     // J15. Swamp
     // 15 ft. up
     {
-      text: "15 ft. up",
+      text: localizeText("ft-up", { feet: "15" }),
       x: 7050,
       y: 6159,
       shape: {
@@ -408,7 +408,7 @@ export async function addTextForFloorJ(pct = 0, maxPct = 100) {
     },
     // 20 ft. up
     {
-      text: "20 ft. up",
+      text: localizeText("ft-up", { feet: 20 }),
       x: 7069,
       y: 5100,
       shape: {
@@ -419,7 +419,7 @@ export async function addTextForFloorJ(pct = 0, maxPct = 100) {
     },
     // 25 ft. up
     {
-      text: "25 ft. up",
+      text: localizeText("ft-up", { feet: "25" }),
       x: 7191,
       y: 3759,
       shape: {

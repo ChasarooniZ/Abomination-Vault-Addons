@@ -7,7 +7,12 @@
       "submit": "Submit",
       "cancel": "Cancel",
       "progress-text": "Adding Drawing Notes",
-      "40-ft-down": "40 ft. Down"
+      "ft-below": "{feet} ft. below",
+      "ft-down": "{feet} ft. down",
+      "ft-up": "{feet} ft. up",
+      "down-to": "Down to {area}",
+      "illusory-floor-ceil": "Illusory Floor & Ceiling",
+      "stair-descending": "These Stairs are Descending"
     }
   }
 }
