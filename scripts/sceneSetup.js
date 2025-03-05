@@ -1,12 +1,21 @@
-function localizeText(str, options = {}) {
-  return game.i18n.format(
-    `abomination-vaults-addons.drawing-text.${str}`,
-    options
-  );
+const localizeText = (str, options = {}) =>
+  game.i18n.format(`abomination-vaults-addons.drawing-text.${str}`, options);
+
+async function setupTextandPercent(drawings, floor, pct, maxPct) {
+  const increment = maxPct / drawings.length;
+  for (const drawData of drawings) {
+    pct += increment;
+    SceneNavigation.displayProgressBar({
+      label: localizeText("progress-text"),
+      pct,
+    });
+    await setupText(drawData, floor);
+  }
+  return pct;
 }
+
 export async function setupAllHeightTextDialog() {
   const floors = ["A", "B", "D", "E", "F", "G", "H", "J"];
-
   const content = floors
     .map(
       (floor) => `
@@ -22,11 +31,7 @@ export async function setupAllHeightTextDialog() {
 
   new Dialog({
     title: localizeText("title"),
-    content: `
-      <form>
-        ${content}
-      </form>
-    `,
+    content: `<form>${content}</form>`,
     buttons: {
       submit: {
         icon: '<i class="fas fa-check"></i>',
@@ -43,21 +48,15 @@ export async function setupAllHeightTextDialog() {
 }
 
 async function processSelectedFloors(html, floors) {
+  const floorToRun = floors.filter(
+    (floor) => html.find(`[name="floor${floor}"]`)[0].checked
+  );
+  const pctPerRoom = 100 / floorToRun.length;
+
   let pct = 0;
-  const floorToRun = [];
-  for (const floor of floors) {
-    const isChecked = html.find(`[name="floor${floor}"]`)[0].checked;
-    if (isChecked) floorToRun.push(floor);
+  for (const floor of floorToRun) {
+    pct = await window[`addTextForFloor${floor}`](pct, pctPerRoom);
   }
-  const pctPerRoom = 100 / floorToRun;
-  pct = addTextForFloorA(pct, pctPerRoom);
-  pct = addTextForFloorB(pct, pctPerRoom);
-  pct = addTextForFloorD(pct, pctPerRoom);
-  pct = addTextForFloorE(pct, pctPerRoom);
-  pct = addTextForFloorF(pct, pctPerRoom);
-  pct = addTextForFloorG(pct, pctPerRoom);
-  pct = addTextForFloorH(pct, pctPerRoom);
-  pct = addTextForFloorJ(pct, pctPerRoom);
 }
 
 export async function addTextForFloorA(pct = 0, maxPct = 100) {
@@ -77,19 +76,6 @@ export async function addTextForFloorA(pct = 0, maxPct = 100) {
     },
   ];
   return await setupTextandPercent(drawings, floor, pct, maxPct);
-}
-
-async function setupTextandPercent(drawings, floor, pct, maxPct) {
-  const increment = maxPct / drawings.length;
-  for (const drawData of drawings) {
-    pct += increment;
-    SceneNavigation.displayProgressBar({
-      label: localizeText("progress-text"),
-      pct: pct,
-    });
-    await setupText(drawData, floor);
-  }
-  return pct;
 }
 
 export async function addTextForFloorB(pct = 0, maxPct = 100) {
