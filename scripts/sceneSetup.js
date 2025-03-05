@@ -1,29 +1,400 @@
-async function setupAllText() {
-  setupAllHeightText();
+function localizeText(str, options = {}) {
+  return game.i18n.format(
+    `abomination-vaults-addons.drawing-text.${str}`,
+    options
+  );
+}
+export async function setupAllHeightTextDialog() {
+  const floors = ["A", "B", "D", "E", "F", "G", "H", "J"];
+
+  const content = floors
+    .map(
+      (floor) => `
+    <div class="form-group">
+      <label>
+        <input type="checkbox" name="floor${floor}" checked>
+        ${localizeText("floor")} ${floor}
+      </label>
+    </div>
+  `
+    )
+    .join("");
+
+  new Dialog({
+    title: localizeText("title"),
+    content: `
+      <form>
+        ${content}
+      </form>
+    `,
+    buttons: {
+      submit: {
+        icon: '<i class="fas fa-check"></i>',
+        label: localizeText("submit"),
+        callback: (html) => processSelectedFloors(html, floors),
+      },
+      cancel: {
+        icon: '<i class="fas fa-times"></i>',
+        label: localizeText("cancel"),
+      },
+    },
+    default: "submit",
+  }).render(true);
 }
 
-async function setupAllHeightText() {
-  const data = {
-    text: "15 ft. up",
-    strokeWidth: 0,
-    x: 7050,
-    y: 6159,
-    hidden: true,
-    interface: true,
-    locked: true,
-    author: game.user,
-    shape: {
-      type: "r",
-      width: 283,
-      height: 107,
-    },
-  };
+async function processSelectedFloors(html, floors) {
+  let pct = 0;
+  const floorToRun = [];
+  for (const floor of floors) {
+    const isChecked = html.find(`[name="floor${floor}"]`)[0].checked;
+    if (isChecked) floorToRun.push(floor);
+  }
+  const pctPerRoom = 100 / floorToRun;
+  pct = addTextForFloorA(pct, pctPerRoom);
+  pct = addTextForFloorB(pct, pctPerRoom);
+  pct = addTextForFloorD(pct, pctPerRoom);
+  pct = addTextForFloorE(pct, pctPerRoom);
+  pct = addTextForFloorF(pct, pctPerRoom);
+  pct = addTextForFloorG(pct, pctPerRoom);
+  pct = addTextForFloorH(pct, pctPerRoom);
+  pct = addTextForFloorJ(pct, pctPerRoom);
+}
 
-  const FLOOR_J = game.scenes.get("o3zbh5CXtTQiWKwZ");
-  // Floor J Swamp
-  //J15
-  // 15 ft. up
-  setupText(
+export async function addTextForFloorA(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("3Nat4ImT49niZUdr");
+  // Floor A - Gauntlight Ruins
+  const drawings = [
+    // A8. Sinkhole
+    {
+      text: "10 ft. down",
+      x: 5765.625,
+      y: 7584.375,
+      shape: {
+        width: 183,
+        height: 104,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+async function setupTextandPercent(drawings, floor, pct, maxPct) {
+  const increment = maxPct / drawings.length;
+  for (const drawData of drawings) {
+    pct += increment;
+    SceneNavigation.displayProgressBar({
+      label: localizeText("progress-text"),
+      pct: pct,
+    });
+    await setupText(drawData, floor);
+  }
+  return pct;
+}
+
+export async function addTextForFloorB(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("3Nat4ImT49niZUdr");
+  // Floor B - Servants' Quarters
+  const drawings = [
+    // B23. Well
+    {
+      text: "Down to C40",
+      x: 6113,
+      y: 5419,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorD(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("Y4pI9rvbaVvmK2kn");
+  // Floor D - Belcorra's Retreat
+  const drawings = [
+    // D11. Torture Chamber
+    // Cage 1
+    {
+      text: "5 ft. up",
+      x: 2231.25,
+      y: 2512.5,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // Cage 2
+    {
+      text: "5 ft. up",
+      x: 2212.5,
+      y: 2821.875,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // Cage 3
+    {
+      text: "5 ft. up",
+      x: 2212.5,
+      y: 3131.25,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // D14. Pavilion
+    {
+      text: "10 ft. down",
+      x: 4725,
+      y: 5362.5,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // D17. Disposal Pond
+    {
+      text: "20 ft. up",
+      x: 4500,
+      y: 6628,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorE(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("B9O44gBwHIUTRasQ");
+  // Floor E - Arena
+  const drawings = [
+    // E1. Upper Shaft
+    // Gauntlight Hole
+    {
+      text: "80 ft. below",
+      x: 5662.5,
+      y: 3496.875,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // E10. Grand Concourse
+    // Bridge
+    {
+      text: "20 ft. below",
+      x: 5588,
+      y: 5288,
+      shape: {
+        width: 304,
+        height: 94,
+        type: "r",
+      },
+    },
+    // E12. Sentencing Chambers
+    // Big Hole 1
+    {
+      text: "55 ft. down",
+      x: 6928,
+      y: 3028,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // Big Hole 2
+    {
+      text: "55 ft. down",
+      x: 7396.875,
+      y: 3028.125,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // Small Hole 1
+    {
+      text: "55 ft. down",
+      x: 6881.25,
+      y: 2559.375,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // Small Hole 2
+    {
+      text: "55 ft. down",
+      x: 7171.193808504039,
+      y: 2564.8960877951954,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    //Small Hole 3
+    {
+      text: "55 ft. down",
+      x: 7468.702425015808,
+      y: 2565.9536775633856,
+      shape: {
+        width: 216,
+        height: 103,
+        type: "r",
+      },
+    },
+    // E26. Arena Balcony
+    {
+      text: "30 ft. down",
+      x: 5662.5,
+      y: 8531.25,
+      shape: {
+        width: 244,
+        height: 98,
+        type: "r",
+      },
+    },
+  ];
+
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorF(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("2bM6K9jKWHJoYURa");
+  // Floor F - Labs
+  const drawings = [
+    // F1. Central Shaft
+    {
+      text: localizeText("40-ft-down"),
+      x: 5081.25,
+      y: 3609.375,
+      shape: {
+        width: 136,
+        height: 170,
+        type: "r",
+      },
+    },
+    // F9. Testing Grounds
+    {
+      text: "5 ft. Below",
+      x: 6488,
+      y: 6563,
+      shape: {
+        width: 136,
+        height: 170,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorG(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("lKRTHUBDXYzwd80e");
+  // Floor G - Prison
+  const drawings = [
+    // G7. Summoning Chamber
+    // Descending Stairs
+    {
+      text: "These Stairs are Descending",
+      x: 5868.75,
+      y: 4425,
+      shape: {
+        width: 201,
+        height: 173,
+        type: "r",
+      },
+    },
+    // G17. Stasis Chambers
+    // Catwalk
+    {
+      text: "10 ft. up",
+      x: 4940.625,
+      y: 6065.625,
+      shape: {
+        width: 136,
+        height: 170,
+        type: "r",
+      },
+    },
+    // Illusions
+    {
+      text: "Illusory Floor & Ceiling",
+      x: 5184,
+      y: 8091,
+      shape: {
+        width: 201,
+        height: 173,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorH(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("MrRFPOICNcpBbfca");
+  // Floor H - Decaying Gardens
+  const drawings = [
+    // H11. Carrion Ambush
+    {
+      text: "20 ft. below",
+      x: 6871.875,
+      y: 4800,
+      shape: {
+        width: 201,
+        height: 173,
+        type: "r",
+      },
+    },
+    // H13. Isolated Cage
+    {
+      text: "30 ft. up",
+      x: 6225,
+      y: 3918.75,
+      shape: {
+        width: 201,
+        height: 173,
+        type: "r",
+      },
+    },
+    // H29. West Garden
+    {
+      text: "100 ft. down",
+      x: 4096.875,
+      y: 8887.5,
+      shape: {
+        width: 318,
+        height: 111,
+        type: "r",
+      },
+    },
+  ];
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
+}
+
+export async function addTextForFloorJ(pct = 0, maxPct = 100) {
+  const floor = game.scenes.get("o3zbh5CXtTQiWKwZ");
+  // Floor J - Temple
+  const drawings = [
+    // J15. Swamp
+    // 15 ft. up
     {
       text: "15 ft. up",
       x: 7050,
@@ -34,11 +405,7 @@ async function setupAllHeightText() {
         type: "r",
       },
     },
-    FLOOR_J
-  );
-
-  // 20 ft. up
-  setupText(
+    // 20 ft. up
     {
       text: "20 ft. up",
       x: 7069,
@@ -49,11 +416,7 @@ async function setupAllHeightText() {
         type: "r",
       },
     },
-    FLOOR_J
-  );
-
-  // 25 ft. up
-  setupText(
+    // 25 ft. up
     {
       text: "25 ft. up",
       x: 7191,
@@ -64,8 +427,9 @@ async function setupAllHeightText() {
         type: "r",
       },
     },
-    FLOOR_J
-  );
+  ];
+
+  return await setupTextandPercent(drawings, floor, pct, maxPct);
 }
 
 async function setupText(data, scene) {

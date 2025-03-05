@@ -1,0 +1,13 @@
+{
+  "I18N.LANGUAGE": "English",
+  "abomination-vaults-addons": {
+    "drawing-text": {
+      "floor": "Floor",
+      "title:": "Setup Drawing Labels from Addons for unclear parts of the maps",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "progress-text": "Adding Drawing Notes",
+      "40-ft-down": "40 ft. Down"
+    }
+  }
+}
