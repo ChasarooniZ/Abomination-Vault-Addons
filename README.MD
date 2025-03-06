@@ -4,7 +4,7 @@ Intended to be a list of helpful additions and changes for Abomination Vaults.
 Will reference other books/sources as necessary, and will at some point most likely publish as a standalone Pay as you want PDF + Module if I'm motivated.
 
 ## Added Content
-- Cool animations (see the [showcase](#showcase)
+- Cool animations (see the [showcase](#showcase))
 - New Stablocks and Hazards
   - Swarm of Will-o'-Wisps
 - [Curses of Nhimbaloth](/NHIM_CURSE.MD)
@@ -23,10 +23,15 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 ### Showcase
 **Gauntlight Collapse**
+
 https://github.com/user-attachments/assets/c53de002-dd52-49c9-b479-2df94f430ddc
+
 **Belcorra Attack**
+
 https://github.com/user-attachments/assets/af1357b3-e80a-4e2b-8dd5-367a23eeee39
+
 **Belcorra Dies**
+
 https://github.com/user-attachments/assets/8e8726fa-2855-4e05-89b6-612605799de4
 
 ### Assets
