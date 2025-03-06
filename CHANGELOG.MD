@@ -1,3 +1,8 @@
+# 0.10.0 - Nhimbaloth Makes an appearance
+- `Update`
+  - Updated the `BelcorraDeath` macro to show a little more Nhim.
+  - The previous `BelcorraDeath` macro is still available via the api with `await game.abomVaultAddons.animations.belcorraDeathLegacy()`
+
 # 0.9.0 - Helpful Little Drawings
 
 - Added a new setup macro `Helper Drawing Setup Dialog`
