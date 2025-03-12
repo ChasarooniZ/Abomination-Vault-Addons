@@ -1,3 +1,5 @@
+import { MODULE_NAME } from "../module.js";
+
 export async function nhimbalothPresence({
   duration = 15,
   volume = 0.5,
@@ -19,7 +21,7 @@ export async function nhimbalothPresence({
       : "",
   ]);
 
-  new Sequence()
+  new Sequence({ moduleName: MODULE_NAME, softFail: true })
     .sound()
     .file(sfx)
     .fadeInAudio(fadeInDuration)

@@ -1,3 +1,4 @@
+import { MODULE_NAME } from "../../module.js";
 import { jb2aVersion } from "../helpers.js";
 
 /** This Macro was originally Written by Maple */
@@ -59,7 +60,7 @@ export async function belcorraDeathLegacy() {
     }
 
 
-    await new Sequence({ softFail: true })
+    await new Sequence({ moduleName: MODULE_NAME, softFail: true })
         .canvasPan()
         .shake({ duration: 23000, strength: 3 })
         .effect()

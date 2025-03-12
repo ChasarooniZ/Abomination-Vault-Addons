@@ -1,3 +1,4 @@
+import { MODULE_NAME } from "../../module.js";
 import { jb2aVersion } from "../helpers.js";
 
 const files = {
@@ -60,7 +61,7 @@ const arms = [
 /** This Macro was originally Written by @Maple
  * The Nhimbaloth portal stuff was written by @ChasarooniZ
  */
-export async function belcorraDeath() {
+export async function belcorraDeath({ useSFX = true }) {
   const BELCORRA = "Belcorra Haruvex";
   const token = canvas.tokens.placeables.find((t) => t.name === BELCORRA);
   const version = jb2aVersion();
@@ -72,8 +73,6 @@ export async function belcorraDeath() {
   const art = token?.document?.ring?.enabled
     ? token?.document?.ring?.subject?.texture ?? token?.document?.texture?.src
     : token?.document?.texture?.src || "icons/svg/cowled.svg";
-
-  const useSFX = true;
 
   duration.belcorraSlideUp = duration.portal.loop / 3;
 
@@ -104,7 +103,7 @@ export async function belcorraDeath() {
     ]);
   }
 
-  const seq = new Sequence({ softFail: true })
+  const seq = new Sequence({ moduleName: MODULE_NAME, softFail: true })
     // Shaky Cam
     .canvasPan()
     .shake({ duration: 23000 + duration.portal.loop, strength: 3 })
@@ -122,6 +121,7 @@ export async function belcorraDeath() {
 
     // Wind SFX
     .sound()
+    .playIf(useSFX)
     .file(sfx.wind)
     .volume(0.5)
     .duration(21000 + duration.portal.loop)
@@ -140,6 +140,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 1
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[0])
     .volume(0.8)
     .duration(23000 + duration.portal.loop)
@@ -160,6 +161,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 2 & 3
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[1])
     .volume(0.8)
     .delay(1000)
@@ -167,6 +169,7 @@ export async function belcorraDeath() {
     .fadeInAudio(5000)
     .fadeOutAudio(1000)
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[2])
     .volume(0.8)
     .delay(1000 + 500)
@@ -188,6 +191,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 4
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[3])
     .volume(0.8)
     .delay(2000)
@@ -209,12 +213,14 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 5 & 6
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[4])
     .volume(0.8)
     .delay(3000)
     .duration(19000 + duration.portal.loop)
     .fadeInAudio(5000)
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[5])
     .volume(0.8)
     .delay(3000 + 500)
@@ -236,6 +242,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 7
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[6])
     .volume(0.8)
     .delay(4000)
@@ -257,6 +264,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 8 & 9
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[7])
     .volume(0.8)
     .delay(5000)
@@ -264,6 +272,7 @@ export async function belcorraDeath() {
     .fadeInAudio(5000)
     .fadeOutAudio(1000)
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[8])
     .volume(0.8)
     .delay(5000 + 500)
@@ -285,6 +294,7 @@ export async function belcorraDeath() {
 
     // Nhim Ambience 10
     .sound()
+    .playIf(useSFX)
     .file(sfx.nhimbaloth[9])
     .volume(0.8)
     .delay(6000)
@@ -365,11 +375,11 @@ export async function belcorraDeath() {
       ease: "easeOutCubic",
       fromEnd: true,
     })
-    // Hide token 
+    // Hide token
     .animation()
-        .on(token)
-        .delay(delay.belcorra.slideUP)
-        .hide()
+    .on(token)
+    .delay(delay.belcorra.slideUP)
+    .hide()
 
     // Portal
     .effect()
@@ -387,6 +397,7 @@ export async function belcorraDeath() {
 
     //Portal Sound
     .sound()
+    .playIf(useSFX)
     .file(sfx.portal)
     .fadeInAudio(duration.portal.intro, { ease: "easeOutSine" })
     .volume(0.5)
@@ -435,6 +446,7 @@ export async function belcorraDeath() {
 
     // Belcorra Fall SFX
     .sound()
+    .playIf(useSFX)
     .file(sfx.fall)
     .delay((duration.portal.loop * 0.7) / 3 + duration.portal.intro * 4)
     .volume(1)
@@ -458,6 +470,7 @@ export async function belcorraDeath() {
 
     // Belcorra Eaten SFX
     .sound()
+    .playIf(useSFX)
     .file(sfx.belcorraEaten)
     .delay((duration.portal.loop * 0.7) / 3 + duration.portal.intro * 5.2)
     .volume(0.8)
@@ -475,6 +488,7 @@ export async function belcorraDeath() {
 
     // Belcorra Death SFX
     .sound()
+    .playIf(useSFX)
     .file(sfx.belcorraScream)
     .delay(
       (duration.portal.loop * 0.7) / 3 + duration.portal.intro * 5.5 - 1000

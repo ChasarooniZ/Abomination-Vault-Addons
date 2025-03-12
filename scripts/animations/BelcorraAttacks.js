@@ -1,3 +1,5 @@
+import { MODULE_NAME } from "../module.js";
+
 export async function belcorraAttacks(volume = 1) {
   const flyInTime = 1.5 * 1000;
   const belcorraWarning =
@@ -77,7 +79,7 @@ export async function belcorraAttacks(volume = 1) {
 
   const easing = "easeOutQuart";
 
-  new Sequence()
+  new Sequence({ moduleName: MODULE_NAME, softFail: true })
     .animation()
     .on(token)
     .opacity(0)
