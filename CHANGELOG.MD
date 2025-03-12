@@ -1,4 +1,9 @@
+# 0.10.1 - Fixes to Drawings
+
+- Added some fixes for the drawing dialog (actually shows percent, and checkboxes now actually affect what gets run) (🐛 @DoctorDrake)
+
 # 0.10.0 - Nhimbaloth Makes an appearance
+
 - `Update`
   - Updated the `BelcorraDeath` macro to show a little more Nhim.
   - The previous `BelcorraDeath` macro is still available via the api with `await game.abomVaultAddons.animations.belcorraDeathLegacy()`

@@ -64,14 +64,14 @@ async function processSelectedFloors(html, floors) {
     if (isChecked) floorToRun.push(floor);
   }
   const pctPerRoom = 100 / floorToRun.length;
-  pct = addTextForFloorA(pct, pctPerRoom);
-  pct = addTextForFloorB(pct, pctPerRoom);
-  pct = addTextForFloorD(pct, pctPerRoom);
-  pct = addTextForFloorE(pct, pctPerRoom);
-  pct = addTextForFloorF(pct, pctPerRoom);
-  pct = addTextForFloorG(pct, pctPerRoom);
-  pct = addTextForFloorH(pct, pctPerRoom);
-  pct = addTextForFloorJ(pct, pctPerRoom);
+  if (floorsToRun.includes("A")) pct = await addTextForFloorA(pct, pctPerRoom);
+  if (floorsToRun.includes("B")) pct = await addTextForFloorB(pct, pctPerRoom);
+  if (floorsToRun.includes("C")) pct = await addTextForFloorD(pct, pctPerRoom);
+  if (floorsToRun.includes("D")) pct = await addTextForFloorE(pct, pctPerRoom);
+  if (floorsToRun.includes("E")) pct = await addTextForFloorF(pct, pctPerRoom);
+  if (floorsToRun.includes("F")) pct = await addTextForFloorG(pct, pctPerRoom);
+  if (floorsToRun.includes("G")) pct = await addTextForFloorH(pct, pctPerRoom);
+  addTextForFloorJ(pct, pctPerRoom);
 }
 
 export async function addTextForFloorA(pct = 0, maxPct = 100) {
