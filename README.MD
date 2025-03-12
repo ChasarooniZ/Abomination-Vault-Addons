@@ -32,6 +32,10 @@ https://github.com/user-attachments/assets/af1357b3-e80a-4e2b-8dd5-367a23eeee39
 
 https://github.com/user-attachments/assets/8e8726fa-2855-4e05-89b6-612605799de4
 
+**Breaking the Seal**
+
+https://github.com/user-attachments/assets/90a9ed73-e635-4336-9b32-2e82b6545e49
+
 ### Assets
 - Hand Swarm (from Caera's free token pack)
 - Ruins of the Thirsty Alpaca Rebuild - Credit to @Icarus for the maps
