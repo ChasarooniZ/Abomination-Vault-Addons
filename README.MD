@@ -19,8 +19,6 @@ Will reference other books/sources as necessary, and will at some point most lik
 ### To add
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
 
-
-
 ### Showcase
 
 https://github.com/user-attachments/assets/c53de002-dd52-49c9-b479-2df94f430ddc
@@ -34,6 +32,10 @@ https://github.com/user-attachments/assets/39dc8081-115f-4ab3-a174-3b05c9d8911d
 - Ruins of the Thirsty Alpaca Rebuild - Credit to @Icarus for the maps
 - Swarm of Will-o'-Wisps (@ChasarooniZ)
 - Riser Space Oddity 1 - 3 (by Ovani Sound)
+- Foghorn (Gauntlight)
+  - BBC
+    - https://sound-effects.bbcrewind.co.uk/search?q=07043405
+    - https://sound-effects.bbcrewind.co.uk/search?q=07043403
 
 ###  Licensing
 In order under following licenses
