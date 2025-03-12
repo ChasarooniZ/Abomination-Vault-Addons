@@ -324,7 +324,6 @@ export async function breakingTheSeal({ useSFX = true, volume = 1 }) {
     .atLocation(pos.artifact.otari)
     .stretchTo(pos.target[3])
     .playbackRate(0.67)
-    .zIndex(1)
     .waitUntilFinished()
 
     // Remove Perm shield remove the Shield Effect passive

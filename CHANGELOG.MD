@@ -1,3 +1,7 @@
+# 0.11.1 - Fix issue
+- Fixed issue with `Break the Seal` animation where one of the beams was on the wrong layer
+
+
 # 0.11.0 - Breaking the Barrier
 
 - Added a new animation `Break the Seal`
