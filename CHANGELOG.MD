@@ -1,3 +1,10 @@
+# 0.11.0 - Breaking the Barrier
+
+- Added a new animation `Break the Seal`
+  - This animation plays an animation for when the Roseguard artifacts are gathered and activates the Break the Seal macro built into the module
+- `Fixes`
+  - Old animations now `softfail` (So if you are missing assets they should still run)
+
 # 0.10.1 - Fixes to Drawings
 
 - Added some fixes for the drawing dialog (actually shows percent, and checkboxes now actually affect what gets run) (🐛 @DoctorDrake)
