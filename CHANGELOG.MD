@@ -1,6 +1,21 @@
-# 0.11.1 - Fix issue
-- Fixed issue with `Break the Seal` animation where one of the beams was on the wrong layer
+# 0.12.0 - Gauntlight's Revenge
 
+- `Added`
+  - **Gauntlight's Revenge** (chasarooni)
+    - A final set piece featuring our party chasing down an animated Gauntlight as it races towards Otari!
+    - Meant as a last hurrah, and a show of the bonds the players have made throughout this journey <3
+  - **Ghost Queen's Reflection**
+    - Adds a replacement for the mimic encounter (@weepingminotaur)
+  - **Otari Market Map**
+    - A map for the Otari Market
+- `Updated`
+  - Removed preloading as it cause issues with running animations
+  - Lowered `Will-'o-wisp Swarm` Opacity to `0.5` (@MrPeach774)
+  - Fixed description requirements for `Break the Seal`
+
+# 0.11.1 - Fix issue
+
+- Fixed issue with `Break the Seal` animation where one of the beams was on the wrong layer
 
 # 0.11.0 - Breaking the Barrier
 

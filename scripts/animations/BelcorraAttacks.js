@@ -70,12 +70,12 @@ export async function belcorraAttacks(volume = 1) {
     ? token.document.ring.subject.texture || token.document.texture.src
     : token.document.texture.src;
 
-  await Sequencer.Preloader.preloadForClients([
-    belcorraWarning,
-    belcorraWail,
-    impact,
-    belcorraArt,
-  ]);
+  // await Sequencer.Preloader.preloadForClients([
+  //   belcorraWarning,
+  //   belcorraWail,
+  //   impact,
+  //   belcorraArt,
+  // ]);
 
   const easing = "easeOutQuart";
 

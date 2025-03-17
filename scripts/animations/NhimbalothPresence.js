@@ -14,12 +14,12 @@ export async function nhimbalothPresence({
   fadeInDuration *= 1000;
   fadeOutDuration *= 1000;
 
-  await Sequencer.Preloader.preloadForClients([
-    tentacle,
-    game.modules.get("jb2a_patreon")?.active
-      ? "jb2a.screen_overlay.01.bad_omen.dark_black"
-      : "",
-  ]);
+  // await Sequencer.Preloader.preloadForClients([
+  //   tentacle,
+  //   game.modules.get("jb2a_patreon")?.active
+  //     ? "jb2a.screen_overlay.01.bad_omen.dark_black"
+  //     : "",
+  // ]);
 
   new Sequence({ moduleName: MODULE_NAME, softFail: true })
     .sound()

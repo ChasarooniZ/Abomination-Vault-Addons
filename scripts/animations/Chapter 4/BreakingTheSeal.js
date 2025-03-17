@@ -76,28 +76,28 @@ export async function breakingTheSeal({ useSFX = true, volume = 1 }) {
     y: (pos.altar.y + (pos.target[0].y + pos.target[3].y) / 2) / 2,
   };
 
-  await Sequencer.Preloader.preloadForClients([
-    art.ice,
-    art.item_flash.file,
-    art.altar_shield,
-    art.beam2.file,
-    art.shield.exist,
-    art.shield.explode,
-    art.artifacts.otari,
-    art.artifacts.zarmavdian,
-    art.artifacts.aesphena,
-    art.artifacts.vol,
-  ]);
-  if (useSFX) {
-    await Sequencer.Preloader.preloadForClients([
-      ...sfx.flash,
-      sfx.aura,
-      sfx.beam.start,
-      ...sfx.beam.loop,
-      sfx.beam.end,
-      sfx.barrierDrop,
-    ]);
-  }
+  // await Sequencer.Preloader.preloadForClients([
+  //   art.ice,
+  //   art.item_flash.file,
+  //   art.altar_shield,
+  //   art.beam2.file,
+  //   art.shield.exist,
+  //   art.shield.explode,
+  //   art.artifacts.otari,
+  //   art.artifacts.zarmavdian,
+  //   art.artifacts.aesphena,
+  //   art.artifacts.vol,
+  // ]);
+  // if (useSFX) {
+  //   await Sequencer.Preloader.preloadForClients([
+  //     ...sfx.flash,
+  //     sfx.aura,
+  //     sfx.beam.start,
+  //     ...sfx.beam.loop,
+  //     sfx.beam.end,
+  //     sfx.barrierDrop,
+  //   ]);
+  // }
 
   new Sequence({ moduleName: MODULE_NAME, softFail: true })
     // Pan to artifacts

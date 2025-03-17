@@ -61,9 +61,11 @@ const arms = [
 /** This Macro was originally Written by @Maple
  * The Nhimbaloth portal stuff was written by @ChasarooniZ
  */
-export async function belcorraDeath({ useSFX = true }) {
+export async function belcorraDeath({ useSFX = true } = {}) {
   const BELCORRA = "Belcorra Haruvex";
-  const token = canvas.tokens.placeables.find((t) => t.name === BELCORRA);
+  const token =
+    canvas.tokens.controlled[0] ??
+    canvas.tokens.placeables.find((t) => t.name === BELCORRA);
   const version = jb2aVersion();
   if (version === "none") {
     ui.notifications.error("Need Some form of JB2a");
@@ -82,26 +84,26 @@ export async function belcorraDeath({ useSFX = true }) {
     },
   };
 
-  await Sequencer.Preloader.preloadForClients([
-    files.wind,
-    files.smokeRing,
-    files.strands[version],
-    files.skull[version],
-    files.portal,
-    files.eye,
-    files.body,
-  ]);
+  // await Sequencer.Preloader.preloadForClients([
+  //   files.wind,
+  //   files.smokeRing,
+  //   files.strands[version],
+  //   files.skull[version],
+  //   files.portal,
+  //   files.eye,
+  //   files.body,
+  // ]);
 
-  if (useSFX) {
-    await Sequencer.Preloader.preloadForClients([
-      sfx.wind,
-      ...sfx.nhimbaloth,
-      sfx.belcorraScream,
-      sfx.belcorraEaten,
-      sfx.fall,
-      sfx.portal,
-    ]);
-  }
+  // if (useSFX) {
+  //   await Sequencer.Preloader.preloadForClients([
+  //     sfx.wind,
+  //     ...sfx.nhimbaloth,
+  //     sfx.belcorraScream,
+  //     sfx.belcorraEaten,
+  //     sfx.fall,
+  //     sfx.portal,
+  //   ]);
+  // }
 
   const seq = new Sequence({ moduleName: MODULE_NAME, softFail: true })
     // Shaky Cam

@@ -44,20 +44,20 @@ export async function belcorraDeathLegacy() {
     const useSFX = true;
 
 
-    await Sequencer.Preloader.preloadForClients([
-        files.wind,
-        files.smokeRing,
-        files.strands[version],
-        files.skull[version],
-    ])
+    // await Sequencer.Preloader.preloadForClients([
+    //     files.wind,
+    //     files.smokeRing,
+    //     files.strands[version],
+    //     files.skull[version],
+    // ])
 
-    if (useSFX) {
-        await Sequencer.Preloader.preloadForClients([
-            sfx.wind,
-            ...sfx.nhimbaloth,
-            sfx.belcorraScream
-        ])
-    }
+    // if (useSFX) {
+    //     await Sequencer.Preloader.preloadForClients([
+    //         sfx.wind,
+    //         ...sfx.nhimbaloth,
+    //         sfx.belcorraScream
+    //     ])
+    // }
 
 
     await new Sequence({ moduleName: MODULE_NAME, softFail: true })

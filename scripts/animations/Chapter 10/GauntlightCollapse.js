@@ -25,11 +25,11 @@ export async function gauntlightCollapse() {
     ground: "jb2a.impact.ground_crack.03.orange",
   };
 
-  await Sequencer.Preloader.preloadForClients([
-    files.rocks[version],
-    files.explosion,
-    files.ground,
-  ]);
+  // await Sequencer.Preloader.preloadForClients([
+  //   files.rocks[version],
+  //   files.explosion,
+  //   files.ground,
+  // ]);
 
   let combined = await new Sequence({ moduleName: MODULE_NAME, softFail: true })
     .canvasPan()
