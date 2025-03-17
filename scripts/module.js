@@ -22,6 +22,21 @@ import {
 export const MODULE_ID = "abomination-vaults-addons";
 export const MODULE_NAME = "Abomination Vaults: Addons";
 
+Hooks.once("init", async function () {
+  game.settings.register(MODULE_ID, "prison-door-flame", {
+    name: game.i18n.localize(
+      `${MODULE_ID}.module-settings.prison-door-flame.name`
+    ),
+    hint: game.i18n.localize(
+      `${MODULE_ID}.module-settings.prison-door-flame.hint`
+    ),
+    scope: "world",
+    config: true,
+    default: true,
+    type: Boolean,
+  });
+});
+
 Hooks.on("ready", () => {
   game.abomVaultAddons = {
     animations: {
@@ -57,4 +72,21 @@ Hooks.on("ready", () => {
       },
     },
   };
+
+  Hooks.on("updateWall", (wall, update) => {
+    if (!game.settings.get(MODULE_ID, "prison-door-flame")) return;
+    if (update?.ds !== 1 && update?.ds !== 0) return; // If not open door
+    const point1 = { x: wall.c[0], y: wall.c[1] };
+    const point2 = { x: wall.c[2], y: wall.c[3] };
+    new Sequence()
+      .effect()
+      .file("jb2a.wall_of_fire.100x100.yellow")
+      .fadeIn(250, { ease: "easeInQuint" })
+      .atLocation(point1)
+      .stretchTo(point2)
+      .scale({ x: 1.0, y: 2.0 })
+      .duration(2000)
+      .fadeOut(250, { ease: "easeOutQuint" })
+      .play();
+  });
 });

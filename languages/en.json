@@ -14,6 +14,12 @@
       "illusory-floor-ceil": "Illusory Floor & Ceiling",
       "stair-descending": "These Stairs are Descending",
       "not-toxic-air": "Not toxic air"
+    },
+    "module-settings": {
+      "prison-door-flame": {
+        "name": "Show Flame FX on Prison floor Doors?",
+        "hint": "If Enabled (and you have Sequencer and JB2a installed) will play a small flame effect when each prison door is opened or closed"
+      }
     }
   }
 }

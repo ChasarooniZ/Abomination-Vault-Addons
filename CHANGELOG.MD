@@ -1,3 +1,9 @@
+# 0.13.0 - Prison Flame
+
+- `Added`
+  - Added the Flame effect on doors for the `Prison` floor as described in the module
+  - Can be disabled in the module settings
+
 # 0.12.0 - Gauntlight's Revenge
 
 - `Added`
