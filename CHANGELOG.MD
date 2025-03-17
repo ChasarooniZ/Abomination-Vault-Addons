@@ -1,8 +1,11 @@
-# 0.13.0 - Prison Flame
+# 0.13.0 - Prison Door Flame
 
 - `Added`
-  - Added the Flame effect on doors for the `Prison` floor as described in the module
-  - Can be disabled in the module settings
+  - `Prison's Flames`
+    - Added the Flame effect on doors for the `Prison` floor as described in the module
+    - Can be disabled in the module settings
+  - `Otari Fishery Map`
+    - Made by @Eternus
 
 # 0.12.0 - Gauntlight's Revenge
 

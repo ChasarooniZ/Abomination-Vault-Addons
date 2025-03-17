@@ -73,20 +73,44 @@ Hooks.on("ready", () => {
     },
   };
 
-  Hooks.on("updateWall", (wall, update) => {
+  Hooks.on("updateWall", async (wall, update) => {
     if (!game.settings.get(MODULE_ID, "prison-door-flame")) return;
+    if (canvas.scene.id !== "lKRTHUBDXYzwd80e") return; // Check if on demon floor
     if (update?.ds !== 1 && update?.ds !== 0) return; // If not open door
     const point1 = { x: wall.c[0], y: wall.c[1] };
     const point2 = { x: wall.c[2], y: wall.c[3] };
+    const dist = new Ray(point1, point2).distance;
+    const lightSize =
+      (((dist / canvas.grid.size) * canvas.grid.distance) / 2) * 1.2;
+    const light = await AmbientLightDocument.create(
+      {
+        x: (point1.x + point2.x) / 2,
+        y: (point1.y + point2.y) / 2,
+        config: {
+          color: "#ff9500",
+          coloration: 1,
+          bright: lightSize,
+          dim: lightSize,
+        },
+        walls: false,
+      },
+      { parent: game.scenes.get("lKRTHUBDXYzwd80e") }
+    );
     new Sequence()
       .effect()
       .file("jb2a.wall_of_fire.100x100.yellow")
       .fadeIn(250, { ease: "easeInQuint" })
       .atLocation(point1)
       .stretchTo(point2)
-      .scale({ x: 1.0, y: 2.0 })
+      .scale({ x: 1.0, y: 1.5 })
       .duration(2000)
       .fadeOut(250, { ease: "easeOutQuint" })
+      .aboveLighting()
+      .opacity(0.6)
+      .waitUntilFinished()
+      .thenDo(async function () {
+        light.delete();
+      })
       .play();
   });
 });
