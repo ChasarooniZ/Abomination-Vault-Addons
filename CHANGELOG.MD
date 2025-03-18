@@ -1,3 +1,9 @@
+# 0.13.1 - Scythe Trap Tooltip
+
+- `Updated`
+  - `Helper Drawing Setup Dialog`
+    - Added drawings to indicate where the `Shuffling Scythe Blades` hazard sections are for `Scythe Shuffle` (@YoSoy-Ed)
+
 # 0.13.0 - Prison Door Flame
 
 - `Added`

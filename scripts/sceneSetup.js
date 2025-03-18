@@ -260,6 +260,53 @@ export async function addTextForFloorE(pct = 0, maxPct = 100) {
         type: "r",
       },
     },
+    // E20. Secret Hallway
+    // Shuffling Scythe blade areas
+    // 1
+    {
+      text: "1.",
+      x: 6300,
+      y: 6478,
+      shape: {
+        width: 152,
+        height: 115,
+        type: "r",
+      },
+    },
+    // 2
+    {
+      text: "2.",
+      x: 6919,
+      y: 6488,
+      shape: {
+        width: 152,
+        height: 115,
+        type: "r",
+      },
+    },
+    // 3
+    {
+      text: "3.",
+      x: 6919,
+      y: 6478,
+      shape: {
+        width: 152,
+        height: 115,
+        type: "r",
+      },
+    },
+    // 4
+    {
+      text: "4.",
+      x: 6919,
+      y: 7097,
+      shape: {
+        width: 152,
+        height: 115,
+        type: "r",
+      },
+    },
+
     // E26. Arena Balcony
     {
       text: localizeText("ft-down", { feet: "30" }),
