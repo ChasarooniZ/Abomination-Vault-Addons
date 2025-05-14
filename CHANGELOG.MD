@@ -1,3 +1,14 @@
+# 0.13.3 - Preloading and Macro Fixes
+
+- `Updates`
+  - For all Sequencer Macros added preloading
+  - Added more detailed errors when you're missing modules necessary for some macros (🐛 @naurgul)
+
+# 0.13.2 - Fixing Maps
+
+- `Fixed`
+  - Fixed the `Log Fume` maps not linking their images properly (@foo)
+
 # 0.13.1 - Scythe Trap Tooltip
 
 - `Updated`

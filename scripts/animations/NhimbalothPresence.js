@@ -1,4 +1,5 @@
 import { MODULE_NAME } from "../module.js";
+import { missingModulesError } from "./helpers.js";
 
 export async function nhimbalothPresence({
   duration = 15,
@@ -7,6 +8,7 @@ export async function nhimbalothPresence({
   fadeOutDuration = 1,
   sfx = "modules/pf2e-abomination-vaults/assets/audio/motifs/whispering-reeds/010H.ogg",
 }) {
+  if (missingModulesError(["jb2a", "sequencer"])) return;
   const tentacle = "jb2a.arms_of_hadar.dark_purple";
 
   const filter = { hue: -100 };
@@ -115,5 +117,5 @@ export async function nhimbalothPresence({
     .screenSpaceScale({ fitY: true, ratioX: true })
     .duration(duration)
     .filter("ColorMatrix", filter)
-    .play();
+    .play({ preload: true });
 }

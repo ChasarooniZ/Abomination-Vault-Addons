@@ -1,8 +1,9 @@
 import { MODULE_NAME } from "../../module.js";
-import { jb2aVersion } from "../helpers.js";
+import { jb2aVersion, missingModulesError } from "../helpers.js";
 
 /** This Macro was originally Written by Maple */
 export async function gauntlightCollapse() {
+  if (missingModulesError(["jb2a", "sequencer"])) return;
   const X = 3525;
   const Y = 7725;
 
@@ -11,10 +12,6 @@ export async function gauntlightCollapse() {
   let max = 1500;
 
   const version = jb2aVersion();
-  if (version === "none") {
-    ui.notifications.error("Need Some form of JB2a");
-    return;
-  }
 
   const files = {
     rocks: {
@@ -59,5 +56,5 @@ export async function gauntlightCollapse() {
     canvas.scene.walls.get("Lm2yIpWzawiFKDQS").update({ ds: 2 });
   });
 
-  combined.play();
+  combined.play({ preload: true });
 }

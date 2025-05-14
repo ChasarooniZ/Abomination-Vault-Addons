@@ -1,6 +1,8 @@
 import { MODULE_NAME } from "../module.js";
+import { missingModulesError } from "./helpers.js";
 
 export async function belcorraAttacks(volume = 1) {
+  if (missingModulesError(["sequencer"])) return;
   const flyInTime = 1.5 * 1000;
   const belcorraWarning =
     "modules/pf2e-abomination-vaults/assets/audio/motifs/belcorra-warning.ogg";
@@ -55,7 +57,7 @@ export async function belcorraAttacks(volume = 1) {
         }
       );
 
-    await sequence.play();
+    await sequence.play({ preload: true });
 
     // Wait a moment to ensure the token is fully created and available
     await new Promise((resolve) => setTimeout(resolve, 100));
@@ -143,5 +145,5 @@ export async function belcorraAttacks(volume = 1) {
     .on(token)
     .fadeIn(200)
     .opacity(1)
-    .play();
+    .play({ preload: true });
 }

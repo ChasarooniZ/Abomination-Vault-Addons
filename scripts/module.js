@@ -111,6 +111,6 @@ Hooks.on("ready", () => {
       .thenDo(async function () {
         light.delete();
       })
-      .play();
+      .play({preload:true});
   });
 });

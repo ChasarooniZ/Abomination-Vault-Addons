@@ -1,4 +1,5 @@
 import { MODULE_NAME } from "../../module.js";
+import { missingModulesError } from "../helpers.js";
 
 /**
  * Written by @ChasarooniZ
@@ -6,6 +7,7 @@ import { MODULE_NAME } from "../../module.js";
  * @param {useSFX: boolean} param0
  */
 export async function breakingTheSeal({ useSFX = true, volume = 1 }) {
+  if (missingModulesError(["jb2a", "sequencer", "pf2e-graphics"])) return;
   const pos = {
     altar: { x: 3525, y: 2925 },
     artifact: {

@@ -1,5 +1,5 @@
 import { MODULE_NAME } from "../../module.js";
-import { jb2aVersion } from "../helpers.js";
+import { jb2aVersion, missingModulesError } from "../helpers.js";
 
 const files = {
   wind: "jb2a.wind_stream.white",
@@ -62,15 +62,12 @@ const arms = [
  * The Nhimbaloth portal stuff was written by @ChasarooniZ
  */
 export async function belcorraDeath({ useSFX = true } = {}) {
+  if (missingModulesError(["jb2a", "sequencer"])) return;
   const BELCORRA = "Belcorra Haruvex";
   const token =
     canvas.tokens.controlled[0] ??
     canvas.tokens.placeables.find((t) => t.name === BELCORRA);
   const version = jb2aVersion();
-  if (version === "none") {
-    ui.notifications.error("Need Some form of JB2a");
-    return;
-  }
 
   const art = token?.document?.ring?.enabled
     ? token?.document?.ring?.subject?.texture ?? token?.document?.texture?.src
@@ -513,7 +510,7 @@ export async function belcorraDeath({ useSFX = true } = {}) {
       (duration.portal.loop * 0.7) / 3
     );
   }
-  await seq.play();
+  await seq.play({ preload: true });
 
   await token.document.delete();
 }
