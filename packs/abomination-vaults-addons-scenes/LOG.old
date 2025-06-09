@@ -1,3 +1,35 @@
-2025/03/17-16:10:59.737128 ffff74ff9160 Recovering log #320
-2025/03/17-16:10:59.742049 ffff74ff9160 Delete type=3 #316
-2025/03/17-16:10:59.742071 ffff74ff9160 Delete type=0 #320
+2025/06/09-00:14:48.799 cdcc Recovering log #326
+2025/06/09-00:14:48.799 cdcc Level-0 table #329: started
+2025/06/09-00:14:48.844 cdcc Level-0 table #329: 37021 bytes OK
+2025/06/09-00:14:48.965 cdcc Delete type=2 #85
+2025/06/09-00:14:48.987 cdcc Delete type=0 #204
+2025/06/09-00:14:48.988 cdcc Delete type=0 #207
+2025/06/09-00:14:48.993 cdcc Delete type=2 #210
+2025/06/09-00:14:48.994 cdcc Delete type=0 #212
+2025/06/09-00:14:48.994 cdcc Delete type=0 #238
+2025/06/09-00:14:48.995 cdcc Delete type=0 #262
+2025/06/09-00:14:48.995 cdcc Delete type=2 #265
+2025/06/09-00:14:48.995 cdcc Delete type=0 #271
+2025/06/09-00:14:48.996 cdcc Delete type=0 #281
+2025/06/09-00:14:48.996 cdcc Delete type=0 #291
+2025/06/09-00:14:48.996 cdcc Delete type=0 #315
+2025/06/09-00:14:48.996 cdcc Delete type=2 #319
+2025/06/09-00:14:48.997 cdcc Delete type=0 #323
+2025/06/09-00:14:48.997 cdcc Delete type=0 #326
+2025/06/09-00:14:48.997 cdcc Delete type=3 #202
+2025/06/09-00:14:48.997 cdcc Delete type=3 #206
+2025/06/09-00:14:48.998 cdcc Delete type=3 #211
+2025/06/09-00:14:48.998 cdcc Delete type=3 #237
+2025/06/09-00:14:48.998 cdcc Delete type=3 #261
+2025/06/09-00:14:48.998 cdcc Delete type=3 #270
+2025/06/09-00:14:48.998 cdcc Delete type=3 #280
+2025/06/09-00:14:48.998 cdcc Delete type=3 #290
+2025/06/09-00:14:48.999 cdcc Delete type=3 #314
+2025/06/09-00:14:48.999 cdcc Delete type=3 #322
+2025/06/09-00:14:48.999 cdcc Delete type=3 #324
+2025/06/09-00:14:52.162 aff0 Compacting 1@0 + 1@1 files
+2025/06/09-00:14:52.206 aff0 Generated table #331@0: 534 keys, 81844 bytes
+2025/06/09-00:14:52.206 aff0 Compacted 1@0 + 1@1 files => 81844 bytes
+2025/06/09-00:14:52.280 aff0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/09-00:14:52.280 aff0 Delete type=2 #327
+2025/06/09-00:14:52.281 aff0 Delete type=2 #329

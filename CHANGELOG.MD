@@ -1,3 +1,10 @@
+# 1.0.0 - Mastermind Update
+
+- **Updates**
+  - Updated to Foundry VTT version `13`
+  - Fixed issue with perm issions for the Prison floor fire (🐛 @thejoester
+    )
+
 # 0.13.3 - Preloading and Macro Fixes
 
 - `Updates`

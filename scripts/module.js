@@ -82,20 +82,22 @@ Hooks.on("ready", () => {
     const dist = new Ray(point1, point2).distance;
     const lightSize =
       (((dist / canvas.grid.size) * canvas.grid.distance) / 2) * 1.2;
-    const light = await AmbientLightDocument.create(
-      {
-        x: (point1.x + point2.x) / 2,
-        y: (point1.y + point2.y) / 2,
-        config: {
-          color: "#ff9500",
-          coloration: 1,
-          bright: lightSize,
-          dim: lightSize,
+    if (game.user.isGM) {
+      const light = await AmbientLightDocument.create(
+        {
+          x: (point1.x + point2.x) / 2,
+          y: (point1.y + point2.y) / 2,
+          config: {
+            color: "#ff9500",
+            coloration: 1,
+            bright: lightSize,
+            dim: lightSize,
+          },
+          walls: false,
         },
-        walls: false,
-      },
-      { parent: game.scenes.get("lKRTHUBDXYzwd80e") }
-    );
+        { parent: game.scenes.get("lKRTHUBDXYzwd80e") }
+      );
+    }
     new Sequence()
       .effect()
       .file("jb2a.wall_of_fire.100x100.yellow")
@@ -109,8 +111,10 @@ Hooks.on("ready", () => {
       .opacity(0.6)
       .waitUntilFinished()
       .thenDo(async function () {
-        light.delete();
+        if (game.user.isGM) {
+          light.delete();
+        }
       })
-      .play({preload:true});
+      .play({ preload: true });
   });
 });
