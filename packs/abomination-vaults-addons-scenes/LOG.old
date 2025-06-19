@@ -1,35 +1,41 @@
-2025/06/09-00:14:48.799 cdcc Recovering log #326
-2025/06/09-00:14:48.799 cdcc Level-0 table #329: started
-2025/06/09-00:14:48.844 cdcc Level-0 table #329: 37021 bytes OK
-2025/06/09-00:14:48.965 cdcc Delete type=2 #85
-2025/06/09-00:14:48.987 cdcc Delete type=0 #204
-2025/06/09-00:14:48.988 cdcc Delete type=0 #207
-2025/06/09-00:14:48.993 cdcc Delete type=2 #210
-2025/06/09-00:14:48.994 cdcc Delete type=0 #212
-2025/06/09-00:14:48.994 cdcc Delete type=0 #238
-2025/06/09-00:14:48.995 cdcc Delete type=0 #262
-2025/06/09-00:14:48.995 cdcc Delete type=2 #265
-2025/06/09-00:14:48.995 cdcc Delete type=0 #271
-2025/06/09-00:14:48.996 cdcc Delete type=0 #281
-2025/06/09-00:14:48.996 cdcc Delete type=0 #291
-2025/06/09-00:14:48.996 cdcc Delete type=0 #315
-2025/06/09-00:14:48.996 cdcc Delete type=2 #319
-2025/06/09-00:14:48.997 cdcc Delete type=0 #323
-2025/06/09-00:14:48.997 cdcc Delete type=0 #326
-2025/06/09-00:14:48.997 cdcc Delete type=3 #202
-2025/06/09-00:14:48.997 cdcc Delete type=3 #206
-2025/06/09-00:14:48.998 cdcc Delete type=3 #211
-2025/06/09-00:14:48.998 cdcc Delete type=3 #237
-2025/06/09-00:14:48.998 cdcc Delete type=3 #261
-2025/06/09-00:14:48.998 cdcc Delete type=3 #270
-2025/06/09-00:14:48.998 cdcc Delete type=3 #280
-2025/06/09-00:14:48.998 cdcc Delete type=3 #290
-2025/06/09-00:14:48.999 cdcc Delete type=3 #314
-2025/06/09-00:14:48.999 cdcc Delete type=3 #322
-2025/06/09-00:14:48.999 cdcc Delete type=3 #324
-2025/06/09-00:14:52.162 aff0 Compacting 1@0 + 1@1 files
-2025/06/09-00:14:52.206 aff0 Generated table #331@0: 534 keys, 81844 bytes
-2025/06/09-00:14:52.206 aff0 Compacted 1@0 + 1@1 files => 81844 bytes
-2025/06/09-00:14:52.280 aff0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/06/09-00:14:52.280 aff0 Delete type=2 #327
-2025/06/09-00:14:52.281 aff0 Delete type=2 #329
+2025/06/19-05:09:16.889998 ffff69fbe0c0 Recovering log #334
+2025/06/19-05:09:16.895514 ffff69fbe0c0 Delete type=0 #291
+2025/06/19-05:09:16.895536 ffff69fbe0c0 Delete type=3 #314
+2025/06/19-05:09:16.895553 ffff69fbe0c0 Delete type=0 #271
+2025/06/19-05:09:16.895565 ffff69fbe0c0 Delete type=2 #265
+2025/06/19-05:09:16.895590 ffff69fbe0c0 Delete type=3 #270
+2025/06/19-05:09:16.895620 ffff69fbe0c0 Delete type=0 #204
+2025/06/19-05:09:16.895629 ffff69fbe0c0 Delete type=3 #280
+2025/06/19-05:09:16.895645 ffff69fbe0c0 Delete type=0 #323
+2025/06/19-05:09:16.895662 ffff69fbe0c0 Delete type=2 #85
+2025/06/19-05:09:16.895681 ffff69fbe0c0 Delete type=3 #206
+2025/06/19-05:09:16.895696 ffff69fbe0c0 Delete type=3 #332
+2025/06/19-05:09:16.895710 ffff69fbe0c0 Delete type=0 #315
+2025/06/19-05:09:16.895744 ffff69fbe0c0 Delete type=3 #261
+2025/06/19-05:09:16.895758 ffff69fbe0c0 Delete type=2 #319
+2025/06/19-05:09:16.895790 ffff69fbe0c0 Delete type=0 #334
+2025/06/19-05:09:16.895799 ffff69fbe0c0 Delete type=3 #237
+2025/06/19-05:09:16.895813 ffff69fbe0c0 Delete type=0 #207
+2025/06/19-05:09:16.895828 ffff69fbe0c0 Delete type=3 #290
+2025/06/19-05:09:16.895842 ffff69fbe0c0 Delete type=2 #327
+2025/06/19-05:09:16.895895 ffff69fbe0c0 Delete type=3 #202
+2025/06/19-05:09:16.895909 ffff69fbe0c0 Delete type=3 #324
+2025/06/19-05:09:16.895923 ffff69fbe0c0 Delete type=3 #211
+2025/06/19-05:09:16.895937 ffff69fbe0c0 Delete type=3 #322
+2025/06/19-05:09:16.895953 ffff69fbe0c0 Delete type=0 #212
+2025/06/19-05:09:16.895962 ffff69fbe0c0 Delete type=0 #281
+2025/06/19-05:09:16.895971 ffff69fbe0c0 Delete type=0 #262
+2025/06/19-05:09:16.896002 ffff69fbe0c0 Delete type=0 #238
+2025/06/19-05:09:16.896011 ffff69fbe0c0 Delete type=2 #210
+2025/06/19-05:09:16.896027 ffff69fbe0c0 Delete type=0 #326
+2025/06/19-05:45:10.588442 fffe438aa0c0 Level-0 table #338: started
+2025/06/19-05:45:10.588463 fffe438aa0c0 Level-0 table #338: 0 bytes OK
+2025/06/19-05:45:10.590016 fffe438aa0c0 Delete type=0 #336
+2025/06/19-05:45:10.597114 fffe438aa0c0 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!p5zjEEjZXto738DV.zMydz1De5DCKlScj' @ 0 : 0; will stop at '!scenes.walls!p5zjEEjZXto738DV.zMydz1De5DCKlScj' @ 1271 : 1
+2025/06/19-05:45:10.597121 fffe438aa0c0 Compacting 1@0 + 1@1 files
+2025/06/19-05:45:10.600593 fffe438aa0c0 Generated table #339@0: 534 keys, 83188 bytes
+2025/06/19-05:45:10.600605 fffe438aa0c0 Compacted 1@0 + 1@1 files => 83188 bytes
+2025/06/19-05:45:10.602098 fffe438aa0c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/19-05:45:10.602197 fffe438aa0c0 Delete type=2 #333
+2025/06/19-05:45:10.602293 fffe438aa0c0 Delete type=2 #331
+2025/06/19-05:45:10.711594 fffe438aa0c0 Manual compaction at level-0 from '!scenes.walls!p5zjEEjZXto738DV.zMydz1De5DCKlScj' @ 1271 : 1 .. '!scenes.walls!p5zjEEjZXto738DV.zMydz1De5DCKlScj' @ 0 : 0; will stop at (end)

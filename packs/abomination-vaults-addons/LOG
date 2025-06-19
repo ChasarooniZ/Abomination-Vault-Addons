@@ -1,5 +1,3 @@
-2025/06/09-12:48:17.416 aa44 Recovering log #163
-2025/06/09-12:48:17.416 aa44 Level-0 table #165: started
-2025/06/09-12:48:17.478 aa44 Level-0 table #165: 48983 bytes OK
-2025/06/09-12:48:17.622 aa44 Delete type=0 #163
-2025/06/09-12:48:17.623 aa44 Delete type=3 #162
+2025/06/19-05:51:44.243520 ffff6a7bf0c0 Recovering log #170
+2025/06/19-05:51:44.248779 ffff6a7bf0c0 Delete type=3 #167
+2025/06/19-05:51:44.248803 ffff6a7bf0c0 Delete type=0 #170

@@ -1,3 +1,8 @@
+# 1.1.0 - Tapestries
+
+- **Added**
+  - `Lore Through Tapestries` - Tapestry descriptions depicting Belcorra's life (@Tight-Branch8678)
+
 # 1.0.0 - Mastermind Update
 
 - **Updates**
