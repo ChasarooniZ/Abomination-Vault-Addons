@@ -1,0 +1,26 @@
+{
+  "name": "Otari",
+  "sorting": "a",
+  "folder": null,
+  "type": "Scene",
+  "_id": "LEkTK5bPS8zD8XBA",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "fe9d4bd1e9368d7756020d23bd3503e3751878f8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4",
+    "createdTime": 1737702899608,
+    "modifiedTime": 1737702901181,
+    "lastModifiedBy": "J3oConv1eQRLao6j"
+  },
+  "_key": "!folders!LEkTK5bPS8zD8XBA"
+}

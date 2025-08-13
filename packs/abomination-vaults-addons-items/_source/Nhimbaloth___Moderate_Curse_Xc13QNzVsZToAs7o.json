@@ -1,0 +1,128 @@
+{
+  "name": "Nhimbaloth - Moderate Curse",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p><em>The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are.</em></p>",
+      "value": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>Saving Throw </strong>@Check[type:fortitude|dc:28|showDC:gm|]{Will save}</p><p class=\"p1\"><strong>Timeline</strong> Abomination Vaults Book 2</p><p class=\"p1\"><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth</p></section><section class=\"traits\"><p>Curse | Illusion | Magical | Mental | Auditory | Visual</p></section><p><strong>The Wisp, Her Eye</strong></p><section class=\"statblock\"><p class=\"p1\"><strong>Stage 1</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}. You can attempt the standard DC 11 flat check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 2</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}. You can attempt a DC 15 flat check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 3</strong> You become a permanent servant of the Empty Death, leaving your adventuring group to seek out the deepest reaches of the Gauntlight Ruins and assist the denizens there in in their vile plans.</p></section>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "nhimbaloth-moderate-curse",
+        "toggleable": true,
+        "label": "Nhimbaloth Curse Suppressed"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ",
+        "predicate": [
+          "parent:badge:value:1",
+          {
+            "not": "nhimbaloth-moderate-curse"
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr",
+        "predicate": [
+          "parent:badge:value:2",
+          {
+            "not": "nhimbaloth-moderate-curse"
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        }
+      }
+    ],
+    "slug": "nhimbaloth-moderate-curse",
+    "_migration": {
+      "version": 0.933,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "PF2e Foundry Discord: Abomination Vaults Thread",
+      "authors": "weepingminotaur",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "duration": {
+      "value": 24,
+      "unit": "hours",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": [
+        "[1/3]",
+        "[2/3]",
+        "[3/3]"
+      ],
+      "loop": false
+    },
+    "context": null,
+    "unidentified": true
+  },
+  "img": "systems/pf2e/icons/spells/garden-of-death.webp",
+  "folder": "p84txsfYYdvmAa6s",
+  "ownership": {
+    "default": 0,
+    "J3oConv1eQRLao6j": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "abomination-vaults-new",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.6.2"
+    },
+    "scene-packer": {
+      "sourceId": "Item.opxSPmmG9Swj2OLG",
+      "hash": "c4dc1a6255db5ee9480e267e179d2685c211b84e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2",
+    "createdTime": 1731574588252,
+    "modifiedTime": 1731578246045,
+    "lastModifiedBy": "J3oConv1eQRLao6j"
+  },
+  "_id": "Xc13QNzVsZToAs7o",
+  "sort": 0,
+  "_key": "!items!Xc13QNzVsZToAs7o"
+}

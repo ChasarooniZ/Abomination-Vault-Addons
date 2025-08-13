@@ -1,0 +1,157 @@
+{
+  "pages": [
+    {
+      "name": "Nhimbaloth Curses",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Sourced from @weepingminotaur.</em></p><h2>Minor Curse - <em>The Wind, Her Voice</em></h2><p>@UUID[Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-items.Item.ZCmQhpzHnxCmXylz]{Nhimbaloth - Minor Curse}<br /><em>Even the briefest of encounters with dread Nhimbaloth's presence is enough to affect the health of the unwary. This curse causes you to hear whispering voices, footsteps, and other odd noises during your next long rest. If left untreated, the loss of sleep starts to take a toll on your wellbeing.</em></p><ul><li><p><strong>Timeline</strong> <span style=\"font-family:'Roboto Condensed', Roboto, sans-serif\">Abomination Vaults floors A through C</span></p></li><li><p><strong>Suggested Triggers</strong> Contact with the shrine altar on floor A, or the first time a character moves into the ribbon of light in @JournalEntry[B: Servants' Quarters#B35. Gauntlight Basement]{B35} or @JournalEntry[C: Library#C15. Gauntlight Reading Room]{C15}</p></li></ul><h2>Moderate Curse - <em>The Wisp, Her Eye</em></h2><p>@UUID[Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-items.Item.Xc13QNzVsZToAs7o]{Nhimbaloth - Moderate Curse}</p><p><em>The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are.</em></p><ul><li><p><strong>Timeline</strong> Abomination Vaults Book 2</p></li><li><p><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth</p></li></ul><h2>Major Curse - <em>Your Lot, To Die</em></h2><p>@UUID[Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-items.Item.CyWfBIXA8CKVFMK4]{Nhimbaloth - Major Curse}</p><p><span style=\"font-family:Roboto, sans-serif\"><em>So close to the unspeakable horror of Nhimbaloth's realm, you can no longer distinguish friend from foe, reason from madness, or even life from death.</em></span></p><ul><li><p><strong>Timeline</strong> <span style=\"font-family:'Roboto Condensed', Roboto, sans-serif\">Abomination Vaults Book 3</span></p></li><li><p><strong>Suggested Triggers</strong> Entering any area consecrated to Nhimbaloth, or during the initial @JournalEntry[Abomination Vaults#Belcorra Attacks]{Belcorra Attacks!} encounter</p></li></ul>"
+      },
+      "_id": "hOMUDNapQMRjV1kQ",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": 1733987851060,
+        "lastModifiedBy": "J3oConv1eQRLao6j"
+      },
+      "_key": "!journal.pages!MFrzwRpQ8PaZhTY9.hOMUDNapQMRjV1kQ"
+    },
+    {
+      "sort": 100000,
+      "name": "Getting Started",
+      "type": "text",
+      "_id": "4jhRn6b0Wz9HrtsK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p><p></p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "J3oConv1eQRLao6j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": 1733988004251,
+        "lastModifiedBy": "J3oConv1eQRLao6j"
+      },
+      "_key": "!journal.pages!MFrzwRpQ8PaZhTY9.4jhRn6b0Wz9HrtsK"
+    },
+    {
+      "name": "Animations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "text": {
+        "format": 1,
+        "content": "<h4>Floor 10</h4><ul><li><p>@UUID[Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-macro.Macro.W1QOzaP485TKNJQi]{10 - Belcorra Death} - Animation of Nhimbaloth consuming Belcorra after the Party uses the Lenses on her</p></li><li><p>@UUID[Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-macro.Macro.3IWW7fvMRghHzikg]{10 - Gauntlight Collapses} - Animation for the Gauntlight Collapsing</p></li></ul>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": -1,
+        "J3oConv1eQRLao6j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+        "duplicateSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": 1733987869265,
+        "modifiedTime": 1733987994236,
+        "lastModifiedBy": "J3oConv1eQRLao6j"
+      },
+      "_id": "IEochnYWMkLR8UNU",
+      "_key": "!journal.pages!MFrzwRpQ8PaZhTY9.IEochnYWMkLR8UNU"
+    }
+  ],
+  "name": "Abomination Vaults: Addons",
+  "folder": "OfH0ZqG3hwnrSdpa",
+  "ownership": {
+    "default": 0,
+    "J3oConv1eQRLao6j": 3,
+    "xOsB85wXI0jTccyw": 3,
+    "bQE3EQasbR1qnHLr": 3,
+    "tdxabnG2Ci6AQRkt": 3,
+    "hmjIqZTiWsabmwxL": 3,
+    "0ELuUZXAOmCg7f0N": 3
+  },
+  "flags": {
+    "pf2e-abomination-vaults": {
+      "isAV": true
+    },
+    "scene-packer": {
+      "hash": "67b22f6af04940869b1a7f32793377a0bce63621",
+      "sourceId": "JournalEntry.3dNQCvcANkMSsK5i"
+    },
+    "exportSource": {
+      "world": "pathfinder-test",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.5.1"
+    },
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.6jMFCIti4rR7goXl",
+    "duplicateSource": "JournalEntry.NrNp6wwO5NKtMfLW",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733987710871,
+    "modifiedTime": 1733987710871,
+    "lastModifiedBy": "J3oConv1eQRLao6j"
+  },
+  "sort": 100000,
+  "_id": "MFrzwRpQ8PaZhTY9",
+  "_key": "!journal!MFrzwRpQ8PaZhTY9",
+  "categories": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "10 - Gauntlight Collapses",
+  "type": "script",
+  "_id": "3IWW7fvMRghHzikg",
+  "author": "J3oConv1eQRLao6j",
+  "img": "icons/magic/light/projectile-smoke-blue-light.webp",
+  "scope": "global",
+  "command": "// Written originally by Maple\n// Animates collapsing stones, explosions in the Belcorra Room\n// Requires Sequencer & JB2A (Free or Patreon)\nawait game.abomVaultAddons.animations.gauntlightCollapses()",
+  "folder": "zvl2RsQDzEPIVTJn",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "J3oConv1eQRLao6j": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "424b4e0fe5b73814c2e1ea419cca8bbf589cc6f6"
+    },
+    "macro-wheel": {
+      "activeCondition": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733956041317,
+    "modifiedTime": 1733956170426,
+    "lastModifiedBy": "J3oConv1eQRLao6j"
+  },
+  "_key": "!macros!3IWW7fvMRghHzikg"
+}

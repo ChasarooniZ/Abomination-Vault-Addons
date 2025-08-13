@@ -1,0 +1,714 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 50,
+    "flags": {
+      "tagger": {},
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "MountingEffectsFlag": "",
+        "WorldMEffectOverrideFlag": false,
+        "SelfApplyEffectsFlag": false,
+        "forMountEffectsFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "RiderRotOffsetFlag": 0,
+        "PilotedbyDefaultFlag": false,
+        "CheckPilotedCollisionFlag": false
+      },
+      "pf2e-rpg-numbers": {
+        "rotationOffset": 0,
+        "fireEmblemImg": "",
+        "personaImg": "",
+        "critOffsetX": 0,
+        "critOffsetY": 0,
+        "critScale": 100,
+        "critRotation": 0,
+        "critSFX": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "combat-tracker-dock": {
+        "dockImage": "pics/carousel/crawling-hands-swarm.carousel.webp"
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "swarm": {
+        "isSwarm": true,
+        "swarmOverPlayers": true,
+        "swarmSize": 20,
+        "swarmSpeed": 2,
+        "animation": "skitter"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.6,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "aedifs-tactical-grid": {
+        "viewDistance": null,
+        "viewShape": "",
+        "color": ""
+      },
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "order": 0,
+            "id": "bar1",
+            "attribute": "attributes.hp",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "otherVisibility": 0,
+            "ownerVisibility": 30,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "hideHud": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          }
+        }
+      }
+    },
+    "prependAdjective": false,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Crawling Hand Swarm",
+    "actorLink": false,
+    "appendNumber": false,
+    "texture": {
+      "src": "modules/abomination-vaults-addons-pf2e/assets/npc/crawlingclaw.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "img": "modules/abomination-vaults-addons-pf2e/assets/npc/crawlingclaw.png",
+  "items": [
+    {
+      "_id": "Aqvww3vhm599IMIr",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Tremorsense (Imprecise) 30 feet",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "rules": [],
+        "slug": "tremorsense",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KGza3Cfmr48heQUr.Aqvww3vhm599IMIr"
+    },
+    {
+      "_id": "S20QXnhHvj6lx4Ua",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Lifesense 30 feet",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "rules": [],
+        "slug": "lifesense",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KGza3Cfmr48heQUr.S20QXnhHvj6lx4Ua"
+    },
+    {
+      "_id": "9o47ekgkdc945ugj",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Stifle",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature in the swarm's space attempts to Cast a Spell with a verbal component or attempts an action with the linguistic or vocal traits</p><hr />\n<p><strong>Effect</strong> The swarming hands clamp over the triggering creature's mouth, preventing it from vocalizing. The affected creature must succeed at a @Check[type:reflex|dc:22] save or the triggering action is disrupted.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KGza3Cfmr48heQUr.9o47ekgkdc945ugj"
+    },
+    {
+      "_id": "LTWhq5mRyrBnyisE",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "negative-healing",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary 2",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KGza3Cfmr48heQUr.LTWhq5mRyrBnyisE"
+    },
+    {
+      "_id": "ywlwy311xye2c52k",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Pummeling Grasp",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Each enemy in the swarm's space takes @Damage[3d6[slashing]] damage (@Check[type:reflex|dc:20|basic:true]). A creature that fails its save against Pummeling Grasp is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KGza3Cfmr48heQUr.ywlwy311xye2c52k"
+    }
+  ],
+  "name": "Crawling Hand Swarm",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 60,
+        "temp": 0,
+        "max": 60,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 30
+          }
+        ],
+        "details": "",
+        "special": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "precision"
+        },
+        {
+          "type": "swarm-mind"
+        },
+        {
+          "type": "unconscious"
+        },
+        {
+          "type": "visual"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "bludgeoning",
+          "value": 2
+        },
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "hallit"
+        ],
+        "details": "can't speak any language"
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder #176: Lost Mammoth Valley",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "acuity": "precise",
+          "range": 30,
+          "type": "lifesense"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "tremorsense"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "stealth": {
+        "base": 12
+      }
+    },
+    "traits": {
+      "value": [
+        "evil",
+        "swarm",
+        "undead",
+        "unholy"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "type": "npc",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.BPZryWdi6LB9N9KC"
+    },
+    "scene-packer": {
+      "hash": "f8022b25b611cd8069c692b7a848a8a66ea42947",
+      "sourceId": "Actor.tDF4ieehLK9GEw5d"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "J3oConv1eQRLao6j": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.BPZryWdi6LB9N9KC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733988077634,
+    "modifiedTime": 1733988853124,
+    "lastModifiedBy": "J3oConv1eQRLao6j"
+  },
+  "_id": "KGza3Cfmr48heQUr",
+  "sort": 0,
+  "_key": "!actors!KGza3Cfmr48heQUr"
+}
