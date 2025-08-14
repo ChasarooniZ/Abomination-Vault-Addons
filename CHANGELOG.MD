@@ -1,3 +1,9 @@
+# 1.2.0 - Missing Maps
+
+- **Added**
+  - `Blades for Glades` battlemap
+  - `Odd Stories` battlemap
+
 # 1.1.0 - Tapestries
 
 - **Added**
