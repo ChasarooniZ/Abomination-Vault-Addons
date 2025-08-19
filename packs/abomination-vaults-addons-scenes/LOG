@@ -1,13 +1,3 @@
-2025/08/13-23:59:41.481 fad0 Recovering log #375
-2025/08/13-23:59:41.483 fad0 Level-0 table #377: started
-2025/08/13-23:59:41.523 fad0 Level-0 table #377: 52341 bytes OK
-2025/08/13-23:59:41.655 fad0 Delete type=0 #343
-2025/08/13-23:59:41.656 fad0 Delete type=0 #375
-2025/08/13-23:59:41.656 fad0 Delete type=3 #342
-2025/08/13-23:59:41.686 fad0 Delete type=3 #374
-2025/08/13-23:59:41.697 ee04 Compacting 1@0 + 1@1 files
-2025/08/13-23:59:41.809 ee04 Generated table #379@0: 659 keys, 104178 bytes
-2025/08/13-23:59:41.809 ee04 Compacted 1@0 + 1@1 files => 104178 bytes
-2025/08/13-23:59:41.864 ee04 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/08/13-23:59:41.864 ee04 Delete type=2 #339
-2025/08/13-23:59:41.864 ee04 Delete type=2 #377
+2025/08/19-15:43:40.763 13540 Recovering log #378
+2025/08/19-15:43:40.892 13540 Delete type=0 #378
+2025/08/19-15:43:40.892 13540 Delete type=3 #376

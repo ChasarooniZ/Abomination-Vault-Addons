@@ -247,9 +247,6 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "_stats": {
             "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
             "duplicateSource": null,
@@ -260,6 +257,9 @@
             "modifiedTime": null,
             "lastModifiedBy": null,
             "exportSource": null
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -307,9 +307,6 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "_stats": {
             "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg",
             "duplicateSource": null,
@@ -320,6 +317,9 @@
             "modifiedTime": null,
             "lastModifiedBy": null,
             "exportSource": null
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -364,9 +364,6 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": null,
@@ -378,6 +375,9 @@
             "modifiedTime": null,
             "lastModifiedBy": null,
             "exportSource": null
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -432,9 +432,6 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "_stats": {
             "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
             "duplicateSource": null,
@@ -445,6 +442,9 @@
             "modifiedTime": null,
             "lastModifiedBy": null,
             "exportSource": null
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -489,9 +489,6 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": null,
@@ -503,6 +500,9 @@
             "modifiedTime": null,
             "lastModifiedBy": null,
             "exportSource": null
+          },
+          "ownership": {
+            "default": 0
           }
         }
       ],
@@ -699,1071 +699,20 @@
       },
       "effects": [],
       "folder": "UTsNVTYvQ6gZXeCK",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "_stats": {
         "compendiumSource": "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.BPZryWdi6LB9N9KC",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312382903,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871510,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       },
       "_id": "cKnRONZgvHKgbK1V",
-      "sort": 100000
-    },
-    {
-      "prototypeToken": {
-        "displayName": 20,
-        "displayBars": 50,
-        "flags": {
-          "tagger": {},
-          "Rideable": {
-            "issetRideableFlag": true,
-            "MaxRiderFlag": null,
-            "CustomRidingheightFlag": null,
-            "RiderPositioningFlag": "RowPlacement",
-            "TokenFormFlag": "TokenFormCircle",
-            "InsideMovementFlag": false,
-            "SpawnRidersFlag": "",
-            "MountingEffectsFlag": "",
-            "WorldMEffectOverrideFlag": false,
-            "SelfApplyEffectsFlag": false,
-            "forMountEffectsFlag": "",
-            "canbeGrappledFlag": true,
-            "CanbePilotedFlag": false,
-            "MountonEnterFlag": false,
-            "AutoMountBlackListFlag": "",
-            "AutoMountWhiteListFlag": "",
-            "UseRidingHeightFlag": true,
-            "RidersScaleFlag": 1,
-            "RiderOffsetFlag": [
-              0,
-              0
-            ],
-            "RiderRotOffsetFlag": 0,
-            "PilotedbyDefaultFlag": false,
-            "CheckPilotedCollisionFlag": false
-          },
-          "pf2e-rpg-numbers": {
-            "rotationOffset": 0,
-            "fireEmblemImg": "",
-            "personaImg": "",
-            "critOffsetX": 0,
-            "critOffsetY": 0,
-            "critScale": 100,
-            "critRotation": 0,
-            "critSFX": ""
-          },
-          "pf2e": {
-            "linkToActorSize": true,
-            "autoscale": true
-          },
-          "monks-combat-marker": {
-            "token-highlight-scale": 1.9,
-            "token-combat-animation": "",
-            "token-highlight": ""
-          },
-          "barbrawl": {
-            "resourceBars": {
-              "bar1": {
-                "order": 0,
-                "id": "bar1",
-                "attribute": "attributes.hp",
-                "mincolor": "#FF0000",
-                "maxcolor": "#80FF00",
-                "position": "bottom-inner",
-                "otherVisibility": 0,
-                "ownerVisibility": 30,
-                "gmVisibility": -1,
-                "hideFull": false,
-                "hideEmpty": false,
-                "hideCombat": false,
-                "hideNoCombat": false,
-                "hideHud": false,
-                "indentLeft": null,
-                "indentRight": null,
-                "shareHeight": false,
-                "style": "user",
-                "label": "",
-                "invert": false,
-                "invertDirection": false,
-                "subdivisions": null,
-                "subdivisionsOwner": false,
-                "fgImage": "",
-                "bgImage": "",
-                "opacity": null
-              }
-            }
-          },
-          "LocknKey": {
-            "PickPocketDCFlag": null
-          }
-        },
-        "prependAdjective": false,
-        "disposition": -1,
-        "height": 2,
-        "name": "Will-o'-Wisp Swarm",
-        "width": 2,
-        "actorLink": false,
-        "lockRotation": false,
-        "rotation": 0,
-        "alpha": 0.5,
-        "light": {
-          "alpha": 0.5,
-          "angle": 360,
-          "bright": 0,
-          "coloration": 1,
-          "dim": 0,
-          "luminosity": 0.5,
-          "saturation": 0,
-          "contrast": 0,
-          "shadows": 0,
-          "animation": {
-            "speed": 5,
-            "intensity": 5,
-            "reverse": false,
-            "type": null
-          },
-          "darkness": {
-            "min": 0,
-            "max": 1
-          },
-          "attenuation": 0.5,
-          "color": null,
-          "negative": false,
-          "priority": 0
-        },
-        "bar1": {
-          "attribute": "attributes.hp"
-        },
-        "bar2": {
-          "attribute": null
-        },
-        "randomImg": false,
-        "texture": {
-          "src": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.token.webp",
-          "scaleX": 1,
-          "scaleY": 1,
-          "offsetX": 0,
-          "offsetY": 0,
-          "rotation": 0,
-          "tint": "#ffffff",
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "alphaThreshold": 0.75
-        },
-        "sight": {
-          "angle": 360,
-          "enabled": false,
-          "range": 0,
-          "brightness": 1,
-          "visionMode": "basic",
-          "color": null,
-          "attenuation": 0.1,
-          "saturation": 0,
-          "contrast": 0
-        },
-        "detectionModes": [],
-        "appendNumber": false,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": true,
-          "colors": {
-            "ring": "#ffdd00",
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.token.webp"
-          }
-        },
-        "turnMarker": {
-          "mode": 1,
-          "animation": null,
-          "src": null,
-          "disposition": false
-        },
-        "movementAction": null
-      },
-      "_id": "wRQ7TZdd0n5UIIao",
-      "name": "Will-o'-Wisp Swarm",
-      "type": "npc",
-      "img": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp",
-      "items": [
-        {
-          "_id": "wChn2PEw9GYziq2n",
-          "img": "systems/pf2e/icons/actions/Passive.webp",
-          "name": "Glow",
-          "sort": 200000,
-          "system": {
-            "actionType": {
-              "value": "passive"
-            },
-            "actions": {
-              "value": null
-            },
-            "category": "defensive",
-            "description": {
-              "value": "<p>40 feet.</p><p>A will-o'-wisp is itself naturally invisible, but glows with a colored light, casting bright light in the aura and making it visible.</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [
-              {
-                "key": "TokenLight",
-                "predicate": [
-                  {
-                    "not": "go-dark"
-                  }
-                ],
-                "value": {
-                  "alpha": 0.2,
-                  "animation": {
-                    "intensity": 1,
-                    "speed": 3,
-                    "type": "pulse"
-                  },
-                  "bright": 40,
-                  "color": "#fff9a3",
-                  "dim": 0
-                }
-              }
-            ],
-            "slug": null,
-            "traits": {
-              "value": [
-                "aura",
-                "light"
-              ],
-              "otherTags": []
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "deathNote": false
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": null,
-            "modifiedTime": 1740212477690,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "ownership": {
-            "default": 0
-          },
-          "flags": {}
-        },
-        {
-          "_id": "3Eksrmh390T4SrP7",
-          "img": "systems/pf2e/icons/actions/Passive.webp",
-          "name": "Magic Immunity",
-          "sort": 300000,
-          "system": {
-            "actionType": {
-              "value": "passive"
-            },
-            "actions": {
-              "value": null
-            },
-            "category": "defensive",
-            "description": {
-              "value": "<p>A will-o'-wisp swarm is immune to all spells except @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}, and @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}.</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [],
-            "slug": null,
-            "traits": {
-              "value": [],
-              "otherTags": []
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "deathNote": false
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": null,
-            "modifiedTime": 1740212813746,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "ownership": {
-            "default": 0
-          },
-          "flags": {}
-        },
-        {
-          "_id": "F8xpT7h5a5ZviXU5",
-          "img": "systems/pf2e/icons/actions/OneAction.webp",
-          "name": "Feed on Fear",
-          "sort": 400000,
-          "system": {
-            "actionType": {
-              "value": "action"
-            },
-            "actions": {
-              "value": 1
-            },
-            "category": "offensive",
-            "description": {
-              "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> An enemy within 30 feet is under a fear effect or dying</p><hr /><p><strong>Effect</strong> The will-o'-wisp feeds on the creature's terror. It regains @Damage[4d4[healing]]{4d4 Hit Points}, and if it has Gone Dark, its glow reignites.</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [],
-            "slug": null,
-            "traits": {
-              "value": [
-                "concentrate"
-              ],
-              "otherTags": []
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "deathNote": false
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": null,
-            "modifiedTime": 1740212546875,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "ownership": {
-            "default": 0
-          },
-          "flags": {}
-        },
-        {
-          "_id": "USCoVo5LJNs12zB4",
-          "img": "systems/pf2e/icons/actions/OneAction.webp",
-          "name": "Go Dark",
-          "sort": 500000,
-          "system": {
-            "actionType": {
-              "value": "action"
-            },
-            "actions": {
-              "value": 1
-            },
-            "category": "offensive",
-            "description": {
-              "value": "<p>The will-o'-wisp extinguishes its glow, becoming @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It can end this effect with another use of this action. If it uses its <em>Shocking Swarm</em> while invisible, the arcs of electricity lets any observer determine its location, making the will-o'-wisp only @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to all observers until it moves.</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [
-              {
-                "domain": "all",
-                "key": "RollOption",
-                "option": "go-dark",
-                "suboptions": [
-                  {
-                    "label": "PF2E.ConditionTypeInvisible",
-                    "value": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
-                  },
-                  {
-                    "label": "PF2E.ConditionTypeHidden",
-                    "value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
-                  }
-                ],
-                "toggleable": true
-              },
-              {
-                "inMemoryOnly": true,
-                "key": "GrantItem",
-                "predicate": [
-                  "go-dark"
-                ],
-                "uuid": "{item|flags.pf2e.rulesSelections.goDark}"
-              }
-            ],
-            "slug": null,
-            "traits": {
-              "value": [
-                "concentrate"
-              ],
-              "otherTags": []
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "deathNote": false
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": null,
-            "modifiedTime": 1740212725672,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "ownership": {
-            "default": 0
-          },
-          "flags": {}
-        },
-        {
-          "img": "systems/pf2e/icons/actions/Passive.webp",
-          "name": "All-Around Vision",
-          "system": {
-            "actionType": {
-              "value": "passive"
-            },
-            "actions": {
-              "value": null
-            },
-            "category": "defensive",
-            "description": {
-              "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [
-              {
-                "key": "ActiveEffectLike",
-                "mode": "override",
-                "path": "system.attributes.flanking.flankable",
-                "value": false
-              }
-            ],
-            "traits": {
-              "value": [],
-              "otherTags": []
-            },
-            "slug": "all-around-vision",
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            }
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.9qV49KjZujZnSp6w",
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": 1740212385674,
-            "modifiedTime": 1740212385674,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
-          "flags": {
-            "scene-packer": {
-              "hash": "784067d028c3a674aeae8128e56a1ec53f452813"
-            }
-          },
-          "_id": "cAKBrmUk3RmtqHXX"
-        },
-        {
-          "img": "systems/pf2e/icons/actions/Passive.webp",
-          "name": "Swarm Mind",
-          "system": {
-            "actionType": {
-              "value": "passive"
-            },
-            "actions": {
-              "value": null
-            },
-            "category": "defensive",
-            "description": {
-              "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
-              "gm": ""
-            },
-            "publication": {
-              "license": "ORC",
-              "remaster": true,
-              "title": "Pathfinder Monster Core",
-              "authors": ""
-            },
-            "rules": [],
-            "traits": {
-              "value": [],
-              "otherTags": []
-            },
-            "slug": "swarm-mind",
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            }
-          },
-          "type": "action",
-          "_stats": {
-            "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia",
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": 1740212402409,
-            "modifiedTime": 1740212402409,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          },
-          "effects": [],
-          "folder": null,
-          "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
-          "flags": {
-            "scene-packer": {
-              "hash": "c81aecf7e27ac3584df0ca1af1d2c9ddc2e551bf"
-            }
-          },
-          "_id": "7XqS6bKnlXdHzSQA"
-        },
-        {
-          "type": "action",
-          "name": "Shocking Swarm",
-          "system": {
-            "actionType": {
-              "value": "action"
-            },
-            "description": {
-              "value": "<p>Each enemy in the swarm's space takes @Damage[5d6[electricity]] damage (@Check[reflex|dc:27|basic:true] save).</p>",
-              "gm": ""
-            },
-            "publication": {
-              "title": "",
-              "authors": "",
-              "license": "OGL",
-              "remaster": false
-            },
-            "rules": [],
-            "slug": "shocking-swarm",
-            "traits": {
-              "otherTags": [],
-              "value": [
-                "electricity",
-                "magical"
-              ]
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "actions": {
-              "value": 1
-            },
-            "category": "offensive",
-            "deathNote": false
-          },
-          "effects": [],
-          "_id": "bWAo0tq9l54dRCnv",
-          "img": "systems/pf2e/icons/default-icons/action.svg",
-          "folder": null,
-          "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
-          "flags": {
-            "scene-packer": {
-              "hash": "324debbb55d0e281378464deb30009257d1de8eb"
-            }
-          },
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": 1740212566576,
-            "modifiedTime": 1740212675454,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          }
-        },
-        {
-          "type": "action",
-          "name": "Horrifying Visage",
-          "system": {
-            "actionType": {
-              "value": "free"
-            },
-            "description": {
-              "value": "<p><strong>Requirements</strong> The will-o'-wisp swarm is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible}</p><hr /><p><strong>Effect</strong> The will-o'-wisp swarm reveals itself, losing its invisibility for 1 round. Each creature within @Template[type:emanation|distance:60] must make a @Check[will|dc:26] save.</p><p>Regardless of their result, the targets become immune to Horrifying Visage for 24 hours.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.<br /><strong>Failure</strong> The creature takes @Damage[5d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.<br /><strong>Critical Failure</strong> The creature takes @Damage[8d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>",
-              "gm": "<p>Players who have played the Adventure Path Abomination Vaults treat their character's degree of success as one degree worse than their roll.</p>"
-            },
-            "publication": {
-              "title": "",
-              "authors": "",
-              "license": "OGL",
-              "remaster": false
-            },
-            "rules": [],
-            "slug": null,
-            "traits": {
-              "otherTags": [],
-              "value": [
-                "mental",
-                "visual"
-              ]
-            },
-            "_migration": {
-              "version": 0.939,
-              "previous": {
-                "schema": 0.935,
-                "foundry": "13.344",
-                "system": "7.1.1"
-              }
-            },
-            "actions": {
-              "value": null
-            },
-            "category": "offensive",
-            "deathNote": false
-          },
-          "effects": [],
-          "_id": "xwOe0VnQuRrYYOUL",
-          "img": "systems/pf2e/icons/default-icons/action.svg",
-          "folder": null,
-          "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
-          "flags": {
-            "scene-packer": {
-              "hash": "324debbb55d0e281378464deb30009257d1de8eb"
-            }
-          },
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "13.345",
-            "systemId": "pf2e",
-            "systemVersion": "6.9.0",
-            "createdTime": 1740212852317,
-            "modifiedTime": 1740213693696,
-            "lastModifiedBy": "J3oConv1eQRLao6j",
-            "exportSource": null
-          }
-        }
-      ],
-      "effects": [],
-      "folder": "BkS6povLS9GAqOEb",
       "sort": 100000,
-      "flags": {
-        "core": {},
-        "pf2e": {
-          "lootable": false
-        },
-        "scene-packer": {
-          "hash": "a2fececc16dd44d8acb233e46b38cbd2dc0961ea"
-        },
-        "pf2e-rpg-numbers": {
-          "version": "12.7.6",
-          "critical": {
-            "success": {
-              "default": {
-                "enabled": "default",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1,
-                "art": "",
-                "type": "default"
-              },
-              "checks": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              },
-              "saves": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              },
-              "strikes": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              }
-            },
-            "failure": {
-              "default": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              },
-              "checks": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              },
-              "saves": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              },
-              "strikes": {
-                "enabled": "default",
-                "type": "default",
-                "art": "",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rotation": 0,
-                "sfx": "",
-                "volume": 100,
-                "scale": 1
-              }
-            }
-          },
-          "token": {
-            "rotation": {
-              "offset": 0
-            }
-          }
-        },
-        "pf2e-graphics": {
-          "effectiveSize": {
-            "enabled": false,
-            "size": 2
-          }
-        }
-      },
-      "system": {
-        "attributes": {
-          "hp": {
-            "value": 85,
-            "temp": 0,
-            "max": 85,
-            "details": ""
-          },
-          "speed": {
-            "value": 0,
-            "otherSpeeds": [
-              {
-                "type": "fly",
-                "value": 50
-              }
-            ],
-            "details": ""
-          },
-          "ac": {
-            "value": 30,
-            "details": ""
-          },
-          "allSaves": {
-            "value": ""
-          },
-          "immunities": [
-            {
-              "type": "magic",
-              "exceptions": []
-            },
-            {
-              "type": "precision",
-              "exceptions": []
-            }
-          ],
-          "weaknesses": [
-            {
-              "type": "area-damage",
-              "value": 10,
-              "exceptions": []
-            },
-            {
-              "type": "splash-damage",
-              "value": 10,
-              "exceptions": []
-            }
-          ]
-        },
-        "initiative": {
-          "statistic": "perception"
-        },
-        "details": {
-          "languages": {
-            "value": [
-              "aklo",
-              "common"
-            ],
-            "details": ""
-          },
-          "level": {
-            "value": 8
-          },
-          "blurb": "",
-          "publicNotes": "<p>Malevolent balls of colored light, will-o'-wisps haunt lonely marshes and forests, where they lure unsuspecting travelers into danger. Will-o'-wisps can vary the color and illumination they shed, and delight in mimicking bobbing lanterns or distant fires to draw lost or disoriented travelers off of safe trails. They can extinguish their illumination entirely to become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}, and they enjoy doing so once their victims are wholly lost and have realized that the bobbing light in the distance isn't, in fact, leading them to safety. Even invisible, however, a will-o'-wisp rarely ventures far from its target, as it feasts upon the panic and dread felt by its victims.</p>\n<p>Beneath its glow, a will-o'-wisp's body is a spongy ball approximately 1 foot in diameter and weighing less than 5 pounds. Although most will-o'-wisps are merely translucent, featureless orbs, gaining definition only in the shifting illumination they create, a few have dark mottling that makes them resemble a skull when viewed closely. Will-o'-wisps have no need for mundane nourishment, and in fact, lack the ability to consume matter of any kind; they find all the sustenance they need in the terror of nearby creatures. For this reason, they like to work alongside undead that produce terror in their victims. Will-o'-wisps are long-lived, if not effectively immortal, and they have good memories. A cowed or defeated will-o'-wisp can be a good source of lore and information, though acquiring such cooperation from such a sinister monster is no easy feat.</p>\n<p>Will-o'-wisps inhabit desolate swamps and forests and are generally active at twilight and after dark. They are therefore reluctant to lead victims into immediately fatal areas such as deadfalls, but instead prefer hazards where their victims suffer over a long time, such as pockets of stale or poisonous air, patches of quicksand, and dens of bigger monsters. According to will-o'-wisps, different types of fear have subtle differences in flavor. The lurking dread in the pit of the stomach that gnaws at those who slowly become aware of the fact that they're lost produces a much different taste than the sudden, stark terror of imminent death in the face of a towering monster. Because of this, will-o'-wisps try to vary the ways in which they induce terror in their prey, to ensure they don't tire of certain flavors of fear.</p>",
-          "privateNotes": "",
-          "publication": {
-            "title": "Pathfinder Bestiary",
-            "authors": "",
-            "license": "OGL",
-            "remaster": false
-          },
-          "creatureType": "Aberration"
-        },
-        "resources": {},
-        "_migration": {
-          "version": 0.939,
-          "previous": {
-            "schema": 0.854,
-            "foundry": "13.344",
-            "system": "7.1.1"
-          }
-        },
-        "abilities": {
-          "str": {
-            "mod": -5
-          },
-          "dex": {
-            "mod": 7
-          },
-          "con": {
-            "mod": 0
-          },
-          "int": {
-            "mod": 3
-          },
-          "wis": {
-            "mod": 4
-          },
-          "cha": {
-            "mod": 3
-          }
-        },
-        "perception": {
-          "details": "",
-          "mod": 16,
-          "senses": [
-            {
-              "type": "darkvision"
-            },
-            {
-              "type": "darkvision"
-            }
-          ],
-          "vision": true
-        },
-        "saves": {
-          "fortitude": {
-            "value": 12,
-            "saveDetail": ""
-          },
-          "reflex": {
-            "value": 19,
-            "saveDetail": ""
-          },
-          "will": {
-            "value": 16,
-            "saveDetail": ""
-          }
-        },
-        "skills": {
-          "acrobatics": {
-            "base": 20,
-            "special": []
-          },
-          "deception": {
-            "base": 15,
-            "special": []
-          },
-          "intimidation": {
-            "base": 14,
-            "special": []
-          },
-          "stealth": {
-            "base": 19,
-            "special": []
-          }
-        },
-        "traits": {
-          "value": [
-            "aberration",
-            "air",
-            "chaotic",
-            "evil",
-            "swarm"
-          ],
-          "rarity": "common",
-          "size": {
-            "value": "lg"
-          }
-        }
-      },
       "ownership": {
-        "default": 0,
-        "xOsB85wXI0jTccyw": 3,
-        "bQE3EQasbR1qnHLr": 3,
-        "tdxabnG2Ci6AQRkt": 3,
-        "hmjIqZTiWsabmwxL": 3,
-        "0ELuUZXAOmCg7f0N": 3,
-        "8W81m92BZ5NlJzXz": 3,
-        "J3oConv1eQRLao6j": 3
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db",
-        "duplicateSource": null,
-        "coreVersion": "13.345",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312382903,
-        "lastModifiedBy": "J3oConv1eQRLao6j",
-        "exportSource": null
+        "default": 0
       }
     },
     {
@@ -2010,9 +959,6 @@
           },
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "flags": {
             "pf2e-graphics": {
               "customAnimations": {
@@ -2039,6 +985,9 @@
                 ]
               }
             }
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -2105,10 +1054,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "fkSqSiW3qLpaq6hp",
@@ -2170,10 +1119,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "9AEzHj5y2T93e7EF",
@@ -2232,10 +1181,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "BJ1PhJfeJAlUL4sL",
@@ -2289,10 +1238,10 @@
           "type": "action",
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "IoAJluZoGb9mgLGv",
@@ -2351,10 +1300,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "y0G6Hcirsc4uakIL",
@@ -2413,10 +1362,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "53LkbbyoyISSppMe",
@@ -2472,10 +1421,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "rGTmjeER3V1KY02w",
@@ -2529,10 +1478,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "crXV18abZr2DcEh8",
@@ -2587,15 +1536,15 @@
           },
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "flags": {
             "LocknKey": {
               "IDKeysFlag": "",
               "RemoveKeyonUseFlag": false,
               "ReplacementItemFlag": ""
             }
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -2650,10 +1599,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "rTDme0840mDZkokU",
@@ -2710,15 +1659,15 @@
           "type": "action",
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0
-          },
           "flags": {
             "LocknKey": {
               "IDKeysFlag": "",
               "RemoveKeyonUseFlag": false,
               "ReplacementItemFlag": ""
             }
+          },
+          "ownership": {
+            "default": 0
           }
         },
         {
@@ -2773,10 +1722,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "TKaqHg2KqjNmg24t",
@@ -2830,10 +1779,10 @@
           "type": "action",
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "img": "systems/pf2e/icons/actions/Passive.webp",
@@ -2893,16 +1842,15 @@
           "effects": [],
           "folder": null,
           "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {
             "scene-packer": {
               "hash": "e91e5bab47760d61df23e357cf9ae07238ae03a8"
             }
           },
-          "_id": "Daf5xGj3gVIVPAWQ"
+          "_id": "Daf5xGj3gVIVPAWQ",
+          "ownership": {
+            "default": 0
+          }
         },
         {
           "img": "systems/pf2e/icons/actions/Passive.webp",
@@ -2955,16 +1903,15 @@
           "effects": [],
           "folder": null,
           "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {
             "scene-packer": {
               "hash": "1c72b25a3debf284d0707a50c239708918292441"
             }
           },
-          "_id": "5T8kAJ39XXg1JDU8"
+          "_id": "5T8kAJ39XXg1JDU8",
+          "ownership": {
+            "default": 0
+          }
         },
         {
           "img": "systems/pf2e/icons/actions/Passive.webp",
@@ -3020,16 +1967,15 @@
           "effects": [],
           "folder": null,
           "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {
             "scene-packer": {
               "hash": "1f0643afd7ef329675a2173654b0ac31c8adc9be"
             }
           },
-          "_id": "L26LaGdn9r5Sghzr"
+          "_id": "L26LaGdn9r5Sghzr",
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "name": "Belcorra's Cave Worm",
@@ -3211,20 +2157,15 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312382903,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871510,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       },
       "effects": [],
       "folder": "OnSr4fT6nycZJs7E",
-      "ownership": {
-        "default": 1,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "075b73be7560b5c2206e5e0341eb03bbea8007bb"
@@ -3349,7 +2290,10 @@
         }
       },
       "_id": "wX2jNFncThTLvG9F",
-      "sort": 100000
+      "sort": 100000,
+      "ownership": {
+        "default": 1
+      }
     },
     {
       "prototypeToken": {
@@ -3515,11 +2459,6 @@
       "folder": "BkS6povLS9GAqOEb",
       "name": "Gauntlight's Revenge",
       "type": "hazard",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "effects": [],
       "system": {
         "_migration": {
@@ -3722,10 +2661,6 @@
           },
           "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
           "sort": 0,
-          "ownership": {
-            "default": 0,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {
             "scene-packer": {
               "hash": "85c67be43685a3559e48aef0ce7fec182a011501"
@@ -3747,7 +2682,10 @@
             "lastModifiedBy": "J3oConv1eQRLao6j",
             "exportSource": null
           },
-          "_id": "njZatSEaRknTKj8R"
+          "_id": "njZatSEaRknTKj8R",
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "sort": 200000,
@@ -3770,12 +2708,15 @@
       "_stats": {
         "compendiumSource": "Actor.7oybyJd1zTviSlbd",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312382903,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871510,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -3995,11 +2936,6 @@
       "folder": "RAbvwXiC80nMnRXm",
       "name": "Ghost Queen's Reflection",
       "type": "hazard",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "effects": [],
       "system": {
         "saves": {
@@ -4132,10 +3068,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "wdA0nAhiSTY7znrs",
@@ -4202,10 +3138,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "_id": "17gJOHIRtWXfYMKa",
@@ -4260,10 +3196,10 @@
           },
           "effects": [],
           "folder": null,
+          "flags": {},
           "ownership": {
             "default": 0
-          },
-          "flags": {}
+          }
         },
         {
           "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/OneAction.webp",
@@ -4323,12 +3259,11 @@
           },
           "effects": [],
           "folder": null,
-          "ownership": {
-            "default": 0,
-            "iv6qcgkcxhGLYLAr": 3
-          },
           "flags": {},
-          "_id": "sZFhm7GrFWwQXm7E"
+          "_id": "sZFhm7GrFWwQXm7E",
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "sort": 0,
@@ -4348,10 +3283,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312382903,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871510,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": {
           "worldId": "abomination-vaults-new",
@@ -4360,6 +3295,824 @@
           "systemId": "pf2e",
           "systemVersion": "6.9.0"
         }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "BkS6povLS9GAqOEb",
+      "name": "Will-o'-Wisp Swarm",
+      "type": "npc",
+      "prototypeToken": {
+        "flags": {
+          "pf2e": {
+            "linkToActorSize": true,
+            "autoscale": true
+          }
+        },
+        "height": 1,
+        "width": 1,
+        "name": "Will-o'-Wisp Swarm",
+        "displayName": 20,
+        "actorLink": false,
+        "texture": {
+          "src": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "lockRotation": true,
+        "rotation": 0,
+        "alpha": 0.5,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": true,
+          "colors": {
+            "ring": "#ffdd00",
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.token.webp"
+          }
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "effects": [],
+      "system": {
+        "attributes": {
+          "hp": {
+            "value": 85,
+            "temp": 0,
+            "max": 85,
+            "details": ""
+          },
+          "speed": {
+            "value": 0,
+            "otherSpeeds": [
+              {
+                "type": "fly",
+                "value": 50
+              }
+            ],
+            "details": ""
+          },
+          "ac": {
+            "value": 30,
+            "details": ""
+          },
+          "allSaves": {
+            "value": ""
+          },
+          "immunities": [
+            {
+              "type": "magic",
+              "exceptions": []
+            },
+            {
+              "type": "restrained",
+              "exceptions": []
+            }
+          ],
+          "weaknesses": [
+            {
+              "type": "area-damage",
+              "value": 10,
+              "exceptions": []
+            },
+            {
+              "type": "splash-damage",
+              "value": 10,
+              "exceptions": []
+            }
+          ]
+        },
+        "initiative": {
+          "statistic": "perception"
+        },
+        "details": {
+          "languages": {
+            "value": [
+              "aklo",
+              "common"
+            ],
+            "details": ""
+          },
+          "level": {
+            "value": 8
+          },
+          "blurb": "",
+          "publicNotes": "",
+          "privateNotes": "",
+          "publication": {
+            "title": "",
+            "authors": "",
+            "license": "OGL",
+            "remaster": false
+          }
+        },
+        "resources": {},
+        "_migration": {
+          "version": 0.942,
+          "previous": null
+        },
+        "abilities": {
+          "str": {
+            "mod": -5
+          },
+          "dex": {
+            "mod": 7
+          },
+          "con": {
+            "mod": 0
+          },
+          "int": {
+            "mod": 3
+          },
+          "wis": {
+            "mod": 4
+          },
+          "cha": {
+            "mod": 3
+          }
+        },
+        "perception": {
+          "details": "",
+          "mod": 16,
+          "senses": [],
+          "vision": true
+        },
+        "saves": {
+          "fortitude": {
+            "value": 12,
+            "saveDetail": ""
+          },
+          "reflex": {
+            "value": 19,
+            "saveDetail": ""
+          },
+          "will": {
+            "value": 16,
+            "saveDetail": ""
+          }
+        },
+        "skills": {
+          "acrobatics": {
+            "base": 20,
+            "special": []
+          },
+          "deception": {
+            "base": 15,
+            "special": []
+          },
+          "intimidation": {
+            "base": 14,
+            "special": []
+          },
+          "stealth": {
+            "base": 19,
+            "special": []
+          }
+        },
+        "traits": {
+          "value": [
+            "aberration",
+            "air",
+            "swarm"
+          ],
+          "rarity": "common",
+          "size": {
+            "value": "med"
+          }
+        }
+      },
+      "_id": "kNeQ2UqyyhrmyLp0",
+      "img": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp",
+      "items": [
+        {
+          "type": "action",
+          "name": "Horrifying Visage",
+          "system": {
+            "actionType": {
+              "value": "free"
+            },
+            "description": {
+              "value": "<p><strong>Requirements</strong> The will-o'-wisp swarm is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible}</p><hr /><p><strong>Effect</strong> The will-o'-wisp swarm reveals itself, losing its invisibility for 1 round. Each creature within @Template[type:emanation|distance:60] must make a @Check[will|dc:26] save.</p><p>Regardless of their result, the targets become immune to Horrifying Visage for 24 hours.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.<br /><strong>Failure</strong> The creature takes @Damage[5d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.<br /><strong>Critical Failure</strong> The creature takes @Damage[8d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>",
+              "gm": "<p>Players who have played the Adventure Path Abomination Vaults treat their character's degree of success as one degree worse than their roll.</p>"
+            },
+            "publication": {
+              "title": "",
+              "authors": "",
+              "license": "OGL",
+              "remaster": false
+            },
+            "rules": [],
+            "slug": null,
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "mental",
+                "visual"
+              ]
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "offensive",
+            "deathNote": false
+          },
+          "effects": [],
+          "img": "systems/pf2e/icons/default-icons/action.svg",
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "scene-packer": {
+              "hash": "324debbb55d0e281378464deb30009257d1de8eb"
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.xwOe0VnQuRrYYOUL",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.xwOe0VnQuRrYYOUL",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636090740,
+            "modifiedTime": 1755636090740,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "_id": "oceXACXOoDVaTlUE",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "type": "action",
+          "name": "Shocking Swarm",
+          "system": {
+            "actionType": {
+              "value": "action"
+            },
+            "description": {
+              "value": "<p>Each enemy in the swarm's space takes @Damage[5d6[electricity]] damage (@Check[reflex|dc:27|basic:true] save).</p>",
+              "gm": ""
+            },
+            "publication": {
+              "title": "",
+              "authors": "",
+              "license": "OGL",
+              "remaster": false
+            },
+            "rules": [],
+            "slug": "shocking-swarm",
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "electricity",
+                "magical"
+              ]
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "actions": {
+              "value": 1
+            },
+            "category": "offensive",
+            "deathNote": false
+          },
+          "effects": [],
+          "img": "systems/pf2e/icons/default-icons/action.svg",
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "scene-packer": {
+              "hash": "324debbb55d0e281378464deb30009257d1de8eb"
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.bWAo0tq9l54dRCnv",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.bWAo0tq9l54dRCnv",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636093138,
+            "modifiedTime": 1755636093138,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "_id": "UH3o03rB56pG9azA",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/OneAction.webp",
+          "name": "Feed on Fear",
+          "sort": 400000,
+          "system": {
+            "actionType": {
+              "value": "action"
+            },
+            "actions": {
+              "value": 1
+            },
+            "category": "offensive",
+            "description": {
+              "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> An enemy within 30 feet is under a fear effect or dying</p><hr /><p><strong>Effect</strong> The will-o'-wisp feeds on the creature's terror. It regains @Damage[4d4[healing]]{4d4 Hit Points}, and if it has Gone Dark, its glow reignites.</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [],
+            "slug": null,
+            "traits": {
+              "value": [
+                "concentrate"
+              ],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "deathNote": false
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.F8xpT7h5a5ZviXU5",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.F8xpT7h5a5ZviXU5",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636100945,
+            "modifiedTime": 1755636100945,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "flags": {},
+          "_id": "ilGFy8B2IeXT8uV2",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/OneAction.webp",
+          "name": "Go Dark",
+          "sort": 500000,
+          "system": {
+            "actionType": {
+              "value": "action"
+            },
+            "actions": {
+              "value": 1
+            },
+            "category": "offensive",
+            "description": {
+              "value": "<p>The will-o'-wisp extinguishes its glow, becoming @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It can end this effect with another use of this action. If it uses its <em>Shocking Swarm</em> while invisible, the arcs of electricity lets any observer determine its location, making the will-o'-wisp only @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to all observers until it moves.</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [
+              {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "go-dark",
+                "suboptions": [
+                  {
+                    "label": "PF2E.ConditionTypeInvisible",
+                    "value": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+                  },
+                  {
+                    "label": "PF2E.ConditionTypeHidden",
+                    "value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
+                  }
+                ],
+                "toggleable": true
+              },
+              {
+                "inMemoryOnly": true,
+                "key": "GrantItem",
+                "predicate": [
+                  "go-dark"
+                ],
+                "uuid": "{item|flags.pf2e.rulesSelections.goDark}"
+              }
+            ],
+            "slug": null,
+            "traits": {
+              "value": [
+                "concentrate"
+              ],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "deathNote": false
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.USCoVo5LJNs12zB4",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.USCoVo5LJNs12zB4",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636102859,
+            "modifiedTime": 1755636102859,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "flags": {},
+          "_id": "roPOLMLtMCSoWev0",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/Passive.webp",
+          "name": "All-Around Vision",
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [
+              {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.attributes.flanking.flankable",
+                "value": false
+              }
+            ],
+            "traits": {
+              "value": [],
+              "otherTags": []
+            },
+            "slug": "all-around-vision",
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            }
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.9qV49KjZujZnSp6w",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636107704,
+            "modifiedTime": 1755636107704,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "scene-packer": {
+              "hash": "784067d028c3a674aeae8128e56a1ec53f452813"
+            }
+          },
+          "_id": "4LEvT7prjwOUB7p0",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/Passive.webp",
+          "name": "Swarm Mind",
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [],
+            "traits": {
+              "value": [],
+              "otherTags": []
+            },
+            "slug": "swarm-mind",
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            }
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636108806,
+            "modifiedTime": 1755636108806,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "scene-packer": {
+              "hash": "c81aecf7e27ac3584df0ca1af1d2c9ddc2e551bf"
+            }
+          },
+          "_id": "U9tPGDywkcfD8gtK",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/Passive.webp",
+          "name": "Glow",
+          "sort": 200000,
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>40 feet.</p><p>A will-o'-wisp is itself naturally invisible, but glows with a colored light, casting bright light in the aura and making it visible.</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [
+              {
+                "key": "TokenLight",
+                "predicate": [
+                  {
+                    "not": "go-dark"
+                  }
+                ],
+                "value": {
+                  "alpha": 0.2,
+                  "animation": {
+                    "intensity": 1,
+                    "speed": 3,
+                    "type": "pulse"
+                  },
+                  "bright": 40,
+                  "color": "#fff9a3",
+                  "dim": 0
+                }
+              }
+            ],
+            "slug": null,
+            "traits": {
+              "value": [
+                "aura",
+                "light"
+              ],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "deathNote": false
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.wChn2PEw9GYziq2n",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.wChn2PEw9GYziq2n",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636110678,
+            "modifiedTime": 1755636110678,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "flags": {},
+          "_id": "P1TTBfrORbPpYYTy",
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "img": "systems/pf2e/icons/actions/Passive.webp",
+          "name": "Magic Immunity",
+          "sort": 300000,
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>A will-o'-wisp swarm is immune to all spells except @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}, and @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}.</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [],
+            "slug": null,
+            "traits": {
+              "value": [],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.942,
+              "previous": {
+                "schema": 0.939,
+                "foundry": "13.347",
+                "system": "7.4.0"
+              }
+            },
+            "deathNote": false
+          },
+          "type": "action",
+          "_stats": {
+            "compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.3Eksrmh390T4SrP7",
+            "duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.3Eksrmh390T4SrP7",
+            "exportSource": null,
+            "coreVersion": "13.347",
+            "systemId": "pf2e",
+            "systemVersion": "7.4.0",
+            "createdTime": 1755636111926,
+            "modifiedTime": 1755636111926,
+            "lastModifiedBy": "J3oConv1eQRLao6j"
+          },
+          "effects": [],
+          "folder": null,
+          "flags": {},
+          "_id": "wSRn9g8ys6QAGICg",
+          "ownership": {
+            "default": 0
+          }
+        }
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.kNeQ2UqyyhrmyLp0",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pf2e",
+        "systemVersion": "7.4.0",
+        "createdTime": 1755635891428,
+        "modifiedTime": 1755636127874,
+        "lastModifiedBy": "J3oConv1eQRLao6j"
+      },
+      "ownership": {
+        "default": 0
       }
     }
   ],
@@ -4419,7 +4172,9 @@
             "[3/4]",
             "[4/4]"
           ],
-          "loop": false
+          "loop": false,
+          "min": null,
+          "max": null
         },
         "context": null,
         "unidentified": true,
@@ -4427,11 +4182,6 @@
       },
       "img": "systems/pf2e/icons/spells/garden-of-death.webp",
       "folder": "p84txsfYYdvmAa6s",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "autoanimations": {
           "id": "126ce8f1-1d50-4eb2-8dd5-66cb25b8ce04",
@@ -4594,10 +4344,10 @@
       "_stats": {
         "compendiumSource": "Compendium.forge-vtt-shared-compendiums-minotaur-pf2e-reusables.item-2-items.Item.d2pGQsbqcoTnah2r",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383180,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": {
           "worldId": "abomination-vaults-new",
@@ -4608,7 +4358,10 @@
         }
       },
       "_id": "CyWfBIXA8CKVFMK4",
-      "sort": 0
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     },
     {
       "name": "Nhimbaloth - Moderate Curse",
@@ -4710,11 +4463,6 @@
       },
       "img": "systems/pf2e/icons/spells/garden-of-death.webp",
       "folder": "p84txsfYYdvmAa6s",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "sourceId": "Item.opxSPmmG9Swj2OLG",
@@ -4724,10 +4472,10 @@
       "_stats": {
         "compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.Xc13QNzVsZToAs7o",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750313086996,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": {
           "worldId": "abomination-vaults-new",
@@ -4738,7 +4486,10 @@
         }
       },
       "_id": "Xc13QNzVsZToAs7o",
-      "sort": 0
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     },
     {
       "name": "Nhimbaloth - Minor Curse",
@@ -4806,7 +4557,9 @@
             "[2/3]",
             "[3/3]"
           ],
-          "loop": false
+          "loop": false,
+          "min": null,
+          "max": null
         },
         "context": null,
         "unidentified": true,
@@ -4814,11 +4567,6 @@
       },
       "img": "systems/pf2e/icons/spells/garden-of-death.webp",
       "folder": "p84txsfYYdvmAa6s",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "autoanimations": {
           "id": "126ce8f1-1d50-4eb2-8dd5-66cb25b8ce04",
@@ -4976,10 +4724,10 @@
       "_stats": {
         "compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.ZCmQhpzHnxCmXylz",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383180,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": {
           "worldId": "av-monk-crew",
@@ -4990,7 +4738,10 @@
         }
       },
       "_id": "ZCmQhpzHnxCmXylz",
-      "sort": 0
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     },
     {
       "folder": "nLQDkjcnn5oCK5vP",
@@ -5063,11 +4814,6 @@
       "_id": "7xKOXwUKrcg8gD3y",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "3ae81b0a48d41d15bdd961c29dff1ed9acf0c9b7"
@@ -5081,12 +4827,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383180,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5168,11 +4917,6 @@
       "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
       "folder": "nLQDkjcnn5oCK5vP",
       "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "1ad123a74c0e082b410db13d71e71c6fa1a3cce4"
@@ -5186,12 +4930,15 @@
       "_stats": {
         "compendiumSource": "Item.E0OKIog3W01BhtAB",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383180,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5329,11 +5076,6 @@
       "_id": "3ZOSpEvydDj9rfJl",
       "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "7015f03eef1ee0b2bf2e45ebcc92cf8df50d390f"
@@ -5347,12 +5089,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383180,
+        "systemVersion": "7.4.0",
+        "modifiedTime": 1755635871799,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     }
   ],
@@ -5379,9 +5124,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": null,
@@ -5394,7 +5136,10 @@
             "lastModifiedBy": "J3oConv1eQRLao6j",
             "exportSource": null
           },
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "sort": 100000,
@@ -5416,10 +5161,6 @@
             "volume": 0.5
           },
           "src": null,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": null,
@@ -5432,7 +5173,10 @@
             "lastModifiedBy": null,
             "exportSource": null
           },
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "Animations",
@@ -5453,10 +5197,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5470,7 +5210,10 @@
             "exportSource": null
           },
           "_id": "IEochnYWMkLR8UNU",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "Belcorra's Pet",
@@ -5491,10 +5234,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5508,7 +5247,10 @@
             "exportSource": null
           },
           "_id": "Hkl27s1LqzyTXdj0",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "The Log Fume",
@@ -5529,10 +5271,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5546,7 +5284,10 @@
             "exportSource": null
           },
           "_id": "OrgJZPV2wlI3iX2g",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "Swarm of Will o' Wisp",
@@ -5567,10 +5308,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5584,7 +5321,10 @@
             "exportSource": null
           },
           "_id": "r3dHY95N5ieG3U16",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "J. Lever Puzzle Implementation",
@@ -5605,10 +5345,6 @@
           "src": null,
           "system": {},
           "sort": 550000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5622,7 +5358,10 @@
             "exportSource": null
           },
           "_id": "gHUVbKpOvXV43UWQ",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "Helper Indicator Drawings",
@@ -5643,10 +5382,6 @@
           "src": null,
           "system": {},
           "sort": 400000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5660,7 +5395,10 @@
             "exportSource": null
           },
           "_id": "dJoTiJpOkVx9mJGD",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "Gauntlight's Revenge",
@@ -5681,10 +5419,6 @@
           "src": null,
           "system": {},
           "sort": 600000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5698,7 +5432,10 @@
             "exportSource": null
           },
           "_id": "gZOh73c8ur7rq6gl",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "E13. Belcorra's Reflection",
@@ -5719,10 +5456,6 @@
           "src": null,
           "system": {},
           "sort": 500000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5736,7 +5469,10 @@
             "exportSource": null
           },
           "_id": "WS5LyEaTKaiXxLvl",
-          "category": null
+          "category": null,
+          "ownership": {
+            "default": -1
+          }
         },
         {
           "name": "A7. Lore Through Tapestries",
@@ -5757,10 +5493,6 @@
           "src": null,
           "system": {},
           "sort": 600000,
-          "ownership": {
-            "default": -1,
-            "J3oConv1eQRLao6j": 3
-          },
           "flags": {},
           "_stats": {
             "compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
@@ -5774,21 +5506,14 @@
             "lastModifiedBy": "J3oConv1eQRLao6j"
           },
           "category": null,
-          "_id": "yKJu9ptH7WHJZ8L1"
+          "_id": "yKJu9ptH7WHJZ8L1",
+          "ownership": {
+            "default": -1
+          }
         }
       ],
       "name": "Abomination Vaults: Addons",
       "folder": "OfH0ZqG3hwnrSdpa",
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "xOsB85wXI0jTccyw": 3,
-        "bQE3EQasbR1qnHLr": 3,
-        "tdxabnG2Ci6AQRkt": 3,
-        "hmjIqZTiWsabmwxL": 3,
-        "0ELuUZXAOmCg7f0N": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "pf2e-abomination-vaults": {
           "isAV": true
@@ -5804,10 +5529,10 @@
       "_stats": {
         "compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.6jMFCIti4rR7goXl",
         "duplicateSource": "JournalEntry.NrNp6wwO5NKtMfLW",
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383256,
+        "modifiedTime": 1755635871877,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": {
           "worldId": "pathfinder-test",
@@ -5819,7 +5544,10 @@
       },
       "sort": 100000,
       "_id": "YNMkFijTGb36JbJi",
-      "categories": []
+      "categories": [],
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "scenes": [],
@@ -5835,11 +5563,6 @@
       "command": "// Animates a Belcorra Attack\n// Can be used either by selecting a hidden Belcorra Token on screen\n// Or by simply running the macro on its own\n// Pans camera, plays her theme then\n// Causes her to fly in from offscreen to her token position\n// Requires Sequencer & can use JB2A Patreon\n\nconst volume = 1; //Volume Level 0 - 1 (1 = 100%)\nawait game.abomVaultAddons.animations.belcorraAttacks(volume)",
       "folder": "6Gz5T8izaH4RvkL6",
       "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "bef85fb784baed57a34b30a31d2dfc91925cd2bb"
@@ -5854,12 +5577,15 @@
       "_stats": {
         "compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5872,11 +5598,6 @@
       "command": "// Written originally by Maple\n// Animates collapsing stones, explosions in the Belcorra Room\n// Requires Sequencer & JB2A (Free or Patreon)\nawait game.abomVaultAddons.animations.gauntlightCollapse()",
       "folder": "zvl2RsQDzEPIVTJn",
       "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "6b253dbc06b942d8c1777fb9b68b7846f73714e8"
@@ -5891,12 +5612,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5909,11 +5633,6 @@
       "command": "// Written originally by Maple\n// Animates Belcorra's Death at the Hands of Nhimbaloth\n// Requires Sequencer & JB2A (Free or Patreon)\nawait game.abomVaultAddons.animations.belcorraDeath()",
       "folder": "zvl2RsQDzEPIVTJn",
       "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "7e21a522466109995b79649061cd659e2aad1d57"
@@ -5928,12 +5647,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5946,11 +5668,6 @@
       "scope": "global",
       "command": "// Animates Nhimbaloth Encounter/presenece\n// Adds tentacles and an overlay over the screen for the duration\n// Requires Sequencer & can use JB2A Patreon\nconst duration = 10; // In seconds\nconst fadeInDuration = 1; // In seconds\nconst fadeOutDuration = 1; // In seconds\nconst sfx = \"modules/pf2e-abomination-vaults/assets/audio/motifs/whispering-reeds/010H.ogg\"; // BG sound to play\nconst volume = 1; // Volume Level 0 - 1 (1 = 100%)\n\nawait game.abomVaultAddons.animations.nhimbalothPresence({duration, fadeInDuration, fadeOutDuration, sfx, volume});",
       "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "e4622acceccd075a27426869d01d0e9e9d0aa0b8"
@@ -5965,12 +5682,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -5983,11 +5703,6 @@
       "scope": "global",
       "command": "// Animates Nhimbaloth's Symbol\n// Displays her symbol as well as plays a relevant SFXfor it\n// Requires Sequencer\nconst duration = 1.5; // Duration of the animation in seconds\nconst volume = 0.5; // Volume of SFX\nconst scale = 1; // 100% size atm, 0.5 = 50% size etc,\nawait game.abomVaultAddons.animations.nhimbalothSymbol({ duration, volume, scale });",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "a7583d0a2e68d128eae6e03ec1fba000b3cc2a63"
@@ -6002,12 +5717,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -6031,20 +5749,18 @@
       "scope": "global",
       "folder": "zvl2RsQDzEPIVTJn",
       "sort": 150000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -6057,11 +5773,6 @@
       "scope": "global",
       "command": "// Add the tiles to room J15 to add rotation puzzle\n// Note, to interact with levers you need to right click on them with a token selected within 1 grid square\n// IMPORTANT: Only run this once, otherwise you may need to delete the extra levers\n// NOTE: Requires `Tagger` and `Monk's Active Tiles`\n// Credit: Huge credit to @darkim for working out the idea originally, all this does is recreate their setup to the best off my ability\ngame.abomVaultAddons.setup.scenes.j.createRotateTilesPuzzle()",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "736a1711e4119fa54bf4e57a70fc2b31f16e4b9b"
@@ -6076,12 +5787,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     },
     {
@@ -6093,11 +5807,6 @@
       "scope": "global",
       "command": "// Adds Hidden Interface Journaals to indicate some areas that were a unclear\n// Also adds some labels for height differences in some areas\ngame.abomVaultAddons.setup.labels.dialog()",
       "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "8a1204794a3f43e25bdf18e48a7cca3ef9906389"
@@ -6112,14 +5821,17 @@
       "_stats": {
         "compendiumSource": "Macro.sb4hhwJqMfJCjuAR",
         "duplicateSource": "Macro.btHyWcte8PX6Omgz",
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       },
-      "_id": "sb4hhwJqMfJCjuAR"
+      "_id": "sb4hhwJqMfJCjuAR",
+      "ownership": {
+        "default": 0
+      }
     },
     {
       "name": "Break the Seal",
@@ -6130,11 +5842,6 @@
       "command": "// Animates the destroying of the Barrier on D12. The Ghostwalk\n// This also will run the script that removes the barrier\n// Requires Sequencer, JB2A Patreon, and PF2e Graphics\n\nconst volume = 1; //Volume Level 0 - 1 (1 = 100%)\nconst useSFX = true; // Set to false to not us sfx\nawait game.abomVaultAddons.animations.breakingTheSeal({volume, useSFX})",
       "folder": "90Ya7661NsEWEW7h",
       "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "18562466da70fec19964fdfc8c88cda529a5457a"
@@ -6149,14 +5856,17 @@
       "_stats": {
         "compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
         "duplicateSource": "Macro.l1nf3CAxWQpWtos6",
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       },
-      "_id": "PkE3U7qHg7NBniJW"
+      "_id": "PkE3U7qHg7NBniJW",
+      "ownership": {
+        "default": 0
+      }
     },
     {
       "folder": "bdTfXP3geLwrwh3E",
@@ -6168,11 +5878,6 @@
       "scope": "global",
       "command": "// Add the hole tile, Gauntlight Token, and Zone Drawings to the Otari Map\n// These allow for running the Gauntlight's revenge (each section representing a different part of the final chase)\ngame.abomVaultAddons.setup.scenes.otari.setupGauntlightRevenge();",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "J3oConv1eQRLao6j": 3,
-        "x15saXbCHNahbJqq": 3
-      },
       "flags": {
         "scene-packer": {
           "hash": "2e63278f9ec65ac90bc3edb9ddbd6705242bd5ea"
@@ -6187,12 +5892,15 @@
       "_stats": {
         "compendiumSource": "Macro.7g27xSMFTUSYiqHe",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383366,
+        "modifiedTime": 1755635871984,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
+      },
+      "ownership": {
+        "default": 0
       }
     }
   ],
@@ -6221,10 +5929,10 @@
       "_stats": {
         "compendiumSource": "Folder.sWA0tCYFgBfHnof6",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6251,10 +5959,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6281,10 +5989,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6306,10 +6014,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6331,10 +6039,10 @@
       "_stats": {
         "compendiumSource": "Folder.nLQDkjcnn5oCK5vP",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6356,10 +6064,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6381,10 +6089,10 @@
       "_stats": {
         "compendiumSource": "Folder.BkS6povLS9GAqOEb",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6406,10 +6114,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6431,10 +6139,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6461,10 +6169,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6491,10 +6199,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6521,10 +6229,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6551,10 +6259,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6576,10 +6284,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.0",
-        "modifiedTime": 1750312383425,
+        "modifiedTime": 1755635872040,
         "lastModifiedBy": "J3oConv1eQRLao6j",
         "exportSource": null
       }
@@ -6591,10 +6299,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.0",
-    "modifiedTime": 1750313662986,
+    "modifiedTime": 1755636139181,
     "lastModifiedBy": "J3oConv1eQRLao6j",
     "exportSource": null
   },

@@ -1,3 +1,9 @@
+# 1.2.2 - Fixes
+
+- `Updates`
+  - Fixed bug where `Will o' Wisp Swarm` was accidentally replacing `Will O Wisps`
+  - Cleaned up the packs
+
 # 1.2.1 - cleaning
 
 - `Updates`
