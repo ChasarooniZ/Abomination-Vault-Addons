@@ -1,3 +1,9 @@
+# 1.2.1 - cleaning
+
+- `Updates`
+  - `Break the Seal` now preloads the animation
+  - Cleaned up the packs
+
 # 1.2.0 - Missing Maps
 
 - **Added**

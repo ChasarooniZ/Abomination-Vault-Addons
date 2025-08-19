@@ -359,5 +359,5 @@ export async function breakingTheSeal({ useSFX = true, volume = 1 }) {
         otariMusicPlaylist.sounds.get("dGPqLCTn84VUduYH");
       await otariMusicPlaylist.playSound(memoriesOfRoseguard);
     })
-    .play({});
+    .play({ preload: true });
 }
