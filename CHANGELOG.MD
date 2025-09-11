@@ -1,3 +1,10 @@
+# 1.3.0 - Some Cultists
+
+- **Added**
+  - **Nhimbaloth Cultist** (1) - Reflavored Cultist
+  - **Nhimblaoth Cult Leader** (7) - Reflavored Cult Leader
+  - **Nhmbaloth Hunter** (6) - Reflavored Monster Hunter
+
 # 1.2.2 - Fixes
 
 - `Updates`
