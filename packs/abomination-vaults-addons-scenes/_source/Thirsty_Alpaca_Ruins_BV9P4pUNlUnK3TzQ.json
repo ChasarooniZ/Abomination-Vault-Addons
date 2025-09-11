@@ -1,288 +1,288 @@
 {
-  "name": "Thirsty Alpaca Ruins",
-  "navigation": false,
-  "navOrder": 0,
-  "navName": "",
-  "background": {
-    "src": "modules/abomination-vaults-addons/assets/maps/icarus/thirstyalpaca_ruins_2100x3000.webp",
-    "anchorX": 0,
-    "anchorY": 0,
-    "offsetX": 0,
-    "offsetY": 0,
-    "fit": "fill",
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0,
-    "tint": "#ffffff",
-    "alphaThreshold": 0
-  },
-  "foreground": null,
-  "foregroundElevation": 20,
-  "thumb": "modules/abomination-vaults-addons/assets/scenes/BV9P4pUNlUnK3TzQ-thumb.webp",
-  "width": 2100,
-  "height": 3000,
-  "padding": 0.25,
-  "initial": {
-    "x": null,
-    "y": null,
-    "scale": 0.5
-  },
-  "backgroundColor": "#999999",
-  "grid": {
-    "type": 1,
-    "size": 150,
-    "style": "solidLines",
-    "thickness": 1,
-    "color": "#000000",
-    "alpha": 0.2,
-    "distance": 5,
-    "units": "ft"
-  },
-  "tokenVision": true,
-  "fog": {
-    "exploration": true,
-    "overlay": null,
-    "colors": {
-      "explored": null,
-      "unexplored": null
-    }
-  },
-  "environment": {
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "globalLight": {
-      "enabled": false,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [],
-  "tokens": [],
-  "lights": [],
-  "notes": [],
-  "sounds": [],
-  "regions": [],
-  "templates": [],
-  "tiles": [],
-  "walls": [
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        1425,
-        3609,
-        2400,
-        3450
-      ],
-      "_id": "huvw6eilx3BTUHK7",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.huvw6eilx3BTUHK7"
-    },
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        2400,
-        3300,
-        2550,
-        2250
-      ],
-      "_id": "TzTfWoXBPQUWyKWT",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.TzTfWoXBPQUWyKWT"
-    },
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        2541,
-        1800,
-        2400,
-        1341
-      ],
-      "_id": "zDG8r255dqEkh87Y",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.zDG8r255dqEkh87Y"
-    },
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        2400,
-        1341,
-        1950,
-        975
-      ],
-      "_id": "ehBrHGmXn95t5pp8",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.ehBrHGmXn95t5pp8"
-    },
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        816,
-        975,
-        1800,
-        900
-      ],
-      "_id": "e3s2MmTFcodvfAuK",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.e3s2MmTFcodvfAuK"
-    },
-    {
-      "light": 0,
-      "sight": 0,
-      "sound": 0,
-      "move": 20,
-      "c": [
-        -1444,
-        1641,
-        -1462,
-        1556
-      ],
-      "_id": "R3dhmbiwVK4KryWd",
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "flags": {},
-      "animation": null,
-      "_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.R3dhmbiwVK4KryWd"
-    }
-  ],
-  "playlist": null,
-  "playlistSound": null,
-  "journal": null,
-  "journalEntryPage": null,
-  "weather": "",
-  "folder": "tcn6v8qtiHjbiGFb",
-  "ownership": {
-    "default": 0,
-    "J3oConv1eQRLao6j": 3
-  },
-  "flags": {
-    "scene-packer": {
-      "hash": "7862e5f77d47c5f7ce66d9ff982d6ad9fcc4acf7",
-      "sourceId": "Scene.WrmueSBQ3MLAyxHs"
-    },
-    "pf2e-terrains": {
-      "travelScene": false
-    },
-    "pf2e-perception": {
-      "standard": true,
-      "npc-vision": false
-    },
-    "pf2e": {
-      "rulesBasedVision": null,
-      "hearingRange": null,
-      "environmentTypes": []
-    },
-    "token-attacher": {}
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "13.344",
-    "systemId": "pf2e",
-    "systemVersion": "6.8.4",
-    "createdTime": 1737703327283,
-    "modifiedTime": 1742192215204,
-    "lastModifiedBy": "J3oConv1eQRLao6j",
-    "exportSource": null
-  },
-  "_id": "BV9P4pUNlUnK3TzQ",
-  "active": false,
-  "sort": 150000,
-  "_key": "!scenes!BV9P4pUNlUnK3TzQ"
+	"name": "Thirsty Alpaca Ruins",
+	"navigation": false,
+	"navOrder": 0,
+	"navName": "",
+	"background": {
+		"src": "modules/abomination-vaults-addons/assets/maps/icarus/thirstyalpaca_ruins_2100x3000.webp",
+		"anchorX": 0,
+		"anchorY": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"fit": "fill",
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0,
+		"tint": "#ffffff",
+		"alphaThreshold": 0
+	},
+	"foreground": null,
+	"foregroundElevation": 20,
+	"thumb": "modules/abomination-vaults-addons/assets/scenes/BV9P4pUNlUnK3TzQ-thumb.webp",
+	"width": 2100,
+	"height": 3000,
+	"padding": 0.25,
+	"initial": {
+		"x": null,
+		"y": null,
+		"scale": 0.5
+	},
+	"backgroundColor": "#999999",
+	"grid": {
+		"type": 1,
+		"size": 150,
+		"style": "solidLines",
+		"thickness": 1,
+		"color": "#000000",
+		"alpha": 0.2,
+		"distance": 5,
+		"units": "ft"
+	},
+	"tokenVision": true,
+	"fog": {
+		"exploration": true,
+		"overlay": null,
+		"colors": {
+			"explored": null,
+			"unexplored": null
+		}
+	},
+	"environment": {
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": false,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [],
+	"tokens": [],
+	"lights": [],
+	"notes": [],
+	"sounds": [],
+	"regions": [],
+	"templates": [],
+	"tiles": [],
+	"walls": [
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				1425,
+				3609,
+				2400,
+				3450
+			],
+			"_id": "huvw6eilx3BTUHK7",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.huvw6eilx3BTUHK7"
+		},
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				2400,
+				3300,
+				2550,
+				2250
+			],
+			"_id": "TzTfWoXBPQUWyKWT",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.TzTfWoXBPQUWyKWT"
+		},
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				2541,
+				1800,
+				2400,
+				1341
+			],
+			"_id": "zDG8r255dqEkh87Y",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.zDG8r255dqEkh87Y"
+		},
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				2400,
+				1341,
+				1950,
+				975
+			],
+			"_id": "ehBrHGmXn95t5pp8",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.ehBrHGmXn95t5pp8"
+		},
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				816,
+				975,
+				1800,
+				900
+			],
+			"_id": "e3s2MmTFcodvfAuK",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.e3s2MmTFcodvfAuK"
+		},
+		{
+			"light": 0,
+			"sight": 0,
+			"sound": 0,
+			"move": 20,
+			"c": [
+				-1444,
+				1641,
+				-1462,
+				1556
+			],
+			"_id": "R3dhmbiwVK4KryWd",
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"flags": {},
+			"animation": null,
+			"_key": "!scenes.walls!BV9P4pUNlUnK3TzQ.R3dhmbiwVK4KryWd"
+		}
+	],
+	"playlist": null,
+	"playlistSound": null,
+	"journal": null,
+	"journalEntryPage": null,
+	"weather": "",
+	"folder": "tcn6v8qtiHjbiGFb",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "7862e5f77d47c5f7ce66d9ff982d6ad9fcc4acf7",
+			"sourceId": "Scene.WrmueSBQ3MLAyxHs"
+		},
+		"pf2e-terrains": {
+			"travelScene": false
+		},
+		"pf2e-perception": {
+			"standard": true,
+			"npc-vision": false
+		},
+		"pf2e": {
+			"rulesBasedVision": null,
+			"hearingRange": null,
+			"environmentTypes": []
+		},
+		"token-attacher": {}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.344",
+		"systemId": "pf2e",
+		"systemVersion": "6.8.4",
+		"createdTime": 1737703327283,
+		"modifiedTime": 1742192215204,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"_id": "BV9P4pUNlUnK3TzQ",
+	"active": false,
+	"sort": 150000,
+	"_key": "!scenes!BV9P4pUNlUnK3TzQ"
 }

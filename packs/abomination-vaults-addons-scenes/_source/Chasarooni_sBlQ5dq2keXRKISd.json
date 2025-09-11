@@ -1,26 +1,26 @@
 {
-  "name": "Chasarooni",
-  "sorting": "a",
-  "folder": "LEkTK5bPS8zD8XBA",
-  "type": "Scene",
-  "_id": "sBlQ5dq2keXRKISd",
-  "description": "",
-  "sort": 0,
-  "color": null,
-  "flags": {
-    "scene-packer": {
-      "hash": "0336ca3afbd58bbea3a79e94bfcecf18e4951b3c"
-    }
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
-    "systemId": "pf2e",
-    "systemVersion": "6.10.2",
-    "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
-  },
-  "_key": "!folders!sBlQ5dq2keXRKISd"
+	"name": "Chasarooni",
+	"sorting": "a",
+	"folder": "LEkTK5bPS8zD8XBA",
+	"type": "Scene",
+	"_id": "sBlQ5dq2keXRKISd",
+	"description": "",
+	"sort": 0,
+	"color": null,
+	"flags": {
+		"scene-packer": {
+			"hash": "0336ca3afbd58bbea3a79e94bfcecf18e4951b3c"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.10.2",
+		"createdTime": null,
+		"modifiedTime": null,
+		"lastModifiedBy": null
+	},
+	"_key": "!folders!sBlQ5dq2keXRKISd"
 }
