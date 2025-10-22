@@ -115,6 +115,6 @@ Hooks.on("ready", () => {
           light.delete();
         }
       })
-      .play({ preload: true });
+      .play({ preload: true, remote: true });
   });
 });

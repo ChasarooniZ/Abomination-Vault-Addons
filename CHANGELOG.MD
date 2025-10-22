@@ -1,3 +1,8 @@
+# 1.3.1 - Let there be Dark
+
+- `Updates`
+  - Fixed bug with `Prison's Flames` animation not automatically removing the light (🐛 @YoSoy-Ed)
+
 # 1.3.0 - Some Cultists
 
 - **Added**
