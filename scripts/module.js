@@ -82,8 +82,9 @@ Hooks.on("ready", () => {
     const dist = new Ray(point1, point2).distance;
     const lightSize =
       (((dist / canvas.grid.size) * canvas.grid.distance) / 2) * 1.2;
+      let light;
     if (game.user.isGM) {
-      const light = await AmbientLightDocument.create(
+      light = await AmbientLightDocument.create(
         {
           x: (point1.x + point2.x) / 2,
           y: (point1.y + point2.y) / 2,
