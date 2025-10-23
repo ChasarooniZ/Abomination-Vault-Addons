@@ -1,8 +1,13 @@
+# 1.3.3 - Fix to fix to fix
+
+- Actually fixed `Prison Flames` animation bug
+
 # 1.3.2 - Let there be Dark 2: Electric Boogaloo
 
 - `Updates`
   - Properly fixed bug with `Prison's Flames` animation not automatically removing the light (🐛💻 @YoSoy-Ed)
-  - 
+  -
+
 # 1.3.1 - Let there be Dark
 
 - `Updates`
