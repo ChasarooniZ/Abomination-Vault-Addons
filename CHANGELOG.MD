@@ -1,3 +1,7 @@
+## 1.4.0 - Creature Craftables
+
+- Added new entry listing all the possible creature craftables
+
 # 1.3.3 - Fix to fix to fix
 
 - Actually fixed `Prison Flames` animation bug

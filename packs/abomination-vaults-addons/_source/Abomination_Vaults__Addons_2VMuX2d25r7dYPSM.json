@@ -218,11 +218,11 @@
 						"rules": [],
 						"slug": "tremorsense",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -278,11 +278,11 @@
 						"rules": [],
 						"slug": "lifesense",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -335,11 +335,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -403,11 +403,11 @@
 						],
 						"slug": "negative-healing",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -460,11 +460,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -515,6 +515,13 @@
 						"max": 60,
 						"details": "void healing"
 					},
+					"ac": {
+						"value": 21,
+						"details": ""
+					},
+					"allSaves": {
+						"value": ""
+					},
 					"speed": {
 						"value": 30,
 						"otherSpeeds": [
@@ -525,13 +532,6 @@
 						],
 						"details": "",
 						"special": ""
-					},
-					"ac": {
-						"value": 21,
-						"details": ""
-					},
-					"allSaves": {
-						"value": ""
 					},
 					"immunities": [
 						{
@@ -610,11 +610,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"abilities": {
@@ -702,10 +702,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.BPZryWdi6LB9N9KC",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871510,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807575641,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -937,13 +937,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1032,13 +1034,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1097,13 +1101,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1159,13 +1165,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1227,11 +1235,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1278,11 +1286,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1340,11 +1348,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1399,11 +1407,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1456,11 +1464,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1513,11 +1521,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -1577,11 +1585,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1647,11 +1655,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -1700,11 +1708,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1768,11 +1776,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1819,11 +1827,11 @@
 						},
 						"slug": "void-healing",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1880,11 +1888,11 @@
 						},
 						"slug": "ghost-site-bound",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1944,11 +1952,11 @@
 						},
 						"slug": "ghost-rejuvenation",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -1987,6 +1995,13 @@
 						"max": 270,
 						"details": ""
 					},
+					"ac": {
+						"value": 32,
+						"details": ""
+					},
+					"allSaves": {
+						"value": ""
+					},
 					"speed": {
 						"value": 40,
 						"otherSpeeds": [
@@ -2004,13 +2019,6 @@
 							}
 						],
 						"details": ""
-					},
-					"ac": {
-						"value": 32,
-						"details": ""
-					},
-					"allSaves": {
-						"value": ""
 					},
 					"immunities": [
 						{
@@ -2079,11 +2087,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"abilities": {
@@ -2157,10 +2165,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871510,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807575641,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -2462,11 +2470,11 @@
 			"effects": [],
 			"system": {
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -2607,11 +2615,11 @@
 						],
 						"slug": "gauntlight-legs-count",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -2708,10 +2716,10 @@
 			"_stats": {
 				"compendiumSource": "Actor.7oybyJd1zTviSlbd",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871510,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807573135,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -3004,11 +3012,11 @@
 					}
 				},
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				}
 			},
@@ -3028,11 +3036,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -3116,13 +3124,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -3156,11 +3166,11 @@
 						"rules": [],
 						"slug": "sap-vitality",
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -3213,11 +3223,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.939,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.344",
-								"system": "7.1.1"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -3283,10 +3293,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871510,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807573135,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -3412,6 +3422,13 @@
 						"max": 85,
 						"details": ""
 					},
+					"ac": {
+						"value": 30,
+						"details": ""
+					},
+					"allSaves": {
+						"value": ""
+					},
 					"speed": {
 						"value": 0,
 						"otherSpeeds": [
@@ -3421,13 +3438,6 @@
 							}
 						],
 						"details": ""
-					},
-					"ac": {
-						"value": 30,
-						"details": ""
-					},
-					"allSaves": {
-						"value": ""
 					},
 					"immunities": [
 						{
@@ -3478,8 +3488,12 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.942,
-					"previous": null
+					"version": 0.948,
+					"previous": {
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
+					}
 				},
 				"abilities": {
 					"str": {
@@ -3581,11 +3595,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"actions": {
@@ -3646,11 +3660,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"actions": {
@@ -3715,11 +3729,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -3800,11 +3814,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -3864,11 +3878,11 @@
 						},
 						"slug": "all-around-vision",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -3925,11 +3939,11 @@
 						},
 						"slug": "swarm-mind",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						}
 					},
@@ -4010,11 +4024,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -4068,11 +4082,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": 0.939,
-								"foundry": "13.347",
-								"system": "7.4.0"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"deathNote": false
@@ -4104,11 +4118,11 @@
 				"compendiumSource": null,
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
+				"systemVersion": "7.6.4",
 				"createdTime": 1755635891428,
-				"modifiedTime": 1755636127874,
+				"modifiedTime": 1762807565851,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"ownership": {
@@ -4133,9 +4147,13 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": []
@@ -4272,9 +4290,13 @@
 						"rules": [],
 						"slug": "honeyed-words",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4353,9 +4375,13 @@
 						"rules": [],
 						"slug": "outcasts-curse",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4443,9 +4469,13 @@
 						"rules": [],
 						"slug": "suggestion",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4543,9 +4573,13 @@
 						"rules": [],
 						"slug": "enthrall",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4631,9 +4665,13 @@
 						"rules": [],
 						"slug": "mind-reading",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4719,9 +4757,13 @@
 						"rules": [],
 						"slug": "calm",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4811,9 +4853,13 @@
 						"rules": [],
 						"slug": "laughing-fit",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4899,9 +4945,13 @@
 						"rules": [],
 						"slug": "stupefy",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -4986,9 +5036,13 @@
 						"rules": [],
 						"slug": "bless",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5072,9 +5126,13 @@
 						"rules": [],
 						"slug": "daze",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5179,9 +5237,13 @@
 						"rules": [],
 						"slug": "detect-magic",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5266,9 +5328,13 @@
 						"rules": [],
 						"slug": "grim-tendrils",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5374,9 +5440,13 @@
 						"rules": [],
 						"slug": "guidance",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5455,9 +5525,13 @@
 						"rules": [],
 						"slug": "illusory-disguise",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5538,9 +5612,13 @@
 						"rules": [],
 						"slug": "lock",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5620,9 +5698,13 @@
 						"rules": [],
 						"slug": "phantasmal-minion",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5702,9 +5784,13 @@
 						"rules": [],
 						"slug": "shield",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5784,9 +5870,13 @@
 						"rules": [],
 						"slug": "void-warp",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5890,9 +5980,13 @@
 						"rules": [],
 						"slug": "explorers-clothing",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -5994,9 +6088,13 @@
 						"rules": [],
 						"slug": "spellbook-blank",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -6105,9 +6203,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
-						}
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -6163,8 +6267,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -6220,8 +6328,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -6254,9 +6366,13 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": []
@@ -6302,8 +6418,13 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.942,
-							"lastMigration": null
+							"version": 0.948,
+							"lastMigration": null,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": []
@@ -6431,9 +6552,13 @@
 						"rules": [],
 						"slug": "flail",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -6553,8 +6678,12 @@
 					"effects": [],
 					"system": {
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"description": {
 							"value": "",
@@ -6594,7 +6723,9 @@
 						},
 						"attackEffects": {
 							"value": []
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"_id": "iE598iMZ8KPClEM6",
 					"img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -6628,9 +6759,13 @@
 						"rules": [],
 						"slug": "fearful-feast",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -6733,9 +6868,13 @@
 						"rules": [],
 						"slug": "lift-natures-caul",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -6824,9 +6963,13 @@
 						"rules": [],
 						"slug": "blood-vendetta",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -6930,9 +7073,13 @@
 						"rules": [],
 						"slug": "fear",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -7031,17 +7178,17 @@
 						"max": 95,
 						"details": ""
 					},
-					"speed": {
-						"value": 25,
-						"otherSpeeds": [],
-						"details": ""
-					},
 					"ac": {
 						"value": 23,
 						"details": ""
 					},
 					"allSaves": {
 						"value": ""
+					},
+					"speed": {
+						"value": 25,
+						"otherSpeeds": [],
+						"details": ""
 					}
 				},
 				"initiative": {
@@ -7074,8 +7221,12 @@
 					}
 				},
 				"_migration": {
-					"version": 0.942,
-					"previous": null
+					"version": 0.948,
+					"previous": {
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
+					}
 				},
 				"abilities": {
 					"str": {
@@ -7153,11 +7304,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.MKwLXGzr48qU0hZR",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.348",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.3",
+				"systemVersion": "7.6.4",
 				"createdTime": 1757540022995,
-				"modifiedTime": 1757562762666,
+				"modifiedTime": 1762807570631,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -7293,9 +7444,13 @@
 						"rules": [],
 						"slug": "leather-armor",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -7413,9 +7568,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
-						}
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -7488,8 +7649,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -7534,8 +7699,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -7568,9 +7737,13 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": []
@@ -7616,9 +7789,13 @@
 						"rules": [],
 						"slug": "flail",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -7738,8 +7915,12 @@
 					"effects": [],
 					"system": {
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"description": {
 							"value": "",
@@ -7773,7 +7954,9 @@
 						},
 						"attackEffects": {
 							"value": []
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"_id": "QLxLCVJnKDia46xW",
 					"img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -7819,9 +8002,13 @@
 						"rules": [],
 						"slug": "occult-text",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -7900,17 +8087,17 @@
 						"max": 20,
 						"details": ""
 					},
-					"speed": {
-						"value": 25,
-						"otherSpeeds": [],
-						"details": ""
-					},
 					"ac": {
 						"value": 17,
 						"details": ""
 					},
 					"allSaves": {
 						"value": "(Will +2 vs. higher-ranking members of the cult)"
+					},
+					"speed": {
+						"value": 25,
+						"otherSpeeds": [],
+						"details": ""
 					}
 				},
 				"initiative": {
@@ -7938,8 +8125,12 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.942,
-					"previous": null
+					"version": 0.948,
+					"previous": {
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
+					}
 				},
 				"abilities": {
 					"str": {
@@ -8014,11 +8205,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.GbPDSJeXjHc1VRN2",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.348",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.3",
+				"systemVersion": "7.6.4",
 				"createdTime": 1757540083323,
-				"modifiedTime": 1757540305199,
+				"modifiedTime": 1762807570631,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -8154,9 +8345,13 @@
 						"rules": [],
 						"slug": "composite-longbow",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -8279,9 +8474,13 @@
 						"rules": [],
 						"slug": "hide-armor",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -8382,9 +8581,13 @@
 						"rules": [],
 						"slug": "arrows",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -8509,9 +8712,15 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
-						}
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -8559,8 +8768,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"deathNote": false
 					},
@@ -8621,8 +8834,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -8676,8 +8893,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"deathNote": false
 					},
@@ -8733,8 +8954,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -8784,8 +9009,12 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.942,
-							"previous": null
+							"version": 0.948,
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						}
 					},
 					"type": "action",
@@ -8816,9 +9045,13 @@
 						"rules": [],
 						"slug": "war-flail",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -8969,16 +9202,18 @@
 							"remaster": false
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": null,
-								"foundry": "13.348",
-								"system": "7.4.3"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"attackEffects": {
 							"value": []
-						}
+						},
+						"action": "strike",
+						"area": null
 					},
 					"flags": {
 						"pf2e": {
@@ -9015,12 +9250,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
 							"previous": {
-								"schema": null,
-								"foundry": "13.348",
-								"system": "7.4.3"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"traits": {
@@ -9096,11 +9331,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"previous": {
-								"schema": null,
-								"foundry": "13.348",
-								"system": "7.4.3"
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
 							}
 						},
 						"actions": {
@@ -9147,9 +9382,13 @@
 						],
 						"slug": "religious-symbol-wooden",
 						"_migration": {
-							"version": 0.942,
+							"version": 0.948,
 							"lastMigration": null,
-							"previous": null
+							"previous": {
+								"schema": 0.943,
+								"foundry": "13.350",
+								"system": "7.6.4"
+							}
 						},
 						"traits": {
 							"otherTags": [],
@@ -9239,17 +9478,17 @@
 						"max": 105,
 						"details": ""
 					},
-					"speed": {
-						"value": 20,
-						"otherSpeeds": [],
-						"details": ""
-					},
 					"ac": {
 						"value": 22,
 						"details": ""
 					},
 					"allSaves": {
 						"value": ""
+					},
+					"speed": {
+						"value": 20,
+						"otherSpeeds": [],
+						"details": ""
 					}
 				},
 				"initiative": {
@@ -9277,8 +9516,12 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.942,
-					"previous": null
+					"version": 0.948,
+					"previous": {
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
+					}
 				},
 				"abilities": {
 					"str": {
@@ -9347,11 +9590,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.3qDYEHtyAobpCg5r",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.348",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.3",
+				"systemVersion": "7.6.4",
 				"createdTime": 1757563041211,
-				"modifiedTime": 1757564248382,
+				"modifiedTime": 1762807570631,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -9475,11 +9718,11 @@
 				"rules": [],
 				"slug": "nhimbaloth-major-curse",
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -9689,10 +9932,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.forge-vtt-shared-compendiums-minotaur-pf2e-reusables.item-2-items.Item.d2pGQsbqcoTnah2r",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807579486,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -9757,11 +10000,11 @@
 				],
 				"slug": "nhimbaloth-moderate-curse",
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -9817,10 +10060,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.Xc13QNzVsZToAs7o",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807579486,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -9861,11 +10104,11 @@
 				],
 				"slug": "nhimbaloth-minor-curse",
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -10069,10 +10312,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.ZCmQhpzHnxCmXylz",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807579486,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "av-monk-crew",
@@ -10118,11 +10361,11 @@
 				],
 				"slug": "effect-swallowed-whole",
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -10172,10 +10415,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807579486,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10220,11 +10463,11 @@
 				],
 				"slug": null,
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -10275,10 +10518,10 @@
 			"_stats": {
 				"compendiumSource": "Item.E0OKIog3W01BhtAB",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807581395,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10364,11 +10607,11 @@
 				],
 				"slug": "gauntlight-legs-count",
 				"_migration": {
-					"version": 0.939,
+					"version": 0.948,
 					"previous": {
-						"schema": 0.939,
-						"foundry": "13.344",
-						"system": "7.1.1"
+						"schema": 0.943,
+						"foundry": "13.350",
+						"system": "7.6.4"
 					}
 				},
 				"traits": {
@@ -10434,10 +10677,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.350",
 				"systemId": "pf2e",
-				"systemVersion": "7.4.0",
-				"modifiedTime": 1755635871799,
+				"systemVersion": "7.6.4",
+				"modifiedTime": 1762807579486,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10852,6 +11095,80 @@
 					},
 					"category": null,
 					"_id": "yKJu9ptH7WHJZ8L1",
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"name": "He Who Collects Hands",
+					"type": "text",
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"text": {
+						"format": 1,
+						"content": "<p><em>This was created by user weepingminotaur</em></p><hr /><p>In this modification, Ysondkhelir fights the party in a dreamscape, allowing him more room to maneuver than in the tiny war room on floor G. Combat can trigger either when the party tries to open the door to G18, or after RP in Dorianna's chamber in town, as you prefer.</p><p>Ysondkhelir, in this dream sequence, is feeding on Dorianna's psychic energy, which makes him considerably more powerful than written in AV. The party will want to sever his link to Dorianna as soon as they can, using the Set Her Free activity below. Once his link is broken, he becomes far less powerful.</p><h3><span class=\"action-glyph\">2</span> Set Her Free</h3><section class=\"traits\"><p>Mental</p><p>spirit</p></section><hr /><section class=\"statblock\"><p>Weaken Ysondkhelir's control on Dorianna with an appropriate skill check. A total of four successful checks are required to break control and set Dorianna free. Each skill can only be successfully used once. All checks are based on Ysondkhelir's level with the standard adjustments for difficulty.</p><ul><li><p><strong>Range</strong> The PC attempting the check must be adjacent to either Dorianna or Ysondkhelir. Other characters may use the @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} action to support a check but only if they are within 30 feet of Dorianna, Ysondkhelir, or the active PC (as appropriate for their action). A character cannot make a check or Aid if they are in a nightmare space.</p></li><li><p><strong>Critical success</strong> Two successes.</p></li><li><p><strong>Success</strong> One success.</p></li><li><p><strong>Failure</strong> No change.</p></li><li><p><strong>Critical failure</strong> The PC is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied 1}.</p></li></ul><hr /><ul><li><p><strong>Arcana</strong> Use your knowledge of magic to weaken the spiritual link between Ysonkhelir and Dorianna.</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{Arcana (Very Hard)}</p></li></ul></li><li><p><strong>Diplomacy</strong> Give Dorianna the courage to fight her tormentor.</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{Diplomacy (Hard)}</p></li></ul></li><li><p><strong>Intimidation</strong> Frighten the dream-catcher with threats of retribution.</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{Intimidation (Very Hard)}</p></li></ul></li><li><p><strong>Medicine</strong> Tend to Dorianna's wounds to restore her strength.</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{Medicine (Normal)}</p></li></ul></li><li><p><strong>Occultism</strong> Decipher the esoteric basis of Ysonkhelir's control over Dorianna.</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{Occultism (Normal)}</p></li></ul></li><li><p><strong>Society</strong> Remind Dorianna of her family and friends and her connection to Otari.</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{Society (Hard)}</p></li></ul></li><li><p><strong>Spirit Lore</strong> Draw on your knowledge of the spiritual to bolster Dorianna in her fight against the dream-catcher.</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{Spirit Lore (Easy)}</p></li></ul></li></ul><hr /><ul><li><p><strong>One success</strong> Ysondkhelir's resistance to physical damage drops to 5. The south section of his window wall disappears.</p></li><li><p><strong>Two successes</strong> No more crawling hands can spawn. The north section of Ysondkhelir's window wall disappears.</p></li><li><p><strong>Three successes</strong> Ysondkhelir is no longer quickened. The remaining sections of his window wall disappear.</p></li><li><p><strong>Four successes</strong> Ysondkhelir loses his Attack of Opportunity and his resistance to physical damage. He also reverts to his normal size and loses 15 feet reach on melee strikes. Dorianna is temporarily free of his mental influence, though he will eventually reassert control if left alive.</p></li></ul></section><h1>Exiting the Dreamspace</h1><p>Killing Ysondkhelir permanently sets Dorianna free and brings the party out of the dreamscape.</p><h2>Agony In Every Breath</h2><section class=\"statblock\"><p>A PC who attempts to exit the dreamscape by the southern stairs can do so, but only after making a @Check[type:will|dc:26|showDC:all]{basic Will save} and take @Damage[(2d10+9)[spirit,mental]], Ysondkhelir is healed for the same amount of damage.</p></section>"
+					},
+					"image": {},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"system": {},
+					"sort": 600000,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.yKJu9ptH7WHJZ8L1",
+						"exportSource": null,
+						"coreVersion": "13.348",
+						"systemId": "pf2e",
+						"systemVersion": "7.4.3",
+						"createdTime": 1758090772141,
+						"modifiedTime": 1758091321559,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"category": null,
+					"_id": "52X3NzrFQ7Kd0sX4",
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"name": "Craftable Items from Creatures",
+					"type": "text",
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"text": {
+						"format": 1,
+						"content": "<p></p><table><tbody><tr><td><p><strong>Creature</strong></p></td><td><p><strong>Level</strong></p></td><td><p><strong>Item</strong></p></td></tr><tr><td><p>@UUID[Actor.LHHgGSs0ELCR4CYK]{Ghoul}</p></td><td><p>3</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.VOmOhm3Rc3VUkIu0]{Ghoul Stiletto}</p></td></tr><tr><td><p>@UUID[Actor.irrXrWxJ0LYSUCQB]{Ravirex}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.4jZqYIyouoK7xe8u]{Dragonscale Staff}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Q8BscHUFiM1a86PO]{Dragonslayer's Shield}</p></td></tr><tr><td><p></p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Blo642O1qsgsvYEB]{Dragontooth Leiomano}</p></td></tr><tr><td><p>@UUID[Actor.RiKjpztTt7tZbOeo]{Hydra}</p></td><td><p>7</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.oHVCB96LOYobSQ0I]{Splithead Bow}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.ssS1yEAZwZun8yFw]{Growth Gun}</p></td></tr><tr><td><p>@UUID[Actor.nEOvW0LBt9vFETUp]{Goliath Spider}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.70H54rIRjO9fJkdt]{Spider Gun}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.NIyJqiW1Wci6gP9m]{Arachnid Harness (Greater)}</p></td></tr><tr><td><p>@UUID[Actor.fxYMucI5b2IUoBpw]{Shuln}</p></td><td><p>12</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.MBd6Fr0jk4XpUc4l]{Shuln Fang Katar}</p></td></tr><tr><td><p>@UUID[Actor.FHfrIJCdKTzy2rrR]{Cauthooj}</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.C7LDHqjqxpmhn8QY]{Cauthooj Bagpipes}</p></td></tr><tr><td><p>@UUID[Actor.mlifDVJJWwjFtUxv]{Murmur} (if you're evil)</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.nzQKwdUxzmmwWtzT]{Medusa's Scream}</p></td></tr></tbody></table>"
+					},
+					"image": {},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"system": {},
+					"sort": 600000,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.52X3NzrFQ7Kd0sX4",
+						"exportSource": null,
+						"coreVersion": "13.350",
+						"systemId": "pf2e",
+						"systemVersion": "7.6.4",
+						"createdTime": 1762807636234,
+						"modifiedTime": 1762808271076,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"category": null,
+					"_id": "YBMl3YcfpuQyWqea",
 					"ownership": {
 						"default": -1
 					}
@@ -11648,7 +11965,7 @@
 			"sort": 0,
 			"flags": {},
 			"_stats": {
-				"compendiumSource": "Folder.NzKYM8LYkloFCxfN",
+				"compendiumSource": null,
 				"duplicateSource": null,
 				"exportSource": null,
 				"coreVersion": "13.348",
@@ -11666,10 +11983,10 @@
 	"_stats": {
 		"compendiumSource": null,
 		"duplicateSource": null,
-		"coreVersion": "13.348",
+		"coreVersion": "13.350",
 		"systemId": "pf2e",
 		"systemVersion": "7.2.0",
-		"modifiedTime": 1757566212937,
+		"modifiedTime": 1762808283865,
 		"lastModifiedBy": "J3oConv1eQRLao6j",
 		"exportSource": null
 	},
