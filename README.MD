@@ -57,6 +57,8 @@ https://github.com/user-attachments/assets/90a9ed73-e635-4336-9b32-2e82b6545e49
   - BBC
     - https://sound-effects.bbcrewind.co.uk/search?q=07043405
     - https://sound-effects.bbcrewind.co.uk/search?q=07043403
+- `AV-Intro-sfx.ogg` - Horn Apocalyptic A & Whispering Tunnel 002 (Ovani Sound), and the Foghorn sound from the BBC Above
+- `ward_e_sexton` - An audio clip purchased by me
 - Map assets used from Forgotten Adventures Assets, 2Minute Tabletop, and DungeonDraft
 
 ### Licensing

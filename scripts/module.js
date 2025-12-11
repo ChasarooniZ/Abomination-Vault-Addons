@@ -5,6 +5,7 @@ import { gauntlightCollapse } from "./animations/Chapter 10/GauntlightCollapse.j
 import { breakingTheSeal } from "./animations/Chapter 4/BreakingTheSeal.js";
 import { nhimbalothPresence } from "./animations/NhimbalothPresence.js";
 import { nhimbalothSymbol } from "./animations/NhimbalothSymbol.js";
+import { titleCardDialog } from "./animations/TitleCard.js";
 import { setupGauntlightRevenge } from "./revengeOfTheGauntlightSetup.js";
 import {
   addTextForFloorA,
@@ -47,6 +48,7 @@ Hooks.on("ready", () => {
       nhimbalothPresence: nhimbalothPresence,
       nhimbalothSymbol: nhimbalothSymbol,
       breakingTheSeal: breakingTheSeal,
+      titleCardDialog: titleCardDialog,
     },
     setup: {
       scenes: {

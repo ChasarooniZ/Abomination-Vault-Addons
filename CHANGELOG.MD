@@ -1,3 +1,11 @@
+## 1.5.0 - Title Card and more
+
+- **New**
+  - `Title Card Animation` - Animation to play the title card with cool sfx and a voice over cameo from an iconic voice actor
+  - `Wrin's Wonders Exterior` - Added art for Wrin's Wonders Exterior from (@morlockhater)
+- **Updated**
+  - Improved landing journal navigation to make understanding this module a bit easier
+
 ## 1.4.0 - Creature Craftables
 
 - Added new entry listing all the possible creature craftables

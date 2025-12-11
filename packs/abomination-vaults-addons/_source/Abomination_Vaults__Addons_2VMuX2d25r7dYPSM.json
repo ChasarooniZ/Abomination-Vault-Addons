@@ -702,10 +702,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.BPZryWdi6LB9N9KC",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807575641,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -945,7 +945,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1042,7 +1043,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1109,7 +1111,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -1159,8 +1162,7 @@
 						"slug": null,
 						"traits": {
 							"value": [
-								"brutal",
-								"range-increment-60"
+								"brutal"
 							],
 							"otherTags": []
 						},
@@ -1173,7 +1175,11 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": {
+							"increment": 60,
+							"max": null
+						}
 					},
 					"type": "melee",
 					"_stats": {
@@ -2165,10 +2171,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807575641,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -2716,10 +2722,10 @@
 			"_stats": {
 				"compendiumSource": "Actor.7oybyJd1zTviSlbd",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807573135,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -3132,7 +3138,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -3293,10 +3300,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807573135,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -4118,11 +4125,11 @@
 				"compendiumSource": null,
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
+				"systemVersion": "7.8.0",
 				"createdTime": 1755635891428,
-				"modifiedTime": 1762807565851,
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"ownership": {
@@ -6211,7 +6218,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -6636,6 +6644,7 @@
 						},
 						"range": null,
 						"expend": null,
+						"ammo": null,
 						"reload": {
 							"value": null
 						},
@@ -6725,7 +6734,8 @@
 							"value": []
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"_id": "iE598iMZ8KPClEM6",
 					"img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -7304,11 +7314,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.MKwLXGzr48qU0hZR",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
+				"systemVersion": "7.8.0",
 				"createdTime": 1757540022995,
-				"modifiedTime": 1762807570631,
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -7576,7 +7586,8 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"type": "melee",
 					"_stats": {
@@ -7873,6 +7884,7 @@
 						},
 						"range": null,
 						"expend": null,
+						"ammo": null,
 						"reload": {
 							"value": null
 						},
@@ -7956,7 +7968,8 @@
 							"value": []
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"_id": "QLxLCVJnKDia46xW",
 					"img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -8205,11 +8218,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.GbPDSJeXjHc1VRN2",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
+				"systemVersion": "7.8.0",
 				"createdTime": 1757540083323,
-				"modifiedTime": 1762807570631,
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -8429,6 +8442,7 @@
 						},
 						"range": 100,
 						"expend": 1,
+						"ammo": null,
 						"reload": {
 							"value": "0"
 						},
@@ -8652,8 +8666,8 @@
 						"usage": {
 							"value": "held-in-one-hand"
 						},
-						"stackGroup": "arrows",
-						"spell": null
+						"spell": null,
+						"stackGroup": "arrows"
 					},
 					"type": "consumable",
 					"effects": [],
@@ -8705,7 +8719,6 @@
 							"value": [
 								"deadly-d10",
 								"propulsive",
-								"range-increment-100",
 								"reload-0",
 								"volley-30"
 							],
@@ -8720,7 +8733,11 @@
 							}
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": {
+							"increment": 100,
+							"max": null
+						}
 					},
 					"type": "melee",
 					"_stats": {
@@ -9129,6 +9146,7 @@
 						},
 						"range": null,
 						"expend": null,
+						"ammo": null,
 						"reload": {
 							"value": null
 						},
@@ -9213,7 +9231,8 @@
 							"value": []
 						},
 						"action": "strike",
-						"area": null
+						"area": null,
+						"range": null
 					},
 					"flags": {
 						"pf2e": {
@@ -9590,11 +9609,11 @@
 				"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.3qDYEHtyAobpCg5r",
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
+				"systemVersion": "7.8.0",
 				"createdTime": 1757563041211,
-				"modifiedTime": 1762807570631,
+				"modifiedTime": 1765486297104,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -9932,10 +9951,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.forge-vtt-shared-compendiums-minotaur-pf2e-reusables.item-2-items.Item.d2pGQsbqcoTnah2r",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807579486,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -10060,10 +10079,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.Xc13QNzVsZToAs7o",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807579486,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -10312,10 +10331,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.ZCmQhpzHnxCmXylz",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807579486,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "av-monk-crew",
@@ -10415,10 +10434,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807579486,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10518,10 +10537,10 @@
 			"_stats": {
 				"compendiumSource": "Item.E0OKIog3W01BhtAB",
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807581395,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10677,10 +10696,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.350",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.6.4",
-				"modifiedTime": 1762807579486,
+				"systemVersion": "7.8.0",
+				"modifiedTime": 1765486297401,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10697,7 +10716,7 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -10711,16 +10730,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 300000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": null,
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": null,
-						"modifiedTime": 1740292887599,
+						"modifiedTime": 1765486981986,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10731,7 +10750,7 @@
 				},
 				{
 					"sort": 100000,
-					"name": "Getting Started",
+					"name": "Table of Contents",
 					"type": "text",
 					"_id": "4jhRn6b0Wz9HrtsK",
 					"system": {},
@@ -10742,7 +10761,7 @@
 					"image": {},
 					"text": {
 						"format": 1,
-						"content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p><p></p></li></ul>"
+						"content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p><strong>Misc</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{Craftable Items from Creatures}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{Swarm of Will o' Wisp}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{Helper Indicator Drawings}</p></li></ul></li><li><p><strong>Otari</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{Wrin's Wonders Exterior}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{The Log Fume}</p></li></ul></li><li><p><strong>A. Gauntlight Ruins</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. Lore Through Tapestries}</p></li></ul></li><li><p><strong>E. Arena</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. Belcorra's Reflection}</p></li></ul></li><li><p><strong>G. Prison</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. Prison Door Flame FX}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. He Who Collects Hands}</p></li></ul></li><li><p><strong>J. Temple</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. Lever Puzzle Implementation}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. Belcorra's Pet}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{Epilogue. Gauntlight's Revenge}</p><p></p></li></ul></li></ul>"
 					},
 					"video": {
 						"controls": true,
@@ -10753,12 +10772,12 @@
 					"_stats": {
 						"compendiumSource": null,
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": null,
-						"modifiedTime": null,
-						"lastModifiedBy": null,
+						"modifiedTime": 1765487590572,
+						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
 					"category": null,
@@ -10771,11 +10790,11 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
-						"content": "<h4>Misc</h4><ul><li><p>@UUID[Macro.l1nf3CAxWQpWtos6]{Belcorra Attacks} - Animation for @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.em5wJ44hCXP8mGGG]{Belcorra Attacks} that either makes Belcorra appear flying in from the side, or if you have Belcorra's token selected and hidden will run the animation on that Belcorra</p></li><li><p>@UUID[Macro.XoRI9jJBmsh26uQV]{Nhimbaloth's Presence} - Animation that covers the players' screens with tentacles to show Nhimbaloth's presence</p></li><li><p>@UUID[Macro.AA6MqMXNiSe1YgIr]{Nhimbaloth's Symbol} - Animation to display Nhimbaloth's symbol to indicate something Nhimbaloth Adjacent</p></li></ul><h4>Floor 4</h4><ul><li><p>@UUID[Macro.PkE3U7qHg7NBniJW]{Destroy the Barrier} - Animation of the Barrier being destroyed</p></li></ul><h4>Floor 10</h4><ul><li><p>@UUID[Macro.W1QOzaP485TKNJQi]{10 - Belcorra Death} - Animation of Nhimbaloth consuming Belcorra after the Party uses the Lenses on her</p></li><li><p>@UUID[Macro.3IWW7fvMRghHzikg]{10 - Gauntlight Collapses} - Animation for the Gauntlight Collapsing</p></li></ul>"
+						"content": "<h4>Misc</h4><ul><li><p>@UUID[Macro.iSNnAqaq5h73FSUN]{Title Card Animation} - Show the title card and plays a sound plus the legendary Ward E. Sexton reading the title aloud (of RE4 fame)</p></li></ul><ul><li><p>@UUID[Macro.l1nf3CAxWQpWtos6]{Belcorra Attacks} - Animation for @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.em5wJ44hCXP8mGGG]{Belcorra Attacks} that either makes Belcorra appear flying in from the side, or if you have Belcorra's token selected and hidden will run the animation on that Belcorra</p></li><li><p>@UUID[Macro.XoRI9jJBmsh26uQV]{Nhimbaloth's Presence} - Animation that covers the players' screens with tentacles to show Nhimbaloth's presence</p></li><li><p>@UUID[Macro.AA6MqMXNiSe1YgIr]{Nhimbaloth's Symbol} - Animation to display Nhimbaloth's symbol to indicate something Nhimbaloth Adjacent</p></li></ul><h4>Floor 4</h4><ul><li><p>@UUID[Macro.PkE3U7qHg7NBniJW]{Destroy the Barrier} - Animation of the Barrier being destroyed</p></li></ul><h4>Floor 10</h4><ul><li><p>@UUID[Macro.W1QOzaP485TKNJQi]{10 - Belcorra Death} - Animation of Nhimbaloth consuming Belcorra after the Party uses the Lenses on her</p></li><li><p>@UUID[Macro.3IWW7fvMRghHzikg]{10 - Gauntlight Collapses} - Animation for the Gauntlight Collapsing</p></li></ul>"
 					},
 					"image": {},
 					"video": {
@@ -10784,16 +10803,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 250000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": null,
-						"modifiedTime": 1741802268824,
+						"modifiedTime": 1765486995356,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10804,11 +10823,11 @@
 					}
 				},
 				{
-					"name": "Belcorra's Pet",
+					"name": "J20. Belcorra's Pet",
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -10821,16 +10840,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 1800000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.IEochnYWMkLR8UNU",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1740808750569,
-						"modifiedTime": 1740809357277,
+						"modifiedTime": 1765487111709,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10845,7 +10864,7 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -10858,16 +10877,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 700000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.IEochnYWMkLR8UNU",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1740808754514,
-						"modifiedTime": 1740809708579,
+						"modifiedTime": 1765487291698,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10882,11 +10901,11 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
-						"content": "<p>Added a @UUID[Actor.wRQ7TZdd0n5UIIao]{Will-o'-Wisp Swarm}<br /></p><img src=\"modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp\" width=\"250\" /><p><br /><em>(Statblock by @Blablablablitz)</em><br /><em>(art by @Chasarooni)</em></p>"
+						"content": "<p>Added a @UUID[Actor.kNeQ2UqyyhrmyLp0]{Will-o'-Wisp Swarm}<br /></p><img src=\"modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp\" width=\"250\" /><p><br /><em>(Statblock by @Blablablablitz)</em><br /><em>(art by @Chasarooni)</em></p>"
 					},
 					"image": {},
 					"video": {
@@ -10895,16 +10914,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 475000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.OrgJZPV2wlI3iX2g",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1741158168396,
-						"modifiedTime": 1741158263615,
+						"modifiedTime": 1765487013746,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10915,11 +10934,11 @@
 					}
 				},
 				{
-					"name": "J. Lever Puzzle Implementation",
+					"name": "J15. Lever Puzzle Implementation",
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -10932,16 +10951,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 550000,
+					"sort": 1700000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.r3dHY95N5ieG3U16",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1741158385099,
-						"modifiedTime": 1742191280683,
+						"modifiedTime": 1765487375838,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10956,7 +10975,7 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -10969,16 +10988,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 400000,
+					"sort": 487500,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gHUVbKpOvXV43UWQ",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1741165756377,
-						"modifiedTime": 1742191258920,
+						"modifiedTime": 1765487026260,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10989,15 +11008,15 @@
 					}
 				},
 				{
-					"name": "Gauntlight's Revenge",
+					"name": "Epilogue. Gauntlight's Revenge",
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
-						"content": "<p>This is a pretty lengthy addition for the <strong>end</strong> of the Abomination Vaults adventure, involving one last set piece \"The Gauntlight\" rushing to attack the town one last time. The goal of this is to be one last set piece, and it takes place when the party is most likely drained of resource or at least low after the Belcorra fight.</p><p>(Setup macro to setup your @UUID[Scene.lQkXSdxvO9CRxohD]{Otari Map} for this Encounter @UUID[Macro.7g27xSMFTUSYiqHe]{Setup: Gauntlight's Revenge})</p><h2>The premise</h2><p>After the players have slain Belcorra banished her to be fed to her Ancient God and escaped the collapsing Gauntlight, there is left behind a large amount of latent necromantic energy from <strong>Nhimbaloth</strong>. As the party existed the Vaults, describe them seeing a ghostly glowing beam rise out of the hole where the tower was as 6 more rise to join it raising up the <strong>Gauntlight</strong>, support by 7 ghostly legs (think the Guardians from Zelda BoTW). The Gauntlight then begins (powered by this energy and vague desire to consume souls) rush its way towards the town of Otari.</p><h3>Handling Dead PCs</h3><p>After the party escapes the Gauntlight's collapse, and makes it back to the surface, you might have lost a PC or two along the way, if so, and you don't want to have those players sit out the following scene, I recommend giving those characters the @UUID[Compendium.pf2e.feats-srd.Item.52nzskpmUt9AjUf8]{Ghost Dedication}, and specifying that their spirit seems to have been temporary tied to this area due to where they were killed. (Similar to the Roseguard, also under similar implication that the servants of @UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]{Pharasma} will come to escort them beyond when their final task is done)</p><p></p><h2>The Chase</h2><p>The first element of this is a chase, IE the Gauntlight as it moves forward towards the town on its humungous Nhimbaloth empowered necromantic energy legs. While it is surprisingly more nimble than expected, it also lumbers slowly when it doesn't perceive a threat to conserve energy.</p><h3><strong>Chase Special Rules</strong></h3><p>The Chase will consist of 7 obstacles, each of which takes place over the long trek back to Otari.</p><p>In addition, the major element about this chase that is different from other chases, is that <em>failing to clear an objective does not mean the party falls behind</em>, they simply will not gain an opportunity to engage with and stop the tower (the <strong>Takedown phase</strong>) for that round. (If you wish for this to be a more difficult set piece, you can however I prefer to make sure the final set piece after along fight is something that my players can triumphantly engage with as a last Hurrah). But each round consists of a <strong>Chase</strong> <strong>phase</strong> and a <strong>Takedown</strong> <strong>phase</strong> (which will be explained below)</p><h3>All Your Friends are back</h3><p>This part generally relies on you having run the @UUID[JournalEntry.ZPTalN8eYZyKYfz0.JournalEntryPage.fKVTu0SPpNOMwRCJ]{Zarmavdian's Ritual} from <strong>Abomination Vaults: Expanded</strong>, if you chose not to run that for whatever reason and want this, perhaps have either Wrin have a premonition or see the Gauntlight's energy acting weird.</p><p>Either way, the @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.5KstOkXabrOlZaKR]{nosoi} from the ritual has returned and brought friends. At the start of round 2, as a party member goes to either participate in the <strong>Chase</strong> phase or the <strong>Takedown</strong> phase, have a character whom the players have formed a bond or relationship with (or someone who would represent them if they say have people that serve them) show up to help!</p><p><strong>When do they show?</strong></p><ul><li><p>As a player starts their turn in the <strong>Chase phase</strong> make a @Check[flat|dc:11] on a success, any remaining NPC they have a bond with shows up during the <strong>Chase phase</strong>, on a failure they are delayed and show up in the <strong>Takedown</strong> <strong>phase</strong>.</p></li><li><p><em><strong>Note. </strong>Many NPCs may have a bond with multiple players, if that is the case they may show up for each player, however each NPC will only show once <strong>per player</strong>.</em></p></li></ul><p><strong>Helping Out</strong></p><ul><li><p><strong>Non Fighting NPCs</strong>. Some NPC clearly do not have combat prowess (such as say <strong>Brelda Venkervale</strong>), if she would come to assist your player instead narrate either some Sailor, Guard, or other Town NPC that was spurred to action by them insisting to help</p></li><li><p>@UUID[Item.E0OKIog3W01BhtAB]{Effect:  The Bonds that Give us Strength}</p></li></ul><p><strong>Help Bonus.</strong> The NPC aids in your check giving you either an untyped bonus of:</p><ul><li><p><strong>+1</strong> - Something the NPC wouldn't really be proficient in (IE <strong>Carman</strong> in Religion)<br /><strong>+2</strong> - Something the NPC would be proficient in (IE <strong>Morliblint</strong> and Arcana)<br /><strong>+3</strong> - If you share an especially close bond with the NPC (their presence inspires you)</p></li></ul><h3>Chase Phase</h3><p>The Chase phase functions as a normal Chase, the party will have to clear an obstacle set before them. If the obstacle is cleared before other player's turns they may instead take their turn in the <strong>Chase Phase</strong> to participate in the <strong>Takedown phase</strong> (they still get their normal turn in the takedown phase so this effectively an extra turn).</p><h3>Chase Obstacles</h3><p>Each obstacle unless otherwise noted requires <span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\"># of players</span></strong><span style=\"text-decoration:underline\"> </span><strong><span style=\"text-decoration:underline\">- 1</span></strong></span> success to pass. (if you want to raise or lower the difficulty you can increase this count by 1 or lower by 1 respectively)</p><h4>Predator's Gaze</h4><p><em>Primal dread freezes your muscles as you feel an unseen horror watch over you</em></p><p>@Check[Occultism|dc:28] - Recognize the hunter's grip over your mind and deduct you way out of it</p><p>@Check[Will|dc:30] - Fight against the fear</p><p>@Check[Performance|dc:28] - Rally your allies</p><h4>Sucking Mire</h4><p><em>The bog below your feet impedes your progress, as you feel ghostly hands grasp to pull you under</em></p><p>@Check[Athletics|dc:30] - Fight against the pull</p><p>@Check[Acrobatics|dc:28] - Jump around over nearby debris</p><p>@Check[Arcana|dc:28] - Disrupt the ghostly pulling</p><p>@UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk} or equivalent expenditure results in an instant critical success (if it is a free ability count as an instant normal success)</p><h4>Swarm of Wisps</h4><p><em>Hundreds of glowing orbs descend upon you from the Gauntlight like a mass of angry hornets</em></p><p>@Check[Occultism|dc:30] - Identify weak points in the swarm's formation</p><p>@Check[Religion|dc:28] - Wards them off with holy power</p><p>@Check[Athletics|dc:28] - Force your way through the mass of wisps</p><h4>Mangled Forest</h4><p><em>A mangled array of twisted trees lay across the ground, with a glowing moss beginning to grow upon the wreckage</em></p><p>@Check[Nature|dc:30] - Use your knowledge of nature to find a way to traverse the trees avoiding the moss</p><p>@Check[survival|dc:28] - Forge a path across the trees using your canniness</p><p>@Check[Acrobatics|dc:28] - Move your way through the trees using your reflexes</p><h4>Haunted Fog</h4><p><em>The fog stirs with the spirits of dead warriors, reenacting their final moments of a long dead battlefield</em></p><p>@Check[Performance|dc:30] - Act or Dance your way through the battlefield in time to the fog warriors</p><p>@Check[Intimidation|dc:30] - Assert your presence causing your ghostly foes to avoid you</p><p>@Check[Deception|dc:29] - Trick your ghostly foes into believing you are on their side</p><p>@Check[Society|dc:28] - Recall knowledge of the battle that took place here and use it to navigate the battlefield</p><h4>Soul Trapping Puddles</h4><p><em>Pools of water begin to form each flowing with spirits, as the sight of them pulls you towards them as they attack at you</em></p><p>@Check[Religion|dc:30] - Exorcise spirits as you travel</p><p>@Check[Diplomacy|dc:30] - Calm the spirits as your travel</p><p>@Check[Occultism|dc:30] - Follow the flow of necromatic energy to weave through</p><p>@Check[tealthS|dc:28] - Skulk through the area avoiding being attacked</p><h4>Necrotic Bloom</h4><p><em>The moss has begun to spread over the trees, covering the area in a memory stealing mist</em></p><p>@Check[Survival|dc:30] - Locate the quickest path through</p><p>@Check[Medicine|dc:30] - Find a quick counteracting agent to prevent the effects</p><p>@Check[Crafting|dc:28] - Neutralize the mist using alchemical Catalysts<br /></p><h3>Takedown Phase</h3><p>During the takedown phase there are 2 two targets, <strong>the Legs</strong> and <strong>the Lenses</strong> (which float above the lighthouse). These both use the <strong>Victory Point</strong> system</p><h4>The Legs</h4><p>To take out the legs (and stop the tower from moving for a round, before it regrows its legs).</p><p><em><strong>Note:</strong> You can click on the effect on the <strong>Gauntlight's Revenge</strong> token to toggle down the amount of legs visually</em></p><p><strong>7 Victory Points </strong>(1 for each leg)</p><ul><li><p><strong>3</strong> <strong>VP Threshold</strong> (slowed down, lower the number of Chase Points needed by 1)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Attack rolls <strong>DC 32</strong></p></li><li><p>@Check[athletics|dc:30] - To attack a leg</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] - Use knowledge of magic to disable it</p></li></ul><h4>The Lenses</h4><p>To remove a lens from the area they float at above the Gauntlight, When all the lenses are removed or destroyed the encounter ends with the Gauntlight falling over onto the ground.</p><p><em><strong>Note.</strong> A character can attempt to climb the tower as a part of their action @Check[athletics|dc:30]</em></p><p><em><br /><strong>8 Victory Points</strong> (2 for each lens)</em></p><ul><li><p><em><strong>6 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 1)</p></li><li><p><em><strong>4 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 2</p></li><li><p><em><strong>2 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 3)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Ranged Attack rolls <strong>DC 32</strong></p></li><li><p>Melee Attack rolls <strong>DC 31</strong></p></li><li><p>@Check[athletics|dc:30], @Check[thievery|dc:30]</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] (within 5 ft)</p></li><li><p></p></li></ul><p></p>"
+						"content": "<p>This is a pretty lengthy addition for the <strong>end</strong> of the Abomination Vaults adventure, involving one last set piece \"The Gauntlight\" rushing to attack the town one last time. The goal of this is to be one last set piece, and it takes place when the party is most likely drained of resource or at least low after the Belcorra fight.</p><p>(Setup macro to setup your @UUID[Scene.lQkXSdxvO9CRxohD]{Otari Map} for this Encounter @UUID[Macro.7g27xSMFTUSYiqHe]{Setup: Gauntlight's Revenge})</p><h2>The premise</h2><p>After the players have slain Belcorra banished her to be fed to her Ancient God and escaped the collapsing Gauntlight, there is left behind a large amount of latent necromantic energy from <strong>Nhimbaloth</strong>. As the party existed the Vaults, describe them seeing a ghostly glowing beam rise out of the hole where the tower was as 6 more rise to join it raising up the <strong>Gauntlight</strong>, support by 7 ghostly legs (think the Guardians from Zelda BoTW). The Gauntlight then begins (powered by this energy and vague desire to consume souls) rush its way towards the town of Otari.</p><h3>Handling Dead PCs</h3><p>After the party escapes the Gauntlight's collapse, and makes it back to the surface, you might have lost a PC or two along the way, if so, and you don't want to have those players sit out the following scene, I recommend giving those characters the @UUID[Compendium.pf2e.feats-srd.Item.52nzskpmUt9AjUf8]{Ghost Dedication}, and specifying that their spirit seems to have been temporary tied to this area due to where they were killed. (Similar to the Roseguard, also under similar implication that the servants of @UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]{Pharasma} will come to escort them beyond when their final task is done)</p><p></p><h2>The Chase</h2><p>The first element of this is a chase, IE the Gauntlight as it moves forward towards the town on its humungous Nhimbaloth empowered necromantic energy legs. While it is surprisingly more nimble than expected, it also lumbers slowly when it doesn't perceive a threat to conserve energy.</p><h3><strong>Chase Special Rules</strong></h3><p>The Chase will consist of 7 obstacles, each of which takes place over the long trek back to Otari.</p><p>In addition, the major element about this chase that is different from other chases, is that <em>failing to clear an objective does not mean the party falls behind</em>, they simply will not gain an opportunity to engage with and stop the tower (the <strong>Takedown phase</strong>) for that round. (If you wish for this to be a more difficult set piece, you can however I prefer to make sure the final set piece after along fight is something that my players can triumphantly engage with as a last Hurrah). But each round consists of a <strong>Chase</strong> <strong>phase</strong> and a <strong>Takedown</strong> <strong>phase</strong> (which will be explained below)</p><h3>All Your Friends are back</h3><p>This part generally relies on you having run the @UUID[JournalEntry.ZPTalN8eYZyKYfz0.JournalEntryPage.fKVTu0SPpNOMwRCJ]{Zarmavdian's Ritual} from <strong>Abomination Vaults: Expanded</strong>, if you chose not to run that for whatever reason and want this, perhaps have either Wrin have a premonition or see the Gauntlight's energy acting weird.</p><p>Either way, the @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.5KstOkXabrOlZaKR]{nosoi} from the ritual has returned and brought friends. At the start of round 2, as a party member goes to either participate in the <strong>Chase</strong> phase or the <strong>Takedown</strong> phase, have a character whom the players have formed a bond or relationship with (or someone who would represent them if they say have people that serve them) show up to help!</p><p><strong>When do they show?</strong></p><ul><li><p>As a player starts their turn in the <strong>Chase phase</strong> make a @Check[flat|dc:11] on a success, any remaining NPC they have a bond with shows up during the <strong>Chase phase</strong>, on a failure they are delayed and show up in the <strong>Takedown</strong> <strong>phase</strong>.</p></li><li><p><em><strong>Note. </strong>Many NPCs may have a bond with multiple players, if that is the case they may show up for each player, however each NPC will only show once <strong>per player</strong>.</em></p></li></ul><p><strong>Helping Out</strong></p><ul><li><p><strong>Non Fighting NPCs</strong>. Some NPC clearly do not have combat prowess (such as say <strong>Brelda Venkervale</strong>), if she would come to assist your player instead narrate either some Sailor, Guard, or other Town NPC that was spurred to action by them insisting to help</p></li><li><p>@UUID[Item.E0OKIog3W01BhtAB]{Effect: The Bonds that Give us Strength}</p></li></ul><p><strong>Help Bonus.</strong> The NPC aids in your check giving you either an untyped bonus of:</p><ul><li><p><strong>+1</strong> - Something the NPC wouldn't really be proficient in (IE <strong>Carman</strong> in Religion)<br /><strong>+2</strong> - Something the NPC would be proficient in (IE <strong>Morliblint</strong> and Arcana)<br /><strong>+3</strong> - If you share an especially close bond with the NPC (their presence inspires you)</p></li></ul><h3>Chase Phase</h3><p>The Chase phase functions as a normal Chase, the party will have to clear an obstacle set before them. If the obstacle is cleared before other player's turns they may instead take their turn in the <strong>Chase Phase</strong> to participate in the <strong>Takedown phase</strong> (they still get their normal turn in the takedown phase so this effectively an extra turn).</p><h3>Chase Obstacles</h3><p>Each obstacle unless otherwise noted requires <span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\"># of players</span></strong><span style=\"text-decoration:underline\"> </span><strong><span style=\"text-decoration:underline\">- 1</span></strong></span> success to pass. (if you want to raise or lower the difficulty you can increase this count by 1 or lower by 1 respectively)</p><h4>Predator's Gaze</h4><p><em>Primal dread freezes your muscles as you feel an unseen horror watch over you</em></p><p>@Check[Occultism|dc:28] - Recognize the hunter's grip over your mind and deduct you way out of it</p><p>@Check[Will|dc:30] - Fight against the fear</p><p>@Check[Performance|dc:28] - Rally your allies</p><h4>Sucking Mire</h4><p><em>The bog below your feet impedes your progress, as you feel ghostly hands grasp to pull you under</em></p><p>@Check[Athletics|dc:30] - Fight against the pull</p><p>@Check[Acrobatics|dc:28] - Jump around over nearby debris</p><p>@Check[Arcana|dc:28] - Disrupt the ghostly pulling</p><p>@UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk} or equivalent expenditure results in an instant critical success (if it is a free ability count as an instant normal success)</p><h4>Swarm of Wisps</h4><p><em>Hundreds of glowing orbs descend upon you from the Gauntlight like a mass of angry hornets</em></p><p>@Check[Occultism|dc:30] - Identify weak points in the swarm's formation</p><p>@Check[Religion|dc:28] - Wards them off with holy power</p><p>@Check[Athletics|dc:28] - Force your way through the mass of wisps</p><h4>Mangled Forest</h4><p><em>A mangled array of twisted trees lay across the ground, with a glowing moss beginning to grow upon the wreckage</em></p><p>@Check[Nature|dc:30] - Use your knowledge of nature to find a way to traverse the trees avoiding the moss</p><p>@Check[survival|dc:28] - Forge a path across the trees using your canniness</p><p>@Check[Acrobatics|dc:28] - Move your way through the trees using your reflexes</p><h4>Haunted Fog</h4><p><em>The fog stirs with the spirits of dead warriors, reenacting their final moments of a long dead battlefield</em></p><p>@Check[Performance|dc:30] - Act or Dance your way through the battlefield in time to the fog warriors</p><p>@Check[Intimidation|dc:30] - Assert your presence causing your ghostly foes to avoid you</p><p>@Check[Deception|dc:29] - Trick your ghostly foes into believing you are on their side</p><p>@Check[Society|dc:28] - Recall knowledge of the battle that took place here and use it to navigate the battlefield</p><h4>Soul Trapping Puddles</h4><p><em>Pools of water begin to form each flowing with spirits, as the sight of them pulls you towards them as they attack at you</em></p><p>@Check[Religion|dc:30] - Exorcise spirits as you travel</p><p>@Check[Diplomacy|dc:30] - Calm the spirits as your travel</p><p>@Check[Occultism|dc:30] - Follow the flow of necromatic energy to weave through</p><p>@Check[tealthS|dc:28] - Skulk through the area avoiding being attacked</p><h4>Necrotic Bloom</h4><p><em>The moss has begun to spread over the trees, covering the area in a memory stealing mist</em></p><p>@Check[Survival|dc:30] - Locate the quickest path through</p><p>@Check[Medicine|dc:30] - Find a quick counteracting agent to prevent the effects</p><p>@Check[Crafting|dc:28] - Neutralize the mist using alchemical Catalysts<br /></p><h3>Takedown Phase</h3><p>During the takedown phase there are 2 two targets, <strong>the Legs</strong> and <strong>the Lenses</strong> (which float above the lighthouse). These both use the <strong>Victory Point</strong> system</p><h4>The Legs</h4><p>To take out the legs (and stop the tower from moving for a round, before it regrows its legs).</p><p><em><strong>Note:</strong> You can click on the effect on the <strong>Gauntlight's Revenge</strong> token to toggle down the amount of legs visually</em></p><p><strong>7 Victory Points </strong>(1 for each leg)</p><ul><li><p><strong>3</strong> <strong>VP Threshold</strong> (slowed down, lower the number of Chase Points needed by 1)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Attack rolls <strong>DC 32</strong></p></li><li><p>@Check[athletics|dc:30] - To attack a leg</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] - Use knowledge of magic to disable it</p></li></ul><h4>The Lenses</h4><p>To remove a lens from the area they float at above the Gauntlight, When all the lenses are removed or destroyed the encounter ends with the Gauntlight falling over onto the ground.</p><p><em><strong>Note.</strong> A character can attempt to climb the tower as a part of their action @Check[athletics|dc:30]</em></p><p><em><br /><strong>8 Victory Points</strong> (2 for each lens)</em></p><ul><li><p><em><strong>6 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 1)</p></li><li><p><em><strong>4 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 2</p></li><li><p><em><strong>2 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 3)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Ranged Attack rolls <strong>DC 32</strong></p></li><li><p>Melee Attack rolls <strong>DC 31</strong></p></li><li><p>@Check[athletics|dc:30], @Check[thievery|dc:30]</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] (within 5 ft)</p></li><li><p></p></li></ul><p></p>"
 					},
 					"image": {},
 					"video": {
@@ -11006,16 +11025,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 600000,
+					"sort": 1900000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.r3dHY95N5ieG3U16",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.10.2",
 						"createdTime": 1741923561807,
-						"modifiedTime": 1742192320990,
+						"modifiedTime": 1765487580829,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -11030,11 +11049,11 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
-						"content": "<p><strong>Modifies </strong>@UUID[JournalEntry.JT0zCcIwsSpKnbB5.JournalEntryPage.72MOBw46cojkIGrb]{E13. Gladiator Readiness Room}</p><p>Remove the mimic encounter from this room, and instead replace it with a mirror in the room (note not to read the part in the room description about the mimic). The mirror is the following haunt </p><p>@UUID[Actor.emEX7UJahRAIdKPv]{Ghost Queen's Reflection}</p>"
+						"content": "<p><strong>Modifies </strong>@UUID[JournalEntry.JT0zCcIwsSpKnbB5.JournalEntryPage.72MOBw46cojkIGrb]{E13. Gladiator Readiness Room}</p><p>Remove the mimic encounter from this room, and instead replace it with a mirror in the room (note not to read the part in the room description about the mimic). The mirror is the following haunt</p><p>@UUID[Actor.emEX7UJahRAIdKPv]{Ghost Queen's Reflection}</p>"
 					},
 					"image": {},
 					"video": {
@@ -11043,16 +11062,16 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 500000,
+					"sort": 1000000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl",
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.10.2",
 						"createdTime": 1741928398427,
-						"modifiedTime": 1741928852941,
+						"modifiedTime": 1765487076050,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -11067,7 +11086,7 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -11080,17 +11099,17 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 600000,
+					"sort": 812500,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl",
 						"exportSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "7.2.0",
 						"createdTime": 1750312429954,
-						"modifiedTime": 1750313652769,
+						"modifiedTime": 1765487198648,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"category": null,
@@ -11100,11 +11119,11 @@
 					}
 				},
 				{
-					"name": "He Who Collects Hands",
+					"name": "G18. He Who Collects Hands",
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -11117,17 +11136,17 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 600000,
+					"sort": 1300000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.yKJu9ptH7WHJZ8L1",
 						"exportSource": null,
-						"coreVersion": "13.348",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "7.4.3",
 						"createdTime": 1758090772141,
-						"modifiedTime": 1758091321559,
+						"modifiedTime": 1765487191231,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"category": null,
@@ -11141,7 +11160,7 @@
 					"type": "text",
 					"title": {
 						"show": true,
-						"level": 2
+						"level": 3
 					},
 					"text": {
 						"format": 1,
@@ -11154,21 +11173,318 @@
 					},
 					"src": null,
 					"system": {},
-					"sort": 600000,
+					"sort": 450000,
 					"flags": {},
 					"_stats": {
 						"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.52X3NzrFQ7Kd0sX4",
 						"exportSource": null,
-						"coreVersion": "13.350",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "7.6.4",
 						"createdTime": 1762807636234,
-						"modifiedTime": 1762808271076,
+						"modifiedTime": 1765486999474,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"category": null,
 					"_id": "YBMl3YcfpuQyWqea",
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 600000,
+					"name": "Wrin's Wonders Exterior",
+					"type": "image",
+					"_id": "jK0TK9fuzT5RDGFH",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 3
+					},
+					"image": {
+						"caption": "Wrin's Wonders Exterior (@morlockhater) a round tower with elven wooden mechanical winches affixed to the side, allowing the canvas rooftop to open up to expose the night's sky as described in the book."
+					},
+					"text": {
+						"format": 1
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": "modules/abomination-vaults-addons/assets/maps/morlockhater/wrins_wonders_exterior.webp",
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.jK0TK9fuzT5RDGFH",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765486803220,
+						"modifiedTime": 1765487295934,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 200000,
+					"name": "Misc",
+					"type": "text",
+					"_id": "7XYTYzeXuWgjmg3E",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": "<p>Misc Items without a Specific Floor</p>"
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.7XYTYzeXuWgjmg3E",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765486894221,
+						"modifiedTime": 1765486981986,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1600000,
+					"name": "J. Temple",
+					"type": "text",
+					"_id": "ot2tOGYqZyhP2Hq6",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": null,
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765486945386,
+						"modifiedTime": 1765486981986,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 500000,
+					"name": "Otari",
+					"type": "text",
+					"_id": "j9mQVcT4xMMpmbkm",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.j9mQVcT4xMMpmbkm",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765486975525,
+						"modifiedTime": 1765486981986,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 850000,
+					"name": "E. Arena",
+					"type": "text",
+					"_id": "ilHabflTXrNTCUea",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.ilHabflTXrNTCUea",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765487066425,
+						"modifiedTime": 1765487072757,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 775000,
+					"name": "A. Gauntlight Ruins",
+					"type": "text",
+					"_id": "lyfBoblrRHehtuRp",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.lyfBoblrRHehtuRp",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765487132844,
+						"modifiedTime": 1765487142171,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1150000,
+					"name": "G. Prison",
+					"type": "text",
+					"_id": "Ns4dJK2ohpo95mQ6",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.Ns4dJK2ohpo95mQ6",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765487155508,
+						"modifiedTime": 1765487162624,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1225000,
+					"name": "G. Prison Door Flame FX",
+					"type": "text",
+					"_id": "BHqj0KyG7qzPC5L2",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 3
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": "<p>In this module's settings there is a setting which when enabled (assuming you have <code>Sequencer</code> and <code>JB2a</code> installed will play a little flame effect when each door is opened/closed on the prison level as described in the floor description.</p><p>@UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.8V5lwumIxcPPnYMP]{Chapter 7: Soul Keepers}</p>"
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1765487407338,
+						"modifiedTime": 1765487562250,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
 					"ownership": {
 						"default": -1
 					}
@@ -11191,10 +11507,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.6jMFCIti4rR7goXl",
 				"duplicateSource": "JournalEntry.NrNp6wwO5NKtMfLW",
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871877,
+				"modifiedTime": 1765486297469,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "pathfinder-test",
@@ -11239,10 +11555,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11274,10 +11590,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11309,10 +11625,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11344,10 +11660,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11379,10 +11695,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11414,10 +11730,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11449,10 +11765,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11483,10 +11799,10 @@
 			"_stats": {
 				"compendiumSource": "Macro.sb4hhwJqMfJCjuAR",
 				"duplicateSource": "Macro.btHyWcte8PX6Omgz",
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11518,10 +11834,10 @@
 			"_stats": {
 				"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
 				"duplicateSource": "Macro.l1nf3CAxWQpWtos6",
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -11554,12 +11870,38 @@
 			"_stats": {
 				"compendiumSource": "Macro.7g27xSMFTUSYiqHe",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635871984,
+				"modifiedTime": 1765486297781,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "6Gz5T8izaH4RvkL6",
+			"name": "Title Card Animation",
+			"type": "script",
+			"_id": "iSNnAqaq5h73FSUN",
+			"author": "J3oConv1eQRLao6j",
+			"img": "modules/pf2e-abomination-vaults/styles/assets/abomination-vaults-logo-final.webp",
+			"scope": "global",
+			"command": "/**\n* Requires Sequencer and the Premium AV module\n* Show the title card and plays a sound plus the legendary Ward E. Sexton reading the title aloud (of RE4 fame)\n*\n*/\n\nawait game.abomVaultAddons.animations.titleCardDialog()",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Macro.iSNnAqaq5h73FSUN",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765486333772,
+				"modifiedTime": 1765486505646,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"ownership": {
 				"default": 0
@@ -11591,10 +11933,10 @@
 			"_stats": {
 				"compendiumSource": "Folder.sWA0tCYFgBfHnof6",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11621,10 +11963,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11649,12 +11991,12 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Folder.6Gz5T8izaH4RvkL6",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11674,12 +12016,12 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Folder.OfH0ZqG3hwnrSdpa",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11701,10 +12043,10 @@
 			"_stats": {
 				"compendiumSource": "Folder.nLQDkjcnn5oCK5vP",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11726,10 +12068,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11751,10 +12093,10 @@
 			"_stats": {
 				"compendiumSource": "Folder.BkS6povLS9GAqOEb",
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11776,10 +12118,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11801,10 +12143,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11831,10 +12173,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11861,10 +12203,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11891,10 +12233,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11921,10 +12263,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11946,10 +12288,10 @@
 			"_stats": {
 				"compendiumSource": null,
 				"duplicateSource": null,
-				"coreVersion": "13.347",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1755635872040,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -11968,11 +12310,11 @@
 				"compendiumSource": null,
 				"duplicateSource": null,
 				"exportSource": null,
-				"coreVersion": "13.348",
+				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.4.3",
 				"createdTime": 1757539948216,
-				"modifiedTime": 1757539948216,
+				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			}
 		}
@@ -11983,10 +12325,10 @@
 	"_stats": {
 		"compendiumSource": null,
 		"duplicateSource": null,
-		"coreVersion": "13.350",
+		"coreVersion": "13.351",
 		"systemId": "pf2e",
 		"systemVersion": "7.2.0",
-		"modifiedTime": 1762808283865,
+		"modifiedTime": 1765487655779,
 		"lastModifiedBy": "J3oConv1eQRLao6j",
 		"exportSource": null
 	},
