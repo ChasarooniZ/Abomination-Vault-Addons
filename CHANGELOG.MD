@@ -1,3 +1,8 @@
+## 1.5.1 - Russian
+
+- **New**
+  - Added Russian Translation (🌐 @Mik)
+
 ## 1.5.0 - Title Card and more
 
 - **New**
