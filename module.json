@@ -1,82 +1,82 @@
 {
-  "id": "abomination-vaults-addons",
-  "title": "Abomination Vaults: Addons (PF2e)",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "description": "Addons of extra stuff and tweaks for abomination vaults.",
-  "authors": [
-    {
-      "name": "chasarooniZ",
-      "flags": {}
-    },
-    {
-      "name": "weepingminotaur",
-      "flags": {}
-    },
-    {
-      "name": "Maple",
-      "flags": {}
-    }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    },
-    {
-      "lang": "ru",
-      "name": "Russian",
-      "path": "languages/ru.json"
-    }
-  ],
-  "packs": [
-    {
-      "name": "abomination-vaults-addons-scenes",
-      "label": "Abomination Vaults: Addons - Scenes",
-      "path": "packs/abomination-vaults-addons-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "abomination-vaults-addons",
-      "label": "Abomination Vaults: Addons",
-      "path": "packs/abomination-vaults-addons",
-      "type": "Adventure",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "esmodules": ["scripts/module.js"],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "https://github.com/chasarooniZ/Abomination-Vault-Addons/blob/master/README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://thumbor.syrinscape.com/cwQ2ufpfg-vb1IosXyYsg6q4cSo=/fit-in/960x960/filters:quality(90)/https://storage.syrinscape.com/media/dd/product/images/92c7d10295d31536ac3d59eaa7ccd1ec.jpg"
-    }
-  ]
+	"id": "abomination-vaults-addons",
+	"title": "Abomination Vaults: Addons (PF2e)",
+	"version": "#{VERSION}#",
+	"library": "false",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {}
+			}
+		]
+	},
+	"description": "Addons of extra stuff and tweaks for abomination vaults.",
+	"authors": [
+		{
+			"name": "chasarooniZ",
+			"flags": {}
+		},
+		{
+			"name": "weepingminotaur",
+			"flags": {}
+		},
+		{
+			"name": "Maple",
+			"flags": {}
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Russian",
+			"path": "languages/ru.json"
+		}
+	],
+	"packs": [
+		{
+			"name": "abomination-vaults-addons-scenes",
+			"label": "Abomination Vaults: Addons - Scenes",
+			"path": "packs/abomination-vaults-addons-scenes",
+			"type": "Scene",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "abomination-vaults-addons",
+			"label": "Abomination Vaults: Addons",
+			"path": "packs/abomination-vaults-addons",
+			"type": "Adventure",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"esmodules": ["scripts/module.js"],
+	"url": "#{URL}#",
+	"manifest": "#{MANIFEST}#",
+	"download": "#{DOWNLOAD}#",
+	"license": "LICENSE",
+	"readme": "https://github.com/chasarooniZ/Abomination-Vault-Addons/blob/master/README.md",
+	"media": [
+		{
+			"type": "icon",
+			"url": "https://thumbor.syrinscape.com/cwQ2ufpfg-vb1IosXyYsg6q4cSo=/fit-in/960x960/filters:quality(90)/https://storage.syrinscape.com/media/dd/product/images/92c7d10295d31536ac3d59eaa7ccd1ec.jpg"
+		}
+	]
 }

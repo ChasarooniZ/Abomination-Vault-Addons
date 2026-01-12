@@ -1,3 +1,8 @@
+## 1.6.0 - Yldaris Settlement
+
+- **New**
+  - Added `Yldaris Settlement Treatment` to the main journal
+
 ## 1.5.1 - Russian
 
 - **New**

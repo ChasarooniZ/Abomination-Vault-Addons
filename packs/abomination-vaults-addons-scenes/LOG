@@ -1,14 +1,14 @@
-2025/12/11-15:16:57.148 1f3c Recovering log #388
-2025/12/11-15:16:57.278 1f3c Delete type=0 #388
-2025/12/11-15:16:57.278 1f3c Delete type=3 #387
-2025/12/11-15:16:57.321 28ec Level-0 table #392: started
-2025/12/11-15:16:57.356 28ec Level-0 table #392: 104109 bytes OK
-2025/12/11-15:16:57.420 28ec Delete type=0 #390
-2025/12/11-15:16:57.420 28ec Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 1858 : 1
-2025/12/11-15:16:57.421 28ec Compacting 2@0 + 0@1 files
-2025/12/11-15:16:57.456 28ec Generated table #393@0: 659 keys, 104109 bytes
-2025/12/11-15:16:57.456 28ec Compacted 2@0 + 0@1 files => 104109 bytes
-2025/12/11-15:16:57.520 28ec compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/12/11-15:16:57.520 28ec Delete type=2 #384
-2025/12/11-15:16:57.520 28ec Delete type=2 #392
-2025/12/11-15:16:57.520 28ec Manual compaction at level-0 from '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 1858 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at (end)
+2026/01/12-10:43:38.821 d854 Recovering log #402
+2026/01/12-10:43:38.941 d854 Delete type=0 #402
+2026/01/12-10:43:38.941 d854 Delete type=3 #401
+2026/01/12-10:43:38.995 d754 Level-0 table #406: started
+2026/01/12-10:43:39.040 d754 Level-0 table #406: 104299 bytes OK
+2026/01/12-10:43:39.095 d754 Delete type=0 #404
+2026/01/12-10:43:39.095 d754 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 2784 : 1
+2026/01/12-10:43:39.095 d754 Compacting 1@0 + 1@1 files
+2026/01/12-10:43:39.130 d754 Generated table #407@0: 659 keys, 104299 bytes
+2026/01/12-10:43:39.130 d754 Compacted 1@0 + 1@1 files => 104299 bytes
+2026/01/12-10:43:39.205 d754 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/01/12-10:43:39.205 d754 Delete type=2 #398
+2026/01/12-10:43:39.205 d754 Delete type=2 #406
+2026/01/12-10:43:39.205 d754 Manual compaction at level-0 from '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 2784 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at (end)

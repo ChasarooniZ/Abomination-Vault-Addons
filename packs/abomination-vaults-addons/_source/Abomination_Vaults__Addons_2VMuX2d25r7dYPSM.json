@@ -10761,7 +10761,7 @@
 					"image": {},
 					"text": {
 						"format": 1,
-						"content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p><strong>Misc</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{Craftable Items from Creatures}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{Swarm of Will o' Wisp}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{Helper Indicator Drawings}</p></li></ul></li><li><p><strong>Otari</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{Wrin's Wonders Exterior}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{The Log Fume}</p></li></ul></li><li><p><strong>A. Gauntlight Ruins</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. Lore Through Tapestries}</p></li></ul></li><li><p><strong>E. Arena</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. Belcorra's Reflection}</p></li></ul></li><li><p><strong>G. Prison</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. Prison Door Flame FX}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. He Who Collects Hands}</p></li></ul></li><li><p><strong>J. Temple</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. Lever Puzzle Implementation}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. Belcorra's Pet}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{Epilogue. Gauntlight's Revenge}</p><p></p></li></ul></li></ul>"
+						"content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p><strong>Misc</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{Craftable Items from Creatures}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{Swarm of Will o' Wisp}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{Helper Indicator Drawings}</p></li></ul></li><li><p><strong>Otari</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{Wrin's Wonders Exterior}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{The Log Fume}</p></li></ul></li><li><p><strong>A. Gauntlight Ruins</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. Lore Through Tapestries}</p></li></ul></li><li><p><strong>E. Arena</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. Belcorra's Reflection}</p></li></ul></li><li><p><strong>G. Prison</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. Prison Door Flame FX}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. He Who Collects Hands}</p></li></ul></li><li><p><strong>I. Hunting Grounds</strong></p><ul><li><p>@UUID[.XSouJfqO8f0ptYya]{Yldaris Settlement Treatment}</p></li></ul></li><li><p><strong>J. Temple</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. Lever Puzzle Implementation}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. Belcorra's Pet}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{Epilogue. Gauntlight's Revenge}</p><p></p></li></ul></li></ul>"
 					},
 					"video": {
 						"controls": true,
@@ -10776,7 +10776,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": null,
-						"modifiedTime": 1765487590572,
+						"modifiedTime": 1768233677610,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -11216,7 +11216,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.jK0TK9fuzT5RDGFH",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11253,7 +11253,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.7XYTYzeXuWgjmg3E",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11327,7 +11327,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.j9mQVcT4xMMpmbkm",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11364,7 +11364,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.ilHabflTXrNTCUea",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11401,7 +11401,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.lyfBoblrRHehtuRp",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11438,7 +11438,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.Ns4dJK2ohpo95mQ6",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11475,7 +11475,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11483,6 +11483,80 @@
 						"systemVersion": "7.8.0",
 						"createdTime": 1765487407338,
 						"modifiedTime": 1765487562250,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1450000,
+					"name": "I. Hunting Grounds",
+					"type": "text",
+					"_id": "Gge2ITrX73Rpfhun",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": "<p></p>"
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.Gge2ITrX73Rpfhun",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1768233595931,
+						"modifiedTime": 1768233604116,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1525000,
+					"name": "Yldaris Settlement Treatment",
+					"type": "text",
+					"_id": "XSouJfqO8f0ptYya",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 3
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": "<p><em>It never sat right to me that in the Abomination Vaults book Yldaris is written as if it's a dungeon encounter, when it is far more likely the party will interact with them on friendly terms. This seeks to remedy tht, as well as remedy access to some higher level items the party might have to wait longer to acquire if they only ship them from Absalom.</em></p><p>See @UUID[JournalEntry.YbOS6pQRxoWI0Q56.JournalEntryPage.4kOuPeKxK4TbdcuO] for explanations of certain tags</p><section class=\"location-head\"><header><h1>Yldaris</h1><h1>Settlement 9</h1></header><article><ul class=\"traits\"><li>Underground</li><li>Town</li></ul></article></section><ul class=\"features\"><li>Underground insulated settlement of Drow Shootists.</li><li>(<strong>Note:</strong> Increased settlement level to 9 to distiniguish it more from Otari)</li></ul><hr /><p></p><section class=\"location-head\"><header><h2>Lozardyn Caravan</h2><h2>Courier 9</h2></header><article><ul class=\"traits\"><li>Garrison</li></ul><p><strong>Yldaris Caravan</strong></p></article></section><ul class=\"features\"><li><strong>Delivieries</strong>: Deliveries of items <span style=\"text-decoration:underline\">level 9 and below</span> from the drow settlement of Lozardyn can be requested. Items can be purchased at their original price with an added fee of 1 GP per bulk for them to be delivered within 3 days, or at 20% extra for them to be delivered within a day.</li></ul><hr /><p>The drow of Yldaris run caravans to the nearby drow city of Lozardyn which has access to more items, but is limited to access due to the network of twisting Darklands caverns needed to be traversed to access it.</p><p></p><section class=\"location-head\"><header><h2>The Lone Ranger</h2><h2>Shootist 8</h2></header><article><ul class=\"traits\"><li>Workshop</li></ul><p><strong>Tanieth</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: @UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow}, @UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{Repeating Hand Crossbow Magazines}, @UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{Shootist Bandolier}, @UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{Lethargy Poison}, @UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{Stupor Poison}, Also repairs items</li></ul><hr /><p>Tanieth is a loner drow ranger with great expertise in the use and maintenance of repeating hand crossbows.</p><p></p><section class=\"location-head\"><header><h2>Master Warden's Quarter</h2><h2>Warden 9</h2></header><article><ul class=\"traits\"><li>Discount</li><li>Employer</li></ul><p><strong>Salaisa Malthus</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Adventuring Gear, Weapons, Shields, Armor, Fundamental Runes, @UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{Corrosive} property Runes, A small selection of magical weapons and armor</li></ul><hr /><p>As the settlement leader, she also is in charge of also the quartermaster of all general equipment for the settlement.</p><p></p><section class=\"location-head\"><header><h2>Kitchen</h2><h2>Kitchen 5</h2></header><article><ul class=\"traits\"><li>Parlor</li></ul><p><strong>Kitchen Staff</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Beverages, Meals, Rations (Sourced from local fauna/flora mushrooms etc. )</li></ul><hr /><p>The drow staffing the kitchen usually depends on who lost a card game last, so it is inconsistent.</p><p></p><section class=\"location-head\"><header><h2>Seer's Quarters</h2><h2>Spellcasting 9</h2></header><article><ul class=\"traits\"><li>Library</li><li>Church</li></ul><p><strong>Bhazrade &amp; Klathoreer</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Occult scrolls, A few occult themed magic items (held items, staves, wands)</li><li><strong>Spellcasting</strong>: Their spellcasting services are available, but they are limited to the spells listed in their stat blocks.</li><li><strong>Meditation</strong>: Bhazrade &amp; Klathor can instruct the party in meditation in the meditation cave this acts as the spell @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{Read Fate}</li></ul><hr /><p>These drow seers can offer their spellcasting services and guidance in the darkland stone faith.</p>"
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.XSouJfqO8f0ptYya",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.8.0",
+						"createdTime": 1768233616169,
+						"modifiedTime": 1768235634546,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"ownership": {
@@ -11893,7 +11967,7 @@
 			"sort": 0,
 			"flags": {},
 			"_stats": {
-				"compendiumSource": "Macro.iSNnAqaq5h73FSUN",
+				"compendiumSource": null,
 				"duplicateSource": null,
 				"exportSource": null,
 				"coreVersion": "13.351",
@@ -11991,7 +12065,7 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": "Folder.6Gz5T8izaH4RvkL6",
+				"compendiumSource": null,
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
@@ -12016,7 +12090,7 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": "Folder.OfH0ZqG3hwnrSdpa",
+				"compendiumSource": null,
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
@@ -12328,7 +12402,7 @@
 		"coreVersion": "13.351",
 		"systemId": "pf2e",
 		"systemVersion": "7.2.0",
-		"modifiedTime": 1765487655779,
+		"modifiedTime": 1768235667595,
 		"lastModifiedBy": "J3oConv1eQRLao6j",
 		"exportSource": null
 	},

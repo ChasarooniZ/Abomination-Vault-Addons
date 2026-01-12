@@ -1,15 +1,15 @@
-2025/12/11-15:16:56.476 1f3c Recovering log #198
-2025/12/11-15:16:56.780 1f3c Delete type=0 #198
-2025/12/11-15:16:56.780 1f3c Delete type=3 #196
-2025/12/11-15:16:56.834 28ec Level-0 table #202: started
-2025/12/11-15:16:56.901 28ec Level-0 table #202: 86273 bytes OK
-2025/12/11-15:16:56.967 28ec Delete type=0 #200
-2025/12/11-15:16:56.967 28ec Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 21 : 1
-2025/12/11-15:16:56.967 28ec Compacting 3@0 + 0@1 files
-2025/12/11-15:16:57.011 28ec Generated table #203@0: 1 keys, 86273 bytes
-2025/12/11-15:16:57.011 28ec Compacted 3@0 + 0@1 files => 86273 bytes
-2025/12/11-15:16:57.078 28ec compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/12/11-15:16:57.078 28ec Delete type=2 #193
-2025/12/11-15:16:57.078 28ec Delete type=2 #197
-2025/12/11-15:16:57.078 28ec Delete type=2 #202
-2025/12/11-15:16:57.079 28ec Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 21 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)
+2026/01/12-10:43:38.335 d854 Recovering log #213
+2026/01/12-10:43:38.443 d854 Delete type=0 #213
+2026/01/12-10:43:38.443 d854 Delete type=3 #211
+2026/01/12-10:43:38.520 d754 Level-0 table #217: started
+2026/01/12-10:43:38.562 d754 Level-0 table #217: 88688 bytes OK
+2026/01/12-10:43:38.630 d754 Delete type=0 #215
+2026/01/12-10:43:38.631 d754 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 24 : 1
+2026/01/12-10:43:38.631 d754 Compacting 2@0 + 1@1 files
+2026/01/12-10:43:38.682 d754 Generated table #218@0: 1 keys, 88688 bytes
+2026/01/12-10:43:38.682 d754 Compacted 2@0 + 1@1 files => 88688 bytes
+2026/01/12-10:43:38.740 d754 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/01/12-10:43:38.741 d754 Delete type=2 #208
+2026/01/12-10:43:38.741 d754 Delete type=2 #212
+2026/01/12-10:43:38.741 d754 Delete type=2 #217
+2026/01/12-10:43:38.741 d754 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 24 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)
