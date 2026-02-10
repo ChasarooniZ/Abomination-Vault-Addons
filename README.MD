@@ -7,13 +7,15 @@
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fabomination-vaults-addons&colorB=4aa94a)
 [![](https://img.shields.io/badge/ko--fi-donate-%23FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/chasarooni)
 
+![](https://github.com/ChasarooniZ/Abomination-Vault-Addons/blob/main/DOCS/frohemoth_kermit_meme.gif)
+
 ## Abomination Vaults - Addons
 
 Intended to be a list of helpful additions and changes for Abomination Vaults.
 
 Will reference other books/sources as necessary, and will at some point most likely publish as a standalone Pay as you want PDF + Module if I'm motivated.
 
-## Added Content
+## Added Content (very WIP, see the module journal itself for more details)
 
 - Cool animations (see the [showcase](#showcase))
 - New Stablocks and Hazards
@@ -32,6 +34,8 @@ Will reference other books/sources as necessary, and will at some point most lik
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
 
 ### Showcase
+
+![](https://raw.githubusercontent.com/ChasarooniZ/Abomination-Vault-Addons/refs/heads/main/DOCS/belcurious.webp)
 
 **Gauntlight Collapse**
 
