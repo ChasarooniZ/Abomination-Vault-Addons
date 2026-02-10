@@ -33,9 +33,7 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
 
-### Showcase
-
-<img src="https://raw.githubusercontent.com/ChasarooniZ/Abomination-Vault-Addons/refs/heads/main/DOCS/belcurious.webp" alt="beclurious by me" width="200"/>
+### Showcase <img src="https://raw.githubusercontent.com/ChasarooniZ/Abomination-Vault-Addons/refs/heads/main/DOCS/belcurious.webp" alt="beclurious by me" height="50"/>
 
 **Gauntlight Collapse**
 
