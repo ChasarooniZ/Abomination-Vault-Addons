@@ -13,7 +13,9 @@ Intended to be a list of helpful additions and changes for Abomination Vaults.
 
 Will reference other books/sources as necessary, and will at some point most likely publish as a standalone Pay as you want PDF + Module if I'm motivated.
 
-## Added Content
+<img src="https://github.com/ChasarooniZ/Abomination-Vault-Addons/blob/main/DOCS/frohemoth_kermit_meme.gif" alt="froghemoth" height="200"/>
+
+## Added Content (very WIP, see the module journal itself for more details)
 
 - Cool animations (see the [showcase](#showcase))
 - New Stablocks and Hazards
@@ -31,7 +33,7 @@ Will reference other books/sources as necessary, and will at some point most lik
 
 [Aesphena's weeping](https://discord.com/channels/880968862240239708/891395262810034176/1306506242553810944)
 
-### Showcase
+### Showcase <img src="https://raw.githubusercontent.com/ChasarooniZ/Abomination-Vault-Addons/refs/heads/main/DOCS/belcurious.webp" alt="beclurious by me" height="50"/>
 
 **Gauntlight Collapse**
 
@@ -49,7 +51,7 @@ https://github.com/user-attachments/assets/8e8726fa-2855-4e05-89b6-612605799de4
 
 https://github.com/user-attachments/assets/90a9ed73-e635-4336-9b32-2e82b6545e49
 
-**Title Card**
+**Title Card** _Featuring the Ward E. Saxton of Resident Evil 4 Fame_
 
 https://github.com/user-attachments/assets/b2642d82-e505-4d0e-8989-d67594335a05
 
@@ -64,7 +66,7 @@ https://github.com/user-attachments/assets/b2642d82-e505-4d0e-8989-d67594335a05
     - https://sound-effects.bbcrewind.co.uk/search?q=07043405
     - https://sound-effects.bbcrewind.co.uk/search?q=07043403
 - `AV-Intro-sfx.ogg` - Horn Apocalyptic A & Whispering Tunnel 002 (Ovani Sound), and the Foghorn sound from the BBC Above
-- `ward_e_sexton` - An audio clip purchased by me
+- `ward_e_sexton` - An audio clip purchased by me (Note he does not endorse this project in any manner official or unnofficial)
 - Map assets used from Forgotten Adventures Assets, 2Minute Tabletop, and DungeonDraft
 
 ### Licensing
