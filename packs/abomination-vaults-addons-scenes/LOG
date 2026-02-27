@@ -1,14 +1,14 @@
-2026/01/12-10:43:38.821 d854 Recovering log #402
-2026/01/12-10:43:38.941 d854 Delete type=0 #402
-2026/01/12-10:43:38.941 d854 Delete type=3 #401
-2026/01/12-10:43:38.995 d754 Level-0 table #406: started
-2026/01/12-10:43:39.040 d754 Level-0 table #406: 104299 bytes OK
-2026/01/12-10:43:39.095 d754 Delete type=0 #404
-2026/01/12-10:43:39.095 d754 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 2784 : 1
-2026/01/12-10:43:39.095 d754 Compacting 1@0 + 1@1 files
-2026/01/12-10:43:39.130 d754 Generated table #407@0: 659 keys, 104299 bytes
-2026/01/12-10:43:39.130 d754 Compacted 1@0 + 1@1 files => 104299 bytes
-2026/01/12-10:43:39.205 d754 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/01/12-10:43:39.205 d754 Delete type=2 #398
-2026/01/12-10:43:39.205 d754 Delete type=2 #406
-2026/01/12-10:43:39.205 d754 Manual compaction at level-0 from '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 2784 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at (end)
+2026/02/27-15:11:42.437 dd6c Recovering log #452
+2026/02/27-15:11:42.554 dd6c Delete type=0 #452
+2026/02/27-15:11:42.554 dd6c Delete type=3 #451
+2026/02/27-15:11:42.586 1c350 Level-0 table #456: started
+2026/02/27-15:11:42.622 1c350 Level-0 table #456: 104065 bytes OK
+2026/02/27-15:11:42.674 1c350 Delete type=0 #454
+2026/02/27-15:11:42.675 1c350 Manual compaction at level-0 from '!folders!LEkTK5bPS8zD8XBA' @ 72057594037927935 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 3482 : 1
+2026/02/27-15:11:42.675 1c350 Compacting 1@0 + 1@1 files
+2026/02/27-15:11:42.710 1c350 Generated table #457@0: 659 keys, 104065 bytes
+2026/02/27-15:11:42.710 1c350 Compacted 1@0 + 1@1 files => 104065 bytes
+2026/02/27-15:11:42.774 1c350 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/27-15:11:42.774 1c350 Delete type=2 #412
+2026/02/27-15:11:42.774 1c350 Delete type=2 #456
+2026/02/27-15:11:42.774 1c350 Manual compaction at level-0 from '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 3482 : 1 .. '!scenes.walls!ue998O1cb4pMRXjA.zEKmOe4IIGB1cGAV' @ 0 : 0; will stop at (end)

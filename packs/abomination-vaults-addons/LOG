@@ -1,15 +1,14 @@
-2026/01/12-10:43:38.335 d854 Recovering log #213
-2026/01/12-10:43:38.443 d854 Delete type=0 #213
-2026/01/12-10:43:38.443 d854 Delete type=3 #211
-2026/01/12-10:43:38.520 d754 Level-0 table #217: started
-2026/01/12-10:43:38.562 d754 Level-0 table #217: 88688 bytes OK
-2026/01/12-10:43:38.630 d754 Delete type=0 #215
-2026/01/12-10:43:38.631 d754 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 24 : 1
-2026/01/12-10:43:38.631 d754 Compacting 2@0 + 1@1 files
-2026/01/12-10:43:38.682 d754 Generated table #218@0: 1 keys, 88688 bytes
-2026/01/12-10:43:38.682 d754 Compacted 2@0 + 1@1 files => 88688 bytes
-2026/01/12-10:43:38.740 d754 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/01/12-10:43:38.741 d754 Delete type=2 #208
-2026/01/12-10:43:38.741 d754 Delete type=2 #212
-2026/01/12-10:43:38.741 d754 Delete type=2 #217
-2026/01/12-10:43:38.741 d754 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 24 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)
+2026/02/27-15:11:41.977 dd6c Recovering log #263
+2026/02/27-15:11:42.112 dd6c Delete type=0 #263
+2026/02/27-15:11:42.112 dd6c Delete type=3 #262
+2026/02/27-15:11:42.144 1c350 Level-0 table #267: started
+2026/02/27-15:11:42.184 1c350 Level-0 table #267: 88688 bytes OK
+2026/02/27-15:11:42.244 1c350 Delete type=0 #265
+2026/02/27-15:11:42.244 1c350 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 26 : 1
+2026/02/27-15:11:42.244 1c350 Compacting 1@0 + 1@1 files
+2026/02/27-15:11:42.306 1c350 Generated table #268@0: 1 keys, 88688 bytes
+2026/02/27-15:11:42.306 1c350 Compacted 1@0 + 1@1 files => 88688 bytes
+2026/02/27-15:11:42.365 1c350 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/27-15:11:42.366 1c350 Delete type=2 #223
+2026/02/27-15:11:42.366 1c350 Delete type=2 #267
+2026/02/27-15:11:42.366 1c350 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 26 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)

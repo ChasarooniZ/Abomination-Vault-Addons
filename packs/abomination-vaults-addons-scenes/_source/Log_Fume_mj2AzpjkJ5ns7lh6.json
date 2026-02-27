@@ -1,0 +1,26 @@
+{
+	"name": "Log Fume",
+	"sorting": "a",
+	"folder": null,
+	"type": "Scene",
+	"_id": "mj2AzpjkJ5ns7lh6",
+	"description": "",
+	"sort": 100000,
+	"color": null,
+	"flags": {
+		"scene-packer": {
+			"hash": "15f48121f93180b4f9b20beff49e34e3f1230a34"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.9.0",
+		"createdTime": 1740809560040,
+		"modifiedTime": 1740809560243,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!folders!mj2AzpjkJ5ns7lh6"
+}

@@ -1,0 +1,1837 @@
+{
+	"name": "Log Flume | Down Hill",
+	"navigation": false,
+	"navName": "",
+	"background": {
+		"src": null,
+		"anchorX": 0,
+		"anchorY": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"fit": "fill",
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0,
+		"tint": "#ffffff",
+		"alphaThreshold": 0
+	},
+	"foreground": null,
+	"foregroundElevation": 20,
+	"thumb": "modules/abomination-vaults-addons/assets/scenes/PPRhwtJVSjtgpGes-thumb.webp",
+	"width": 3000,
+	"height": 3000,
+	"padding": 0.25,
+	"initial": {
+		"x": null,
+		"y": null,
+		"scale": 0.5
+	},
+	"backgroundColor": "#4f6048",
+	"grid": {
+		"type": 1,
+		"size": 100,
+		"style": "solidLines",
+		"thickness": 1,
+		"color": "#ffffff",
+		"alpha": 0.2,
+		"distance": 5,
+		"units": "ft"
+	},
+	"tokenVision": true,
+	"fog": {
+		"exploration": true,
+		"overlay": null,
+		"colors": {
+			"explored": null,
+			"unexplored": null
+		}
+	},
+	"environment": {
+		"darknessLevel": 0.9,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": false,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 0.75
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [
+		{
+			"_id": "eMLx7t0TsDkBEIto",
+			"author": "J3oConv1eQRLao6j",
+			"shape": {
+				"type": "r",
+				"width": 213,
+				"height": 50,
+				"radius": null,
+				"points": []
+			},
+			"x": 4250,
+			"y": 750,
+			"elevation": 0,
+			"sort": 0,
+			"rotation": 0,
+			"bezierFactor": 0,
+			"fillType": 0,
+			"fillColor": "#ffffff",
+			"fillAlpha": 0.1,
+			"strokeWidth": 0,
+			"strokeColor": "#ffffff",
+			"strokeAlpha": 1,
+			"texture": null,
+			"text": "Toggle Top",
+			"fontFamily": "Signika",
+			"fontSize": 48,
+			"textColor": "#ffffff",
+			"textAlpha": 1,
+			"hidden": false,
+			"locked": false,
+			"interface": false,
+			"flags": {
+				"elevationruler": {
+					"movementPenalty": 1
+				},
+				"tagger": {},
+				"multilevel-tokens": {
+					"disabled": false,
+					"in": false,
+					"out": false,
+					"source": false,
+					"target": false,
+					"macroEnter": false,
+					"macroLeave": false,
+					"macroMove": false,
+					"level": false
+				}
+			},
+			"_key": "!scenes.drawings!PPRhwtJVSjtgpGes.eMLx7t0TsDkBEIto"
+		},
+		{
+			"_id": "fxEn8TB9ZaLlkOd3",
+			"author": "J3oConv1eQRLao6j",
+			"shape": {
+				"type": "r",
+				"width": 1025,
+				"height": 313,
+				"radius": null,
+				"points": []
+			},
+			"x": 3412.5,
+			"y": 300,
+			"elevation": 0,
+			"sort": 1,
+			"rotation": 0,
+			"bezierFactor": 0,
+			"fillType": 0,
+			"fillColor": "#ffffff",
+			"fillAlpha": 0.1,
+			"strokeWidth": 8,
+			"strokeColor": "#ffffff",
+			"strokeAlpha": 1,
+			"texture": null,
+			"text": "Note to have the animated Tiles this requires Monk's Active Tile Triggers & Tile Scroll modules",
+			"fontFamily": "Signika",
+			"fontSize": 48,
+			"textColor": "#ffffff",
+			"textAlpha": 1,
+			"hidden": true,
+			"locked": false,
+			"interface": false,
+			"flags": {
+				"tagger": {}
+			},
+			"_key": "!scenes.drawings!PPRhwtJVSjtgpGes.fxEn8TB9ZaLlkOd3"
+		},
+		{
+			"_id": "clfxZoniY5tW9BJO",
+			"author": "J3oConv1eQRLao6j",
+			"shape": {
+				"type": "r",
+				"width": 575,
+				"height": 188,
+				"radius": null,
+				"points": []
+			},
+			"x": 3913,
+			"y": 1750,
+			"elevation": 0,
+			"sort": 2,
+			"rotation": 0,
+			"bezierFactor": 0,
+			"fillType": 0,
+			"fillColor": "#690707",
+			"fillAlpha": 0.5,
+			"strokeWidth": 8,
+			"strokeColor": "#ffffff",
+			"strokeAlpha": 1,
+			"texture": null,
+			"fontFamily": "Signika",
+			"fontSize": 48,
+			"textColor": "#ffffff",
+			"textAlpha": 1,
+			"hidden": true,
+			"locked": false,
+			"interface": false,
+			"flags": {
+				"tagger": {}
+			},
+			"text": "Logs to Ride on",
+			"_key": "!scenes.drawings!PPRhwtJVSjtgpGes.clfxZoniY5tW9BJO"
+		}
+	],
+	"tokens": [],
+	"lights": [],
+	"notes": [],
+	"sounds": [],
+	"regions": [],
+	"templates": [],
+	"tiles": [
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log-fume-moving-water.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 1900,
+			"y": 800,
+			"width": 700,
+			"height": 3000,
+			"elevation": 0,
+			"sort": 0,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"_id": "di9xWhcJjNd287OL",
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": true,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {
+					"tags": [
+						"moving"
+					]
+				},
+				"tile-scroll": {
+					"enableScroll": true,
+					"scrollDirection": 90,
+					"enableRotate": false,
+					"scrollSpeed": 2,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				},
+				"parallax-tiles": {
+					"enable": false,
+					"mode": 0,
+					"maxDisplacement": 100,
+					"parallaxFactor": "1",
+					"lockX": false,
+					"lockY": false
+				},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Moving%20Water.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Moving%20Water.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				}
+			},
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.di9xWhcJjNd287OL"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log-fume-walls-%2B-wood.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 1800,
+			"y": 800,
+			"width": 850,
+			"height": 3000,
+			"elevation": 0,
+			"sort": 1,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"_id": "wT8X8bVP6ZQ0m17y",
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": true,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {
+					"tags": [
+						"moving"
+					]
+				},
+				"tile-scroll": {
+					"enableScroll": true,
+					"scrollDirection": 90,
+					"enableRotate": false,
+					"scrollSpeed": 3,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Walls%20%2B%20wood.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Walls%20%2B%20wood.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				}
+			},
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.wT8X8bVP6ZQ0m17y"
+		},
+		{
+			"flags": {
+				"monks-active-tiles": {
+					"name": "Speed Up",
+					"active": true,
+					"record": false,
+					"restriction": "gm",
+					"controlled": "gm",
+					"trigger": [
+						"",
+						"click"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [
+						{
+							"action": "scrollingtext",
+							"data": {
+								"text": "Spd++",
+								"entity": {
+									"id": "tile",
+									"name": "This Tile"
+								},
+								"for": "trigger",
+								"duration": 2,
+								"anchor": "0",
+								"direction": "2"
+							},
+							"id": "FPCdZGhUs9cdwhXW"
+						},
+						{
+							"action": "alter",
+							"data": {
+								"entity": {
+									"id": "tagger:moving",
+									"match": "all",
+									"scene": "_active",
+									"name": "<i class=\"fas fa-tag fa-sm\"></i> moving"
+								},
+								"collection": "tokens",
+								"attribute": "flags.tile-scroll.scrollSpeed",
+								"value": "+ 0.25",
+								"chatMessage": false,
+								"rollmode": "roll"
+							},
+							"id": "ki7C24KFDThiyHmt"
+						}
+					],
+					"files": []
+				},
+				"tagger": {},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"texture": {
+				"src": "icons/svg/upgrade.svg",
+				"scaleX": 1,
+				"scaleY": 1,
+				"tint": "#ffffff",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"rotation": 0,
+				"alphaThreshold": 0.75
+			},
+			"x": 3950,
+			"y": 800,
+			"sort": 2,
+			"width": 200,
+			"height": 200,
+			"rotation": 0,
+			"alpha": 1,
+			"elevation": 0,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"_id": "mmAl2kHZ0L7hJqTP",
+			"hidden": false,
+			"locked": false,
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.mmAl2kHZ0L7hJqTP"
+		},
+		{
+			"flags": {
+				"monks-active-tiles": {
+					"name": "Speed Up",
+					"active": true,
+					"record": false,
+					"restriction": "gm",
+					"controlled": "gm",
+					"trigger": [
+						"",
+						"click"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [
+						{
+							"action": "scrollingtext",
+							"data": {
+								"text": "Spd--",
+								"entity": {
+									"id": "tile",
+									"name": "This Tile"
+								},
+								"for": "trigger",
+								"duration": 2,
+								"anchor": "0",
+								"direction": "2"
+							},
+							"id": "FPCdZGhUs9cdwhXW"
+						},
+						{
+							"action": "alter",
+							"data": {
+								"entity": {
+									"id": "tagger:moving",
+									"match": "all",
+									"scene": "_active",
+									"name": "<i class=\"fas fa-tag fa-sm\"></i> moving"
+								},
+								"collection": "tokens",
+								"attribute": "flags.tile-scroll.scrollSpeed",
+								"value": "- 0.25",
+								"chatMessage": false,
+								"rollmode": "roll"
+							},
+							"id": "ki7C24KFDThiyHmt"
+						}
+					],
+					"files": []
+				},
+				"tagger": {},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"texture": {
+				"src": "icons/svg/downgrade.svg",
+				"scaleX": 1,
+				"scaleY": 1,
+				"tint": "#ffffff",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"rotation": 0,
+				"alphaThreshold": 0.75
+			},
+			"x": 3950,
+			"y": 1250,
+			"sort": 2,
+			"width": 200,
+			"height": 200,
+			"rotation": 0,
+			"alpha": 1,
+			"elevation": 0,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"hidden": false,
+			"locked": false,
+			"_id": "pu7kACYpmgOnaCez",
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.pu7kACYpmgOnaCez"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log-fume-downhill-100px-2.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 800,
+			"y": 800,
+			"width": 3000,
+			"height": 3000,
+			"elevation": 0,
+			"sort": -1,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"_id": "ARttXXai2BcdQLvR",
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": true,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {
+					"tags": [
+						"moving"
+					]
+				},
+				"tile-scroll": {
+					"enableScroll": true,
+					"scrollDirection": 90,
+					"enableRotate": false,
+					"scrollSpeed": 3,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				},
+				"parallax-tiles": {
+					"enable": false,
+					"mode": 0,
+					"maxDisplacement": 100,
+					"parallaxFactor": "1",
+					"lockX": false,
+					"lockY": false
+				},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20100PX%202.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20100PX%202.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				}
+			},
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.ARttXXai2BcdQLvR"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log3.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 4200,
+			"y": 2200,
+			"width": 300,
+			"height": 700,
+			"elevation": 0,
+			"sort": 18,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"_id": "hpFgTx9lv4eAiFc1",
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": false,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"MountingEffectsFlag": "",
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.hpFgTx9lv4eAiFc1"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log-fume-downhill-trees-v3.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 800,
+			"y": 800,
+			"width": 3000,
+			"height": 3000,
+			"elevation": 0,
+			"sort": 20,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"_id": "zxXemVJBnTG8cZnI",
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": true,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "gm",
+					"controlled": "all",
+					"trigger": [
+						"",
+						"manual"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [
+						{
+							"action": "tileimage",
+							"data": {
+								"entity": {
+									"id": "tile",
+									"name": "This Tile"
+								},
+								"select": "next",
+								"transition": "none",
+								"speed": 1,
+								"loop": 1
+							},
+							"id": "wbkEsNP0viG7r23X"
+						}
+					],
+					"files": [
+						{
+							"id": "kO2Z4QvDZswcd6tj",
+							"name": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
+							"selected": true
+						},
+						{
+							"id": "cCC7KRIaFyxQAssA",
+							"name": "pics/Invisble.png",
+							"selected": false
+						}
+					]
+				},
+				"tagger": {
+					"tags": [
+						"moving",
+						"over"
+					]
+				},
+				"tile-scroll": {
+					"enableScroll": true,
+					"scrollDirection": 90,
+					"enableRotate": false,
+					"scrollSpeed": 3,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				},
+				"parallax-tiles": {
+					"enable": false,
+					"mode": 0,
+					"maxDisplacement": 100,
+					"parallaxFactor": "1",
+					"lockX": false,
+					"lockY": false
+				},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				}
+			},
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.zxXemVJBnTG8cZnI"
+		},
+		{
+			"texture": {
+				"src": "modules/baileywiki-maps-premium-towns/maps/icons/cycle.svg",
+				"scaleX": 1,
+				"scaleY": 1,
+				"offsetX": 0,
+				"offsetY": 0,
+				"rotation": 0,
+				"tint": "#58feb0",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"fit": "fill",
+				"alphaThreshold": 0.75
+			},
+			"x": 4300,
+			"y": 850,
+			"width": 150,
+			"height": 150,
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": false,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"tagger": {},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"perfect-vision": {
+					"lighting": ""
+				},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 180,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeat": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"repeatx": 1,
+					"repeaty": 1,
+					"parallax": 0
+				},
+				"monks-active-tiles": {
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "gm",
+					"trigger": [
+						"click"
+					],
+					"allowpaused": true,
+					"usealpha": false,
+					"pointer": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"chance": 100,
+					"fileindex": 2,
+					"actions": [
+						{
+							"action": "trigger",
+							"data": {
+								"entity": {
+									"id": "tagger:over",
+									"match": "all",
+									"scene": "E9wXOUay9C9lVupp",
+									"name": "<i class=\"fas fa-tag fa-sm\"></i> over"
+								},
+								"token": "",
+								"return": false,
+								"landing": "",
+								"allowdisabled": false
+							},
+							"id": "8F3FHnmmONTLidrH"
+						}
+					],
+					"files": [],
+					"name": "",
+					"vision": false,
+					"cooldown": null
+				},
+				"levels-3d-preview": {
+					"model3d": "",
+					"dynaMesh": "default",
+					"dynaMeshResolution": 1,
+					"imageTexture": "",
+					"textureRepeat": 1,
+					"flipY": false,
+					"displacementMap": "",
+					"invertDisplacementMap": false,
+					"displacementIntensity": 1,
+					"color": "#ffffff",
+					"roughness": -0.01,
+					"metalness": -0.01,
+					"transparency": -0.01,
+					"shading": "default",
+					"sides": "default",
+					"autoCenter": false,
+					"autoGround": false,
+					"enableAnim": true,
+					"animIndex": 0,
+					"animSpeed": 1,
+					"paused": false,
+					"tiltX": 0,
+					"tiltZ": 0,
+					"depth": 100,
+					"randomSeed": "PCWrWyy",
+					"collision": true,
+					"sight": true,
+					"cameraCollision": true,
+					"sightMeshComplexity": 1,
+					"doorType": "0",
+					"doorState": "0",
+					"fillType": "stretch",
+					"enableGravity": "none",
+					"tileScale": 1,
+					"yScale": 1,
+					"gap": 0,
+					"randomRotation": false,
+					"randomScale": false,
+					"randomDepth": false,
+					"randomPosition": false,
+					"randomColor": false,
+					"noiseType": "none",
+					"noiseScale": 1,
+					"noiseHeight": 1,
+					"noisePersistence": 0.5,
+					"noiseOctaves": 1,
+					"noiseLacunarity": 1,
+					"noiseFlattening": 0,
+					"noiseExponent": 2
+				},
+				"multiface-tiles": {
+					"originalImage": "modules/baileywiki-maps-premium-towns/maps/icons/cycle.svg"
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"MountingEffectsFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				},
+				"parallax-tiles": {
+					"enable": false,
+					"mode": 0,
+					"maxDisplacement": 100,
+					"parallaxFactor": "1",
+					"lockX": false,
+					"lockY": false
+				},
+				"LocknKey": {
+					"OpenImageFlag": "modules/baileywiki-maps-premium-towns/maps/icons/cycle.svg",
+					"ClosedImageFlag": "modules/baileywiki-maps-premium-towns/maps/icons/cycle.svg",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				}
+			},
+			"sort": 16,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"elevation": 0,
+			"_id": "840YBJoL0vzk5HfU",
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.840YBJoL0vzk5HfU"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log1.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 3800,
+			"y": 1950,
+			"width": 300,
+			"height": 800,
+			"elevation": 0,
+			"sort": 17,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": false,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"MountingEffectsFlag": "",
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"_id": "7a8FnVLvhyTjOqHC",
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.7a8FnVLvhyTjOqHC"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log1.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 3850,
+			"y": 2750,
+			"width": 300,
+			"height": 800,
+			"elevation": 0,
+			"sort": 17,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": false,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"MountingEffectsFlag": "",
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"_id": "dmVp7YblXW9278tJ",
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.dmVp7YblXW9278tJ"
+		},
+		{
+			"texture": {
+				"src": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log%20Fume%20-%20Tower/log3.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "fill",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"x": 4200,
+			"y": 2950,
+			"width": 300,
+			"height": 700,
+			"elevation": 0,
+			"sort": 18,
+			"occlusion": {
+				"mode": 0,
+				"alpha": 0
+			},
+			"rotation": 0,
+			"alpha": 1,
+			"hidden": false,
+			"locked": false,
+			"restrictions": {
+				"light": false,
+				"weather": false
+			},
+			"video": {
+				"loop": true,
+				"autoplay": true,
+				"volume": 0
+			},
+			"flags": {
+				"monks-active-tiles": {
+					"name": "",
+					"active": true,
+					"record": false,
+					"restriction": "all",
+					"controlled": "all",
+					"trigger": [
+						"enter"
+					],
+					"allowpaused": false,
+					"usealpha": false,
+					"pointer": false,
+					"vision": true,
+					"pertoken": false,
+					"minrequired": 0,
+					"cooldown": null,
+					"chance": 100,
+					"fileindex": 0,
+					"actions": [],
+					"files": []
+				},
+				"tagger": {},
+				"betterroofs": {
+					"brMode": false,
+					"occlusionLinkId": "",
+					"occlusionLinkSource": false
+				},
+				"tile-scroll": {
+					"enableScroll": false,
+					"scrollDirection": 0,
+					"enableRotate": false,
+					"scrollSpeed": 1,
+					"repeatx": 1,
+					"repeaty": 1,
+					"pivotx": 0.5,
+					"pivoty": 0.5,
+					"offsetx": 0,
+					"offsety": 0,
+					"parallax": 0
+				},
+				"LocknKey": {
+					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
+					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
+					"LockableFlag": false,
+					"LockedFlag": false,
+					"IDKeysFlag": "",
+					"UseKeyDialogFlag": true,
+					"PasskeysFlag": "",
+					"PasskeyChangeableFlag": false,
+					"IdentityKeyFlag": "",
+					"LockjammedFlag": false,
+					"LockDCFlag": 20,
+					"SpecialLPFlag": "",
+					"LockBreakDCFlag": -1,
+					"currentLPsuccessFlag": 0,
+					"requiredLPsuccessFlag": 1,
+					"LPAttemptsFlag": -1,
+					"LPAttemptsMaxFlag": -1,
+					"canbeCircumventedFreeFlag": true,
+					"SoundVariantFlag": "wood"
+				},
+				"Rideable": {
+					"issetRideableFlag": false,
+					"TileRideableNameFlag": "Tile",
+					"MountonEnterFlag": false,
+					"AutoMountBlackListFlag": "",
+					"AutoMountWhiteListFlag": "",
+					"MaxRiderFlag": null,
+					"CustomRidingheightFlag": null,
+					"UseRidingHeightFlag": true,
+					"RidersScaleFlag": 1,
+					"RiderPositioningFlag": "RowPlacement",
+					"RiderOffsetFlag": [
+						0,
+						0
+					],
+					"RiderRotOffsetFlag": 0,
+					"TokenFormFlag": "TokenFormRectangle",
+					"InsideMovementFlag": false,
+					"SpawnRidersFlag": "",
+					"WorldMEffectOverrideFlag": false,
+					"MountingEffectsFlag": "",
+					"CanbePilotedFlag": false,
+					"CheckPilotedCollisionFlag": true,
+					"PilotedbyDefaultFlag": false
+				}
+			},
+			"_id": "FQXAbAB65CnxyzIp",
+			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.FQXAbAB65CnxyzIp"
+		}
+	],
+	"walls": [],
+	"playlist": null,
+	"playlistSound": null,
+	"journal": null,
+	"journalEntryPage": null,
+	"weather": "",
+	"folder": "ZBj42dfW4rpINsrS",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3,
+		"x2PN5FZDzNLiy8wV": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "ab7a5e69cf3692d8dcd908be55cb0ea6bedfcfde",
+			"sourceId": "Scene.UcA2RrEkVYHI6lR9"
+		},
+		"pf2e-perception": {
+			"standard": true,
+			"npc-vision": false
+		},
+		"pf2e": {
+			"rulesBasedVision": null,
+			"hearingRange": null,
+			"environmentTypes": []
+		},
+		"token-attacher": {},
+		"terrainmapper": {
+			"backgroundElevation": null
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.9.1",
+		"createdTime": 1769441807026,
+		"modifiedTime": 1769441930919,
+		"lastModifiedBy": "x2PN5FZDzNLiy8wV"
+	},
+	"navOrder": 0,
+	"_id": "PPRhwtJVSjtgpGes",
+	"active": false,
+	"sort": 0,
+	"_key": "!scenes!PPRhwtJVSjtgpGes"
+}

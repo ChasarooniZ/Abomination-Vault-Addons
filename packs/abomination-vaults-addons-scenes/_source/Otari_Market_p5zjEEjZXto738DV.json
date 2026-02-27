@@ -6719,16 +6719,16 @@
 	"_stats": {
 		"compendiumSource": null,
 		"duplicateSource": null,
-		"coreVersion": "13.344",
+		"coreVersion": "13.351",
 		"systemId": "pf2e",
 		"systemVersion": "6.10.2",
 		"createdTime": 1742192245147,
-		"modifiedTime": 1742192245147,
-		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"modifiedTime": 1769441938572,
+		"lastModifiedBy": "x2PN5FZDzNLiy8wV",
 		"exportSource": null
 	},
 	"foreground": "modules/abomination-vaults-addons/assets/maps/chasarooni/Market/otari-market-roofs.webp",
-	"thumb": "worlds/pathfinder-test/assets/scenes/M0YuNR8adAGyCagj-thumb.webp",
+	"thumb": "modules/abomination-vaults-addons/assets/scenes/p5zjEEjZXto738DV-thumb.webp",
 	"weather": "",
 	"regions": [],
 	"environment": {

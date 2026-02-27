@@ -1,3 +1,7 @@
+## 1.6.1
+
+- Fixed issue with databases not updating (should fix all scene related issues)
+
 ## 1.6.0 - Yldaris Settlement
 
 - **New**
