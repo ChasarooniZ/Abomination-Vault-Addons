@@ -41,6 +41,11 @@
 			"lang": "ru",
 			"name": "Russian",
 			"path": "languages/ru.json"
+		},
+		{
+			"lang": "cn",
+			"name": "Chinese",
+			"path": "languages/cn.json"
 		}
 	],
 	"packs": [
