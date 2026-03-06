@@ -218,11 +218,11 @@
 						"rules": [],
 						"slug": "tremorsense",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -278,11 +278,11 @@
 						"rules": [],
 						"slug": "lifesense",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -335,11 +335,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -403,11 +403,11 @@
 						],
 						"slug": "negative-healing",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -460,11 +460,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -534,6 +534,9 @@
 						"special": ""
 					},
 					"immunities": [
+						{
+							"type": "bleed"
+						},
 						{
 							"type": "death-effects"
 						},
@@ -610,11 +613,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -704,8 +707,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297104,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1771870288435,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -934,14 +937,15 @@
 								"deadly-2d10",
 								"reach-15"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -1032,14 +1036,15 @@
 								"poison",
 								"reach-15"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -1100,14 +1105,15 @@
 							"value": [
 								"reach-15"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -1164,14 +1170,15 @@
 							"value": [
 								"brutal"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -1241,11 +1248,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1292,11 +1299,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1354,11 +1361,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1413,11 +1420,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1470,11 +1477,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1527,11 +1534,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -1591,11 +1598,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1661,11 +1668,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -1714,11 +1721,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1782,11 +1789,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1833,11 +1840,11 @@
 						},
 						"slug": "void-healing",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1894,11 +1901,11 @@
 						},
 						"slug": "ghost-site-bound",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -1958,11 +1965,11 @@
 						},
 						"slug": "ghost-rejuvenation",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -2093,11 +2100,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -2173,8 +2180,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297104,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1771870288435,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -2476,11 +2483,11 @@
 			"effects": [],
 			"system": {
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -2530,13 +2537,13 @@
 				},
 				"saves": {
 					"fortitude": {
-						"value": 0
+						"value": null
 					},
 					"reflex": {
-						"value": 0
+						"value": null
 					},
 					"will": {
-						"value": 0
+						"value": null
 					}
 				}
 			},
@@ -2621,11 +2628,11 @@
 						],
 						"slug": "gauntlight-legs-count",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -2724,8 +2731,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297104,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1771870286472,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -2960,7 +2967,7 @@
 						"value": 10
 					},
 					"will": {
-						"value": 0
+						"value": null
 					}
 				},
 				"attributes": {
@@ -3018,11 +3025,11 @@
 					}
 				},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				}
 			},
@@ -3042,11 +3049,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -3127,14 +3134,15 @@
 						"slug": "shadow-barbs",
 						"traits": {
 							"value": [],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -3173,11 +3181,11 @@
 						"rules": [],
 						"slug": "sap-vitality",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -3230,11 +3238,11 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -3302,8 +3310,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297104,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1771870286472,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -3495,11 +3503,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -3602,11 +3610,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"actions": {
@@ -3667,11 +3675,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"actions": {
@@ -3736,11 +3744,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -3821,11 +3829,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -3885,11 +3893,11 @@
 						},
 						"slug": "all-around-vision",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -3946,11 +3954,11 @@
 						},
 						"slug": "swarm-mind",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -4031,11 +4039,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -4089,11 +4097,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -4127,9 +4135,9 @@
 				"exportSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
+				"systemVersion": "7.10.1",
 				"createdTime": 1755635891428,
-				"modifiedTime": 1765486297104,
+				"modifiedTime": 1771870280359,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"ownership": {
@@ -4154,12 +4162,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4297,12 +4305,12 @@
 						"rules": [],
 						"slug": "honeyed-words",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4382,12 +4390,12 @@
 						"rules": [],
 						"slug": "outcasts-curse",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4476,12 +4484,12 @@
 						"rules": [],
 						"slug": "suggestion",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4580,12 +4588,12 @@
 						"rules": [],
 						"slug": "enthrall",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4672,12 +4680,12 @@
 						"rules": [],
 						"slug": "mind-reading",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4764,12 +4772,12 @@
 						"rules": [],
 						"slug": "calm",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4860,12 +4868,12 @@
 						"rules": [],
 						"slug": "laughing-fit",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -4952,12 +4960,12 @@
 						"rules": [],
 						"slug": "stupefy",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5043,12 +5051,12 @@
 						"rules": [],
 						"slug": "bless",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5133,12 +5141,12 @@
 						"rules": [],
 						"slug": "daze",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5244,12 +5252,12 @@
 						"rules": [],
 						"slug": "detect-magic",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5335,12 +5343,12 @@
 						"rules": [],
 						"slug": "grim-tendrils",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5447,12 +5455,12 @@
 						"rules": [],
 						"slug": "guidance",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5532,12 +5540,12 @@
 						"rules": [],
 						"slug": "illusory-disguise",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5619,12 +5627,12 @@
 						"rules": [],
 						"slug": "lock",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5705,12 +5713,12 @@
 						"rules": [],
 						"slug": "phantasmal-minion",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5791,12 +5799,12 @@
 						"rules": [],
 						"slug": "shield",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5877,12 +5885,12 @@
 						"rules": [],
 						"slug": "void-warp",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -5987,12 +5995,12 @@
 						"rules": [],
 						"slug": "explorers-clothing",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6095,12 +6103,12 @@
 						"rules": [],
 						"slug": "spellbook-blank",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6207,14 +6215,15 @@
 								"nonlethal",
 								"unarmed"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -6275,11 +6284,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -6336,11 +6345,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -6374,12 +6383,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6426,12 +6435,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6560,12 +6569,12 @@
 						"rules": [],
 						"slug": "flail",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6687,11 +6696,11 @@
 					"effects": [],
 					"system": {
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"description": {
@@ -6713,7 +6722,8 @@
 								"magical",
 								"sweep",
 								"trip"
-							]
+							],
+							"config": {}
 						},
 						"damageRolls": {
 							"RxtV0F8CyEXeJNa4": {
@@ -6769,12 +6779,12 @@
 						"rules": [],
 						"slug": "fearful-feast",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6878,12 +6888,12 @@
 						"rules": [],
 						"slug": "lift-natures-caul",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -6973,12 +6983,12 @@
 						"rules": [],
 						"slug": "blood-vendetta",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -7083,12 +7093,12 @@
 						"rules": [],
 						"slug": "fear",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -7231,11 +7241,11 @@
 					}
 				},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -7316,9 +7326,9 @@
 				"exportSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
+				"systemVersion": "7.10.1",
 				"createdTime": 1757540022995,
-				"modifiedTime": 1765486297104,
+				"modifiedTime": 1771870284302,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -7454,12 +7464,12 @@
 						"rules": [],
 						"slug": "leather-armor",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -7575,14 +7585,15 @@
 								"nonlethal",
 								"unarmed"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -7660,11 +7671,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -7710,11 +7721,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -7748,12 +7759,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -7800,12 +7811,12 @@
 						"rules": [],
 						"slug": "flail",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -7927,11 +7938,11 @@
 					"effects": [],
 					"system": {
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"description": {
@@ -7952,7 +7963,8 @@
 								"disarm",
 								"sweep",
 								"trip"
-							]
+							],
+							"config": {}
 						},
 						"damageRolls": {
 							"tdqjvUDiljsy0a0H": {
@@ -8015,12 +8027,12 @@
 						"rules": [],
 						"slug": "occult-text",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -8138,11 +8150,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -8220,9 +8232,9 @@
 				"exportSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
+				"systemVersion": "7.10.1",
 				"createdTime": 1757540083323,
-				"modifiedTime": 1765486297104,
+				"modifiedTime": 1771870284302,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -8358,12 +8370,12 @@
 						"rules": [],
 						"slug": "composite-longbow",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -8488,12 +8500,12 @@
 						"rules": [],
 						"slug": "hide-armor",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -8595,12 +8607,12 @@
 						"rules": [],
 						"slug": "arrows",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -8722,14 +8734,15 @@
 								"reload-0",
 								"volley-30"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"action": "strike",
@@ -8785,11 +8798,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -8851,11 +8864,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -8910,11 +8923,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"deathNote": false
@@ -8971,11 +8984,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -9026,11 +9039,11 @@
 							"otherTags": []
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						}
 					},
@@ -9062,12 +9075,12 @@
 						"rules": [],
 						"slug": "war-flail",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -9206,7 +9219,8 @@
 								"sweep",
 								"trip"
 							],
-							"otherTags": []
+							"otherTags": [],
+							"config": {}
 						},
 						"rules": [],
 						"description": {
@@ -9220,11 +9234,11 @@
 							"remaster": false
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"attackEffects": {
@@ -9269,12 +9283,12 @@
 						"rules": [],
 						"slug": null,
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -9350,11 +9364,11 @@
 							]
 						},
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"actions": {
@@ -9401,12 +9415,12 @@
 						],
 						"slug": "religious-symbol-wooden",
 						"_migration": {
-							"version": 0.948,
+							"version": 0.955,
 							"lastMigration": null,
 							"previous": {
-								"schema": 0.943,
-								"foundry": "13.350",
-								"system": "7.6.4"
+								"schema": 0.948,
+								"foundry": "13.351",
+								"system": "7.10.1"
 							}
 						},
 						"traits": {
@@ -9535,11 +9549,11 @@
 				},
 				"resources": {},
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"abilities": {
@@ -9611,9 +9625,9 @@
 				"exportSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
+				"systemVersion": "7.10.1",
 				"createdTime": 1757563041211,
-				"modifiedTime": 1765486297104,
+				"modifiedTime": 1771870284302,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"effects": [],
@@ -9721,6 +9735,1441 @@
 			"ownership": {
 				"default": 0
 			}
+		},
+		{
+			"name": "Eyes of the Ghost Queen",
+			"type": "hazard",
+			"prototypeToken": {
+				"flags": {
+					"pf2e": {
+						"linkToActorSize": false,
+						"autoscale": false
+					},
+					"monks-tokenbar": {
+						"include": "default"
+					},
+					"barbrawl": {
+						"resourceBars": {
+							"bar1": {
+								"order": 0,
+								"id": "bar1",
+								"attribute": "attributes.hp",
+								"mincolor": "#FF0000",
+								"maxcolor": "#1fb222",
+								"position": "bottom-inner",
+								"otherVisibility": 0,
+								"ownerVisibility": 50,
+								"gmVisibility": -1,
+								"hideFull": false,
+								"hideEmpty": false,
+								"hideCombat": false,
+								"hideNoCombat": false,
+								"indentLeft": null,
+								"indentRight": null,
+								"shareHeight": false,
+								"style": "user",
+								"label": "",
+								"invert": false,
+								"invertDirection": false,
+								"subdivisions": null,
+								"subdivisionsOwner": false,
+								"fgImage": "",
+								"bgImage": "",
+								"opacity": null,
+								"hideHud": false
+							}
+						}
+					},
+					"tagger": {
+						"tags": ""
+					},
+					"perceptive": {
+						"canbeSpottedFlag": true,
+						"RevealwhenSpottedFlag": true,
+						"PPDCFlag": -1,
+						"APDCFlag": null,
+						"SpottingRangeFlag": -1,
+						"SpottingMessageFlag": "A haunt waits with malice in this chamber!",
+						"resetSpottedbyMoveFlag": false,
+						"StealthEffectsFlag": "",
+						"OverrideWorldSEffectsFlag": false,
+						"MATTTriggerTileFlag": "",
+						"MATTTriggerConditionsFlag": {
+							"NewlySpotted": "never"
+						},
+						"PPPLFlag": 0,
+						"APPLFlag": 2
+					},
+					"arms-reach": {
+						"range": 0
+					},
+					"tokencover": {
+						"maximumCoverGrant": "4"
+					},
+					"Rideable": {
+						"issetRideableFlag": true,
+						"MaxRiderFlag": null,
+						"CustomRidingheightFlag": null,
+						"UseRidingHeightFlag": true,
+						"RidersScaleFlag": 1,
+						"RiderPositioningFlag": "RowPlacement",
+						"RiderOffsetFlag": [
+							0,
+							0
+						],
+						"GrapplePlacementFlag": "RowBelow",
+						"TokenFormFlag": "TokenFormCircle",
+						"InsideMovementFlag": false,
+						"SpawnRidersFlag": "",
+						"MountingEffectsFlag": "",
+						"WorldMEffectOverrideFlag": false,
+						"SelfApplyEffectsFlag": false,
+						"forMountEffectsFlag": "",
+						"canbeGrappledFlag": true,
+						"CanbePilotedFlag": false,
+						"PilotedbyDefaultFlag": false,
+						"RiderRotOffsetFlag": 0,
+						"CheckPilotedCollisionFlag": false
+					},
+					"token-z": {
+						"zIndex": 0
+					},
+					"token-variants": {
+						"randomImgDefault": "",
+						"disableHUDButton": false
+					},
+					"monks-combat-marker": {
+						"token-highlight-scale": 1.5,
+						"token-combat-animation": "",
+						"token-highlight": ""
+					},
+					"monks-bloodsplats": {
+						"bloodsplat-type": "",
+						"bloodsplat-colour": ""
+					},
+					"image-hover": {
+						"hideArt": false,
+						"specificArt": "path/image.png"
+					},
+					"pf2e-rpg-numbers": {
+						"rotationOffset": 0,
+						"fireEmblemImg": "",
+						"personaImg": "",
+						"critOffsetX": 0,
+						"critOffsetY": 0,
+						"critScale": 100,
+						"critRotation": 0,
+						"critSFX": ""
+					},
+					"about-face": {
+						"indicatorDisabled": false,
+						"flipOrRotate": "global",
+						"facingDirection": "global",
+						"rotationOffset": 0
+					}
+				},
+				"height": 1,
+				"width": 1,
+				"sight": {
+					"enabled": true,
+					"range": 0,
+					"angle": 360,
+					"visionMode": "basic",
+					"color": null,
+					"attenuation": 0.1,
+					"brightness": 0,
+					"saturation": 0,
+					"contrast": 0
+				},
+				"name": "Eyes of the Ghost Queen",
+				"displayName": 40,
+				"actorLink": false,
+				"texture": {
+					"src": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/haunt.webp",
+					"anchorX": 0.5,
+					"anchorY": 0.5,
+					"offsetX": 0,
+					"offsetY": 0,
+					"fit": "contain",
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0,
+					"tint": "#ffffff",
+					"alphaThreshold": 0.75
+				},
+				"lockRotation": false,
+				"rotation": 0,
+				"alpha": 1,
+				"disposition": -1,
+				"displayBars": 50,
+				"bar1": {
+					"attribute": "attributes.hp"
+				},
+				"bar2": {
+					"attribute": null
+				},
+				"light": {
+					"negative": false,
+					"priority": 0,
+					"alpha": 0.5,
+					"angle": 360,
+					"bright": 0,
+					"color": null,
+					"coloration": 1,
+					"dim": 0,
+					"attenuation": 0.5,
+					"luminosity": 0.5,
+					"saturation": 0,
+					"contrast": 0,
+					"shadows": 0,
+					"animation": {
+						"type": null,
+						"speed": 5,
+						"intensity": 5,
+						"reverse": false
+					},
+					"darkness": {
+						"min": 0,
+						"max": 1
+					}
+				},
+				"detectionModes": [],
+				"occludable": {
+					"radius": 0
+				},
+				"ring": {
+					"enabled": false,
+					"colors": {
+						"ring": null,
+						"background": null
+					},
+					"effects": 0,
+					"subject": {
+						"scale": 1,
+						"texture": null
+					}
+				},
+				"turnMarker": {
+					"mode": 1,
+					"animation": null,
+					"src": null,
+					"disposition": false
+				},
+				"movementAction": null,
+				"randomImg": false,
+				"appendNumber": false,
+				"prependAdjective": false
+			},
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"traits": {
+					"value": [
+						"haunt"
+					],
+					"rarity": "rare",
+					"size": {
+						"value": "med"
+					}
+				},
+				"attributes": {
+					"ac": {
+						"value": 10
+					},
+					"hp": {
+						"value": 0,
+						"max": 0,
+						"temp": 0,
+						"details": ""
+					},
+					"hardness": 0,
+					"stealth": {
+						"value": 25,
+						"details": "<p>(master)</p>"
+					},
+					"emitsSound": "encounter",
+					"immunities": [],
+					"weaknesses": [],
+					"resistances": []
+				},
+				"details": {
+					"isComplex": true,
+					"level": {
+						"value": 11
+					},
+					"disable": "<p>@Check[type:deception|dc:30|name:Cheat Her Sight] (expert) twice to confound the wisp eyes with your own deceptions; two wisps are destroyed on each successful check. Alternatively, @Check[type:occultism|dc:28|name:Steel Your Mind] (expert) four times to create a ward against the haunt's mental influence; one wisp is destroyed on each successful check. </p>",
+					"description": "<p class=\"p1\">The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are. Allies appear to shed their disguises and reveal themselves to be malevolent monsters.</p>",
+					"reset": "<p>The haunt deactivates 1 minute after all creatures leave the area but resets immediately thereafter.</p>",
+					"routine": "<p>(4 actions) For each action available, the haunt targets a creature with the Whispers of Betrayal ability. When a wisp is destroyed, reduce the number of actions for the routine by 1.</p>",
+					"publication": {
+						"title": "Pathfinder GM Core",
+						"authors": "",
+						"license": "ORC",
+						"remaster": true
+					}
+				},
+				"saves": {
+					"fortitude": {
+						"value": null
+					},
+					"reflex": {
+						"value": null
+					},
+					"will": {
+						"value": null
+					}
+				}
+			},
+			"_id": "iy7njqyZqrO5BgY3",
+			"img": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/haunt.webp",
+			"items": [
+				{
+					"_id": "QrgnumULVnz8pWfK",
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+					"name": "Unmask Evil",
+					"sort": 100000,
+					"system": {
+						"description": {
+							"gm": "",
+							"value": "<p><strong>Trigger</strong> Two or more creatures enter the haunt's area</p><hr /><p><strong>Effect</strong> Each creature sees the forms of nearby creatures shift and change, appearing to transform into fiendish or aberrant beings with a thirst for blood. Each creature in the area must attempt a @Check[type:will|dc:33] save. The haunt then rolls initiative.</p><hr /><p><strong>Critical Success</strong> The creature sees through the illusions entirely and is temporarily immune to the haunt's actions for 1 minute.</p><p><strong>Success</strong> The creature is unaffected by the strange images.</p><p><strong>Failure</strong> The creature believes the illusions to be true; when an action from the haunt inflicts @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, they do not attempt flat checks toe end the confused condition when they take damage.</p><p><strong>Critical Failure</strong> As failure, but the creature is left with a lingering suspicion of others and can't benefit from the @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} action for 24 hours.</p>"
+						},
+						"rules": [],
+						"slug": null,
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"traits": {
+							"otherTags": [],
+							"value": [
+								"emotion",
+								"fear",
+								"illusion",
+								"occult",
+								"visual",
+								"void"
+							]
+						},
+						"publication": {
+							"title": "",
+							"authors": "",
+							"license": "OGL",
+							"remaster": false
+						},
+						"actionType": {
+							"value": "reaction"
+						},
+						"category": null,
+						"actions": {
+							"value": null
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": null,
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": "J3oConv1eQRLao6j",
+						"modifiedTime": 1771874292237
+					},
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"type": "action",
+					"name": "Whispers of Betrayal",
+					"system": {
+						"actionType": {
+							"value": "action"
+						},
+						"description": {
+							"value": "<p>The haunt continues to confound victims' senses and inspire them to commit violence against each other.</p><p>Target a creature in the haunt's area dealing @Damage[(2d12+15)[void]] Damage on a @Check[type:will|dc:30|showDC:all]{basic Will save}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and temporarily immune for 1 minute.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round and is targeted by the Your Lot, To Die curse.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 minute and is targeted by the Your Lot, To Die curse.</p>",
+							"gm": ""
+						},
+						"publication": {
+							"title": "",
+							"authors": "",
+							"license": "OGL",
+							"remaster": false
+						},
+						"rules": [],
+						"slug": null,
+						"traits": {
+							"otherTags": [],
+							"value": [
+								"auditory",
+								"emotion",
+								"fear",
+								"illusion",
+								"occult",
+								"void"
+							]
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": null,
+								"foundry": "13.351",
+								"system": "7.10.1"
+							}
+						},
+						"actions": {
+							"value": 1
+						},
+						"category": "offensive",
+						"deathNote": false
+					},
+					"effects": [],
+					"_id": "wVGacjDtpVTMgHfR",
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/tattoo-whispers.webp",
+					"folder": null,
+					"sort": 0,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": null,
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": "J3oConv1eQRLao6j",
+						"modifiedTime": 1771874106802
+					},
+					"ownership": {
+						"default": 0
+					}
+				}
+			],
+			"folder": "BkS6povLS9GAqOEb",
+			"sort": 100000,
+			"flags": {
+				"core": {},
+				"pf2e": {
+					"editHazard": {
+						"value": true
+					},
+					"editMode": true
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"createdTime": 1771873806372,
+				"modifiedTime": 1771874132619,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "BkS6povLS9GAqOEb",
+			"name": "Grasp of the Ghost Queen",
+			"type": "hazard",
+			"prototypeToken": {
+				"flags": {
+					"pf2e": {
+						"linkToActorSize": false,
+						"autoscale": false
+					},
+					"monks-tokenbar": {
+						"include": "default"
+					},
+					"barbrawl": {
+						"resourceBars": {
+							"bar1": {
+								"order": 0,
+								"id": "bar1",
+								"attribute": "attributes.hp",
+								"mincolor": "#FF0000",
+								"maxcolor": "#1fb222",
+								"position": "bottom-inner",
+								"otherVisibility": 0,
+								"ownerVisibility": 50,
+								"gmVisibility": -1,
+								"hideFull": false,
+								"hideEmpty": false,
+								"hideCombat": false,
+								"hideNoCombat": false,
+								"indentLeft": null,
+								"indentRight": null,
+								"shareHeight": false,
+								"style": "user",
+								"label": "",
+								"invert": false,
+								"invertDirection": false,
+								"subdivisions": null,
+								"subdivisionsOwner": false,
+								"fgImage": "",
+								"bgImage": "",
+								"opacity": null,
+								"hideHud": false
+							}
+						}
+					},
+					"tagger": {
+						"tags": ""
+					},
+					"perceptive": {
+						"canbeSpottedFlag": true,
+						"RevealwhenSpottedFlag": false,
+						"PPDCFlag": -1,
+						"APDCFlag": 36,
+						"SpottingRangeFlag": 15,
+						"SpottingMessageFlag": "You feel the hair stand on the back of your neck. Something awfully familiar waits in the room ahead.",
+						"resetSpottedbyMoveFlag": false,
+						"StealthEffectsFlag": "",
+						"OverrideWorldSEffectsFlag": false,
+						"MATTTriggerTileFlag": "",
+						"MATTTriggerConditionsFlag": {
+							"NewlySpotted": "never"
+						}
+					},
+					"arms-reach": {
+						"range": 0
+					},
+					"tokencover": {
+						"maximumCoverGrant": "4"
+					},
+					"Rideable": {
+						"issetRideableFlag": true,
+						"MaxRiderFlag": null,
+						"CustomRidingheightFlag": null,
+						"UseRidingHeightFlag": true,
+						"RidersScaleFlag": 1,
+						"RiderPositioningFlag": "RowPlacement",
+						"RiderOffsetFlag": [
+							0,
+							0
+						],
+						"GrapplePlacementFlag": "RowBelow",
+						"TokenFormFlag": "TokenFormCircle",
+						"InsideMovementFlag": false,
+						"SpawnRidersFlag": "",
+						"MountingEffectsFlag": "",
+						"WorldMEffectOverrideFlag": false,
+						"SelfApplyEffectsFlag": false,
+						"forMountEffectsFlag": "",
+						"canbeGrappledFlag": true,
+						"CanbePilotedFlag": false,
+						"PilotedbyDefaultFlag": false
+					},
+					"token-z": {
+						"zIndex": 0
+					},
+					"token-variants": {
+						"randomImgDefault": "",
+						"disableHUDButton": false
+					},
+					"monks-combat-marker": {
+						"token-highlight-scale": 1.5,
+						"token-combat-animation": "",
+						"token-highlight": ""
+					},
+					"monks-bloodsplats": {
+						"bloodsplat-type": "",
+						"bloodsplat-colour": ""
+					},
+					"image-hover": {
+						"hideArt": false,
+						"specificArt": "path/image.png"
+					},
+					"pf2e-rpg-numbers": {
+						"rotationOffset": 0,
+						"fireEmblemImg": "",
+						"personaImg": "",
+						"critOffsetX": 0,
+						"critOffsetY": 0,
+						"critScale": 100,
+						"critRotation": 0,
+						"critSFX": ""
+					}
+				},
+				"height": 2,
+				"width": 2,
+				"sight": {
+					"enabled": true,
+					"range": 0,
+					"angle": 360,
+					"visionMode": "basic",
+					"color": null,
+					"attenuation": 0.1,
+					"brightness": 0,
+					"saturation": 0,
+					"contrast": 0
+				},
+				"name": "Grasp of the Ghost Queen",
+				"displayName": 40,
+				"actorLink": false,
+				"texture": {
+					"src": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/haunt.webp",
+					"anchorX": 0.5,
+					"anchorY": 0.5,
+					"offsetX": 0,
+					"offsetY": 0,
+					"fit": "contain",
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0,
+					"tint": "#ffffff",
+					"alphaThreshold": 0.75
+				},
+				"lockRotation": false,
+				"rotation": 0,
+				"alpha": 1,
+				"disposition": -1,
+				"displayBars": 50,
+				"bar1": {
+					"attribute": "attributes.hp"
+				},
+				"bar2": {
+					"attribute": null
+				},
+				"light": {
+					"negative": false,
+					"priority": 0,
+					"alpha": 0.5,
+					"angle": 360,
+					"bright": 0,
+					"color": null,
+					"coloration": 1,
+					"dim": 0,
+					"attenuation": 0.5,
+					"luminosity": 0.5,
+					"saturation": 0,
+					"contrast": 0,
+					"shadows": 0,
+					"animation": {
+						"type": null,
+						"speed": 5,
+						"intensity": 5,
+						"reverse": false
+					},
+					"darkness": {
+						"min": 0,
+						"max": 1
+					}
+				},
+				"detectionModes": [],
+				"occludable": {
+					"radius": 0
+				},
+				"ring": {
+					"enabled": false,
+					"colors": {
+						"ring": null,
+						"background": null
+					},
+					"effects": 0,
+					"subject": {
+						"scale": 1,
+						"texture": null
+					}
+				},
+				"turnMarker": {
+					"mode": 1,
+					"animation": null,
+					"src": null,
+					"disposition": false
+				},
+				"movementAction": null,
+				"randomImg": false,
+				"appendNumber": false,
+				"prependAdjective": false
+			},
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"traits": {
+					"value": [
+						"haunt"
+					],
+					"rarity": "rare",
+					"size": {
+						"value": "med"
+					}
+				},
+				"attributes": {
+					"ac": {
+						"value": 10
+					},
+					"hp": {
+						"value": 0,
+						"max": 0,
+						"temp": 0,
+						"details": ""
+					},
+					"hardness": 0,
+					"stealth": {
+						"value": 28,
+						"details": "<p>(master)</p>"
+					},
+					"emitsSound": "encounter",
+					"immunities": [
+						{
+							"type": "magic",
+							"exceptions": []
+						}
+					],
+					"weaknesses": [],
+					"resistances": []
+				},
+				"details": {
+					"isComplex": true,
+					"level": {
+						"value": 12
+					},
+					"disable": "<p>@Check[type:intimidation|dc:35|name:Return Her Gaze] (expert) twice to impose your will on the wisp eyes; two wisps are destroyed on each successful check. Alternatively, @Check[type:occultism|dc:32|name:Steel Your Mind] (master) four times to create a ward against the haunt's mental influence; one wisp is destroyed on each successful check. </p>",
+					"description": "<p class=\"p1\">The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are. Allies appear to shed their disguises and reveal themselves to be malevolent monsters.</p>",
+					"reset": "<p>The haunt deactivates 1 minute after all creatures leave the area but resets immediately thereafter.</p>",
+					"routine": "<p>(4 actions) For each action available, the haunt targets a creature with the Betrayal's Grasp ability. When a wisp is destroyed, reduce the number of actions for the routine by 1.</p>",
+					"publication": {
+						"title": "Pathfinder GM Core",
+						"authors": "",
+						"license": "ORC",
+						"remaster": true
+					}
+				},
+				"saves": {
+					"fortitude": {
+						"value": null
+					},
+					"reflex": {
+						"value": null
+					},
+					"will": {
+						"value": null
+					}
+				}
+			},
+			"_id": "uxbuNObqqjV2VmZO",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/grasping-grave.webp",
+			"items": [
+				{
+					"_id": "QrgnumULVnz8pWfK",
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+					"name": "Seize Control",
+					"sort": 100000,
+					"system": {
+						"description": {
+							"gm": "",
+							"value": "<p>The haunt is quick to react when creatures enter its range.</p><section class=\"statblock\"><p><strong>Trigger</strong> Two or more creatures enter the haunt's area</p></section><hr /><section class=\"statblock\"><p><strong>Effect</strong> Each creature sees the forms of nearby creatures shift and change, appearing to transform into fiendish or aberrant beings with a thirst for blood. Each creature in the area must attempt a @Check[type:will|dc:35] save. The haunt then rolls initiative.</p></section><hr /><section class=\"statblock\"><p><strong>Success</strong> The creature is unaffected by the strange images.</p><p><strong>Failure</strong> The creature feels that death is close at hand and becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p><p><strong>Critical Failure</strong> As failure, and the creature is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 24 hours.</p></section>"
+						},
+						"rules": [],
+						"slug": null,
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"traits": {
+							"otherTags": [],
+							"value": [
+								"emotion",
+								"fear",
+								"illusion",
+								"occult",
+								"visual",
+								"void"
+							]
+						},
+						"publication": {
+							"title": "",
+							"authors": "",
+							"license": "OGL",
+							"remaster": false
+						},
+						"actionType": {
+							"value": "reaction"
+						},
+						"category": null,
+						"actions": {
+							"value": null
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": null,
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"type": "action",
+					"name": "Betrayal's Grasp",
+					"system": {
+						"actionType": {
+							"value": "action"
+						},
+						"description": {
+							"value": "<p>The haunt continues to confound victims’ senses and inspire them to commit violence against each other. </p><section class=\"statblock\"><p><strong>Target</strong> 1 creature in the haunt's area</p><p><strong>Save</strong> @Check[type:will|dc:32|showDC:all]{basic Will save}</p><p><strong>Damage</strong> @Damage[(3d10+14)[void]]{3d10+14 void damage}</p></section><hr /><section class=\"statblock\"><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled} for 1 round and is exposed to the Your Lot, To Die curse.</p><p><strong>Critical Failure</strong> The creature is controlled for 1 minute and is exposed to the Your Lot, To Die curse.</p></section>",
+							"gm": ""
+						},
+						"publication": {
+							"title": "",
+							"authors": "",
+							"license": "OGL",
+							"remaster": false
+						},
+						"rules": [],
+						"slug": null,
+						"traits": {
+							"otherTags": [],
+							"value": [
+								"emotion",
+								"fear",
+								"illusion",
+								"mental",
+								"occult",
+								"void"
+							]
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": null,
+								"foundry": "13.351",
+								"system": "7.10.1"
+							}
+						},
+						"actions": {
+							"value": 1
+						},
+						"category": "offensive",
+						"deathNote": false
+					},
+					"effects": [],
+					"_id": "uYgnnbztCcUhyjAx",
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/lay-on-hands.webp",
+					"folder": null,
+					"sort": 0,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": null,
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"ownership": {
+						"default": 0
+					}
+				}
+			],
+			"sort": 0,
+			"flags": {
+				"core": {},
+				"pf2e": {
+					"editHazard": {
+						"value": false
+					},
+					"editMode": false
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"createdTime": 1771874383736,
+				"modifiedTime": 1771874388193,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "BkS6povLS9GAqOEb",
+			"name": "Murmur, The Implement of Empty Death",
+			"type": "hazard",
+			"prototypeToken": {
+				"flags": {
+					"pf2e": {
+						"linkToActorSize": false,
+						"autoscale": false
+					},
+					"barbrawl": {
+						"resourceBars": {
+							"bar1": {
+								"id": "bar1",
+								"order": 0,
+								"attribute": "attributes.hp",
+								"mincolor": "#FF0000",
+								"maxcolor": "#80FF00",
+								"position": "bottom-inner",
+								"gmVisibility": -1,
+								"ownerVisibility": 30,
+								"otherVisibility": 0
+							}
+						}
+					}
+				},
+				"height": 1,
+				"width": 1,
+				"sight": {
+					"enabled": false,
+					"range": 0,
+					"angle": 360,
+					"visionMode": "basic",
+					"color": null,
+					"attenuation": 0.1,
+					"brightness": 0,
+					"saturation": 0,
+					"contrast": 0
+				},
+				"name": "Murmur, Implement of the Empty Death",
+				"displayName": 40,
+				"actorLink": false,
+				"texture": {
+					"src": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/energy-absorption.webp",
+					"anchorX": 0.5,
+					"anchorY": 0.5,
+					"offsetX": 0,
+					"offsetY": 0,
+					"fit": "contain",
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0,
+					"tint": "#ffffff",
+					"alphaThreshold": 0.75
+				},
+				"lockRotation": true,
+				"rotation": 0,
+				"alpha": 1,
+				"disposition": -1,
+				"displayBars": 50,
+				"bar1": {
+					"attribute": "attributes.hp"
+				},
+				"bar2": {
+					"attribute": null
+				},
+				"light": {
+					"negative": false,
+					"priority": 0,
+					"alpha": 0.5,
+					"angle": 360,
+					"bright": 0,
+					"color": null,
+					"coloration": 1,
+					"dim": 0,
+					"attenuation": 0.5,
+					"luminosity": 0.5,
+					"saturation": 0,
+					"contrast": 0,
+					"shadows": 0,
+					"animation": {
+						"type": null,
+						"speed": 5,
+						"intensity": 5,
+						"reverse": false
+					},
+					"darkness": {
+						"min": 0,
+						"max": 1
+					}
+				},
+				"detectionModes": [],
+				"occludable": {
+					"radius": 0
+				},
+				"ring": {
+					"enabled": false,
+					"colors": {
+						"ring": null,
+						"background": null
+					},
+					"effects": 1,
+					"subject": {
+						"scale": 1,
+						"texture": null
+					}
+				},
+				"turnMarker": {
+					"mode": 1,
+					"animation": null,
+					"src": null,
+					"disposition": false
+				},
+				"movementAction": null,
+				"randomImg": false,
+				"appendNumber": false,
+				"prependAdjective": false
+			},
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"traits": {
+					"value": [
+						"occult",
+						"void",
+						"spirit",
+						"haunt"
+					],
+					"rarity": "uncommon",
+					"size": {
+						"value": "lg"
+					}
+				},
+				"attributes": {
+					"hp": {
+						"value": 0,
+						"max": 0,
+						"temp": 0,
+						"details": ""
+					},
+					"ac": {
+						"value": null
+					},
+					"hardness": 0,
+					"stealth": {
+						"value": 25,
+						"details": "<p>(master)</p>"
+					},
+					"immunities": [],
+					"weaknesses": [],
+					"resistances": [],
+					"emitsSound": false
+				},
+				"details": {
+					"description": "<p>When an occult spellcaster of the Empty Death seeks to give any type of regenerative ability to a particularly powerful and resource-intensive void creation (an ongoing spell, a complex hazard, or even a creature), they sometimes elect to use a separate implement to achieve this end. This implement draws void energy from the River of Souls, where the Empty Death hunts, funneling and amplifying that energy to a specific place on the mortal plane. The void energy can then be used to power the spellcaster's creation (or creations). While an object imbued with occult power makes for an adequate implement, a living creature used in this way generates a purer form of void energy as well as more consistent output. However, most beings, even those with no conscience, will refuse to use a living creature for such experiments, knowing that to do so would be to condemn that creature to an eternal life of unimaginable pain.</p><p>Unfortunately, those who serve the Empty Death — an inscrutable, malevolent Elder God with neither edicts nor anathemas — have no such scruples. These spellcasters are perfectly willing to capture and enslave a sentient creature to achieve their macabre goals. Many even take obscene delight in the process, which, among other things, involves permanently inflicting the feeblemind condition on the creature to domesticate and control it, scraping every ounce of soul energy from its mortal shell, and cruelly reshaping that soul energy to withstand the continual agony of serving as a living void energy source. Through a final series of unspeakable experiments, the spellcaster then consigns part of the creature's soul essence to the River of Souls while imprisoning the other part of the soul to a specific location on the material plane. The resulting abomination is known as an implement of the Empty Death, a tortured soul used as a living conduit between the Empty Death's plane and the mortal realm.</p><p>Sometimes known as a pale thrall, an implement of the Empty Death lives a life of perpetual, horrendous torment, possessing barely a spark of intelligence beyond the level of an average, nonmagical animal. At times, the implement's former life returns to them in vague, fragmented flashes of memory, but they can do nothing with these images. Indeed, they are incapable of speech beyond the simplest of words, which frequently takes the form of a plea to be killed and thereby released from their eternal suffering.</p><p>Implements of the Empty Death typically retain most or all of the abilities they had before their enslavement, though their creators will sometimes modify, augment, or add abilities to help the implement defend itself.</p>",
+					"level": {
+						"value": 11
+					},
+					"isComplex": true,
+					"disable": "<p>This haunt can only be disabled by performing three sequential checks.</p>",
+					"routine": "<p>(4 actions; occult, spirit, void) The haunt uses its first two actions to make Snake Fangs melee Strikes against any creature in range. It uses its remaining two actions to Focus Gaze on any creatures within its Petrifying Gaze aura, prioritizing creatures who have already failed to save against Petrifying Gaze.</p>",
+					"reset": "<p>If there are no creatures within its Petrifying Gaze aura at the start of its turn, the haunt spends 1 action to emit a shrill scream that alerts its creator to the presence of intruders. It then uses an action to shut and lock the door and resets.</p><p>Disabling this haunt permanently destroys it, and the imprisoned creature dies.</p>",
+					"publication": {
+						"title": "",
+						"authors": "",
+						"license": "OGL",
+						"remaster": false
+					}
+				},
+				"saves": {
+					"fortitude": {
+						"value": null
+					},
+					"reflex": {
+						"value": null
+					},
+					"will": {
+						"value": null
+					}
+				}
+			},
+			"_id": "aYaE9C8F2bjV7c2Q",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/energy-absorption.webp",
+			"items": [
+				{
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/melee.svg",
+					"name": "Snake Fangs",
+					"sort": 500000,
+					"system": {
+						"attackEffects": {
+							"value": [
+								"serpent-venom"
+							]
+						},
+						"bonus": {
+							"value": 25
+						},
+						"damageRolls": {
+							"6ofsourtuiris927jxiu": {
+								"damage": "2d12+5",
+								"damageType": "piercing",
+								"category": null
+							}
+						},
+						"description": {
+							"value": "",
+							"gm": ""
+						},
+						"publication": {
+							"license": "OGL",
+							"remaster": false,
+							"title": "",
+							"authors": ""
+						},
+						"rules": [],
+						"slug": null,
+						"traits": {
+							"value": [
+								"agile",
+								"finesse",
+								"reach-10"
+							],
+							"otherTags": [],
+							"config": {}
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"action": "strike",
+						"area": null,
+						"range": null
+					},
+					"type": "melee",
+					"_stats": {
+						"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.ltvMN7K0itu2l3WZ",
+						"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.ltvMN7K0itu2l3WZ",
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_id": "7GYY7PT9vvxo4RTL",
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+					"name": "Serpent Venom",
+					"sort": 1000000,
+					"system": {
+						"actionType": {
+							"value": "passive"
+						},
+						"actions": {
+							"value": null
+						},
+						"category": "offensive",
+						"description": {
+							"value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p><p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p><p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>",
+							"gm": ""
+						},
+						"publication": {
+							"license": "OGL",
+							"remaster": false,
+							"title": "",
+							"authors": ""
+						},
+						"rules": [],
+						"slug": "serpent-venom",
+						"traits": {
+							"value": [
+								"poison"
+							],
+							"otherTags": []
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"_stats": {
+						"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.FuDdgAP7wwq6LCFO",
+						"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.FuDdgAP7wwq6LCFO",
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_id": "Uj6qbO0sUsWmAwJW",
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+					"name": "Biting Snakes",
+					"sort": 800000,
+					"system": {
+						"actionType": {
+							"value": "reaction"
+						},
+						"actions": {
+							"value": null
+						},
+						"category": "defensive",
+						"description": {
+							"value": "<p><strong>Trigger</strong> A creature ends its movement adjacent to the haunt.</p><hr /><p><strong>Effect</strong> The haunt makes a snake fangs Strike against the creature. The haunt then rolls initiative.</p>",
+							"gm": ""
+						},
+						"publication": {
+							"license": "OGL",
+							"remaster": false,
+							"title": "",
+							"authors": ""
+						},
+						"rules": [],
+						"slug": "biting-snakes",
+						"traits": {
+							"value": [],
+							"otherTags": []
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"_stats": {
+						"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.zGXZKhk95VPsSdKN",
+						"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.zGXZKhk95VPsSdKN",
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_id": "UAYoVDAj8ZmRdEdp",
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+					"name": "Petrifying Gaze",
+					"sort": 900000,
+					"system": {
+						"actionType": {
+							"value": "passive"
+						},
+						"actions": {
+							"value": null
+						},
+						"category": "defensive",
+						"description": {
+							"value": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a @Check[fortitude|dc:30] save. If the creature fails, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute. The haunt can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>",
+							"gm": ""
+						},
+						"publication": {
+							"license": "OGL",
+							"remaster": false,
+							"title": "",
+							"authors": ""
+						},
+						"rules": [
+							{
+								"key": "Aura",
+								"predicate": [
+									"petrifying"
+								],
+								"radius": 30,
+								"slug": "petrifying-gaze",
+								"traits": [
+									"arcane",
+									"visual"
+								]
+							},
+							{
+								"domain": "all",
+								"key": "RollOption",
+								"option": "petrifying",
+								"toggleable": true,
+								"value": false
+							}
+						],
+						"slug": null,
+						"traits": {
+							"value": [
+								"arcane",
+								"aura",
+								"visual"
+							],
+							"otherTags": []
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": {
+								"schema": 0.954,
+								"foundry": "13.351",
+								"system": "7.10.0"
+							}
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"_stats": {
+						"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.hSGaU1UT8mzmPFWl",
+						"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.hSGaU1UT8mzmPFWl",
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"effects": [],
+					"folder": null,
+					"flags": {
+						"pf2e-measure-helper": {
+							"auraType": [
+								"endTurn"
+							]
+						},
+						"pf2e-target-helper": {
+							"saves": {
+								"saveType": "fortitude",
+								"saveValue": 30
+							}
+						}
+					},
+					"_id": "5hjKQ7YRzCggPTXc",
+					"ownership": {
+						"default": 0
+					}
+				},
+				{
+					"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/OneAction.webp",
+					"name": "Focus Gaze",
+					"sort": 1000000,
+					"system": {
+						"actionType": {
+							"value": "action"
+						},
+						"actions": {
+							"value": 1
+						},
+						"category": "offensive",
+						"description": {
+							"value": "<p>The haunt fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a @Check[fortitude|dc:30] save against the haunt's petrifying gaze. The haunt's gaze is unaffected by walls or other nonmagical barriers.</p><p>If the creature was already slowed by petrifying gaze before attempting its save, a failed save causes it to be petrified permanently. After attempting its save, the creature is then temporarily immune until the start of the haunt's next turn.</p>",
+							"gm": ""
+						},
+						"publication": {
+							"license": "ORC",
+							"remaster": true,
+							"title": "",
+							"authors": ""
+						},
+						"rules": [],
+						"slug": null,
+						"traits": {
+							"value": [
+								"arcane",
+								"concentrate",
+								"incapacitation",
+								"spirit",
+								"visual"
+							],
+							"otherTags": []
+						},
+						"_migration": {
+							"version": 0.955,
+							"previous": null
+						},
+						"deathNote": false
+					},
+					"type": "action",
+					"_stats": {
+						"compendiumSource": "Actor.wMelFlsF11a2LxOU.Item.2lGYb3ZO8pwxgMhD",
+						"duplicateSource": "Actor.wMelFlsF11a2LxOU.Item.2lGYb3ZO8pwxgMhD",
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.10.1",
+						"lastModifiedBy": null
+					},
+					"effects": [],
+					"folder": null,
+					"flags": {},
+					"_id": "mgqgLse06zizhbQz",
+					"ownership": {
+						"default": 0
+					}
+				}
+			],
+			"sort": 0,
+			"flags": {
+				"pf2e": {
+					"editMode": false
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Actor.aYaE9C8F2bjV7c2Q",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"createdTime": 1771874358212,
+				"modifiedTime": 1772772397103,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
 		}
 	],
 	"combats": [],
@@ -9732,16 +11181,16 @@
 			"system": {
 				"description": {
 					"gm": "<p><em>What I felt was no ordinary ghostly fear. It was infinitely greater, stranger, and seemed to arise from some dim ancestral sense of terror more profoundly disturbing than anything I had known or dreamed of. To be carried over the border and deprived of what I called \"my life,\" yet by mental, not physical, processes! A radical alteration, a complete change, a horrible loss of oneself by substitution—the emptiest of deaths.</em></p>",
-					"value": "<section class=\"statblock secret\" id=\"secret-pQnRODKmTYc6SY3Q\"><p><strong>Saving Throw</strong> @Check[type:will|dc:33|showDC:gml|traits:curse,auditory,illusion,magical,mental,visual]{Will save}</p><p><strong>Timeline</strong> Abomination Vaults Book 3</p><p><strong>Suggested Triggers</strong> Entering any area consecrated to Nhimbaloth, or during the initial @JournalEntry[Abomination Vaults#Belcorra Attacks]{Belcorra Attacks!} encounter</p></section><section class=\"traits\"><p><strong>Curse | Auditory | Illusion | Magical | Mental | Visual</strong></p></section><p><strong>Your Lot, To Die</strong><br />So close to the unspeakable horror of Nhimbaloth's realm, you can no longer distinguish friend from foe, reason from madness, or even life from death.</p><hr /><section class=\"statblock\"><p><strong>Stage 1 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(4d6)[slashing]]{4d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. (1 day)</p><p><strong>Stage 2 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(6d6)[slashing]]{6d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}. (1 day)</p><p><strong>Stage 3 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(8d6)[slashing]]{8d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4}. (1 day)</p><p><strong>Stage 4 </strong>You die, and your spirit is consumed by the Empty Death.</p></section>"
+					"value": "<section class=\"secret\" id=\"secret-pQnRODKmTYc6SY3Q\"><p><strong>Saving Throw</strong> @Check[type:will|dc:33|showDC:gml|traits:curse,auditory,illusion,magical,mental,visual]{Will save}</p><p><strong>Timeline</strong> Abomination Vaults Book 3</p><p><strong>Suggested Triggers</strong> Entering any area consecrated to Nhimbaloth, or during the initial @JournalEntry[Abomination Vaults#Belcorra Attacks]{Belcorra Attacks!} encounter</p><section class=\"statblock\"><p><strong>Stage 1 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(4d6)[slashing]]{4d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. (1 day)</p><p><strong>Stage 2 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(6d6)[slashing]]{6d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}. (1 day)</p><p><strong>Stage 3 </strong>You are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. At the start of your first turn in combat, you take @Damage[(8d6)[slashing]]{8d6 slashing damage} that cannot be prevented in any way. Also, whenever you take slashing damage, you must succeed at the curse save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4}. (1 day)</p><p><strong>Stage 4 </strong>You die, and your spirit is consumed by the Empty Death.</p></section></section><section class=\"traits\"><p><strong>Curse | Auditory | Illusion | Magical | Mental | Visual</strong></p></section><p><strong>Your Lot, To Die</strong><br />So close to the unspeakable horror of Nhimbaloth's realm, you can no longer distinguish friend from foe, reason from madness, or even life from death.</p>"
 				},
 				"rules": [],
 				"slug": "nhimbaloth-major-curse",
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -9953,8 +11402,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.11.2",
+				"modifiedTime": 1772773841015,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -9977,7 +11426,7 @@
 			"system": {
 				"description": {
 					"gm": "<p><em>The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are.</em></p>",
-					"value": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>Saving Throw </strong>@Check[type:fortitude|dc:28|showDC:gm|]{Will save}</p><p class=\"p1\"><strong>Timeline</strong> Abomination Vaults Book 2</p><p class=\"p1\"><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth</p></section><section class=\"traits\"><p>Curse | Illusion | Magical | Mental | Auditory | Visual</p></section><p><strong>The Wisp, Her Eye</strong></p><section class=\"statblock\"><p class=\"p1\"><strong>Stage 1</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}. You can attempt the standard DC 11 flat check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 2</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}. You can attempt a DC 15 flat check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 3</strong> You become a permanent servant of the Empty Death, leaving your adventuring group to seek out the deepest reaches of the Gauntlight Ruins and assist the denizens there in in their vile plans.</p></section>"
+					"value": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>Saving Throw </strong>@Check[type:fortitude|dc:28|showDC:gm|]{Will save}</p><p class=\"p1\"><strong>Timeline</strong> Abomination Vaults Book 2</p><p class=\"p1\"><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth</p><section class=\"statblock\"><p class=\"p1\"><strong>Stage 1</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}. You can attempt the standard @Check[flat|dc:11] check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 2</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}. You can attempt a @Check[flat|dc:15] check to remove the controlled condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 3</strong> You become a permanent servant of the Empty Death, leaving your adventuring group to seek out the deepest reaches of the Gauntlight Ruins and assist the denizens there in in their vile plans.</p></section></section><section class=\"traits\"><p>Curse | Illusion | Magical | Mental | Auditory | Visual</p></section><p><strong>The Wisp, Her Eye</strong></p>"
 				},
 				"rules": [
 					{
@@ -10003,7 +11452,6 @@
 					},
 					{
 						"key": "GrantItem",
-						"uuid": "Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr",
 						"predicate": [
 							"parent:badge:value:2",
 							{
@@ -10014,16 +11462,17 @@
 						"inMemoryOnly": true,
 						"onDeleteActions": {
 							"grantee": "restrict"
-						}
+						},
+						"uuid": "Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr"
 					}
 				],
 				"slug": "nhimbaloth-moderate-curse",
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -10081,8 +11530,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.11.2",
+				"modifiedTime": 1772774049197,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "abomination-vaults-new",
@@ -10105,7 +11554,7 @@
 			"system": {
 				"description": {
 					"gm": "<p><em>Outside there was a sound of multitudinous little patterings. They had been coming, I was aware, for a long time, and in my sleep they had first become audible. I sat there nervously wide awake as though I had not slept at all. It seemed to me that my breathing came with difficulty, and that there was a great weight upon the surface of my body.</em></p>",
-					"value": "<section id=\"secret-I2SMHdB1rEKPOF0C\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><p><strong>Saving Throw</strong> @Check[type:will|dc:20|showDC:gm|traits:curse,illusion,magical,mental,auditory]</p><p><strong>Timeline </strong>Abomination Vaults floors A through C</p><p><strong>Suggested Triggers</strong> Contact with the shrine altar on floor A, or the first time a character moves into the ribbon of light in @JournalEntry[B: Servants' Quarters#B35. Gauntlight Basement]{B35} or @JournalEntry[C: Library#C15. Gauntlight Reading Room]{C15}</p><hr /></section><section class=\"traits\"><p class=\"p1\">Curse | Illusion | Magical | Mental | Auditory</p></section><p><strong>The Wind, Her Voice</strong></p></section></section><p class=\"p1\">Even the briefest of encounters with dread Nhimbaloth's presence is enough to affect the health of the unwary. This curse causes you to hear whispering voices, footsteps, and other odd noises during your next long rest. If left untreated, the loss of sleep starts to take a toll on your wellbeing.</p><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><hr /></section><p><strong>Stage 1</strong> You must rest for 12 hours instead of 8 to avoid becoming @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. (1 day)</p><p><strong>Stage 2</strong> As stage 1, and you can't gain any benefit from resting or long-term rest. (1 day)</p><p><strong>Stage 3</strong> As stage 2, and you are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. (1 day)</p></section></section>"
+					"value": "<section class=\"secret revealed\" id=\"secret-I2SMHdB1rEKPOF0C\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><p><strong>Saving Throw</strong> @Check[type:will|dc:20|showDC:gm|traits:curse,illusion,magical,mental,auditory]</p><p><strong>Timeline </strong>Abomination Vaults floors A through C</p><p><strong>Suggested Triggers</strong> Contact with the @UUID[JournalEntry.kDJSn9wbVvjnqYEj.JournalEntryPage.yk1knQyHc25ZSAfE]{shrine altar on floor A}, or the first time a character moves into the ribbon of light in @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35 }or @UUID[JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.eOv6LI3wvIuKyyNJ]{C15}</p><hr /></section></section><section class=\"statblock\"><p><strong>Stage 1</strong> You must rest for 12 hours instead of 8 to avoid becoming @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. (1 day)</p><p><strong>Stage 2</strong> As stage 1, and you can't gain any benefit from resting or long-term rest. (1 day)</p><p><strong>Stage 3</strong> As stage 2, and you are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. (1 day)</p></section></section><section class=\"traits\"><p class=\"p1\">Curse | Illusion | Magical | Mental | Auditory</p></section><p><strong>The Wind, Her Voice</strong></p><p class=\"p1\">Even the briefest of encounters with dread Nhimbaloth's presence is enough to affect the health of the unwary. This curse causes you to hear whispering voices, footsteps, and other odd noises during your next long rest. If left untreated, the loss of sleep starts to take a toll on your wellbeing.</p>"
 				},
 				"rules": [
 					{
@@ -10123,11 +11572,11 @@
 				],
 				"slug": "nhimbaloth-minor-curse",
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -10333,8 +11782,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.11.2",
+				"modifiedTime": 1772774228600,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "av-monk-crew",
@@ -10380,11 +11829,11 @@
 				],
 				"slug": "effect-swallowed-whole",
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -10420,7 +11869,7 @@
 			},
 			"_id": "7xKOXwUKrcg8gD3y",
 			"img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
-			"sort": 0,
+			"sort": 100000,
 			"flags": {
 				"scene-packer": {
 					"hash": "3ae81b0a48d41d15bdd961c29dff1ed9acf0c9b7"
@@ -10436,8 +11885,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1772213804023,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10482,11 +11931,11 @@
 				],
 				"slug": null,
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -10523,7 +11972,7 @@
 			"_id": "E0OKIog3W01BhtAB",
 			"img": "icons/magic/symbols/rune-sigil-white-pink.webp",
 			"folder": "nLQDkjcnn5oCK5vP",
-			"sort": 100000,
+			"sort": 400000,
 			"flags": {
 				"scene-packer": {
 					"hash": "1ad123a74c0e082b410db13d71e71c6fa1a3cce4"
@@ -10539,8 +11988,8 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1772213804023,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -10626,11 +12075,11 @@
 				],
 				"slug": "gauntlight-legs-count",
 				"_migration": {
-					"version": 0.948,
+					"version": 0.955,
 					"previous": {
-						"schema": 0.943,
-						"foundry": "13.350",
-						"system": "7.6.4"
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
 					}
 				},
 				"traits": {
@@ -10682,7 +12131,7 @@
 			},
 			"_id": "3ZOSpEvydDj9rfJl",
 			"img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-			"sort": 0,
+			"sort": 300000,
 			"flags": {
 				"scene-packer": {
 					"hash": "7015f03eef1ee0b2bf2e45ebcc92cf8df50d390f"
@@ -10698,10 +12147,389 @@
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
-				"systemVersion": "7.8.0",
-				"modifiedTime": 1765486297401,
+				"systemVersion": "7.10.1",
+				"modifiedTime": 1772213804023,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "9tUABwBdHlCnHxW0",
+			"name": "Rouse Sentience",
+			"type": "action",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<section><p>You must find a way to rouse the tattered shreds of sentience in this creature, providing a mild disruption in the implement that will allow you to discover how to disable it. Rousing the creature in this way lasts for 1 minute and causes the implement to become @UUID[Actor.8xX9yeGs7iCSoQ7m.Item.RpJ9AbFpL8ZWsJSX]{Slowed 1} for one round.</p><p><strong>Options</strong></p><ul><li><p>@Check[type:Medicine|dc:28|showDC:all]{Medicine (Expert)}</p></li><li><p>@Check[type:Society|dc:30|showDC:all]{Society (Master)}</p></li><li><p>@Check[type:Diplomacy|dc:31|showDC:all]{Diplomacy (Master)}</p></li></ul></section>",
+					"gm": "<section><p>A PC who mentions a piece of lore specific to the creature before it became an implement receives a +1 status bonus to this check</p></section>"
+				},
+				"publication": {
+					"title": "AV Addons",
+					"authors": "weepingminotaur",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": "rouse-sentience",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "interaction",
+				"deathNote": false
+			},
+			"_id": "Q5N7Px8ZVaocxC92",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Item.Q5N7Px8ZVaocxC92",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772774843511,
+				"modifiedTime": 1772775008782,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "9tUABwBdHlCnHxW0",
+			"name": "Study Implement",
+			"type": "action",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<section><p>The design of this implement suggests that its creator will become aware if it is disabled within 10 minutes. To address that possibility, a PC can attempt the Send False Signal action before trying to disable the haunt.</p><p><strong>Options</strong></p><ul><li><p>@Check[type:Occultism|dc:30|showDC:all]{Occultism (Master)}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{Spirit Lore (Expert)}</p></li></ul></section>",
+					"gm": "<section><p><strong>Development</strong></p><p>In order to release the soul from its torment and permanently disable the implement, you must exhort a deity to intervene and allow the soul to find its final rest.</p></section>"
+				},
+				"publication": {
+					"title": "AV Addons",
+					"authors": "weepingminotaur",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": "rouse-sentience",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "interaction",
+				"deathNote": false
+			},
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Item.aEZqJZBbCp3fJSV0",
+				"duplicateSource": "Item.Q5N7Px8ZVaocxC92",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772775010460,
+				"modifiedTime": 1772775173839,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "aEZqJZBbCp3fJSV0",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "9tUABwBdHlCnHxW0",
+			"name": "Send False Signal (Optional)",
+			"type": "action",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<section><p><strong>Options</strong></p><ul><li><p>@Check[type:Arcana|dc:33|showDC:all]{Arcana (Master)}</p></li><li><p>@Check[type:Occultism|dc:30|showDC:all]{Occultism (Master)}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{Spirit Lore (Expert)}</p></li></ul><p><strong>Critical Success</strong> You harness residual spiritual energy in the area to create a false signal of operation in the implement for 2 hours.</p><p><strong>Success</strong> As critical success, except that the false signal lasts for 1 hour.</p><p><strong>Failure</strong> You fail to send the false signal. The implement's creator will become aware that it has been disabled within 10 minutes of the event, as normal.</p><p><strong>Critical Failure</strong> Your clumsiness in manipulating spiritual energy not only fails to send the false signal but produces an unwanted side effect. The implement's creator will become aware that it has been disabled within 1 minute of the event.</p></section>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "AV Addons",
+					"authors": "weepingminotaur",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": "rouse-sentience",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "interaction",
+				"deathNote": false
+			},
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Item.WFCyQ30Rj6DXwrxk",
+				"duplicateSource": "Item.Q5N7Px8ZVaocxC92",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772775011880,
+				"modifiedTime": 1772775196609,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "WFCyQ30Rj6DXwrxk",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "9tUABwBdHlCnHxW0",
+			"name": "Release Spirit",
+			"type": "action",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<section><p>You call on one of the three deities below, exhorting that deity to allow the soul trapped in the implement to find a merciful release in death, permanently destroying the implement.</p><ul><li><p><strong>Pharasma</strong> To release this tortured soul from unnatural, life-prolonging torment and give them the dignity of death.</p></li><li><p><strong>Sarenrae</strong> To end the creature's suffering in this mortal life that it may find spiritual healing in the next one.</p></li><li><p><strong>Torag</strong> To give the tormented creature an honourable death, releasing them from the shame of being twisted to the will of another.</p></li></ul><p>If no attempt is made to Release Spirit within 1 minute of an attempted Send False Signal check, the harnessed spiritual energy dissipates and the Send False Signal check must be attempted again.</p><p><strong>Options</strong></p><ul><li><p>@Check[type:Religion|dc:31|showDC:all]{Occultism (Master)}</p></li><li><p>@Check[type:Religion|dc:30|showDC:all]{Religion (Master)}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{Spirit Lore (Master)}</p></li></ul></section>",
+					"gm": "<section><p>A PC from a divine class (animist, cleric, champion, exemplar, or oracle) who worships the deity mentioned in their exhortation receives a +1 status bonus to this check.</p></section>"
+				},
+				"publication": {
+					"title": "AV Addons",
+					"authors": "weepingminotaur",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [
+					{
+						"key": "FlatModifier",
+						"label": "Worship Relevant Deity",
+						"value": 1,
+						"type": "status",
+						"selector": [
+							"check"
+						],
+						"predicate": [
+							"action:release-spirit",
+							{
+								"or": [
+									"deity:primary:pharasma",
+									"deity:primary:saranrae",
+									"deity:primary:torag"
+								]
+							},
+							{
+								"or": [
+									"class:champion",
+									"class:animist",
+									"class:cleric",
+									"class:exemplar",
+									"class:oracle"
+								]
+							}
+						],
+						"hideIfDisabled": true
+					}
+				],
+				"slug": "rouse-sentience",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "interaction",
+				"deathNote": false
+			},
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Item.pkCt6MdQHmoPKHyV",
+				"duplicateSource": "Item.Q5N7Px8ZVaocxC92",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772775013214,
+				"modifiedTime": 1772775522663,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "pkCt6MdQHmoPKHyV",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "nLQDkjcnn5oCK5vP",
+			"name": "Effect: Regeneration 10 (Implement of Empty Death)",
+			"type": "effect",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<p>@Embed[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5 inline]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [
+					{
+						"key": "FastHealing",
+						"value": 10,
+						"deactivatedBy": [
+							"vitality"
+						],
+						"type": "regeneration"
+					}
+				],
+				"slug": "effect-regeneration-10-implement-of-empty-death",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"level": {
+					"value": 1
+				},
+				"duration": {
+					"value": -1,
+					"unit": "unlimited",
+					"expiry": null,
+					"sustained": false
+				},
+				"tokenIcon": {
+					"show": true
+				},
+				"unidentified": false,
+				"start": {
+					"value": 0,
+					"initiative": null
+				},
+				"badge": null,
+				"fromSpell": false,
+				"context": null
+			},
+			"_id": "fPWpoxS7837pkegk",
+			"img": "icons/magic/life/heart-cross-purple-orange.webp",
+			"sort": 150000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Item.fPWpoxS7837pkegk",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772773318604,
+				"modifiedTime": 1772774431362,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Never Caught Unaware",
+			"system": {
+				"actionType": {
+					"value": "free"
+				},
+				"description": {
+					"value": "<p><strong>Trigger</strong> Belcorra roll initiative.</p><hr /><p>Belcorra has a contingency for everything. She casts a defensive spell, one that doesn't target or directly affect other non-willing creatures, on her spell list. </p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": null,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "Mj2aTp5nFE1TnCLk",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"folder": "nLQDkjcnn5oCK5vP",
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Actor.SJmuPMciJP6VA1Py.Item.gSqYSE420ZYdSqCb",
+				"duplicateSource": "Actor.SJmuPMciJP6VA1Py.Item.gSqYSE420ZYdSqCb",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"createdTime": 1772213803963,
+				"modifiedTime": 1772213804023,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
 			},
 			"ownership": {
 				"default": 0
@@ -10739,7 +12567,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": null,
-						"modifiedTime": 1765486981986,
+						"modifiedTime": 1771948774310,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10868,7 +12696,7 @@
 					},
 					"text": {
 						"format": 1,
-						"content": "<p>Added the following maps to facilitate running perhaps a burning of the log fume. The intention is to be a tower further to the north where logs are loaded into the fume before they make it all the way down to <strong>The Giant's Wheel</strong>.<br /><br />The Down Hill scene provides a cool opportunity for you to have an encounter while riding on logs down the flume (I recommend looking at opportunities in <strong>AV:E's</strong> <strong>Consortium Conspiracy</strong> specifically @UUID[JournalEntry.2hfULzZn5NL03aDy.JournalEntryPage.EyBtkejRJ5WGQzxT]{The Loading Flume Fire}.</p><p></p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.fPV3dl3eqn0Hv71q]{Log Flume | Down Hill}</p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.85cpyV5nRl1cIGcd]{Log Flume | Loading Tower}</p>"
+						"content": "<p>Added the following maps to facilitate running perhaps a burning of the log fume. The intention is to be a tower further to the north where logs are loaded into the fume before they make it all the way down to <strong>The Giant's Wheel</strong>.<br /><br />The Down Hill scene provides a cool opportunity for you to have an encounter while riding on logs down the flume (I recommend looking at opportunities in <strong>AV:E's</strong> <strong>Consortium Conspiracy</strong> specifically @UUID[JournalEntry.2hfULzZn5NL03aDy.JournalEntryPage.EyBtkejRJ5WGQzxT]{The Loading Flume Fire}.</p><p></p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.PPRhwtJVSjtgpGes]{Log Flume | Down Hill}</p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.VSmG1Rmn9tARM2Xx]{Log Flume | Loading Tower}</p>"
 					},
 					"image": {},
 					"video": {
@@ -10886,7 +12714,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1740808754514,
-						"modifiedTime": 1765487291698,
+						"modifiedTime": 1772772230247,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -10923,7 +12751,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "6.9.0",
 						"createdTime": 1741158168396,
-						"modifiedTime": 1765487013746,
+						"modifiedTime": 1772772341427,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -11146,7 +12974,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "7.4.3",
 						"createdTime": 1758090772141,
-						"modifiedTime": 1765487191231,
+						"modifiedTime": 1772772320107,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"category": null,
@@ -11465,7 +13293,7 @@
 					"image": {},
 					"text": {
 						"format": 1,
-						"content": "<p>In this module's settings there is a setting which when enabled (assuming you have <code>Sequencer</code> and <code>JB2a</code> installed will play a little flame effect when each door is opened/closed on the prison level as described in the floor description.</p><p>@UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.8V5lwumIxcPPnYMP]{Chapter 7: Soul Keepers}</p>"
+						"content": "<p>In this module's settings there is a setting which when enabled (assuming you have <code>Sequencer</code> and <code>JB2a</code> installed will play a little flame effect when each door is opened/closed on the prison level as described in the floor description.</p><p>@UUID[JournalEntry.OyNcqrpRClyhr8BJ.JournalEntryPage.8V5lwumIxcPPnYMP]{Chapter 7: Soul Keepers}</p>"
 					},
 					"video": {
 						"controls": true,
@@ -11482,7 +13310,7 @@
 						"systemId": "pf2e",
 						"systemVersion": "7.8.0",
 						"createdTime": 1765487407338,
-						"modifiedTime": 1765487562250,
+						"modifiedTime": 1772772311010,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"ownership": {
@@ -11512,7 +13340,7 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.Gge2ITrX73Rpfhun",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
@@ -11539,7 +13367,7 @@
 					"image": {},
 					"text": {
 						"format": 1,
-						"content": "<p><em>It never sat right to me that in the Abomination Vaults book Yldaris is written as if it's a dungeon encounter, when it is far more likely the party will interact with them on friendly terms. This seeks to remedy tht, as well as remedy access to some higher level items the party might have to wait longer to acquire if they only ship them from Absalom.</em></p><p>See @UUID[JournalEntry.YbOS6pQRxoWI0Q56.JournalEntryPage.4kOuPeKxK4TbdcuO] for explanations of certain tags</p><section class=\"location-head\"><header><h1>Yldaris</h1><h1>Settlement 9</h1></header><article><ul class=\"traits\"><li>Underground</li><li>Town</li></ul></article></section><ul class=\"features\"><li>Underground insulated settlement of Drow Shootists.</li><li>(<strong>Note:</strong> Increased settlement level to 9 to distiniguish it more from Otari)</li></ul><hr /><p></p><section class=\"location-head\"><header><h2>Lozardyn Caravan</h2><h2>Courier 9</h2></header><article><ul class=\"traits\"><li>Garrison</li></ul><p><strong>Yldaris Caravan</strong></p></article></section><ul class=\"features\"><li><strong>Delivieries</strong>: Deliveries of items <span style=\"text-decoration:underline\">level 9 and below</span> from the drow settlement of Lozardyn can be requested. Items can be purchased at their original price with an added fee of 1 GP per bulk for them to be delivered within 3 days, or at 20% extra for them to be delivered within a day.</li></ul><hr /><p>The drow of Yldaris run caravans to the nearby drow city of Lozardyn which has access to more items, but is limited to access due to the network of twisting Darklands caverns needed to be traversed to access it.</p><p></p><section class=\"location-head\"><header><h2>The Lone Ranger</h2><h2>Shootist 8</h2></header><article><ul class=\"traits\"><li>Workshop</li></ul><p><strong>Tanieth</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: @UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow}, @UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{Repeating Hand Crossbow Magazines}, @UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{Shootist Bandolier}, @UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{Lethargy Poison}, @UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{Stupor Poison}, Also repairs items</li></ul><hr /><p>Tanieth is a loner drow ranger with great expertise in the use and maintenance of repeating hand crossbows.</p><p></p><section class=\"location-head\"><header><h2>Master Warden's Quarter</h2><h2>Warden 9</h2></header><article><ul class=\"traits\"><li>Discount</li><li>Employer</li></ul><p><strong>Salaisa Malthus</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Adventuring Gear, Weapons, Shields, Armor, Fundamental Runes, @UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{Corrosive} property Runes, A small selection of magical weapons and armor</li></ul><hr /><p>As the settlement leader, she also is in charge of also the quartermaster of all general equipment for the settlement.</p><p></p><section class=\"location-head\"><header><h2>Kitchen</h2><h2>Kitchen 5</h2></header><article><ul class=\"traits\"><li>Parlor</li></ul><p><strong>Kitchen Staff</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Beverages, Meals, Rations (Sourced from local fauna/flora mushrooms etc. )</li></ul><hr /><p>The drow staffing the kitchen usually depends on who lost a card game last, so it is inconsistent.</p><p></p><section class=\"location-head\"><header><h2>Seer's Quarters</h2><h2>Spellcasting 9</h2></header><article><ul class=\"traits\"><li>Library</li><li>Church</li></ul><p><strong>Bhazrade &amp; Klathoreer</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Occult scrolls, A few occult themed magic items (held items, staves, wands)</li><li><strong>Spellcasting</strong>: Their spellcasting services are available, but they are limited to the spells listed in their stat blocks.</li><li><strong>Meditation</strong>: Bhazrade &amp; Klathor can instruct the party in meditation in the meditation cave this acts as the spell @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{Read Fate}</li></ul><hr /><p>These drow seers can offer their spellcasting services and guidance in the darkland stone faith.</p>"
+						"content": "<p><em>It never sat right to me that in the Abomination Vaults book Yldaris is written as if it's a dungeon encounter, when it is far more likely the party will interact with them on friendly terms. This seeks to remedy that, as well as remedy access to some higher level items the party might have to wait longer to acquire if they only ship them from Absalom.</em></p><p>See @UUID[JournalEntry.67686KaEPc6XAlKJ.JournalEntryPage.4kOuPeKxK4TbdcuO] for explanations of certain tags</p><section class=\"location-head\"><header><h1>Yldaris</h1><h1>Settlement 9</h1></header><article><ul class=\"traits\"><li>Underground</li><li>Town</li></ul></article></section><ul class=\"features\"><li>Underground insulated settlement of Drow Shootists.</li><li>(<strong>Note:</strong> Increased settlement level to 9 to distiniguish it more from Otari)</li></ul><hr /><p></p><section class=\"location-head\"><header><h2>Lozardyn Caravan</h2><h2>Courier 9</h2></header><article><ul class=\"traits\"><li>Garrison</li></ul><p><strong>Yldaris Caravan</strong></p></article></section><ul class=\"features\"><li><strong>Delivieries</strong>: Deliveries of items <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">level 9 and below</span></span> from the drow settlement of Lozardyn can be requested. Items can be purchased at their original price with an added fee of 1 GP per bulk for them to be delivered within 3 days, or at 20% extra for them to be delivered within a day.</li></ul><hr /><p>The drow of Yldaris run caravans to the nearby drow city of Lozardyn which has access to more items, but is limited to access due to the network of twisting Darklands caverns needed to be traversed to access it.</p><p></p><section class=\"location-head\"><header><h2>The Lone Ranger</h2><h2>Shootist 8</h2></header><article><ul class=\"traits\"><li>Workshop</li></ul><p><strong>Tanieth</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: @UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow}, @UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{Repeating Hand Crossbow Magazines}, @UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{Shootist Bandolier}, @UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{Lethargy Poison}, @UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{Stupor Poison}, Also repairs items</li></ul><hr /><p>Tanieth is a loner drow ranger with great expertise in the use and maintenance of repeating hand crossbows.</p><p></p><section class=\"location-head\"><header><h2>Master Warden's Quarter</h2><h2>Warden 9</h2></header><article><ul class=\"traits\"><li>Discount</li><li>Employer</li></ul><p><strong>Salaisa Malthus</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Adventuring Gear, Weapons, Shields, Armor, Fundamental Runes, @UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{Corrosive} property Runes, A small selection of magical weapons and armor</li></ul><hr /><p>As the settlement leader, she also is in charge of also the quartermaster of all general equipment for the settlement.</p><p></p><section class=\"location-head\"><header><h2>Kitchen</h2><h2>Kitchen 5</h2></header><article><ul class=\"traits\"><li>Parlor</li></ul><p><strong>Kitchen Staff</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Beverages, Meals, Rations (Sourced from local fauna/flora mushrooms etc. )</li></ul><hr /><p>The drow staffing the kitchen usually depends on who lost a card game last, so it is inconsistent.</p><p></p><section class=\"location-head\"><header><h2>Seer's Quarters</h2><h2>Spellcasting 9</h2></header><article><ul class=\"traits\"><li>Library</li><li>Church</li></ul><p><strong>Bhazrade &amp; Klathoreer</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Occult scrolls, A few occult themed magic items (held items, staves, wands)</li><li><strong>Spellcasting</strong>: Their spellcasting services are available, but they are limited to the spells listed in their stat blocks.</li><li><strong>Meditation</strong>: Bhazrade &amp; Klathor can instruct the party in meditation in the meditation cave this acts as the spell @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{Read Fate}</li></ul><hr /><p>These drow seers can offer their spellcasting services and guidance in the darkland stone faith.</p>"
 					},
 					"video": {
 						"controls": true,
@@ -11549,14 +13377,88 @@
 					"category": null,
 					"flags": {},
 					"_stats": {
-						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.XSouJfqO8f0ptYya",
+						"compendiumSource": null,
 						"duplicateSource": null,
 						"exportSource": null,
 						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "7.8.0",
 						"createdTime": 1768233616169,
-						"modifiedTime": 1768235634546,
+						"modifiedTime": 1772772016967,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1375000,
+					"name": "H. Farm",
+					"type": "text",
+					"_id": "QCsRsYxjuwhEd7nr",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 2
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": ""
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.QCsRsYxjuwhEd7nr",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.11.2",
+						"createdTime": 1772772027774,
+						"modifiedTime": 1772772133317,
+						"lastModifiedBy": "J3oConv1eQRLao6j"
+					},
+					"ownership": {
+						"default": -1
+					}
+				},
+				{
+					"sort": 1412500,
+					"name": "H38. Murmur the Implement of Empty Death",
+					"type": "text",
+					"_id": "9clhBJ4imVi2Ri9o",
+					"system": {},
+					"title": {
+						"show": true,
+						"level": 3
+					},
+					"image": {},
+					"text": {
+						"format": 1,
+						"content": "<p><em>This was created by user weepingminotaur</em></p><h2>Overview</h2><p>Murmur, the feebleminded Medusa, has been turned into an @UUID[Actor.aYaE9C8F2bjV7c2Q]{The Implement of Empty Death}. The implement currently resides in @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} (replacing the nilith). Additionally Murmur herself is no longer stationed at @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.pnTCbvQqpz0arkpz]{H38}.</p><p>Belcorra has taken some precautions to ensure that Murmur is neither found nor disabled. The sturdy stone door to @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} is locked and trapped with the @UUID[Item.CyWfBIXA8CKVFMK4]{Nhimbaloth - Major Curse}. Spotting the curse requires a @Check[perception|dc:30|traits:secret] check. Disabling the curse requires either a [[/act disable-device dc=33]]{Disable a Device (expert)} check or a @Check[type:Occultism|dc:33|showDC:all]{Occultism (master)} check.</p><p>Opening the door requires either its key (which is carried by <strong>Caliddo</strong>), five successful [[/act pick-a-lock dc=35]]{Pick a Lock (expert)} checks, or a single @Check[type:Athletics|dc:40|showDC: all|traits:action:force-open]{Force Open (expert)} check.</p><p>While the Implement of the Empty Death hazard is active, a number of elements of the lower levels of the Gauntlight are more dangerous:</p><ul><li><p>Both the Eyes of the Ghost Queen (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.0EtecMBSYJDok7n7]{H02. Hall of Eyes}) and Grasp of the Ghost Queen (@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.uWdCP78aS1lts5kr]{I64. Initiates' Chamber}) hazards reset after 1 minute if no creatures are in the area, even if they have been disabled.</p></li><li><p>The following creatures gain @UUID[Item.fPWpoxS7837pkegk]{regeneration 10 (vitality)}:</p><ul><li><p>Empty Death Bodaks (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.hD6CSfmfkrSopsaw]{H21. Ancients' Caves})</p></li><li><p>Dread Wisps (all locations)</p></li><li><p>Dread Wraith (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.Vwd8vMBerJCAoN4N]{H23. Shadowed Dock)}</p></li><li><p>Urthagul (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.f02YPQGkiBbZ0Ijt]{H12. Island Cavern})</p></li><li><p>Bright Walkers (@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.iduGvMRKIN2B46hv]{I24. Strange Dead})</p></li></ul></li><li><p>Belcorra can project herself anywhere on floors H through J, not just in the Gauntlight footprint.</p></li></ul><h2>Design Considerations</h2><blockquote><p>I have no idea whether this modification will be to anyone's taste other than mine. I made it purely for the benefit of my own particular AV group. The emphasis on Spirit Lore, for example, allows my party's champion of Torag to play an important role in disabling the hazard, as is the option to call on Torag for the Release Spirit action. If no one in your group worships Torag, consider replacing him with Cayden Caelean, focusing on the freedom part of Cayden's portfolio to justify his involvement in the exhortation.</p><p>I was motivated to write this addition by my dissatisfaction with Murmur's use in AV. Some GMs may find Murmur (or the Ghost Queen hazards I have placed in H02 and I64) overpowered or overtuned, and fair play to you if you're in that group. Belcorra is the adventure's final boss, and I wanted to show evidence of her evil genius in the lower levels of the Gauntlight while also augmenting the Nhimbaloth horror vibe.</p><p>-weepingminotaur</p></blockquote><h2>Disabling the Haunt</h2><p>The party must perform three sequential checks to disable the haunt: Rouse Sentience, Study Implement, and Release Spirit. Reveal the Rouse Sentience description and options if the party succeeds on a Recall Knowledge (Occultism) check to find out the hazard's Disable conditions. On a <strong>success</strong> at Rouse Sentience, reveal the options for Study Implement. On a <strong>success</strong> at Study Implement, reveal its development, the Send False Signal block, and the full Release Spirit section.</p><p>If the PCs choose to leave the task unfinished and return to complete it later, they must perform the same three sequential checks, unless they already achieved success in Study Implement, in which case they only need to perform Rouse Sentience and Release Spirit.</p><hr /><p>@Embed[Item.Q5N7Px8ZVaocxC92]{Rouse Sentience}</p><hr /><p>@Embed[Item.aEZqJZBbCp3fJSV0]{Study Implement}</p><hr /><p>@Embed[Item.WFCyQ30Rj6DXwrxk]{Send False Signal (Optional)}</p><hr /><p>@Embed[Item.pkCt6MdQHmoPKHyV]{Release Spirit}</p><p></p>"
+					},
+					"video": {
+						"controls": true,
+						"volume": 0.5
+					},
+					"src": null,
+					"category": null,
+					"flags": {},
+					"_stats": {
+						"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.9clhBJ4imVi2Ri9o",
+						"duplicateSource": null,
+						"exportSource": null,
+						"coreVersion": "13.351",
+						"systemId": "pf2e",
+						"systemVersion": "7.11.2",
+						"createdTime": 1772772190190,
+						"modifiedTime": 1772775636687,
 						"lastModifiedBy": "J3oConv1eQRLao6j"
 					},
 					"ownership": {
@@ -11575,7 +13477,7 @@
 					"sourceId": "JournalEntry.3dNQCvcANkMSsK5i"
 				},
 				"core": {
-					"sheetClass": ""
+					"sheetClass": "core.JournalEntrySheet"
 				}
 			},
 			"_stats": {
@@ -11584,7 +13486,7 @@
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1765486297469,
+				"modifiedTime": 1771948843455,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": {
 					"worldId": "pathfinder-test",
@@ -12082,7 +13984,7 @@
 			"type": "JournalEntry",
 			"_id": "OfH0ZqG3hwnrSdpa",
 			"description": "",
-			"sort": 0,
+			"sort": 100000,
 			"color": "#019833",
 			"flags": {
 				"scene-packer": {
@@ -12095,7 +13997,7 @@
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.2.0",
-				"modifiedTime": 1765486297837,
+				"modifiedTime": 1771949892122,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			}
@@ -12140,7 +14042,7 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Folder.p84txsfYYdvmAa6s",
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
@@ -12391,6 +14293,50 @@
 				"modifiedTime": 1765486297837,
 				"lastModifiedBy": "J3oConv1eQRLao6j"
 			}
+		},
+		{
+			"type": "Item",
+			"folder": "nLQDkjcnn5oCK5vP",
+			"name": "08: Decaying Gardens",
+			"color": "#4f9c50",
+			"sorting": "a",
+			"_id": "q3OWWsiFQXHI5p2z",
+			"description": "",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Folder.q3OWWsiFQXHI5p2z",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772774796582,
+				"modifiedTime": 1772774796582,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			}
+		},
+		{
+			"type": "Item",
+			"folder": "q3OWWsiFQXHI5p2z",
+			"name": "Implement of Empty Death",
+			"color": "#207e73",
+			"sorting": "a",
+			"_id": "9tUABwBdHlCnHxW0",
+			"description": "",
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772774817724,
+				"modifiedTime": 1772774828515,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			}
 		}
 	],
 	"_id": "2VMuX2d25r7dYPSM",
@@ -12402,7 +14348,7 @@
 		"coreVersion": "13.351",
 		"systemId": "pf2e",
 		"systemVersion": "7.2.0",
-		"modifiedTime": 1768235667595,
+		"modifiedTime": 1772775734951,
 		"lastModifiedBy": "J3oConv1eQRLao6j",
 		"exportSource": null
 	},

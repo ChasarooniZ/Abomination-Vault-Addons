@@ -1,7 +1,11 @@
 ## Unreleased
 
+## 2.0.0
+
 - **New**
-- 
+  - Module updated to newest Abomination Vaults release and generally requires version `4.0.1` or higher
+  - `Murmur, Implement of Empty Death` - A rework of Murmur (🧠 @weepingminotaur)
+  - Added new setting to receive a reminder message to import an update
 - **Updated**
   - Fixed bug with Floor Helper Drawings setup (🐛 @reins864)
   - Fixed issue with Monk's Active Tile Triggers art of the downhill map (🐛 @reins864)

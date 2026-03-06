@@ -1,14 +1,16 @@
-2026/03/05-22:22:36.603 839c Recovering log #266
-2026/03/05-22:22:36.864 839c Delete type=0 #266
-2026/03/05-22:22:36.865 839c Delete type=3 #264
-2026/03/05-22:22:36.984 1a8 Level-0 table #272: started
-2026/03/05-22:22:37.059 1a8 Level-0 table #272: 88688 bytes OK
-2026/03/05-22:22:37.116 1a8 Delete type=0 #270
-2026/03/05-22:22:37.116 1a8 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 27 : 1
-2026/03/05-22:22:37.117 1a8 Compacting 1@0 + 1@1 files
-2026/03/05-22:22:37.206 1a8 Generated table #273@0: 1 keys, 88688 bytes
-2026/03/05-22:22:37.207 1a8 Compacted 1@0 + 1@1 files => 88688 bytes
-2026/03/05-22:22:37.282 1a8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/05-22:22:37.283 1a8 Delete type=2 #268
-2026/03/05-22:22:37.308 1a8 Delete type=2 #272
-2026/03/05-22:22:37.308 1a8 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 27 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)
+2026/03/06-00:13:18.112 1165c Recovering log #272
+2026/03/06-00:13:18.224 1165c Delete type=0 #272
+2026/03/06-00:13:18.224 1165c Delete type=3 #266
+2026/03/06-00:13:18.224 1165c Delete type=3 #269
+2026/03/06-00:13:18.268 19960 Level-0 table #276: started
+2026/03/06-00:13:18.307 19960 Level-0 table #276: 105886 bytes OK
+2026/03/06-00:13:18.367 19960 Delete type=0 #274
+2026/03/06-00:13:18.367 19960 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 72057594037927935 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at '!adventures!2VMuX2d25r7dYPSM' @ 26 : 1
+2026/03/06-00:13:18.367 19960 Compacting 2@0 + 1@1 files
+2026/03/06-00:13:18.408 19960 Generated table #277@0: 1 keys, 105886 bytes
+2026/03/06-00:13:18.408 19960 Compacted 2@0 + 1@1 files => 105886 bytes
+2026/03/06-00:13:18.477 19960 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/06-00:13:18.477 19960 Delete type=2 #223
+2026/03/06-00:13:18.478 19960 Delete type=2 #267
+2026/03/06-00:13:18.478 19960 Delete type=2 #276
+2026/03/06-00:13:18.478 19960 Manual compaction at level-0 from '!adventures!2VMuX2d25r7dYPSM' @ 26 : 1 .. '!adventures!2VMuX2d25r7dYPSM' @ 0 : 0; will stop at (end)
