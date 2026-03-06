@@ -58,12 +58,12 @@ export async function setupAllHeightTextDialog() {
 
 async function processSelectedFloors(html, floors) {
 	let pct = 0;
-	const floorToRun = [];
+	const floorsToRun = [];
 	for (const floor of floors) {
 		const isChecked = html.find(`[name="floor${floor}"]`)[0].checked;
-		if (isChecked) floorToRun.push(floor);
+		if (isChecked) floorsToRun.push(floor);
 	}
-	const pctPerRoom = 100 / floorToRun.length;
+	const pctPerRoom = 100 / floorsToRun.length;
 	if (floorsToRun.includes("A")) pct = await addTextForFloorA(pct, pctPerRoom);
 	if (floorsToRun.includes("B")) pct = await addTextForFloorB(pct, pctPerRoom);
 	if (floorsToRun.includes("C")) pct = await addTextForFloorD(pct, pctPerRoom);

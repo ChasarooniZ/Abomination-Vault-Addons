@@ -1,3 +1,11 @@
+## Unreleased
+
+- **New**
+- 
+- **Updated**
+  - Fixed bug with Floor Helper Drawings setup (🐛 @reins864)
+  - Fixed issue with Monk's Active Tile Triggers art of the downhill map (🐛 @reins864)
+
 ## 1.6.2
 
 - Added Chinese Translation (🌐 @Mtakaqiao)

@@ -326,27 +326,6 @@
 					"brMode": false,
 					"occlusionLinkId": "",
 					"occlusionLinkSource": false
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Moving%20Water.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Moving%20Water.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				}
 			},
 			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.di9xWhcJjNd287OL"
@@ -458,27 +437,6 @@
 					"brMode": false,
 					"occlusionLinkId": "",
 					"occlusionLinkSource": false
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Walls%20%2B%20wood.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Walls%20%2B%20wood.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				}
 			},
 			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.wT8X8bVP6ZQ0m17y"
@@ -870,27 +828,6 @@
 					"brMode": false,
 					"occlusionLinkId": "",
 					"occlusionLinkSource": false
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20100PX%202.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20100PX%202.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				}
 			},
 			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.ARttXXai2BcdQLvR"
@@ -973,27 +910,6 @@
 					"offsetx": 0,
 					"offsety": 0,
 					"parallax": 0
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				},
 				"Rideable": {
 					"issetRideableFlag": false,
@@ -1100,12 +1016,12 @@
 					"files": [
 						{
 							"id": "kO2Z4QvDZswcd6tj",
-							"name": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
+							"name": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log Fume - Tower/log-fume-downhill-trees-v3.webp",
 							"selected": true
 						},
 						{
 							"id": "cCC7KRIaFyxQAssA",
-							"name": "pics/Invisble.png",
+							"name": "modules/abomination-vaults-addons/assets/maps/chasarooni/Log Fume - Tower/invisible.webp",
 							"selected": false
 						}
 					]
@@ -1166,27 +1082,6 @@
 					"brMode": false,
 					"occlusionLinkId": "",
 					"occlusionLinkSource": false
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log%20Fume%20Downhill%20Trees%20v3.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				}
 			},
 			"_key": "!scenes.tiles!PPRhwtJVSjtgpGes.zxXemVJBnTG8cZnI"
@@ -1480,27 +1375,6 @@
 					"offsety": 0,
 					"parallax": 0
 				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
-				},
 				"Rideable": {
 					"issetRideableFlag": false,
 					"TileRideableNameFlag": "Tile",
@@ -1608,27 +1482,6 @@
 					"offsety": 0,
 					"parallax": 0
 				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/LOG1.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
-				},
 				"Rideable": {
 					"issetRideableFlag": false,
 					"TileRideableNameFlag": "Tile",
@@ -1735,27 +1588,6 @@
 					"offsetx": 0,
 					"offsety": 0,
 					"parallax": 0
-				},
-				"LocknKey": {
-					"OpenImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
-					"ClosedImageFlag": "pics/Maps/Abom%20Vault/Otari/Log%20Fume/Log3.webp",
-					"LockableFlag": false,
-					"LockedFlag": false,
-					"IDKeysFlag": "",
-					"UseKeyDialogFlag": true,
-					"PasskeysFlag": "",
-					"PasskeyChangeableFlag": false,
-					"IdentityKeyFlag": "",
-					"LockjammedFlag": false,
-					"LockDCFlag": 20,
-					"SpecialLPFlag": "",
-					"LockBreakDCFlag": -1,
-					"currentLPsuccessFlag": 0,
-					"requiredLPsuccessFlag": 1,
-					"LPAttemptsFlag": -1,
-					"LPAttemptsMaxFlag": -1,
-					"canbeCircumventedFreeFlag": true,
-					"SoundVariantFlag": "wood"
 				},
 				"Rideable": {
 					"issetRideableFlag": false,
