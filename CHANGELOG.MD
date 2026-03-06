@@ -1,5 +1,9 @@
 ## Unreleased
 
+## 2.0.1
+
+- Updated Russian Translation (🌐 @Mikkidez)
+
 ## 2.0.0
 
 - **New**
