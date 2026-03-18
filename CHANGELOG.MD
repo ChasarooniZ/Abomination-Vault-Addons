@@ -1,5 +1,16 @@
 ## Unreleased
 
+## 2.0.2
+
+- **Updated**
+  - Fixed Error with loading module (@weepingminotaur)
+  - Fixed visual bug causing the Drawings Setup % to show frozen even though it was finished (@elorebaen)
+    - IE `Drawings Setup` does **not** need to be rerun if it ended at 88%
+
+## 2.0.1
+
+- Updated Russian Translation (🌐 @Mikkidez)
+
 ## 2.0.0
 
 - **New**

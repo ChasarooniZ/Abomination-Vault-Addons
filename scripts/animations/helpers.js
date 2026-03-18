@@ -1,3 +1,5 @@
+import { MODULE_ID } from "../module.js";
+
 export function jb2aVersion() {
   return game.modules.get("jb2a_patreon")?.active
     ? "patreon"
