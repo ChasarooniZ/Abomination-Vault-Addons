@@ -47,11 +47,6 @@ export function missingModulesError(modules) {
 }
 
 export function sendUpdateMessage() {
-  game.settings.set(
-    MODULE_ID,
-    "previous-version.message",
-    game.modules.get("abomination-vaults-addons").version,
-  );
   ChatMessage.create({
     content: `<h4>${game.modules.get("abomination-vaults-addons").title}</h4>${game.i18n.localize("abomination-vaults-addons.update-message")}`,
     whisper: game.users.contents.filter((u) => u.isGM),

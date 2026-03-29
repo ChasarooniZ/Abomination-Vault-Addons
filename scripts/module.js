@@ -147,8 +147,14 @@ Hooks.on("ready", () => {
     foundry.utils.isNewerVersion(
       game.modules.get("abomination-vaults-addons").version,
       game.settings.get(MODULE_ID, "previous-version"),
-    )
+    ) &&
+    game.user.isGM
   ) {
+    game.settings.set(
+      MODULE_ID,
+      "previous-version",
+      game.modules.get("abomination-vaults-addons").version,
+    );
     sendUpdateMessage();
   }
 });
