@@ -1,0 +1,84 @@
+{
+	"folder": "9tUABwBdHlCnHxW0",
+	"name": "Release Spirit",
+	"type": "action",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"description": {
+			"value": "<section><p>You call on one of the three deities below, exhorting that deity to allow the soul trapped in the implement to find a merciful release in death, permanently destroying the implement.</p><ul><li><p><strong>Pharasma</strong> To release this tortured soul from unnatural, life-prolonging torment and give them the dignity of death.</p></li><li><p><strong>Sarenrae</strong> To end the creature's suffering in this mortal life that it may find spiritual healing in the next one.</p></li><li><p><strong>Torag</strong> To give the tormented creature an honourable death, releasing them from the shame of being twisted to the will of another.</p></li></ul><p>If no attempt is made to Release Spirit within 1 minute of an attempted Send False Signal check, the harnessed spiritual energy dissipates and the Send False Signal check must be attempted again.</p><p><strong>Options</strong></p><ul><li><p>@Check[type:Religion|dc:31|showDC:all]{Occultism (Master)}</p></li><li><p>@Check[type:Religion|dc:30|showDC:all]{Religion (Master)}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{Spirit Lore (Master)}</p></li></ul></section>",
+			"gm": "<section><p>A PC from a divine class (animist, cleric, champion, exemplar, or oracle) who worships the deity mentioned in their exhortation receives a +1 status bonus to this check.</p></section>"
+		},
+		"publication": {
+			"title": "AV Addons",
+			"authors": "weepingminotaur",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "FlatModifier",
+				"label": "Worship Relevant Deity",
+				"value": 1,
+				"type": "status",
+				"selector": [
+					"check"
+				],
+				"predicate": [
+					"action:release-spirit",
+					{
+						"or": [
+							"deity:primary:pharasma",
+							"deity:primary:saranrae",
+							"deity:primary:torag"
+						]
+					},
+					{
+						"or": [
+							"class:champion",
+							"class:animist",
+							"class:cleric",
+							"class:exemplar",
+							"class:oracle"
+						]
+					}
+				],
+				"hideIfDisabled": true
+			}
+		],
+		"slug": "rouse-sentience",
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"category": "interaction",
+		"deathNote": false
+	},
+	"img": "systems/pf2e/icons/default-icons/action.svg",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Item.pkCt6MdQHmoPKHyV",
+		"duplicateSource": "Item.Q5N7Px8ZVaocxC92",
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772775013214,
+		"modifiedTime": 1772775522663,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "pkCt6MdQHmoPKHyV",
+	"ownership": {
+		"default": 0
+	}
+}

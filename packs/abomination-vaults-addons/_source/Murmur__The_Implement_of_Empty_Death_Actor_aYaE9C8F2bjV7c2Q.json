@@ -1,0 +1,544 @@
+{
+	"folder": "BkS6povLS9GAqOEb",
+	"name": "Murmur, The Implement of Empty Death",
+	"type": "hazard",
+	"prototypeToken": {
+		"flags": {
+			"pf2e": {
+				"linkToActorSize": false,
+				"autoscale": false
+			},
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 30,
+						"otherVisibility": 0
+					}
+				}
+			}
+		},
+		"height": 1,
+		"width": 1,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "Murmur, Implement of the Empty Death",
+		"displayName": 40,
+		"actorLink": false,
+		"texture": {
+			"src": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/energy-absorption.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": true,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"displayBars": 50,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null,
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false
+	},
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"traits": {
+			"value": [
+				"occult",
+				"void",
+				"spirit",
+				"haunt"
+			],
+			"rarity": "uncommon",
+			"size": {
+				"value": "lg"
+			}
+		},
+		"attributes": {
+			"hp": {
+				"value": 0,
+				"max": 0,
+				"temp": 0,
+				"details": ""
+			},
+			"ac": {
+				"value": null
+			},
+			"hardness": 0,
+			"stealth": {
+				"value": 25,
+				"details": "<p>(master)</p>"
+			},
+			"immunities": [],
+			"weaknesses": [],
+			"resistances": [],
+			"emitsSound": false
+		},
+		"details": {
+			"description": "<p>When an occult spellcaster of the Empty Death seeks to give any type of regenerative ability to a particularly powerful and resource-intensive void creation (an ongoing spell, a complex hazard, or even a creature), they sometimes elect to use a separate implement to achieve this end. This implement draws void energy from the River of Souls, where the Empty Death hunts, funneling and amplifying that energy to a specific place on the mortal plane. The void energy can then be used to power the spellcaster's creation (or creations). While an object imbued with occult power makes for an adequate implement, a living creature used in this way generates a purer form of void energy as well as more consistent output. However, most beings, even those with no conscience, will refuse to use a living creature for such experiments, knowing that to do so would be to condemn that creature to an eternal life of unimaginable pain.</p><p>Unfortunately, those who serve the Empty Death — an inscrutable, malevolent Elder God with neither edicts nor anathemas — have no such scruples. These spellcasters are perfectly willing to capture and enslave a sentient creature to achieve their macabre goals. Many even take obscene delight in the process, which, among other things, involves permanently inflicting the feeblemind condition on the creature to domesticate and control it, scraping every ounce of soul energy from its mortal shell, and cruelly reshaping that soul energy to withstand the continual agony of serving as a living void energy source. Through a final series of unspeakable experiments, the spellcaster then consigns part of the creature's soul essence to the River of Souls while imprisoning the other part of the soul to a specific location on the material plane. The resulting abomination is known as an implement of the Empty Death, a tortured soul used as a living conduit between the Empty Death's plane and the mortal realm.</p><p>Sometimes known as a pale thrall, an implement of the Empty Death lives a life of perpetual, horrendous torment, possessing barely a spark of intelligence beyond the level of an average, nonmagical animal. At times, the implement's former life returns to them in vague, fragmented flashes of memory, but they can do nothing with these images. Indeed, they are incapable of speech beyond the simplest of words, which frequently takes the form of a plea to be killed and thereby released from their eternal suffering.</p><p>Implements of the Empty Death typically retain most or all of the abilities they had before their enslavement, though their creators will sometimes modify, augment, or add abilities to help the implement defend itself.</p>",
+			"level": {
+				"value": 11
+			},
+			"isComplex": true,
+			"disable": "<p>This haunt can only be disabled by performing three sequential checks.</p>",
+			"routine": "<p>(4 actions; occult, spirit, void) The haunt uses its first two actions to make Snake Fangs melee Strikes against any creature in range. It uses its remaining two actions to Focus Gaze on any creatures within its Petrifying Gaze aura, prioritizing creatures who have already failed to save against Petrifying Gaze.</p>",
+			"reset": "<p>If there are no creatures within its Petrifying Gaze aura at the start of its turn, the haunt spends 1 action to emit a shrill scream that alerts its creator to the presence of intruders. It then uses an action to shut and lock the door and resets.</p><p>Disabling this haunt permanently destroys it, and the imprisoned creature dies.</p>",
+			"publication": {
+				"title": "",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			}
+		},
+		"saves": {
+			"fortitude": {
+				"value": null
+			},
+			"reflex": {
+				"value": null
+			},
+			"will": {
+				"value": null
+			}
+		}
+	},
+	"_id": "aYaE9C8F2bjV7c2Q",
+	"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/energy-absorption.webp",
+	"items": [
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/melee.svg",
+			"name": "Snake Fangs",
+			"sort": 500000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"serpent-venom"
+					]
+				},
+				"bonus": {
+					"value": 25
+				},
+				"damageRolls": {
+					"6ofsourtuiris927jxiu": {
+						"damage": "2d12+5",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"agile",
+						"finesse",
+						"reach-10"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.ltvMN7K0itu2l3WZ",
+				"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.ltvMN7K0itu2l3WZ",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "7GYY7PT9vvxo4RTL",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Serpent Venom",
+			"sort": 1000000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p><p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p><p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "serpent-venom",
+				"traits": {
+					"value": [
+						"poison"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.FuDdgAP7wwq6LCFO",
+				"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.FuDdgAP7wwq6LCFO",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "Uj6qbO0sUsWmAwJW",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+			"name": "Biting Snakes",
+			"sort": 800000,
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p><strong>Trigger</strong> A creature ends its movement adjacent to the haunt.</p><hr /><p><strong>Effect</strong> The haunt makes a snake fangs Strike against the creature. The haunt then rolls initiative.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "biting-snakes",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.zGXZKhk95VPsSdKN",
+				"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.zGXZKhk95VPsSdKN",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "UAYoVDAj8ZmRdEdp",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Petrifying Gaze",
+			"sort": 900000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a @Check[fortitude|dc:30] save. If the creature fails, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute. The haunt can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"key": "Aura",
+						"predicate": [
+							"petrifying"
+						],
+						"radius": 30,
+						"slug": "petrifying-gaze",
+						"traits": [
+							"arcane",
+							"visual"
+						]
+					},
+					{
+						"domain": "all",
+						"key": "RollOption",
+						"option": "petrifying",
+						"toggleable": true,
+						"value": false
+					}
+				],
+				"slug": null,
+				"traits": {
+					"value": [
+						"arcane",
+						"aura",
+						"visual"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.hSGaU1UT8mzmPFWl",
+				"duplicateSource": "Scene.fHui6SrL2Qav5eje.Token.P1P4zg3ww2wVFNrl.Actor.mlifDVJJWwjFtUxv.Item.hSGaU1UT8mzmPFWl",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"pf2e-measure-helper": {
+					"auraType": [
+						"endTurn"
+					]
+				},
+				"pf2e-target-helper": {
+					"saves": {
+						"saveType": "fortitude",
+						"saveValue": 30
+					}
+				}
+			},
+			"_id": "5hjKQ7YRzCggPTXc",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/OneAction.webp",
+			"name": "Focus Gaze",
+			"sort": 1000000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The haunt fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a @Check[fortitude|dc:30] save against the haunt's petrifying gaze. The haunt's gaze is unaffected by walls or other nonmagical barriers.</p><p>If the creature was already slowed by petrifying gaze before attempting its save, a failed save causes it to be petrified permanently. After attempting its save, the creature is then temporarily immune until the start of the haunt's next turn.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"arcane",
+						"concentrate",
+						"incapacitation",
+						"spirit",
+						"visual"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.wMelFlsF11a2LxOU.Item.2lGYb3ZO8pwxgMhD",
+				"duplicateSource": "Actor.wMelFlsF11a2LxOU.Item.2lGYb3ZO8pwxgMhD",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "mgqgLse06zizhbQz",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"pf2e": {
+			"editMode": false
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Actor.aYaE9C8F2bjV7c2Q",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"createdTime": 1771874358212,
+		"modifiedTime": 1772772397103,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Animations",
+	"sorting": "a",
+	"folder": "sWA0tCYFgBfHnof6",
+	"type": "Macro",
+	"_id": "6Gz5T8izaH4RvkL6",
+	"description": "",
+	"sort": 0,
+	"color": "#a03acf",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "d208e9597ad1285da3ed3fb877d34b3fbd877bdc"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

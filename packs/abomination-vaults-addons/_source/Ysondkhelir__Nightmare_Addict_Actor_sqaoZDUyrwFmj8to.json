@@ -1,0 +1,3779 @@
+{
+	"folder": "UTsNVTYvQ6gZXeCK",
+	"name": "Ysondkhelir, Nightmare Addict",
+	"type": "npc",
+	"prototypeToken": {
+		"flags": {
+			"pf2e": {
+				"linkToActorSize": true,
+				"autoscale": false
+			},
+			"tagger": {},
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"order": 0,
+						"id": "bar1",
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#1fb222",
+						"position": "bottom-inner",
+						"otherVisibility": 0,
+						"ownerVisibility": 50,
+						"gmVisibility": -1,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"indentLeft": 7,
+						"indentRight": 7,
+						"shareHeight": false,
+						"style": "user",
+						"label": "HP",
+						"invert": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null,
+						"invertDirection": false,
+						"hideHud": false
+					}
+				}
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"PPDCFlag": -1,
+				"APDCFlag": 29,
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				},
+				"RevealwhenSpottedFlag": false,
+				"MATTTriggerTileFlag": ""
+			},
+			"arms-reach": {
+				"range": 0
+			},
+			"tokencover": {
+				"maximumCoverGrant": 1
+			},
+			"monks-tokenbar": {
+				"include": "default"
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"GrapplePlacementFlag": "RowBelow",
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"PilotedbyDefaultFlag": false
+			},
+			"token-z": {
+				"zIndex": 0
+			},
+			"token-variants": {
+				"randomImgDefault": "",
+				"disableHUDButton": false
+			},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.5,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"monks-bloodsplats": {
+				"bloodsplat-type": "",
+				"bloodsplat-colour": ""
+			},
+			"image-hover": {
+				"hideArt": false,
+				"specificArt": "path/image.png"
+			},
+			"xdy-pf2e-workbench": {
+				"originalTokenName": "Ysondkhelir"
+			}
+		},
+		"height": 1,
+		"width": 1,
+		"name": "Ysondkhelir, Nightmare Addict",
+		"displayName": 30,
+		"actorLink": false,
+		"texture": {
+			"src": "modules/pf2e-tokens-bestiaries/tokens/planar/dream/denizen-of-leng.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": true,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"displayBars": 40,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": true,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 1,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": "#432de6",
+				"background": null
+			},
+			"effects": 15,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/pf2e-tokens-bestiaries/subjects/planar/dream/denizen-of-leng.webp"
+			}
+		},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": true
+		},
+		"movementAction": null,
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false
+	},
+	"effects": [],
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 152,
+				"temp": 0,
+				"max": 100,
+				"details": "planar fast healing 10"
+			},
+			"ac": {
+				"value": 27,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			},
+			"speed": {
+				"value": 30,
+				"otherSpeeds": [],
+				"details": ""
+			},
+			"immunities": [
+				{
+					"type": "cold"
+				}
+			],
+			"resistances": [
+				{
+					"type": "critical-hits",
+					"value": 10
+				},
+				{
+					"type": "precision",
+					"value": 10
+				}
+			],
+			"adjustment": "elite"
+		},
+		"initiative": {
+			"statistic": "occultism"
+		},
+		"details": {
+			"languages": {
+				"value": [
+					"aklo",
+					"common"
+				],
+				"details": "tongues"
+			},
+			"level": {
+				"value": 8
+			},
+			"blurb": "Male denizen of leng",
+			"publicNotes": "<p>Slavers and raiders from the cold, windswept dimension of Leng, these malevolent humanoids range across reality in ominous black ships capable of sailing beyond the borders of dimensions and planes. Although most denizens of Leng seek slaves and plunder like any pirate, others operate as self-styled ambassadors and merchants, sowing discord with far-ranging plots. While the inscrutable denizens dress themselves in flowing robes, veils, and broad turbans to appear human, their aberrant physiology, when glimpsed, is evident from their crown of stubby horns and tentacled jaws to their furry, goat-like legs.</p>\n<p>Above the fierce captains who command the infamous black ships are an even higher caste of denizens of Leng. These cultists and musicians serve as high priests, laboring to appease the frightening gods who look down upon the Nightmare Realm with cold malice.</p>",
+			"privateNotes": "",
+			"publication": {
+				"title": "Pathfinder #164: Hands of the Devil",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			},
+			"alignment": {
+				"value": "CE"
+			},
+			"source": {
+				"value": "Pathfinder #164: Hands of the Devil",
+				"author": ""
+			},
+			"creatureType": "Aberration, Dream"
+		},
+		"resources": {
+			"focus": {
+				"max": 1,
+				"value": 1
+			}
+		},
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.953,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"abilities": {
+			"str": {
+				"mod": 3
+			},
+			"dex": {
+				"mod": 3
+			},
+			"con": {
+				"mod": 4
+			},
+			"int": {
+				"mod": 6
+			},
+			"wis": {
+				"mod": 3
+			},
+			"cha": {
+				"mod": 5
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 17,
+			"senses": [
+				{
+					"type": "darkvision"
+				}
+			],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 16,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 19,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 17,
+				"saveDetail": ""
+			}
+		},
+		"skills": {
+			"acrobatics": {
+				"base": 15,
+				"special": []
+			},
+			"athletics": {
+				"base": 15,
+				"special": []
+			},
+			"deception": {
+				"base": 19,
+				"special": []
+			},
+			"occultism": {
+				"base": 19,
+				"special": []
+			},
+			"stealth": {
+				"base": 17,
+				"special": []
+			},
+			"thievery": {
+				"base": 17,
+				"special": []
+			}
+		},
+		"traits": {
+			"value": [
+				"aberration",
+				"chaotic",
+				"dream",
+				"evil",
+				"gauntlight-floor-g"
+			],
+			"rarity": "uncommon",
+			"size": {
+				"value": "med"
+			}
+		},
+		"schema": {
+			"version": 0.854,
+			"lastMigration": null
+		},
+		"exploration": []
+	},
+	"_id": "sqaoZDUyrwFmj8to",
+	"img": "modules/pf2e-tokens-bestiaries/portraits/planar/dream/denizen-of-leng.webp",
+	"items": [
+		{
+			"_id": "Oevi96zftiaBjAOH",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+			"name": "Occult Innate Spells",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"ability": {
+					"value": "cha"
+				},
+				"spelldc": {
+					"value": 19,
+					"dc": 27,
+					"mod": 0
+				},
+				"tradition": {
+					"value": "occult"
+				},
+				"prepared": {
+					"value": "innate",
+					"flexible": false
+				},
+				"showSlotlessLevels": {
+					"value": false
+				},
+				"proficiency": {
+					"value": 1
+				},
+				"slots": {
+					"slot0": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot1": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot2": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot3": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot4": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot5": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot6": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot7": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot8": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot9": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot10": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot11": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					}
+				},
+				"autoHeightenLevel": {
+					"value": null
+				},
+				"showUnpreparedSpells": {
+					"value": true
+				},
+				"displayLevels": {}
+			},
+			"type": "spellcastingEntry",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "UhmNFs8XmS6fveKv",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/slimes/slime-face-melting-green.webp",
+			"name": "Outcast's Curse",
+			"sort": 200000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You afflict the target with a curse that makes its presence abrasive and off-putting. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 10 minutes, the target must roll twice and use the worse result whenever attempting a Deception, Diplomacy, Intimidation, or Performance check, and creatures they encounter have an initial attitude toward them of one step worse (for instance, @UUID[Compendium.pf2e.conditionitems.Item.I1ffBVISxLr2gC4u]{Unfriendly} instead of @UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA]{Indifferent}).</p>\n<p><strong>Failure</strong> As success, but the effect is permanent.</p>\n<p><strong>Critical Failure</strong> As failure, and creatures that the target encounters have an initial attitude toward them of two steps worse.</p>"
+				},
+				"rules": [],
+				"slug": "outcasts-curse",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"curse",
+						"manipulate",
+						"mental",
+						"misfortune"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 4
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "touch"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "will"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 4
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "aV7tH63nZZOcXqzb",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/tongues.webp",
+			"name": "Truespeech (Constant)",
+			"sort": 400000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>The target can understand all words regardless of language and also speak the languages of other creatures. When in a mixed group of creatures, each time the target speaks, it can choose a creature and speak in a language that creature understands, even if the target doesn't know what language that is.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>"
+				},
+				"rules": [],
+				"slug": "truespeech",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "uncommon",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 5
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "touch"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 hour",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 4,
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "nihlPTy2AUBLiZ0e",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/hypnotic-pattern.webp",
+			"name": "Hypnotic Pattern",
+			"sort": 500000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
+				},
+				"rules": [],
+				"slug": "hypnotic-pattern",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"illusion",
+						"manipulate",
+						"visual"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": {
+					"type": "burst",
+					"value": 10
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": true
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "will"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 3,
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "sWtdWgTNEA7VSiQ3",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/locate.webp",
+			"name": "Locate",
+			"sort": 700000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You learn the direction to the target (if you picked a specific object, such as \"my mother's sword\") or the nearest target (if you picked a type of object, such as \"swords\"). If the target is a specific object, you must have observed it directly with your own senses. If it's a type of object, you still need to have an accurate mental image of the type of object. If there's lead or running water between you and the target, this spell can't locate the object. This means you might find a type of object farther away if the nearest one is behind lead or running water.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You can target a specific creature or ancestry instead of an object, but you must have met or seen up close the creature or ancestry you want to target.</p>"
+				},
+				"rules": [],
+				"slug": "locate",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"detection",
+						"manipulate"
+					],
+					"rarity": "uncommon",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 specific object or type of object"
+				},
+				"range": {
+					"value": "500 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "10 minutes"
+				},
+				"duration": {
+					"value": "",
+					"sustained": true
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 3
+				},
+				"counteraction": false,
+				"heightening": {
+					"levels": {
+						"5": {
+							"target": {
+								"value": "1 specific object or type of object, or a specific creature or ancestry"
+							}
+						}
+					},
+					"type": "fixed"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "1NOpA1MC7Kdu1RKF",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/mind-reading.webp",
+			"name": "Mind Reading",
+			"sort": 800000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>With a cursory mental touch, you attempt to read the target's mind. It must attempt a Will save. The target then becomes temporarily immune to your mind reading for 1 hour.</p>\n<hr /><strong>Critical Success</strong> The target perceives vague surface thoughts from you when you Cast the Spell.\n<p><strong>Success</strong> You find out whether the target's Intelligence modifier is higher than, equal to, or lower than yours.</p>\n<p><strong>Failure</strong> You perceive vague surface thoughts from the target when you Cast the Spell, and you find out whether its Intelligence modifier is higher than, equal to, or lower than yours.</p>\n<p><strong>Critical Failure</strong> As failure, and for the duration of the spell, you can Sustain the Spell to detect the target's surface thoughts again. The target doesn't receive any additional saves.</p>"
+				},
+				"rules": [],
+				"slug": "mind-reading",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"detection",
+						"manipulate",
+						"mental"
+					],
+					"rarity": "uncommon",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 round or sustained up to 1 minute",
+					"sustained": true
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "will"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 3
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "TfoVFyxIvY0uSWIe",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/mirror-image.webp",
+			"name": "Mirror Image",
+			"sort": 900000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.0PO5mFRhh9HxGAtv]{Spell Effect: Mirror Image}</p>"
+				},
+				"rules": [],
+				"slug": "mirror-image",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"illusion",
+						"manipulate",
+						"visual"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 2,
+					"uses": {
+						"value": 2,
+						"max": 2
+					}
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "iRUsDsthfs8dbjho",
+			"flags": {
+				"core": {},
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/chill-touch.webp",
+			"name": "Void Warp",
+			"sort": 1000000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You call upon the Void to harm life force. The target takes 2d4 void damage with a basic Fortitude save. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+				},
+				"rules": [],
+				"slug": "void-warp",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cantrip",
+						"concentrate",
+						"manipulate",
+						"void"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 living creature"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {
+					"0": {
+						"applyMod": false,
+						"category": null,
+						"formula": "2d4",
+						"kinds": [
+							"damage"
+						],
+						"materials": [],
+						"type": "void"
+					}
+				},
+				"defense": {
+					"save": {
+						"basic": true,
+						"statistic": "fortitude"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false,
+				"heightening": {
+					"damage": {
+						"0": "1d4"
+					},
+					"interval": 1,
+					"type": "interval"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "ngnDEklmNIpdoIWS",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/detect-magic.webp",
+			"name": "Detect Magic",
+			"sort": 1100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies.</p>\n<p>You detect illusion magic only if that magic's effect has a lower level than the level of your detect magic spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an invisibility potion) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the school of magic for the highest-level effect within range that the spell detects. If multiple effects are equally strong, the GM determines which you learn.</p>\n<p><strong>Heightened (4th)</strong> As 3rd level, but you also pinpoint the source of the highest-level magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+				},
+				"rules": [],
+				"slug": "detect-magic",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cantrip",
+						"concentrate",
+						"detection",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult",
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": {
+					"type": "emanation",
+					"value": 30
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "0FXvx3BSVJXplwT2",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/mage-hand.webp",
+			"name": "Telekinetic Hand",
+			"sort": 1200000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
+				},
+				"rules": [],
+				"slug": "telekinetic-hand",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cantrip",
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 unattended object of light Bulk or less"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": true
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false,
+				"heightening": {
+					"levels": {
+						"3": {
+							"target": {
+								"value": "1 unattended object with a Bulk of 1 or less"
+							}
+						},
+						"5": {
+							"range": {
+								"value": "60 feet"
+							}
+						},
+						"7": {
+							"target": {
+								"value": "1 unattended object with a Bulk of 2 or less"
+							}
+						}
+					},
+					"type": "fixed"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "PqxmKuBUYQIh8XjB",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/message.webp",
+			"name": "Message",
+			"sort": 1300000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You mouth words quietly, but instead of coming out of your mouth, they're transferred directly to the ears of the target. While others can't hear your words any better than if you normally mouthed them, the target can hear your words as if they were standing next to you.</p>\n<p>The target can give a brief response as a reaction, or as a free action on their next turn if they wish, but they must be able to see you and be within range to do so. If they respond, their response is delivered directly to your ear, just like the original message.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range increases to 500 feet.</p>"
+				},
+				"rules": [],
+				"slug": "message",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"auditory",
+						"cantrip",
+						"concentrate",
+						"illusion",
+						"linguistic",
+						"mental"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "1"
+				},
+				"duration": {
+					"value": "see below",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false,
+				"heightening": {
+					"levels": {
+						"3": {
+							"range": {
+								"value": "500 feet"
+							}
+						}
+					},
+					"type": "fixed"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "uIAsDwihFkXQYvWY",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/unholy/strike-beam-blood-small-red-purple.webp",
+			"name": "Phantom Pain",
+			"sort": 1400000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+				},
+				"rules": [],
+				"slug": "phantom-pain",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"illusion",
+						"manipulate",
+						"mental",
+						"nonlethal"
+					],
+					"rarity": "common",
+					"traditions": [
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": false
+				},
+				"damage": {
+					"0": {
+						"applyMod": false,
+						"category": null,
+						"formula": "2d4",
+						"kinds": [
+							"damage"
+						],
+						"materials": [],
+						"type": "mental"
+					}
+				},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "will"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 4,
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false,
+				"heightening": {
+					"damage": {
+						"0": "2d4"
+					},
+					"interval": 1,
+					"type": "interval"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "xzZ10Rezr9qnYyCl",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/light/explosion-star-glow-silhouette.webp",
+			"name": "Read Aura",
+			"sort": 1500000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You focus on the target object, opening your mind to perceive magical auras. When the casting is complete, you know whether that item is magical, and if it is, you learn the school of magic.</p>\n<p>If the object is illusory, you detect this only if the effect's level is lower than the level of your read aura spell.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to 10 objects.</p>\n<p><strong>Heightened (6th)</strong> You can target any number of objects.</p>"
+				},
+				"rules": [],
+				"slug": "read-aura",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cantrip",
+						"concentrate",
+						"detection",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult",
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Core Rulebook",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 object"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "1 minute"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false,
+				"heightening": {
+					"levels": {
+						"3": {
+							"target": {
+								"value": "10 objects"
+							}
+						},
+						"6": {
+							"target": {
+								"value": "any number of objects"
+							}
+						}
+					},
+					"type": "fixed"
+				}
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "OpUEqqVcx7trG4mu",
+			"flags": {
+				"pf2e": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/melee.svg",
+			"name": "Kukri",
+			"sort": 1900000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"agile",
+						"finesse",
+						"magical",
+						"reach-15",
+						"trip"
+					],
+					"config": {}
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "2d6+6",
+						"damageType": "slashing",
+						"category": null
+					},
+					"1": {
+						"damage": "1d6",
+						"damageType": "bleed",
+						"category": "persistent"
+					}
+				},
+				"bonus": {
+					"value": 18
+				},
+				"attackEffects": {
+					"value": []
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "VDa8nmlZXUFf1Y7z",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/melee.svg",
+			"name": "Jaws",
+			"sort": 2000000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"agile",
+						"finesse",
+						"reach-15"
+					],
+					"config": {}
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "2d10+6",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"bonus": {
+					"value": 17
+				},
+				"attackEffects": {
+					"value": [
+						"debilitating-bite"
+					]
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "LcG0o3PUyemEv5oK",
+			"flags": {
+				"core": {}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Darkvision",
+			"sort": 2100000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"slug": "darkvision",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "M7sZToYvFNrig8TH",
+			"flags": {
+				"core": {},
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Constant Spells",
+			"sort": 2200000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+				},
+				"rules": [],
+				"slug": "constant-spells",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "Pathfinder Bestiary",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": "interaction",
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "hr8UQcvJzWfTNGoH",
+			"flags": {
+				"core": {},
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Planar Fast Healing",
+			"sort": 2300000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A denizen of Leng maintains a connection to Leng at all times, and when away from Leng, they have fast healing 5. They lose this ability on Leng or in areas where planar connections do not function. If killed, their body dissolves into nothingness in [[/br 1d4 #Dissolve Body]]{1d4 rounds}, leaving behind their equipment. A slain denizen reforms in Leng; they can be permanently killed only when their planar fast healing doesn't function.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+				},
+				"rules": [
+					{
+						"key": "FastHealing",
+						"predicate": [
+							"planar-fast-healing"
+						],
+						"value": 10
+					},
+					{
+						"domain": "all",
+						"key": "RollOption",
+						"option": "planar-fast-healing",
+						"toggleable": true,
+						"value": false
+					}
+				],
+				"slug": "fast-healing",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "Pathfinder Bestiary",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": "defensive",
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "2dHPDZu3BYN1GauB",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "No Breath",
+			"sort": 2250000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Denizens of Leng don't need to breathe.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": "defensive",
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "MJktJ33e2ejK5I1o",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Debilitating Bite",
+			"sort": 2150000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A creature that takes damage from a denizen's bite must succeed at a @Check[type:fortitude|dc:27] save or become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}. Each time a target fails an additional save against this ability, the condition value increases by 1 (to a maximum of Clumsy 4). This condition value decreases by 1 every 24 hours.</p>"
+				},
+				"rules": [],
+				"slug": "debilitating-bite",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"curse",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": "offensive",
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "C91ggah5Ye65LrMH",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Leng Ruby",
+			"sort": 2225000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Many denizens of Leng carry strange rubies mined from quarries in Leng. As long as a creature holds a Leng ruby that it willingly accepted as a gift or payment from a denizen of Leng, any denizen of Leng can target that creature with <em>@UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]{Outcast's Curse}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain}</em>, or <em>@UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{Mind Reading}</em> at a range of 1 mile, and the bearer uses an outcome one degree of success worse than the result of its saving throw against <em>Outcast's Curse</em>.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": "offensive",
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "LUdvij5KTX4oc3yH",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/lore.svg",
+			"name": "Sailing Lore",
+			"sort": 3100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"mod": {
+					"value": 20
+				},
+				"proficient": {
+					"value": 0
+				}
+			},
+			"type": "lore",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "4fJHnYFqH0VjZXPv",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/gravity-well.webp",
+			"name": "Gravity Well",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You create a sphere of altered gravity. All creatures and unsecured objects in the area move towards the center, depending on their Reflex saving throws. This follows the rules for forced movement. If there's not enough space near the center of the sphere, creatures and objects nearer to the center move first, and others move as far as they can without being blocked, up to the amount set by their saving throw outcomes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature moves 5 feet toward the center.</p>\n<p><strong>Failure</strong> The creature moves 15 feet toward the center.</p>\n<p><strong>Critical Failure</strong> The creature moves 30 feet toward the center.</p>"
+				},
+				"rules": [],
+				"slug": "gravity-well",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core 2",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": {
+					"details": "30-foot-radius burst",
+					"type": "burst",
+					"value": 30
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "reflex"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 3,
+					"uses": {
+						"max": 2,
+						"value": 2
+					}
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "qE6CmHhAMlXacLHz",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "lPzcDrjGDFbzuF2r",
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/magical/construct-stone-earth-gray.webp",
+			"name": "Invisibility",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+				},
+				"rules": [],
+				"slug": "invisibility",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"illusion",
+						"manipulate",
+						"subtle"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "touch"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "10 minutes",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 2,
+					"uses": {
+						"max": 2,
+						"value": 2
+					}
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "y9kRvSYkL8JrUCEB",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "7cyoYPoPYA01mErU",
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/skull-flames-white-blue.webp",
+			"name": "Whispers of the Void",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You whisper baleful secrets that transcend language and carry magically to the ears of your foes. The words take physical form, weakening the life force of the targets, each of which must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[(floor(@item.rank/2))d8[persistent,void]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(floor(@item.rank/2)*2)d8[persistent,void]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(floor(@item.rank/2)*2)d8[persistent,void]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p><hr /><p><strong>Heightened (+2)</strong> The persistent void damage increases by 1d8 on a success, or by 2d8 on a failure or critical failure.</p>"
+				},
+				"rules": [],
+				"slug": "whispers-of-the-void",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"auditory",
+						"concentrate",
+						"manipulate",
+						"void"
+					],
+					"rarity": "common",
+					"traditions": [
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core 2",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 4
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "60 feet"
+				},
+				"area": {
+					"type": "burst",
+					"value": 10
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "fortitude"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 4,
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false,
+				"heightening": {
+					"damage": {}
+				}
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "yHKuDlcSRDKjmFeI",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "4fJHnYFqH0VjZXPv",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/rouse-skeletons.webp",
+			"name": "Rouse Skeletons",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Misshapen skeletal forms erupt from a solid surface, such as a stone floor, and fill the burst. The area they fill is difficult terrain. Their grasping claws deal 2d6 slashing damage to creatures on the ground in the area when the skeletons first appear with a basic Reflex save.</p>\n<p>On subsequent rounds, the first time you Sustain the Spell each round, you can move the area of skeletons up to 20 feet within the range of the spell and deal 2d6 slashing damage with a basic Reflex save to each creature in the new area.</p>\n<p>Damaging or destroying the skeletons is irrelevant, as new bones pull forth from the ground to repair and replace any that are obliterated.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+				},
+				"rules": [],
+				"slug": "rouse-skeletons",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core 2",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "60 feet"
+				},
+				"area": {
+					"type": "burst",
+					"value": 10
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": true
+				},
+				"damage": {
+					"0": {
+						"applyMod": false,
+						"category": null,
+						"formula": "2d6",
+						"kinds": [
+							"damage"
+						],
+						"type": "slashing"
+					}
+				},
+				"defense": {
+					"save": {
+						"basic": true,
+						"statistic": "reflex"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 3
+				},
+				"counteraction": false,
+				"heightening": {
+					"area": 0,
+					"damage": {
+						"0": "1d6"
+					},
+					"interval": 2,
+					"type": "interval"
+				}
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "Tdub2sRu38myvwGu",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Your Fear Gets Me High",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"description": {
+					"value": "<p>As long as he exerts full control over Dorianna, Ysondkhelir gains the following abilities:</p><ul><li><p>He is Huge, instead of his normal size, with a reach of 15 feet on melee attacks.</p></li><li><p>He has damage resistance 10 (physical).</p></li><li><p>He gains the Spawn Hand action.</p></li><li><p>He is Quickened. He can only use the extra action granted by the Quickened condition to Cast a Spell or to Spawn Hand.</p></li></ul>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": "your-fear-gets-me-high",
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"dream",
+						"mental",
+						"occult"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": null
+				},
+				"category": null,
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "IX4XkND8VTLRqwyy",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/fear.webp",
+			"folder": null,
+			"sort": 2800000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1772779880161
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "You're In My Nightmare",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"description": {
+					"value": "<p>As long as Ysondkhelir is alive, any square of his dreamworld that lacks a solid floor is considered to be a nightmare space. A character who enters or ends their turn in a nightmare space triggers the effect below, as the dream-catcher's malevolent nightmares tear into their mind.</p><hr /><section class=\"statblock\"><p>@Check[type:will|dc:26|showDC:all]{basic Will save}</p><p>@Damage[(2d10+13)[spirit,mental]]{2d10+13 spirit and mental damage}</p><p><strong>Critical success</strong> No damage. The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p><strong>Success</strong> Half damage. The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p><p><strong>Failure</strong> Full damage. The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p><p><strong>Critical failure</strong> Double damage. The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 4}.</p></section>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"dream",
+						"mental",
+						"spirit"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "OBBuPiP9UWh8vFHv",
+			"img": "systems/pf2e/icons/spells/shared-nightmare.webp",
+			"folder": null,
+			"sort": 2700000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1772778254408
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Spawn Hand",
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"description": {
+					"value": "<p>Ysondkhelir spawns a giant crawling hand in an unoccupied space within 30 feet.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"dream",
+						"occult"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": null,
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "UPPrR0IhXC5mWkQu",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "D7UVaOiB40wTR6kv",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/shield.webp",
+			"name": "Shield",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+				},
+				"rules": [],
+				"slug": "shield",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cantrip",
+						"concentrate",
+						"force"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"divine",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "1"
+				},
+				"duration": {
+					"value": "until the start of your next turn",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "TgQl9whn86ESEGHe",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "D7UVaOiB40wTR6kv",
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/ranged/bullets-triple-ball-yellow.webp",
+			"name": "Telekinetic Projectile",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+				},
+				"rules": [],
+				"slug": "telekinetic-projectile",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"attack",
+						"cantrip",
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "",
+					"sustained": false
+				},
+				"damage": {
+					"0": {
+						"applyMod": false,
+						"category": null,
+						"formula": "2d6",
+						"kinds": [
+							"damage"
+						],
+						"materials": [],
+						"type": "untyped"
+					}
+				},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH"
+				},
+				"counteraction": false,
+				"heightening": {
+					"damage": {
+						"0": "1d6"
+					},
+					"interval": 1,
+					"type": "interval"
+				},
+				"overlays": {
+					"2I469pfbYcmFvzOA": {
+						"_id": "2I469pfbYcmFvzOA",
+						"name": "Telekinetic Projectile (Bludgeoning)",
+						"overlayType": "override",
+						"sort": 1,
+						"system": {
+							"damage": {
+								"0": {
+									"category": null,
+									"type": "bludgeoning"
+								}
+							}
+						}
+					},
+					"cUFX7ExSLeoa3vIF": {
+						"_id": "cUFX7ExSLeoa3vIF",
+						"name": "Telekinetic Projectile (Piercing)",
+						"overlayType": "override",
+						"sort": 2,
+						"system": {
+							"damage": {
+								"0": {
+									"category": null,
+									"type": "piercing"
+								}
+							}
+						}
+					},
+					"zFWsMjoeCnLxqJaV": {
+						"_id": "zFWsMjoeCnLxqJaV",
+						"name": "Telekinetic Projectile (Slashing)",
+						"overlayType": "override",
+						"sort": 3,
+						"system": {
+							"damage": {
+								"0": {
+									"category": null,
+									"type": "slashing"
+								}
+							}
+						}
+					}
+				}
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "fXG3ngGJ06lS4idL",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": null,
+			"name": "More HP",
+			"type": "effect",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [
+					{
+						"key": "FlatModifier",
+						"label": "Elite HP",
+						"selector": [
+							"hp"
+						],
+						"value": "((@item.badge.value)*(@actor.level))",
+						"slug": null,
+						"priority": 100,
+						"ignored": false,
+						"predicate": [],
+						"type": "untyped",
+						"force": false,
+						"hideIfDisabled": false,
+						"fromEquipment": true,
+						"critical": null,
+						"tags": [],
+						"removeAfterRoll": false
+					}
+				],
+				"slug": "more-hp",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 1
+				},
+				"duration": {
+					"value": -1,
+					"unit": "unlimited",
+					"expiry": null,
+					"sustained": false
+				},
+				"start": {
+					"value": -52277769,
+					"initiative": null
+				},
+				"tokenIcon": {
+					"show": false
+				},
+				"badge": {
+					"type": "counter",
+					"value": 4,
+					"labels": [
+						"Above Avg.",
+						"Decent",
+						"Good",
+						"Elite"
+					],
+					"loop": false,
+					"min": null,
+					"max": null
+				},
+				"context": null,
+				"unidentified": true,
+				"fromSpell": false
+			},
+			"img": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/tokenmarker_webp/MaxHPup%5Bstatus%2Cmaxhp%2Ctemphp%5D.webp",
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1772778761574
+			},
+			"sort": 0,
+			"_id": "rrz2MGrDLXUsH1lY",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "iDjm2cXyRAe4VZ35",
+			"img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/reptiles/serpent-horned-green.webp",
+			"name": "Slither",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A mass of snakes made of shadow rise up to capture creatures in the area. Each creature in the area when you Cast the Spell takes @Damage[3d6[piercing]] damage and @Damage[1d6[persistent,poison]] damage from a biting snake, and it's @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} depending on its Reflex save. A creature that ends its turn in the area must also attempt this save, even if it's already grabbed or restrained by the snakes. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes full damage and is grabbed by a snake. The snakes' @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC is equal to your spell DC. A creature can attack a snake to release the creature. A snake's AC is equal to your spell DC, and it's destroyed if it takes 12 or more damage at once. New snakes continually regrow as long as the spell lasts, so destroying snakes doesn't prevent slither from capturing more creatures.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature takes double damage and is restrained by a snake.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The persistent poison damage increases by 1d6 and snake HP increases by 6.</p>"
+				},
+				"rules": [],
+				"slug": "slither",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate",
+						"shadow"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 5
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": {
+					"type": "burst",
+					"value": 20
+				},
+				"time": {
+					"value": "3"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": false
+				},
+				"damage": {
+					"hBNB5kWrMV8T2CuH": {
+						"applyMod": false,
+						"category": null,
+						"formula": "3d6",
+						"kinds": [
+							"damage"
+						],
+						"materials": [],
+						"type": "piercing"
+					},
+					"mY0vhGfbdzA69pIz": {
+						"applyMod": false,
+						"category": "persistent",
+						"formula": "1d6",
+						"kinds": [
+							"damage"
+						],
+						"materials": [],
+						"type": "poison"
+					}
+				},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "reflex"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false,
+				"heightening": {
+					"area": 0,
+					"damage": {
+						"hBNB5kWrMV8T2CuH": "0",
+						"mY0vhGfbdzA69pIz": "1d6"
+					},
+					"interval": 2,
+					"type": "interval"
+				}
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "dM01630aFBhFNyuq",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "iDjm2cXyRAe4VZ35",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/synesthesia.webp",
+			"name": "Synesthesia",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>The target's senses are suddenly rewired in unexpected ways, causing them to process noises as bursts of color, smells as sounds, and so on. This has three effects, and the target must attempt a Will save.</p><ul><li>Due to the distraction, the target must succeed at a @Check[flat|dc:5] each time it uses a concentrate action, or the action fails and is wasted.</li><li>The target's difficulty processing visual input makes all creatures and objects @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from it.</li><li><p>The creature has trouble moving, making it @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3} and giving it a –10-foot status penalty to its Speeds.</p></li></ul><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is affected for 1 round.</p>\n<p><strong>Failure</strong> The target is affected for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} as it attempts to process the sensory shifts.</p><hr /><p><strong>Heightened (9th)</strong> You can target up to five creatures.</p>"
+				},
+				"rules": [],
+				"slug": "synesthesia",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate",
+						"mental"
+					],
+					"rarity": "common",
+					"traditions": [
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "Pathfinder Player Core 2",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 5
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 creature"
+				},
+				"range": {
+					"value": "30 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "varies",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "will"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "Oevi96zftiaBjAOH",
+					"heightenedLevel": 5,
+					"uses": {
+						"value": 1
+					}
+				},
+				"counteraction": false,
+				"heightening": {
+					"levels": {
+						"9": {
+							"target": {
+								"value": "5 creatures"
+							}
+						}
+					},
+					"type": "fixed"
+				}
+			},
+			"type": "spell",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"sort": 0,
+			"flags": {},
+			"_id": "Dui7xbSrUoZCUn0n",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+			"name": "Attack of Opportunity (Special)",
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>If Ysondkhelir hits a creature with his Attack of Opportunity, he can teleport that creature to a dreamspace of his choosing.</p><p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "Pathfinder Bestiary",
+					"authors": ""
+				},
+				"rules": [],
+				"traits": {
+					"value": [
+						"dream",
+						"teleportation"
+					],
+					"otherTags": []
+				},
+				"slug": "attack-of-opportunity-special",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.953,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.sqaoZDUyrwFmj8to.Item.O4sF5DHmtnpon9l4",
+				"duplicateSource": "Actor.sqaoZDUyrwFmj8to.Item.O4sF5DHmtnpon9l4",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772779257629,
+				"modifiedTime": 1772779277407,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": "rH1SsFkOGs3Yy4tz",
+			"sort": 100000,
+			"flags": {},
+			"_id": "DJ9NLwh9Kj1yYBR8",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"folder": "rH1SsFkOGs3Yy4tz",
+			"name": "Effect: Ysondkhelir's Control",
+			"type": "effect",
+			"effects": [],
+			"system": {
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"description": {
+					"value": "<p><strong>One success</strong> Ysondkhelir's resistance to physical damage drops to 5. The south section of his window wall disappears.</p><p><strong>Two successes</strong> No more crawling hands can spawn. The north section of Ysondkhelir's window wall disappears.</p><p><strong>Three successes</strong> Ysondkhelir is no longer quickened. The remaining sections of his window wall disappear.</p><p><strong>Four successes</strong> Ysondkhelir loses his Attack of Opportunity and his resistance to physical damage. He also reverts to his normal size and loses 15 feet reach on melee strikes. Dorianna is temporarily free of his mental influence, though he will eventually reassert control if left alive.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [
+					{
+						"key": "GrantItem",
+						"uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl",
+						"onDeleteActions": {
+							"grantee": "restrict"
+						},
+						"predicate": [
+							{
+								"lte": [
+									"parent:badge:value",
+									3
+								]
+							}
+						],
+						"flag": "quickened"
+					},
+					{
+						"key": "Resistance",
+						"type": "physical",
+						"value": 10,
+						"predicate": [
+							"parent:badge:value:0"
+						]
+					},
+					{
+						"key": "Resistance",
+						"type": "physical",
+						"value": 5,
+						"predicate": [
+							{
+								"gte": [
+									"parent:badge:value",
+									1
+								]
+							}
+						]
+					},
+					{
+						"key": "CreatureSize",
+						"value": "huge",
+						"predicate": [
+							{
+								"lte": [
+									"parent:badge:value",
+									4
+								]
+							}
+						]
+					},
+					{
+						"key": "AdjustStrike",
+						"mode": "remove",
+						"predicate": [
+							"parent:badge:value:5"
+						],
+						"property": "weapon-traits",
+						"value": "reach-15"
+					},
+					{
+						"key": "GrantItem",
+						"uuid": "Item.x36gXWafbh5sCtcs",
+						"reevaluateOnUpdate": true,
+						"predicate": [
+							"parent:badge:value:5"
+						],
+						"flag": "setHerFree"
+					}
+				],
+				"slug": "effect-ysondkhelirs-control",
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"level": {
+					"value": 1
+				},
+				"duration": {
+					"value": -1,
+					"unit": "unlimited",
+					"expiry": null,
+					"sustained": false
+				},
+				"tokenIcon": {
+					"show": true
+				},
+				"unidentified": false,
+				"start": {
+					"value": 7446969,
+					"initiative": null
+				},
+				"badge": {
+					"type": "counter",
+					"value": 1,
+					"labels": [
+						"0 Successes",
+						"1 Successes",
+						"2 Successes",
+						"3 Successes",
+						"4 Successes"
+					],
+					"loop": true,
+					"min": null,
+					"max": null
+				},
+				"fromSpell": false,
+				"context": null
+			},
+			"img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+			"sort": 0,
+			"flags": {
+				"pf2e": {
+					"itemGrants": {
+						"quickened": {
+							"id": "gTf65M5g6JJUGKo3",
+							"onDelete": "restrict"
+						}
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Item.3NFCmqvLXA6eOHoo",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772780652081,
+				"modifiedTime": 1772780652081,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "JjRVbVMuQUZydgpv",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/conditions/quickened.webp",
+			"name": "Quickened",
+			"system": {
+				"description": {
+					"value": "<p>You're able to act more quickly. You gain 1 additional action at the start of your turn each round. Many effects that make you quickened require you use this extra action only in certain ways. If you become quickened from multiple sources, you can use the extra action you've been granted for any single action allowed by any of the effects that made you quickened. Because quickened has its effect at the start of your turn, you don't immediately gain actions if you become quickened during your turn.</p>",
+					"gm": ""
+				},
+				"group": null,
+				"overrides": [],
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Player Core",
+					"authors": ""
+				},
+				"references": {
+					"children": [],
+					"overriddenBy": [],
+					"overrides": [],
+					"parent": null
+				},
+				"rules": [],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"value": {
+					"isValued": false,
+					"value": null
+				},
+				"slug": "quickened",
+				"_migration": {
+					"version": 0.955,
+					"previous": null
+				},
+				"fromSpell": false,
+				"persistent": null
+			},
+			"type": "condition",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772780652081,
+				"modifiedTime": 1772780652081,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"pf2e": {
+					"grantedBy": {
+						"id": "JjRVbVMuQUZydgpv",
+						"onDelete": "cascade"
+					}
+				}
+			},
+			"_id": "gTf65M5g6JJUGKo3",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"core": {},
+		"pf2e": {
+			"lootable": false
+		},
+		"xdy-pf2e-workbench": {},
+		"sequencer": {
+			"effects": []
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Actor.sqaoZDUyrwFmj8to",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1758090637358,
+		"modifiedTime": 1772780193448,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

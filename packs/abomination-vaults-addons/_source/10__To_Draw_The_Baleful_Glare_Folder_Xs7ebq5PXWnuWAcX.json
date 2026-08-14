@@ -1,0 +1,30 @@
+{
+	"name": "10: To Draw The Baleful Glare",
+	"sorting": "a",
+	"folder": "EwyzsmLgG46nH0bT",
+	"type": "Macro",
+	"_id": "Xs7ebq5PXWnuWAcX",
+	"description": "",
+	"sort": 0,
+	"color": "#19713b",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "68bdccc4ceba0372dc9496dc89864d427cf6e010"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

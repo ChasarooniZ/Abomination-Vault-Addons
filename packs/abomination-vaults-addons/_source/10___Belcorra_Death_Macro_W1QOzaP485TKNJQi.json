@@ -1,0 +1,35 @@
+{
+	"name": "10 - Belcorra Death",
+	"type": "script",
+	"_id": "W1QOzaP485TKNJQi",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/magic/light/orb-shadow-blue.webp",
+	"scope": "global",
+	"command": "// Written originally by Maple\n// Animates Belcorra's Death at the Hands of Nhimbaloth\n// Requires Sequencer & JB2A (Free or Patreon)\nawait game.abomVaultAddons.animations.belcorraDeath()",
+	"folder": "zvl2RsQDzEPIVTJn",
+	"sort": 100000,
+	"flags": {
+		"scene-packer": {
+			"hash": "7e21a522466109995b79649061cd659e2aad1d57"
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

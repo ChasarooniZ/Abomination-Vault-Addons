@@ -1,0 +1,25 @@
+{
+	"name": "10: To Draw The Baleful Glare",
+	"sorting": "a",
+	"folder": "BkS6povLS9GAqOEb",
+	"type": "Actor",
+	"_id": "OnSr4fT6nycZJs7E",
+	"description": "",
+	"sort": 0,
+	"color": "#4e8c4a",
+	"flags": {
+		"scene-packer": {
+			"hash": "39ca0de1a77c4e8bf319da46666238b5b3873ed2"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

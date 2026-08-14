@@ -1,0 +1,252 @@
+{
+	"name": "Nhimbaloth - Minor Curse",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p><em>Outside there was a sound of multitudinous little patterings. They had been coming, I was aware, for a long time, and in my sleep they had first become audible. I sat there nervously wide awake as though I had not slept at all. It seemed to me that my breathing came with difficulty, and that there was a great weight upon the surface of my body.</em></p>",
+			"value": "<section class=\"secret revealed\" id=\"secret-I2SMHdB1rEKPOF0C\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><p><strong>Saving Throw</strong> @Check[type:will|dc:20|showDC:gm|traits:curse,illusion,magical,mental,auditory]</p><p><strong>Timeline </strong>Abomination Vaults floors A through C</p><p><strong>Suggested Triggers</strong> Contact with the @UUID[JournalEntry.kDJSn9wbVvjnqYEj.JournalEntryPage.yk1knQyHc25ZSAfE]{shrine altar on floor A}, or the first time a character moves into the ribbon of light in @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35 }or @UUID[JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.eOv6LI3wvIuKyyNJ]{C15}</p><hr /></section></section><section class=\"statblock\"><p><strong>Stage 1</strong> You must rest for 12 hours instead of 8 to avoid becoming @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}. (1 day)</p><p><strong>Stage 2</strong> As stage 1, and you can't gain any benefit from resting or long-term rest. (1 day)</p><p><strong>Stage 3</strong> As stage 2, and you are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. (1 day)</p></section></section><section class=\"traits\"><p class=\"p1\">Curse | Illusion | Magical | Mental | Auditory</p></section><p><strong>The Wind, Her Voice</strong></p><p class=\"p1\">Even the briefest of encounters with dread Nhimbaloth's presence is enough to affect the health of the unwary. This curse causes you to hear whispering voices, footsteps, and other odd noises during your next long rest. If left untreated, the loss of sleep starts to take a toll on your wellbeing.</p>"
+		},
+		"rules": [
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg",
+				"predicate": [
+					"parent:badge:value:3"
+				],
+				"reevaluateOnUpdate": true,
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				}
+			}
+		],
+		"slug": "nhimbaloth-minor-curse",
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"publication": {
+			"title": "PF2e Foundry Discord: Abomination Vaults Thread",
+			"authors": "weepingminotaur",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 3
+		},
+		"duration": {
+			"value": 24,
+			"unit": "hours",
+			"expiry": "turn-start",
+			"sustained": false
+		},
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"badge": {
+			"type": "counter",
+			"value": 1,
+			"labels": [
+				"[1/3]",
+				"[2/3]",
+				"[3/3]"
+			],
+			"loop": false,
+			"min": null,
+			"max": null
+		},
+		"context": null,
+		"unidentified": true,
+		"fromSpell": false
+	},
+	"img": "systems/pf2e/icons/spells/garden-of-death.webp",
+	"folder": "p84txsfYYdvmAa6s",
+	"flags": {
+		"autoanimations": {
+			"id": "126ce8f1-1d50-4eb2-8dd5-66cb25b8ce04",
+			"label": "Fly Pox",
+			"activeEffectType": "ontoken",
+			"menu": "aefx",
+			"macro": {
+				"enable": false
+			},
+			"primary": {
+				"video": {
+					"dbSection": "static",
+					"menuType": "spell",
+					"animation": "curewounds",
+					"variant": "01",
+					"color": "blue",
+					"enableCustom": false,
+					"customPath": ""
+				},
+				"options": {
+					"addTokenWidth": false,
+					"anchor": "0.5",
+					"delay": 0,
+					"elevation": 1000,
+					"fadeIn": 250,
+					"fadeOut": 500,
+					"isMasked": false,
+					"isRadius": false,
+					"isWait": false,
+					"opacity": 1,
+					"persistent": false,
+					"playbackRate": 1,
+					"playOn": "source",
+					"repeat": 1,
+					"repeatDelay": 250,
+					"size": 1,
+					"unbindAlpha": false,
+					"unbindVisibility": false,
+					"zIndex": 1
+				},
+				"sound": {
+					"enable": false,
+					"delay": 0,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"startTime": 0,
+					"volume": 0.75
+				}
+			},
+			"secondary": {
+				"enable": false,
+				"video": {
+					"dbSection": "static",
+					"menuType": "spell",
+					"animation": "curewounds",
+					"variant": "01",
+					"color": "blue",
+					"enableCustom": false,
+					"customPath": ""
+				},
+				"sound": {
+					"enable": false,
+					"delay": 0,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"startTime": 0,
+					"volume": 0.75
+				},
+				"options": {
+					"addTokenWidth": false,
+					"anchor": "0.5",
+					"contrast": 0,
+					"delay": 0,
+					"elevation": 1000,
+					"fadeIn": 250,
+					"fadeOut": 500,
+					"isMasked": false,
+					"isRadius": true,
+					"isWait": false,
+					"opacity": 1,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"saturate": 0,
+					"size": 1.5,
+					"tint": false,
+					"tintColor": "#FFFFFF",
+					"zIndex": 1
+				}
+			},
+			"soundOnly": {
+				"sound": {
+					"enable": false,
+					"delay": 0,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"startTime": 0,
+					"volume": 0.75
+				}
+			},
+			"source": {
+				"enable": false,
+				"video": {
+					"dbSection": "static",
+					"menuType": "spell",
+					"animation": "curewounds",
+					"variant": "01",
+					"color": "blue",
+					"enableCustom": false,
+					"customPath": ""
+				},
+				"sound": {
+					"enable": false,
+					"delay": 0,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"startTime": 0,
+					"volume": 0.75
+				},
+				"options": {
+					"addTokenWidth": false,
+					"anchor": "0.5",
+					"contrast": 0,
+					"delay": 0,
+					"elevation": 1000,
+					"fadeIn": 250,
+					"fadeOut": 500,
+					"isMasked": false,
+					"isRadius": false,
+					"isWait": true,
+					"opacity": 1,
+					"repeat": 1,
+					"repeatDelay": 250,
+					"saturate": 0,
+					"size": 1,
+					"tint": false,
+					"tintColor": "#FFFFFF",
+					"zIndex": 1
+				}
+			},
+			"isEnabled": false,
+			"isCustomized": false,
+			"version": 5
+		},
+		"cf": {
+			"id": "temp_xr68pr5iff",
+			"path": "GM Items#/CF_SEP/Afflictions",
+			"color": "#000000"
+		},
+		"core": {},
+		"scene-packer": {
+			"sourceId": "Item.HaFD4PULQzHYhkY2",
+			"hash": "68e83115867342dda95286fb570057460e1f744b"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.ZCmQhpzHnxCmXylz",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"modifiedTime": 1772774228600,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": {
+			"worldId": "av-monk-crew",
+			"uuid": null,
+			"coreVersion": "11.315",
+			"systemId": "pf2e",
+			"systemVersion": "5.16.0"
+		}
+	},
+	"_id": "ZCmQhpzHnxCmXylz",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	}
+}

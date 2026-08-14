@@ -1,0 +1,35 @@
+{
+	"name": "Belcorra Attacks",
+	"type": "script",
+	"_id": "l1nf3CAxWQpWtos6",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/creatures/magical/spirit-mischief-fire-blue.webp",
+	"scope": "global",
+	"command": "// Animates a Belcorra Attack\n// Can be used either by selecting a hidden Belcorra Token on screen\n// Or by simply running the macro on its own\n// Pans camera, plays her theme then\n// Causes her to fly in from offscreen to her token position\n// Requires Sequencer & can use JB2A Patreon\n\nconst volume = 1; //Volume Level 0 - 1 (1 = 100%)\nawait game.abomVaultAddons.animations.belcorraAttacks(volume)",
+	"folder": "6Gz5T8izaH4RvkL6",
+	"sort": 100000,
+	"flags": {
+		"scene-packer": {
+			"hash": "bef85fb784baed57a34b30a31d2dfc91925cd2bb"
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

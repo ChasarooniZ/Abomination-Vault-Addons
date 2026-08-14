@@ -1,0 +1,22 @@
+{
+	"type": "Item",
+	"folder": "nLQDkjcnn5oCK5vP",
+	"name": "08: Decaying Gardens",
+	"color": "#4f9c50",
+	"sorting": "a",
+	"_id": "q3OWWsiFQXHI5p2z",
+	"description": "",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Folder.q3OWWsiFQXHI5p2z",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772774796582,
+		"modifiedTime": 1772774796582,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	}
+}

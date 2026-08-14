@@ -1,0 +1,35 @@
+{
+	"name": "Regurgitate Animation",
+	"type": "script",
+	"flags": {
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		},
+		"scene-packer": {
+			"hash": "5d60e4445c7d55dcb47138ad1c5c5631e45657b7"
+		}
+	},
+	"command": "/*\n* This gets any creatures that are grabbed within 5 ft of the worm and launches them at the c reature it is targetting\n*\n*\n*/\n\nfunction isGrabbed(tok) {\n    return !!tok.actor.conditions.bySlug('grabbed').length\n}\n\nfunction getTokensInRange(selectedToken = null, extraSquares = 1) {\n  // If no token is provided, use the currently selected token\n  if (!selectedToken) {\n    selectedToken = canvas.tokens.controlled[0];\n  }\n\n  if (!selectedToken) {\n    ui.notifications.warn(\"No token selected or provided.\");\n    return null;\n  }\n\n  // Get all tokens on the canvas\n  const allTokens = canvas.tokens.placeables;\n\n  // Calculate the range based on token size and extra squares\n  const tokenSize = selectedToken.document.width;\n  const range = (tokenSize / 2) + extraSquares;\n  console.log({tokenSize, range})\n\n  // Array to store tokens in range\n  let tokensInRange = [];\n\n  // Iterate through all tokens\n  for (let token of allTokens) {\n    // Skip the selected token itself\n    if (token === selectedToken) continue;\n    if (!isGrabbed(token)) continue;\n\n    // Calculate the distance between the selected token and the current token\n    const distance = canvas.grid.measurePath([selectedToken.center, token.center]).spaces;\n    console.log({distance, token})\n\n    // Add the token to the array if it's within range\n    if (distance <= range) {\n      tokensInRange.push({ token: token, distance: distance });\n    }\n  }\n\n  // Sort tokens by distance\n  tokensInRange.sort((a, b) => a.distance - b.distance);\n\n  return tokensInRange;\n}\n\n// Example usage:\nconst result = getTokensInRange();\nconsole.log({result})\nif (result.length > 0) {\n  const seq = new Sequence();\n  const target = game.user.targets.first();\n  for (const data of result) {\n    const token = data.token;\n    const tokenScale = { x: token.document.texture.scaleX, y: token.document.texture.scaleY };\n    const tokenWidth = token.document.width;\n\n    seq\n      .animation()\n        .on(token)\n        .moveTowards(target.center, { ease: \"easeInOutBack\", relativeToCenter: true, offset: {x:1, y:0}})\n        .duration(1500)\n        .snapToGrid()\n        .delay(300)\n      // .effect()\n      //     .delay(300)\n      //     .file(\"jb2a.explosion.orange\")\n      //     .atLocation(token)\n      //     .scale(tokenWidth)\n      //     .belowTokens()\n    // .sound()\n    // .file(\"modules/SoundBoard-BlitzFreePack/bundledAudio/Naval%20Warfare/light_cannon_blast.mp3\")\n    // .volume(0.25)\n    // .delay(100)\n      // .canvasPan()\n      //     .delay(125)\n      //     .shake({duration: 250, strength: 20, rotation: true})\n      .animation()\n          .delay(210)\n          .on(token)\n          .opacity(0)\n    .effect()\n        .syncGroup(\"regurgitate-1\")\n        .delay(200)\n        .attachTo(token, { bindAlpha: false })\n        .from(token)\n        .scale(tokenScale)\n        .scaleOut(1.5, 300, {ease: \"easeOutQuad\"})\n    .effect()\n        .syncGroup(\"regurgitate-2\")\n        .attachTo(token, { bindAlpha: false })\n        .from(token)\n        .scale(tokenScale)\n        .scaleIn(1.5, 300, {ease: \"easeInQuad\"})\n        .delay(200 + 300 - 50)\n          //.waitUntilFinished(-50)\n      // .effect()\n      //     .delay(200 + 300 - 50)\n      //     .attachTo(token, { bindAlpha: false })\n      //     .from(token)\n      //     .scale(tokenScale)\n      //     .scaleIn(1.5, 300, {ease: \"easeInQuad\"})\n      //     //.waitUntilFinished(-100)\n      .animation()\n        .delay(200 + 300 +  300 - 100)\n          .opacity(1)\n          .on(token)\n    // .sound()\n    // .file(\"modules/SoundBoard-BlitzFreePack/bundledAudio/Impacts/small-rockslide/smallrockslide-01.ogg\")\n    // .volume(0.5)\n  }\n  seq\n    .effect()\n      .delay(1500 - 715)\n      .file(\"jb2a.impact.boulder.01\")\n      .atLocation(target)\n      .belowTokens()\n      .scaleToObject(4)\n    .play();\n}\n\n// if (result && result.length > 0) {\n//   let message = \"Tokens in range:\\n\";\n//   result.forEach(t => {\n//     message += `${t.token.name} at ${t.distance.toFixed(2)} units\\n`;\n//   });\n//   ui.notifications.info(message);\n// } else {\n//   ui.notifications.warn(\"No tokens found within range.\");\n// }",
+	"img": "icons/magic/acid/projectile-flame-smoke-green.webp",
+	"_id": "X28HKDQaNJxl4fci",
+	"author": "x15saXbCHNahbJqq",
+	"scope": "global",
+	"folder": "zvl2RsQDzEPIVTJn",
+	"sort": 150000,
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

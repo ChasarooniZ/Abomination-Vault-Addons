@@ -1,0 +1,35 @@
+{
+	"folder": "Xs7ebq5PXWnuWAcX",
+	"name": "J15. Add Lever Puzzle",
+	"type": "script",
+	"_id": "btHyWcte8PX6Omgz",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/commodities/tech/lever.webp",
+	"scope": "global",
+	"command": "// Add the tiles to room J15 to add rotation puzzle\n// Note, to interact with levers you need to right click on them with a token selected within 1 grid square\n// IMPORTANT: Only run this once, otherwise you may need to delete the extra levers\n// NOTE: Requires `Tagger` and `Monk's Active Tiles`\n// Credit: Huge credit to @darkim for working out the idea originally, all this does is recreate their setup to the best off my ability\ngame.abomVaultAddons.setup.scenes.j.createRotateTilesPuzzle()",
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "736a1711e4119fa54bf4e57a70fc2b31f16e4b9b"
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

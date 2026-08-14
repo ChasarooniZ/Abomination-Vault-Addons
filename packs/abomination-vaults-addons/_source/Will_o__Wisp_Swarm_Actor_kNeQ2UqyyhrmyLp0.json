@@ -1,0 +1,819 @@
+{
+	"folder": "BkS6povLS9GAqOEb",
+	"name": "Will-o'-Wisp Swarm",
+	"type": "npc",
+	"prototypeToken": {
+		"flags": {
+			"pf2e": {
+				"linkToActorSize": true,
+				"autoscale": true
+			}
+		},
+		"height": 1,
+		"width": 1,
+		"name": "Will-o'-Wisp Swarm",
+		"displayName": 20,
+		"actorLink": false,
+		"texture": {
+			"src": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": true,
+		"rotation": 0,
+		"alpha": 0.5,
+		"disposition": -1,
+		"displayBars": 20,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": "#ffdd00",
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.token.webp"
+			}
+		},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null,
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false
+	},
+	"effects": [],
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 85,
+				"temp": 0,
+				"max": 85,
+				"details": ""
+			},
+			"ac": {
+				"value": 30,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			},
+			"speed": {
+				"value": 0,
+				"otherSpeeds": [
+					{
+						"type": "fly",
+						"value": 50
+					}
+				],
+				"details": ""
+			},
+			"immunities": [
+				{
+					"type": "magic",
+					"exceptions": []
+				},
+				{
+					"type": "restrained",
+					"exceptions": []
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "area-damage",
+					"value": 10,
+					"exceptions": []
+				},
+				{
+					"type": "splash-damage",
+					"value": 10,
+					"exceptions": []
+				}
+			]
+		},
+		"initiative": {
+			"statistic": "perception"
+		},
+		"details": {
+			"languages": {
+				"value": [
+					"aklo",
+					"common"
+				],
+				"details": ""
+			},
+			"level": {
+				"value": 8
+			},
+			"blurb": "",
+			"publicNotes": "",
+			"privateNotes": "",
+			"publication": {
+				"title": "",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			}
+		},
+		"resources": {},
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"abilities": {
+			"str": {
+				"mod": -5
+			},
+			"dex": {
+				"mod": 7
+			},
+			"con": {
+				"mod": 0
+			},
+			"int": {
+				"mod": 3
+			},
+			"wis": {
+				"mod": 4
+			},
+			"cha": {
+				"mod": 3
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 16,
+			"senses": [],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 12,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 19,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 16,
+				"saveDetail": ""
+			}
+		},
+		"skills": {
+			"acrobatics": {
+				"base": 20,
+				"special": []
+			},
+			"deception": {
+				"base": 15,
+				"special": []
+			},
+			"intimidation": {
+				"base": 14,
+				"special": []
+			},
+			"stealth": {
+				"base": 19,
+				"special": []
+			}
+		},
+		"traits": {
+			"value": [
+				"aberration",
+				"air",
+				"swarm"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "med"
+			}
+		}
+	},
+	"_id": "kNeQ2UqyyhrmyLp0",
+	"img": "modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp",
+	"items": [
+		{
+			"type": "action",
+			"name": "Horrifying Visage",
+			"system": {
+				"actionType": {
+					"value": "free"
+				},
+				"description": {
+					"value": "<p><strong>Requirements</strong> The will-o'-wisp swarm is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible}</p><hr /><p><strong>Effect</strong> The will-o'-wisp swarm reveals itself, losing its invisibility for 1 round. Each creature within @Template[type:emanation|distance:60] must make a @Check[will|dc:26] save.</p><p>Regardless of their result, the targets become immune to Horrifying Visage for 24 hours.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.<br /><strong>Failure</strong> The creature takes @Damage[5d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.<br /><strong>Critical Failure</strong> The creature takes @Damage[8d8[mental]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>",
+					"gm": "<p>Players who have played the Adventure Path Abomination Vaults treat their character's degree of success as one degree worse than their roll.</p>"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"mental",
+						"visual"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"deathNote": false
+			},
+			"effects": [],
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "324debbb55d0e281378464deb30009257d1de8eb"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.xwOe0VnQuRrYYOUL",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.xwOe0VnQuRrYYOUL",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636090740,
+				"modifiedTime": 1755636090740,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "oceXACXOoDVaTlUE",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Shocking Swarm",
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"description": {
+					"value": "<p>Each enemy in the swarm's space takes @Damage[5d6[electricity]] damage (@Check[reflex|dc:27|basic:true] save).</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": "shocking-swarm",
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"electricity",
+						"magical"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"deathNote": false
+			},
+			"effects": [],
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "324debbb55d0e281378464deb30009257d1de8eb"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.bWAo0tq9l54dRCnv",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.bWAo0tq9l54dRCnv",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636093138,
+				"modifiedTime": 1755636093138,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "UH3o03rB56pG9azA",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/OneAction.webp",
+			"name": "Feed on Fear",
+			"sort": 400000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> An enemy within 30 feet is under a fear effect or dying</p><hr /><p><strong>Effect</strong> The will-o'-wisp feeds on the creature's terror. It regains @Damage[4d4[healing]]{4d4 Hit Points}, and if it has Gone Dark, its glow reignites.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"concentrate"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.F8xpT7h5a5ZviXU5",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.F8xpT7h5a5ZviXU5",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636100945,
+				"modifiedTime": 1755636100945,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "ilGFy8B2IeXT8uV2",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/OneAction.webp",
+			"name": "Go Dark",
+			"sort": 500000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The will-o'-wisp extinguishes its glow, becoming @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It can end this effect with another use of this action. If it uses its <em>Shocking Swarm</em> while invisible, the arcs of electricity lets any observer determine its location, making the will-o'-wisp only @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to all observers until it moves.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"domain": "all",
+						"key": "RollOption",
+						"option": "go-dark",
+						"suboptions": [
+							{
+								"label": "PF2E.ConditionTypeInvisible",
+								"value": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+							},
+							{
+								"label": "PF2E.ConditionTypeHidden",
+								"value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
+							}
+						],
+						"toggleable": true
+					},
+					{
+						"inMemoryOnly": true,
+						"key": "GrantItem",
+						"predicate": [
+							"go-dark"
+						],
+						"uuid": "{item|flags.pf2e.rulesSelections.goDark}"
+					}
+				],
+				"slug": null,
+				"traits": {
+					"value": [
+						"concentrate"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.USCoVo5LJNs12zB4",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.USCoVo5LJNs12zB4",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636102859,
+				"modifiedTime": 1755636102859,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "roPOLMLtMCSoWev0",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "All-Around Vision",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"key": "ActiveEffectLike",
+						"mode": "override",
+						"path": "system.attributes.flanking.flankable",
+						"value": false
+					}
+				],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"slug": "all-around-vision",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.9qV49KjZujZnSp6w",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636107704,
+				"modifiedTime": 1755636107704,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "784067d028c3a674aeae8128e56a1ec53f452813"
+				}
+			},
+			"_id": "4LEvT7prjwOUB7p0",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Swarm Mind",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"slug": "swarm-mind",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636108806,
+				"modifiedTime": 1755636108806,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "c81aecf7e27ac3584df0ca1af1d2c9ddc2e551bf"
+				}
+			},
+			"_id": "U9tPGDywkcfD8gtK",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Glow",
+			"sort": 200000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>40 feet.</p><p>A will-o'-wisp is itself naturally invisible, but glows with a colored light, casting bright light in the aura and making it visible.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"key": "TokenLight",
+						"predicate": [
+							{
+								"not": "go-dark"
+							}
+						],
+						"value": {
+							"alpha": 0.2,
+							"animation": {
+								"intensity": 1,
+								"speed": 3,
+								"type": "pulse"
+							},
+							"bright": 40,
+							"color": "#fff9a3",
+							"dim": 0
+						}
+					}
+				],
+				"slug": null,
+				"traits": {
+					"value": [
+						"aura",
+						"light"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.wChn2PEw9GYziq2n",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.wChn2PEw9GYziq2n",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636110678,
+				"modifiedTime": 1755636110678,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "P1TTBfrORbPpYYTy",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Magic Immunity",
+			"sort": 300000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>A will-o'-wisp swarm is immune to all spells except @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}, and @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.wRQ7TZdd0n5UIIao.Item.3Eksrmh390T4SrP7",
+				"duplicateSource": "Actor.wRQ7TZdd0n5UIIao.Item.3Eksrmh390T4SrP7",
+				"exportSource": null,
+				"coreVersion": "13.347",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.0",
+				"createdTime": 1755636111926,
+				"modifiedTime": 1755636111926,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "wSRn9g8ys6QAGICg",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"createdTime": 1755635891428,
+		"modifiedTime": 1771870280359,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

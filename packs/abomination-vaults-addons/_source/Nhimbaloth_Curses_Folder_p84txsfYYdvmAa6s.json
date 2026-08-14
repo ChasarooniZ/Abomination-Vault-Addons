@@ -1,0 +1,25 @@
+{
+	"name": "Nhimbaloth Curses",
+	"sorting": "a",
+	"folder": "nLQDkjcnn5oCK5vP",
+	"type": "Item",
+	"_id": "p84txsfYYdvmAa6s",
+	"description": "",
+	"sort": 100000,
+	"color": "#266e49",
+	"flags": {
+		"scene-packer": {
+			"hash": "66f78636d49c0050eb84ca21a54dc88d1442a9d9"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Folder.p84txsfYYdvmAa6s",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

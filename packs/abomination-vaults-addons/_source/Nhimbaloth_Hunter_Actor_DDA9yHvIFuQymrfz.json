@@ -1,0 +1,1393 @@
+{
+	"_id": "DDA9yHvIFuQymrfz",
+	"folder": "NzKYM8LYkloFCxfN",
+	"img": "modules/pf2e-tokens-npc-core/assets/portraits/cultist.webp",
+	"items": [
+		{
+			"_id": "oHeLKugv0k3a7CQB",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"img": "icons/weapons/bows/longbow-recurve-brown.webp",
+			"name": "Composite Longbow",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated.</p>"
+				},
+				"rules": [],
+				"slug": "composite-longbow",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"deadly-d10",
+						"propulsive",
+						"volley-30"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 1
+				},
+				"quantity": 1,
+				"baseItem": "composite-longbow",
+				"bulk": {
+					"value": 2
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 20
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null,
+					"handsHeld": 0
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "held-in-one-plus-hands"
+				},
+				"category": "martial",
+				"group": "bow",
+				"bonus": {
+					"value": 0
+				},
+				"damage": {
+					"dice": 1,
+					"die": "d8",
+					"damageType": "piercing",
+					"persistent": null
+				},
+				"splashDamage": {
+					"value": 0
+				},
+				"range": 100,
+				"expend": 1,
+				"ammo": null,
+				"reload": {
+					"value": "0"
+				},
+				"grade": null,
+				"runes": {
+					"potency": 0,
+					"striking": 0,
+					"property": []
+				},
+				"specific": null,
+				"subitems": [],
+				"bonusDamage": {
+					"value": 0
+				}
+			},
+			"type": "weapon",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "r7zVCfgSD6RfG3yN",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+			"name": "Hide Armor",
+			"sort": 300000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
+				},
+				"rules": [],
+				"slug": "hide-armor",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": "hide-armor",
+				"bulk": {
+					"value": 2
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 2
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null,
+					"handsHeld": 0,
+					"inSlot": true
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "medium",
+				"group": "leather",
+				"acBonus": 3,
+				"strength": 2,
+				"dexCap": 2,
+				"checkPenalty": -2,
+				"speedPenalty": -5,
+				"grade": null,
+				"runes": {
+					"potency": 0,
+					"resilient": 0,
+					"property": []
+				},
+				"subitems": []
+			},
+			"type": "armor",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "ggpEhjADs42d0Rdk",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"img": "icons/weapons/ammunition/arrows-broadhead-white.webp",
+			"name": "Arrows",
+			"sort": 400000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+				},
+				"rules": [],
+				"slug": "arrows",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 20,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"sp": 1
+					},
+					"per": 10
+				},
+				"equipped": {
+					"carryType": "worn",
+					"handsHeld": 0
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "ammo",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"spell": null,
+				"stackGroup": "arrows"
+			},
+			"type": "consumable",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "Vqjb5Zoa5sSTgnDg",
+			"flags": {
+				"pf2e": {
+					"linkedWeapon": "oHeLKugv0k3a7CQB"
+				}
+			},
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Composite Longbow",
+			"sort": 600000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"primal-fear"
+					]
+				},
+				"bonus": {
+					"value": 14
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "1d8+6",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"deadly-d10",
+						"propulsive",
+						"reload-0",
+						"volley-30"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": {
+					"increment": 100,
+					"max": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "QHjaZGpjLk4jCh9j",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"name": "Favored Game",
+			"sort": 700000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"description": {
+					"value": "<p>A monster hunter specializes in bringing down certain creatures. These favored game are those that have recently eaten meat in the last few hours.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1757563613691
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "cFHJlVinmzogV39U",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/actions/Reaction.webp",
+			"name": "Reactive Strike",
+			"sort": 800000,
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Player Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "reactive-strike",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "z6dAfzucPpphEx6T",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"name": "Hunter's Onslaught",
+			"sort": 900000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p><hr /><p><strong>Effect</strong> The monster hunter leads an attack against their monstrous foe. The monster hunter chooses an enemy they can see that qualifies as their favored game. The monster hunter becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by that creature and gains 10 temporary Hit Points that last as long as the onslaught does. During the onslaught, the hunter gains a +8 status bonus to damage rolls against the designated enemy, and allies in a 30-foot aura around the hunter gain half that bonus. The onslaught lasts for 1 minute or until either the nhimbaloth hunter or the designated creature falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>",
+					"gm": ""
+				},
+				"frequency": {
+					"max": 1,
+					"per": "PT1H",
+					"value": 1
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"selfEffect": {
+					"name": "Effect: Hunter's Onslaught",
+					"uuid": "Compendium.pf2e.bestiary-effects.Item.2eQDm7Oor2hSZKyf"
+				},
+				"slug": null,
+				"traits": {
+					"value": [
+						"concentrate",
+						"emotion",
+						"mental"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1757563493108
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "rMyFoyfbCFtTsk1T",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"name": "Primal Fear",
+			"sort": 1000000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>When the monster hunter hits a creature that qualifies as their favored game, that creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical hit).</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"emotion",
+						"fear",
+						"mental"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "ggCUTswEGOjGvjj0",
+			"img": "systems/pf2e/icons/actions/TwoActions.webp",
+			"name": "Sudden Charge",
+			"sort": 1100000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The monster hunter Strides twice and makes a melee Strike.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "icons/weapons/maces/flail-studded-grey.webp",
+			"name": "War Flail",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This large flail has a long shaft connected to a shorter piece of stout wood or metal that's sometimes inlaid with spikes.</p>"
+				},
+				"rules": [],
+				"slug": "war-flail",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"disarm",
+						"sweep",
+						"trip"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": "war-flail",
+				"bulk": {
+					"value": 2
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 2
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null,
+					"handsHeld": 0
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual War Flail",
+						"img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "held-in-two-hands"
+				},
+				"category": "martial",
+				"group": "flail",
+				"bonus": {
+					"value": 0
+				},
+				"damage": {
+					"dice": 1,
+					"die": "d10",
+					"damageType": "bludgeoning",
+					"persistent": null
+				},
+				"splashDamage": {
+					"value": 0
+				},
+				"range": null,
+				"expend": null,
+				"ammo": null,
+				"reload": {
+					"value": null
+				},
+				"grade": null,
+				"runes": {
+					"potency": 1,
+					"striking": 0,
+					"property": []
+				},
+				"specific": null,
+				"subitems": [],
+				"bonusDamage": {
+					"value": 0
+				}
+			},
+			"type": "weapon",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.mVxA9E2ernBL6fM6",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1757563184043,
+				"modifiedTime": 1757563198447,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_id": "Jp5Rhgq41kMR0mgS",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "4htPvnrKZiOvL8Z0",
+			"name": "War Flail",
+			"type": "melee",
+			"system": {
+				"slug": "war-flail",
+				"bonus": {
+					"value": 15
+				},
+				"damageRolls": {
+					"KSkGo7o0xV85KnSq": {
+						"damage": "1d10+9",
+						"damageType": "bludgeoning",
+						"category": null
+					}
+				},
+				"traits": {
+					"value": [
+						"disarm",
+						"magical",
+						"sweep",
+						"trip"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"rules": [],
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"attackEffects": {
+					"value": []
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"flags": {
+				"pf2e": {
+					"linkedWeapon": "Jp5Rhgq41kMR0mgS"
+				}
+			},
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1757563200556,
+				"modifiedTime": 1757563259666,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Nhimbaloth Lore",
+			"type": "lore",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"mod": {
+					"value": 13
+				},
+				"proficient": {
+					"value": 0
+				}
+			},
+			"effects": [],
+			"_id": "xqFHNzGe0ebp9XWG",
+			"img": "systems/pf2e/icons/default-icons/lore.svg",
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1757563444771,
+				"modifiedTime": 1757563446845,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Carnivoresight",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"description": {
+					"value": "<p>A Nhimbaloth Hunter automatically knows wheter a creature it sees qualifies as its Favored Game, and has a +4 status bonus to @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} them.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [
+					{
+						"key": "FlatModifier",
+						"selector": "survival",
+						"value": 4,
+						"predicate": [
+							"action:track"
+						],
+						"type": "status"
+					}
+				],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"occult"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "uZpWRWJO5cZYsgmb",
+			"img": "systems/pf2e/icons/default-icons/action.svg",
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1757563995969,
+				"modifiedTime": 1757564156952,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "icons/commodities/treasure/brooch-jeweled-green.webp",
+			"name": "Religious Symbol (Wooden)",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity to use certain abilities and cast some spells. A religious symbol can be worn on the body on a chain or pin, or can be held.</p>"
+				},
+				"rules": [
+					{
+						"key": "RollOption",
+						"option": "has-religious-symbol",
+						"requiresEquipped": false
+					}
+				],
+				"slug": "religious-symbol-wooden",
+				"_migration": {
+					"version": 0.955,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Player Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"sp": 1
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "other"
+				},
+				"subitems": []
+			},
+			"type": "equipment",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1757564572862,
+				"modifiedTime": 1757564572862,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_id": "ZRmOscNarqWlo4jE",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"name": "Nhimbaloth Hunter",
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 105,
+				"temp": 0,
+				"max": 105,
+				"details": ""
+			},
+			"ac": {
+				"value": 22,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			},
+			"speed": {
+				"value": 20,
+				"otherSpeeds": [],
+				"details": ""
+			}
+		},
+		"initiative": {
+			"statistic": "perception"
+		},
+		"details": {
+			"languages": {
+				"value": [
+					"common"
+				],
+				"details": ""
+			},
+			"level": {
+				"value": 6
+			},
+			"blurb": "",
+			"publicNotes": "<p>These Nhimbaloth \"Hunters\" have grown past the minor pursuits of other hunters and they seek the most dangerous game, men. They hunt car nviores who have recently eaten a meat</p><hr /><p>Modified from the @UUID[Compendium.pf2e.pathfinder-npc-core.3qDYEHtyAobpCg5r]{Monster Hunter}</p>",
+			"privateNotes": "",
+			"publication": {
+				"title": "Pathfinder NPC Core",
+				"authors": "",
+				"license": "ORC",
+				"remaster": true
+			}
+		},
+		"resources": {},
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"abilities": {
+			"str": {
+				"mod": 4
+			},
+			"dex": {
+				"mod": 3
+			},
+			"con": {
+				"mod": 3
+			},
+			"int": {
+				"mod": 1
+			},
+			"wis": {
+				"mod": 1
+			},
+			"cha": {
+				"mod": 1
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 13,
+			"senses": [],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 16,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 11,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 13,
+				"saveDetail": ""
+			}
+		},
+		"skills": {
+			"athletics": {
+				"base": 15
+			},
+			"stealth": {
+				"base": 13
+			},
+			"survival": {
+				"base": 11
+			}
+		},
+		"traits": {
+			"value": [
+				"human",
+				"humanoid"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "med"
+			}
+		}
+	},
+	"type": "npc",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.3qDYEHtyAobpCg5r",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"createdTime": 1757563041211,
+		"modifiedTime": 1771870284302,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"effects": [],
+	"prototypeToken": {
+		"name": "Nhimbaloth Hunter",
+		"displayName": 0,
+		"actorLink": false,
+		"width": 1,
+		"height": 1,
+		"texture": {
+			"src": "modules/pf2e-tokens-npc-core/assets/tokens/cultist.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 2,
+			"scaleY": 2,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": true,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"displayBars": 0,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 2,
+				"texture": "modules/pf2e-tokens-npc-core/assets/subjects/cultist.webp"
+			}
+		},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null,
+		"flags": {
+			"pf2e": {
+				"linkToActorSize": true,
+				"autoscale": false
+			}
+		},
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false
+	},
+	"sort": 250000,
+	"flags": {},
+	"ownership": {
+		"default": 0
+	}
+}

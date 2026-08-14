@@ -1,0 +1,449 @@
+{
+	"name": "Eyes of the Ghost Queen",
+	"type": "hazard",
+	"prototypeToken": {
+		"flags": {
+			"pf2e": {
+				"linkToActorSize": false,
+				"autoscale": false
+			},
+			"monks-tokenbar": {
+				"include": "default"
+			},
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"order": 0,
+						"id": "bar1",
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#1fb222",
+						"position": "bottom-inner",
+						"otherVisibility": 0,
+						"ownerVisibility": 50,
+						"gmVisibility": -1,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"indentLeft": null,
+						"indentRight": null,
+						"shareHeight": false,
+						"style": "user",
+						"label": "",
+						"invert": false,
+						"invertDirection": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null,
+						"hideHud": false
+					}
+				}
+			},
+			"tagger": {
+				"tags": ""
+			},
+			"perceptive": {
+				"canbeSpottedFlag": true,
+				"RevealwhenSpottedFlag": true,
+				"PPDCFlag": -1,
+				"APDCFlag": null,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "A haunt waits with malice in this chamber!",
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				},
+				"PPPLFlag": 0,
+				"APPLFlag": 2
+			},
+			"arms-reach": {
+				"range": 0
+			},
+			"tokencover": {
+				"maximumCoverGrant": "4"
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"GrapplePlacementFlag": "RowBelow",
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"PilotedbyDefaultFlag": false,
+				"RiderRotOffsetFlag": 0,
+				"CheckPilotedCollisionFlag": false
+			},
+			"token-z": {
+				"zIndex": 0
+			},
+			"token-variants": {
+				"randomImgDefault": "",
+				"disableHUDButton": false
+			},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.5,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"monks-bloodsplats": {
+				"bloodsplat-type": "",
+				"bloodsplat-colour": ""
+			},
+			"image-hover": {
+				"hideArt": false,
+				"specificArt": "path/image.png"
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			},
+			"about-face": {
+				"indicatorDisabled": false,
+				"flipOrRotate": "global",
+				"facingDirection": "global",
+				"rotationOffset": 0
+			}
+		},
+		"height": 1,
+		"width": 1,
+		"sight": {
+			"enabled": true,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "Eyes of the Ghost Queen",
+		"displayName": 40,
+		"actorLink": false,
+		"texture": {
+			"src": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/haunt.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"displayBars": 50,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 0,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null,
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false
+	},
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.954,
+				"foundry": "13.351",
+				"system": "7.10.0"
+			}
+		},
+		"traits": {
+			"value": [
+				"haunt"
+			],
+			"rarity": "rare",
+			"size": {
+				"value": "med"
+			}
+		},
+		"attributes": {
+			"ac": {
+				"value": 10
+			},
+			"hp": {
+				"value": 0,
+				"max": 0,
+				"temp": 0,
+				"details": ""
+			},
+			"hardness": 0,
+			"stealth": {
+				"value": 25,
+				"details": "<p>(master)</p>"
+			},
+			"emitsSound": "encounter",
+			"immunities": [],
+			"weaknesses": [],
+			"resistances": []
+		},
+		"details": {
+			"isComplex": true,
+			"level": {
+				"value": 11
+			},
+			"disable": "<p>@Check[type:deception|dc:30|name:Cheat Her Sight] (expert) twice to confound the wisp eyes with your own deceptions; two wisps are destroyed on each successful check. Alternatively, @Check[type:occultism|dc:28|name:Steel Your Mind] (expert) four times to create a ward against the haunt's mental influence; one wisp is destroyed on each successful check. </p>",
+			"description": "<p class=\"p1\">The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are. Allies appear to shed their disguises and reveal themselves to be malevolent monsters.</p>",
+			"reset": "<p>The haunt deactivates 1 minute after all creatures leave the area but resets immediately thereafter.</p>",
+			"routine": "<p>(4 actions) For each action available, the haunt targets a creature with the Whispers of Betrayal ability. When a wisp is destroyed, reduce the number of actions for the routine by 1.</p>",
+			"publication": {
+				"title": "Pathfinder GM Core",
+				"authors": "",
+				"license": "ORC",
+				"remaster": true
+			}
+		},
+		"saves": {
+			"fortitude": {
+				"value": null
+			},
+			"reflex": {
+				"value": null
+			},
+			"will": {
+				"value": null
+			}
+		}
+	},
+	"_id": "iy7njqyZqrO5BgY3",
+	"img": "https://assets.forge-vtt.com/5f4d7ffdc759f7f03a3aa9b5/modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/haunt.webp",
+	"items": [
+		{
+			"_id": "QrgnumULVnz8pWfK",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+			"name": "Unmask Evil",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Trigger</strong> Two or more creatures enter the haunt's area</p><hr /><p><strong>Effect</strong> Each creature sees the forms of nearby creatures shift and change, appearing to transform into fiendish or aberrant beings with a thirst for blood. Each creature in the area must attempt a @Check[type:will|dc:33] save. The haunt then rolls initiative.</p><hr /><p><strong>Critical Success</strong> The creature sees through the illusions entirely and is temporarily immune to the haunt's actions for 1 minute.</p><p><strong>Success</strong> The creature is unaffected by the strange images.</p><p><strong>Failure</strong> The creature believes the illusions to be true; when an action from the haunt inflicts @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, they do not attempt flat checks toe end the confused condition when they take damage.</p><p><strong>Critical Failure</strong> As failure, but the creature is left with a lingering suspicion of others and can't benefit from the @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} action for 24 hours.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.954,
+						"foundry": "13.351",
+						"system": "7.10.0"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"emotion",
+						"fear",
+						"illusion",
+						"occult",
+						"visual",
+						"void"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "reaction"
+				},
+				"category": null,
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1771874292237
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"type": "action",
+			"name": "Whispers of Betrayal",
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"description": {
+					"value": "<p>The haunt continues to confound victims' senses and inspire them to commit violence against each other.</p><p>Target a creature in the haunt's area dealing @Damage[(2d12+15)[void]] Damage on a @Check[type:will|dc:30|showDC:all]{basic Will save}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and temporarily immune for 1 minute.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round and is targeted by the Your Lot, To Die curse.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 minute and is targeted by the Your Lot, To Die curse.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"auditory",
+						"emotion",
+						"fear",
+						"illusion",
+						"occult",
+						"void"
+					]
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": null,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"deathNote": false
+			},
+			"effects": [],
+			"_id": "wVGacjDtpVTMgHfR",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/tattoo-whispers.webp",
+			"folder": null,
+			"sort": 0,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.10.1",
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"modifiedTime": 1771874106802
+			},
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"folder": "BkS6povLS9GAqOEb",
+	"sort": 100000,
+	"flags": {
+		"core": {},
+		"pf2e": {
+			"editHazard": {
+				"value": true
+			},
+			"editMode": true
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"createdTime": 1771873806372,
+		"modifiedTime": 1771874132619,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

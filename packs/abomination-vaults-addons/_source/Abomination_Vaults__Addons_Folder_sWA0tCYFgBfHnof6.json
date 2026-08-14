@@ -1,0 +1,30 @@
+{
+	"name": "Abomination Vaults: Addons",
+	"sorting": "a",
+	"folder": null,
+	"type": "Macro",
+	"_id": "sWA0tCYFgBfHnof6",
+	"description": "",
+	"sort": 0,
+	"color": "#2caf9a",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "ee388271f034f795268bb557b48bfd868ca80051"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Folder.sWA0tCYFgBfHnof6",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"folder": "nLQDkjcnn5oCK5vP",
+	"name": "Effect: Swallowed Whole (Cave Worm)",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p>Huge, @Damage[(3d6+9)[bludgeoning]], Rupture 24</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+		},
+		"rules": [
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei",
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				}
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				}
+			}
+		],
+		"slug": "effect-swallowed-whole",
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 13
+		},
+		"duration": {
+			"value": -1,
+			"unit": "unlimited",
+			"expiry": null,
+			"sustained": false
+		},
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"badge": null,
+		"context": null,
+		"unidentified": false,
+		"fromSpell": false
+	},
+	"_id": "7xKOXwUKrcg8gD3y",
+	"img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+	"sort": 100000,
+	"flags": {
+		"scene-packer": {
+			"hash": "3ae81b0a48d41d15bdd961c29dff1ed9acf0c9b7"
+		},
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false,
+			"ReplacementItemFlag": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1772213804023,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

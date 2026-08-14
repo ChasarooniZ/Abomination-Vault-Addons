@@ -1,0 +1,26 @@
+{
+	"folder": "6Gz5T8izaH4RvkL6",
+	"name": "Title Card Animation",
+	"type": "script",
+	"_id": "iSNnAqaq5h73FSUN",
+	"author": "J3oConv1eQRLao6j",
+	"img": "modules/pf2e-abomination-vaults/styles/assets/abomination-vaults-logo-final.webp",
+	"scope": "global",
+	"command": "/**\n* Requires Sequencer and the Premium AV module\n* Show the title card and plays a sound plus the legendary Ward E. Sexton reading the title aloud (of RE4 fame)\n*\n*/\n\nawait game.abomVaultAddons.animations.titleCardDialog()",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.8.0",
+		"createdTime": 1765486333772,
+		"modifiedTime": 1765486505646,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

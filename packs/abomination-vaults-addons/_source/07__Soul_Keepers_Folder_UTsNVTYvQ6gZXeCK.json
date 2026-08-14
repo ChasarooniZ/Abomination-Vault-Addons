@@ -1,0 +1,25 @@
+{
+	"name": "07: Soul Keepers",
+	"sorting": "a",
+	"folder": "BkS6povLS9GAqOEb",
+	"type": "Actor",
+	"_id": "UTsNVTYvQ6gZXeCK",
+	"description": "",
+	"sort": 0,
+	"color": "#1c5f23",
+	"flags": {
+		"scene-packer": {
+			"hash": "1a314cb77286f0e3fc9294eff2acfc03598bd192"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Folder.UTsNVTYvQ6gZXeCK",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

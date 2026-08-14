@@ -1,0 +1,30 @@
+{
+	"name": "Otari",
+	"sorting": "a",
+	"folder": "EwyzsmLgG46nH0bT",
+	"type": "Macro",
+	"_id": "bdTfXP3geLwrwh3E",
+	"description": "",
+	"sort": 100000,
+	"color": "#09580b",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "44f91956da5402fa30f252f3c951dddef3d238a5"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

@@ -1,0 +1,424 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 20,
+		"flags": {
+			"tagger": {},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"RiderPositioningFlag": "RowPlacement",
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"CanbePilotedFlag": false,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"PilotedbyDefaultFlag": false,
+				"CheckPilotedCollisionFlag": false
+			},
+			"LocknKey": {
+				"LockableFlag": false,
+				"LockedFlag": false,
+				"IDKeysFlag": "",
+				"UseKeyDialogFlag": true,
+				"PasskeysFlag": "",
+				"PasskeyChangeableFlag": false,
+				"IdentityKeyFlag": "",
+				"LockjammedFlag": false,
+				"LockDCFlag": 20,
+				"SpecialLPFlag": "",
+				"LockBreakDCFlag": -1,
+				"currentLPsuccessFlag": 0,
+				"requiredLPsuccessFlag": 1,
+				"LPAttemptsFlag": -1,
+				"LPAttemptsMaxFlag": -1,
+				"canbeCircumventedFreeFlag": true,
+				"SoundVariantFlag": "wood",
+				"PickPocketDCFlag": -1,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"LockuseKey": "never",
+					"LockusePasskey": "never",
+					"LockusePick": "never",
+					"LockuseBreak": "never",
+					"LockuseFree": "never",
+					"UsePickPocket": "never"
+				}
+			},
+			"pf2e": {
+				"linkToActorSize": false,
+				"autoscale": false
+			},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			}
+		},
+		"prependAdjective": false,
+		"height": 3,
+		"width": 3,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "Gauntlight's Revenge",
+		"actorLink": false,
+		"appendNumber": false,
+		"texture": {
+			"src": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_7.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 2,
+			"scaleY": 2,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 0,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"randomImg": false,
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null
+	},
+	"folder": "BkS6povLS9GAqOEb",
+	"name": "Gauntlight's Revenge",
+	"type": "hazard",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"value": [
+				"haunt"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "lg"
+			}
+		},
+		"attributes": {
+			"hp": {
+				"value": 0,
+				"max": 0,
+				"temp": 0,
+				"details": ""
+			},
+			"ac": {
+				"value": null
+			},
+			"hardness": 0,
+			"stealth": {
+				"value": null,
+				"details": ""
+			},
+			"immunities": [],
+			"weaknesses": [],
+			"resistances": [],
+			"emitsSound": "encounter"
+		},
+		"details": {
+			"description": "",
+			"level": {
+				"value": 20
+			},
+			"isComplex": true,
+			"disable": "",
+			"routine": "",
+			"reset": "",
+			"publication": {
+				"title": "",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			}
+		},
+		"saves": {
+			"fortitude": {
+				"value": null
+			},
+			"reflex": {
+				"value": null
+			},
+			"will": {
+				"value": null
+			}
+		}
+	},
+	"_id": "7oybyJd1zTviSlbd",
+	"img": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_7.webp",
+	"items": [
+		{
+			"folder": "nLQDkjcnn5oCK5vP",
+			"name": "Gauntlight Legs Count",
+			"type": "effect",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_7.webp",
+						"predicate": [
+							"parent:badge:value:1"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_6.webp",
+						"predicate": [
+							"parent:badge:value:2"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_5.webp",
+						"predicate": [
+							"parent:badge:value:3"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_4.webp",
+						"predicate": [
+							"parent:badge:value:4"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_3.webp",
+						"predicate": [
+							"parent:badge:value:5"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_2.webp",
+						"predicate": [
+							"parent:badge:value:6"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_1.webp",
+						"predicate": [
+							"parent:badge:value:7"
+						],
+						"ring": null
+					},
+					{
+						"key": "TokenImage",
+						"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_0.webp",
+						"predicate": [
+							"parent:badge:value:8"
+						],
+						"ring": null
+					}
+				],
+				"slug": "gauntlight-legs-count",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 1
+				},
+				"duration": {
+					"value": -1,
+					"unit": "unlimited",
+					"expiry": null,
+					"sustained": false
+				},
+				"start": {
+					"value": 5834421,
+					"initiative": null
+				},
+				"tokenIcon": {
+					"show": false
+				},
+				"badge": {
+					"type": "counter",
+					"value": 1,
+					"labels": [
+						"7",
+						"6",
+						"5",
+						"4",
+						"3",
+						"2",
+						"1",
+						"0"
+					],
+					"loop": true
+				},
+				"context": null,
+				"unidentified": false,
+				"fromSpell": false
+			},
+			"img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "85c67be43685a3559e48aef0ce7fec182a011501"
+				},
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Item.3ZOSpEvydDj9rfJl",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": 1742115510101,
+				"modifiedTime": 1742115510101,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "njZatSEaRknTKj8R",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"sort": 200000,
+	"flags": {
+		"scene-packer": {
+			"hash": "decebcf7ac2608e1fc352dac3b7433948100074d"
+		},
+		"pf2e-graphics": {
+			"effectiveSize": {
+				"enabled": false,
+				"size": 2
+			}
+		},
+		"pf2e": {
+			"editHazard": {
+				"value": true
+			}
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Actor.7oybyJd1zTviSlbd",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1771870286472,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"folder": "9tUABwBdHlCnHxW0",
+	"name": "Send False Signal (Optional)",
+	"type": "action",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"description": {
+			"value": "<section><p><strong>Options</strong></p><ul><li><p>@Check[type:Arcana|dc:33|showDC:all]{Arcana (Master)}</p></li><li><p>@Check[type:Occultism|dc:30|showDC:all]{Occultism (Master)}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{Spirit Lore (Expert)}</p></li></ul><p><strong>Critical Success</strong> You harness residual spiritual energy in the area to create a false signal of operation in the implement for 2 hours.</p><p><strong>Success</strong> As critical success, except that the false signal lasts for 1 hour.</p><p><strong>Failure</strong> You fail to send the false signal. The implement's creator will become aware that it has been disabled within 10 minutes of the event, as normal.</p><p><strong>Critical Failure</strong> Your clumsiness in manipulating spiritual energy not only fails to send the false signal but produces an unwanted side effect. The implement's creator will become aware that it has been disabled within 1 minute of the event.</p></section>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "AV Addons",
+			"authors": "weepingminotaur",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": "rouse-sentience",
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"category": "interaction",
+		"deathNote": false
+	},
+	"img": "systems/pf2e/icons/default-icons/action.svg",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Item.WFCyQ30Rj6DXwrxk",
+		"duplicateSource": "Item.Q5N7Px8ZVaocxC92",
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772775011880,
+		"modifiedTime": 1772775196609,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "WFCyQ30Rj6DXwrxk",
+	"ownership": {
+		"default": 0
+	}
+}

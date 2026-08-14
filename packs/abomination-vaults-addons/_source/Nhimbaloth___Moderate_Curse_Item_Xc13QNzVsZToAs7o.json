@@ -1,0 +1,128 @@
+{
+	"name": "Nhimbaloth - Moderate Curse",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p><em>The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are.</em></p>",
+			"value": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>Saving Throw </strong>@Check[type:fortitude|dc:28|showDC:gm|]{Will save}</p><p class=\"p1\"><strong>Timeline</strong> Abomination Vaults Book 2</p><p class=\"p1\"><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth</p><section class=\"statblock\"><p class=\"p1\"><strong>Stage 1</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}. You can attempt the standard @Check[flat|dc:11] check to remove the confused condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 2</strong> At the start of any encounter, you become @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}. You can attempt a @Check[flat|dc:15] check to remove the controlled condition, but a success only disables the condition until the next encounter. (1 day)</p><p class=\"p1\"><strong>Stage 3</strong> You become a permanent servant of the Empty Death, leaving your adventuring group to seek out the deepest reaches of the Gauntlight Ruins and assist the denizens there in in their vile plans.</p></section></section><section class=\"traits\"><p>Curse | Illusion | Magical | Mental | Auditory | Visual</p></section><p><strong>The Wisp, Her Eye</strong></p>"
+		},
+		"rules": [
+			{
+				"key": "RollOption",
+				"option": "nhimbaloth-moderate-curse",
+				"toggleable": true,
+				"label": "Nhimbaloth Curse Suppressed"
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ",
+				"predicate": [
+					"parent:badge:value:1",
+					{
+						"not": "nhimbaloth-moderate-curse"
+					}
+				],
+				"reevaluateOnUpdate": true,
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				}
+			},
+			{
+				"key": "GrantItem",
+				"predicate": [
+					"parent:badge:value:2",
+					{
+						"not": "nhimbaloth-moderate-curse"
+					}
+				],
+				"reevaluateOnUpdate": true,
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				},
+				"uuid": "Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr"
+			}
+		],
+		"slug": "nhimbaloth-moderate-curse",
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"publication": {
+			"title": "PF2e Foundry Discord: Abomination Vaults Thread",
+			"authors": "weepingminotaur",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 7
+		},
+		"duration": {
+			"value": 24,
+			"unit": "hours",
+			"expiry": "turn-end",
+			"sustained": false
+		},
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"badge": {
+			"type": "counter",
+			"value": 1,
+			"labels": [
+				"[1/3]",
+				"[2/3]",
+				"[3/3]"
+			],
+			"loop": false,
+			"min": null,
+			"max": null
+		},
+		"context": null,
+		"unidentified": true,
+		"fromSpell": false
+	},
+	"img": "systems/pf2e/icons/spells/garden-of-death.webp",
+	"folder": "p84txsfYYdvmAa6s",
+	"flags": {
+		"scene-packer": {
+			"sourceId": "Item.opxSPmmG9Swj2OLG",
+			"hash": "c45067667feaef3e1fc55dc99b00c608ffa31e0f"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-items.Item.Xc13QNzVsZToAs7o",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"modifiedTime": 1772774049197,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": {
+			"worldId": "abomination-vaults-new",
+			"uuid": null,
+			"coreVersion": "12.331",
+			"systemId": "pf2e",
+			"systemVersion": "6.6.2"
+		}
+	},
+	"_id": "Xc13QNzVsZToAs7o",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	}
+}

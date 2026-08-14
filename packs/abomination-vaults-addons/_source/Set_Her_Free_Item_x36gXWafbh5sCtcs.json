@@ -1,0 +1,57 @@
+{
+	"folder": "rH1SsFkOGs3Yy4tz",
+	"name": "Set Her Free",
+	"type": "action",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"description": {
+			"value": "<section class=\"statblock\"><p>Weaken Ysondkhelir's control on Dorianna with an appropriate skill check.</p><ul><li><p><strong>Range</strong> The PC attempting the check must be adjacent to either Dorianna or Ysondkhelir. Other characters may use the @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} action to support a check but only if they are within 30 feet of Dorianna, Ysondkhelir, or the active PC (as appropriate for their action). A character cannot make a check or Aid if they are in a nightmare space.</p></li><li><p><strong>Critical success</strong> Two successes.</p></li><li><p><strong>Success</strong> One success.</p></li><li><p><strong>Failure</strong> No change.</p></li><li><p><strong>Critical failure</strong> The PC is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied 1}.</p></li></ul><hr /><ul><li><p><strong>Arcana</strong> Use your knowledge of magic to weaken the spiritual link between Ysonkhelir and Dorianna.</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{Arcana (Very Hard)}</p></li></ul></li><li><p><strong>Diplomacy</strong> Give Dorianna the courage to fight her tormentor.</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{Diplomacy (Hard)}</p></li></ul></li><li><p><strong>Intimidation</strong> Frighten the dream-catcher with threats of retribution.</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{Intimidation (Very Hard)}</p></li></ul></li><li><p><strong>Medicine</strong> Tend to Dorianna's wounds to restore her strength.</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{Medicine (Normal)}</p></li></ul></li><li><p><strong>Occultism</strong> Decipher the esoteric basis of Ysonkhelir's control over Dorianna.</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{Occultism (Normal)}</p></li></ul></li><li><p><strong>Society</strong> Remind Dorianna of her family and friends and her connection to Otari.</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{Society (Hard)}</p></li></ul></li><li><p><strong>Spirit Lore</strong> Draw on your knowledge of the spiritual to bolster Dorianna in her fight against the dream-catcher.</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{Spirit Lore (Easy)}</p></li></ul></li></ul></section>",
+			"gm": "<ul><li><p><strong>One success</strong> Ysondkhelir's resistance to physical damage drops to 5. The south section of his window wall disappears.</p></li><li><p><strong>Two successes</strong> No more crawling hands can spawn. The north section of Ysondkhelir's window wall disappears.</p></li><li><p><strong>Three successes</strong> Ysondkhelir is no longer quickened. The remaining sections of his window wall disappear.</p></li><li><p><strong>Four successes</strong> Ysondkhelir loses his Attack of Opportunity and his resistance to physical damage. He also reverts to his normal size and loses 15 feet reach on melee strikes. Dorianna is temporarily free of his mental influence, though he will eventually reassert control if left alive.</p></li></ul>"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": "set-her-free",
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"mental",
+				"spirit"
+			]
+		},
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"category": "interaction",
+		"deathNote": false
+	},
+	"_id": "x36gXWafbh5sCtcs",
+	"img": "systems/pf2e/icons/default-icons/action.svg",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772778430414,
+		"modifiedTime": 1772780518289,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

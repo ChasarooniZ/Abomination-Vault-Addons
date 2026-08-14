@@ -1,0 +1,35 @@
+{
+	"folder": "6Gz5T8izaH4RvkL6",
+	"name": "Nhimbaloth's Symbol",
+	"type": "script",
+	"_id": "AA6MqMXNiSe1YgIr",
+	"author": "x15saXbCHNahbJqq",
+	"img": "modules/pf2e-abomination-vaults/assets/journal-images/icons/symbol-nhimbaloth.webp",
+	"scope": "global",
+	"command": "// Animates Nhimbaloth's Symbol\n// Displays her symbol as well as plays a relevant SFXfor it\n// Requires Sequencer\nconst duration = 1.5; // Duration of the animation in seconds\nconst volume = 0.5; // Volume of SFX\nconst scale = 1; // 100% size atm, 0.5 = 50% size etc,\nawait game.abomVaultAddons.animations.nhimbalothSymbol({ duration, volume, scale });",
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "a7583d0a2e68d128eae6e03ec1fba000b3cc2a63"
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

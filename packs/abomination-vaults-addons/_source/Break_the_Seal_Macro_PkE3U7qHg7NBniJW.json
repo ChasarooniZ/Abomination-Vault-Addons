@@ -1,0 +1,35 @@
+{
+  "name": "Break the Seal",
+  "type": "script",
+  "author": "x15saXbCHNahbJqq",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+  "scope": "global",
+  "command": "// Animates the destroying of the Barrier on D12. The Ghostwalk\n// This also will run the script that removes the barrier\n// Requires Sequencer, JB2A Patreon, and GGG\n\nconst volume = 1; //Volume Level 0 - 1 (1 = 100%)\nconst useSFX = true; // Set to false to not us sfx\nawait game.abomVaultAddons.animations.breakingTheSeal({volume, useSFX})",
+  "folder": "90Ya7661NsEWEW7h",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "18562466da70fec19964fdfc8c88cda529a5457a"
+    },
+    "macro-wheel": {
+      "activeCondition": ""
+    },
+    "advanced-macros": {
+      "runForSpecificUser": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.abomination-vaults-addons.abomination-vaults-addons-macro.Macro.a38iNq3LYAgUCQkW",
+    "duplicateSource": "Macro.l1nf3CAxWQpWtos6",
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0",
+    "modifiedTime": 1765486297781,
+    "lastModifiedBy": "J3oConv1eQRLao6j",
+    "exportSource": null
+  },
+  "_id": "PkE3U7qHg7NBniJW",
+  "ownership": {
+    "default": 0
+  }
+}

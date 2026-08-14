@@ -1,0 +1,103 @@
+{
+	"name": "Effect:  The Bonds that Give us Strength",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p>The NPC aids in your check giving you either an untyped bonus of:</p><ul><li><p><strong>+1</strong> - Something the NPC wouldn't really be proficient in (IE Carman in Religion)</p></li><li><p><strong>+2</strong> - Something the NPC would be proficient in (IE Morliblint and Arcana)</p></li><li><p><strong>+3</strong> - If you share an especially close bond with the NPC (their presence inspires you)</p></li></ul>"
+		},
+		"rules": [
+			{
+				"key": "FlatModifier",
+				"removeAfterRoll": true,
+				"selector": "all",
+				"value": "@item.flags.pf2e.rulesSelections.bondBonus"
+			},
+			{
+				"key": "ChoiceSet",
+				"choices": [
+					{
+						"label": "+1 - Unknowledgeable",
+						"value": "1"
+					},
+					{
+						"label": "+2 - Expertise",
+						"value": "2"
+					},
+					{
+						"label": "+3 - Close Bond",
+						"value": "3"
+					}
+				],
+				"flag": "bondBonus"
+			}
+		],
+		"slug": null,
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 1
+		},
+		"duration": {
+			"value": -1,
+			"unit": "unlimited",
+			"expiry": null,
+			"sustained": false
+		},
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"badge": null,
+		"context": null,
+		"unidentified": false,
+		"fromSpell": false
+	},
+	"_id": "E0OKIog3W01BhtAB",
+	"img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+	"folder": "nLQDkjcnn5oCK5vP",
+	"sort": 400000,
+	"flags": {
+		"scene-packer": {
+			"hash": "1ad123a74c0e082b410db13d71e71c6fa1a3cce4"
+		},
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false,
+			"ReplacementItemFlag": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Item.E0OKIog3W01BhtAB",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1772213804023,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

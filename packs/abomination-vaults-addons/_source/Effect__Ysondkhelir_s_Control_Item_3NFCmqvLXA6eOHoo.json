@@ -1,0 +1,145 @@
+{
+	"folder": "rH1SsFkOGs3Yy4tz",
+	"name": "Effect: Ysondkhelir's Control",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>One success</strong> Ysondkhelir's resistance to physical damage drops to 5. The south section of his window wall disappears.</p><p><strong>Two successes</strong> No more crawling hands can spawn. The north section of Ysondkhelir's window wall disappears.</p><p><strong>Three successes</strong> Ysondkhelir is no longer quickened. The remaining sections of his window wall disappear.</p><p><strong>Four successes</strong> Ysondkhelir loses his Attack of Opportunity and his resistance to physical damage. He also reverts to his normal size and loses 15 feet reach on melee strikes. Dorianna is temporarily free of his mental influence, though he will eventually reassert control if left alive.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl",
+				"onDeleteActions": {
+					"grantee": "restrict"
+				},
+				"predicate": [
+					{
+						"lte": [
+							"parent:badge:value",
+							3
+						]
+					}
+				]
+			},
+			{
+				"key": "Resistance",
+				"type": "physical",
+				"value": 10,
+				"predicate": [
+					"parent:badge:value:0"
+				]
+			},
+			{
+				"key": "Resistance",
+				"type": "physical",
+				"value": 5,
+				"predicate": [
+					{
+						"gte": [
+							"parent:badge:value",
+							1
+						]
+					}
+				]
+			},
+			{
+				"key": "CreatureSize",
+				"value": "huge",
+				"predicate": [
+					{
+						"lte": [
+							"parent:badge:value",
+							4
+						]
+					}
+				]
+			},
+			{
+				"key": "AdjustStrike",
+				"mode": "remove",
+				"predicate": [
+					"parent:badge:value:5"
+				],
+				"property": "weapon-traits",
+				"value": "reach-15"
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Item.x36gXWafbh5sCtcs",
+				"reevaluateOnUpdate": true,
+				"predicate": [
+					"parent:badge:value:5"
+				]
+			}
+		],
+		"slug": "effect-ysondkhelirs-control",
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"level": {
+			"value": 1
+		},
+		"duration": {
+			"value": -1,
+			"unit": "unlimited",
+			"expiry": null,
+			"sustained": false
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"unidentified": false,
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"badge": {
+			"type": "counter",
+			"value": 1,
+			"labels": [
+				"0 Successes",
+				"1 Successes",
+				"2 Successes",
+				"3 Successes",
+				"4 Successes"
+			],
+			"loop": true,
+			"min": null,
+			"max": null
+		},
+		"fromSpell": false,
+		"context": null
+	},
+	"_id": "3NFCmqvLXA6eOHoo",
+	"img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Item.3NFCmqvLXA6eOHoo",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772780098986,
+		"modifiedTime": 1772780489394,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

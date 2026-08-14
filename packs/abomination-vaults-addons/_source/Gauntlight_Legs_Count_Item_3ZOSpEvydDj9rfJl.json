@@ -1,0 +1,159 @@
+{
+	"folder": "nLQDkjcnn5oCK5vP",
+	"name": "Gauntlight Legs Count",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": ""
+		},
+		"rules": [
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_7.webp",
+				"predicate": [
+					"parent:badge:value:1"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_6.webp",
+				"predicate": [
+					"parent:badge:value:2"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_5.webp",
+				"predicate": [
+					"parent:badge:value:3"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_4.webp",
+				"predicate": [
+					"parent:badge:value:4"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_3.webp",
+				"predicate": [
+					"parent:badge:value:5"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_2.webp",
+				"predicate": [
+					"parent:badge:value:6"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_1.webp",
+				"predicate": [
+					"parent:badge:value:7"
+				],
+				"ring": null
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/abomination-vaults-addons/assets/assets/gauntlight_legs/gauntlightlegs_0.webp",
+				"predicate": [
+					"parent:badge:value:8"
+				],
+				"ring": null
+			}
+		],
+		"slug": "gauntlight-legs-count",
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 1
+		},
+		"duration": {
+			"value": -1,
+			"unit": "unlimited",
+			"expiry": null,
+			"sustained": false
+		},
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"tokenIcon": {
+			"show": false
+		},
+		"badge": {
+			"type": "counter",
+			"value": 1,
+			"labels": [
+				"7",
+				"6",
+				"5",
+				"4",
+				"3",
+				"2",
+				"1",
+				"0"
+			],
+			"loop": true,
+			"min": null,
+			"max": null
+		},
+		"context": null,
+		"unidentified": false,
+		"fromSpell": false
+	},
+	"_id": "3ZOSpEvydDj9rfJl",
+	"img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+	"sort": 300000,
+	"flags": {
+		"scene-packer": {
+			"hash": "7015f03eef1ee0b2bf2e45ebcc92cf8df50d390f"
+		},
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false,
+			"ReplacementItemFlag": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1772213804023,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

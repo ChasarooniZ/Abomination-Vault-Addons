@@ -1,0 +1,585 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 20,
+		"flags": {
+			"monks-tokenbar": {
+				"include": "default"
+			},
+			"tagger": {},
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"order": 0,
+						"id": "bar1",
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#1fb222",
+						"position": "bottom-inner",
+						"otherVisibility": 0,
+						"ownerVisibility": 50,
+						"gmVisibility": -1,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"indentLeft": null,
+						"indentRight": null,
+						"shareHeight": false,
+						"style": "user",
+						"label": "",
+						"invert": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null,
+						"invertDirection": false,
+						"hideHud": false
+					}
+				}
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"PPDCFlag": -1,
+				"APDCFlag": null,
+				"resetSpottedbyMoveFlag": true,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				},
+				"RevealwhenSpottedFlag": false,
+				"MATTTriggerTileFlag": ""
+			},
+			"LocknKey": {
+				"PickPocketDCFlag": -1,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"LockuseKey": "never",
+					"LockusePasskey": "never",
+					"LockusePick": "never",
+					"LockuseBreak": "never",
+					"LockuseFree": "never"
+				}
+			},
+			"pf2e": {
+				"linkToActorSize": false,
+				"autoscale": false
+			},
+			"token-z": {
+				"zIndex": 0
+			},
+			"arms-reach": {
+				"range": 0
+			},
+			"tokencover": {
+				"maximumCoverGrant": 1
+			},
+			"token-variants": {
+				"randomImgDefault": "",
+				"disableHUDButton": false
+			},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.6,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"monks-bloodsplats": {
+				"bloodsplat-type": "",
+				"bloodsplat-colour": ""
+			},
+			"image-hover": {
+				"hideArt": false,
+				"specificArt": "path/image.png"
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"MountingEffectsFlag": "",
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"CanbePilotedFlag": false,
+				"CheckPilotedCollisionFlag": false,
+				"PilotedbyDefaultFlag": false
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"name": "Ghost Queen's Reflection",
+		"actorLink": false,
+		"appendNumber": false,
+		"texture": {
+			"src": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/ch-10/belcorra-haruvex.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ade4ff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": true,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": "#0fc3ff",
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/ch-10/belcorra-haruvex.webp"
+			}
+		},
+		"randomImg": false,
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null
+	},
+	"folder": "RAbvwXiC80nMnRXm",
+	"name": "Ghost Queen's Reflection",
+	"type": "hazard",
+	"effects": [],
+	"system": {
+		"saves": {
+			"fortitude": {
+				"value": 15
+			},
+			"reflex": {
+				"value": 10
+			},
+			"will": {
+				"value": null
+			}
+		},
+		"attributes": {
+			"ac": {
+				"value": 19
+			},
+			"hp": {
+				"value": 50,
+				"max": 50,
+				"temp": 0,
+				"details": ""
+			},
+			"hardness": 13,
+			"stealth": {
+				"value": 16,
+				"details": "<p>(expert)</p>"
+			},
+			"emitsSound": true,
+			"immunities": [
+				{
+					"type": "critical-hits",
+					"exceptions": []
+				},
+				{
+					"type": "precision",
+					"exceptions": []
+				}
+			],
+			"weaknesses": [],
+			"resistances": []
+		},
+		"details": {
+			"isComplex": true,
+			"level": {
+				"value": 7
+			},
+			"disable": "<p>The haunt can be disabled in one of three ways:</p><ul><li><p>Four @Check[religion|dc:21] (trained) checks to banish the spectral image of Belcorra.</p></li><li><p>Two @Check[deception|dc:26] (trained) checks to goad this shard, which is infused with a minute portion of Belcorra's essence, into a fury, shattering its focus.</p></li><li><p>One @Check[athletics|dc:31] (expert) check to smash the mirror's magical structure, permanently shattering it.</p></li></ul>",
+			"description": "<p>The reflection in the mirror subtly twists and distorts, its expression taking on an unnerving sneer of malice. It is the image of a beautiful but cruel-looking woman with blood-flecked lips and hands that look closer to claws.</p>",
+			"reset": "<p>The haunt re-forms after 1 minute unless it has been disabled.</p>",
+			"routine": "<p>(2 actions)</p><p>The haunt uses the Become The Experiment action.</p>",
+			"publication": {
+				"title": "Pathfinder GM Core",
+				"authors": "weepingminotaur",
+				"license": "ORC",
+				"remaster": true
+			}
+		},
+		"traits": {
+			"value": [
+				"haunt"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "med"
+			}
+		},
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		}
+	},
+	"_id": "emEX7UJahRAIdKPv",
+	"img": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/ch-10/belcorra-haruvex.webp",
+	"items": [
+		{
+			"_id": "hEtVGo9EpKcXlhPI",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Reaction.webp",
+			"name": "Spectral Impale",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Trigger</strong> A living creature steps into any square that is directly in line with the mirror or adjacent to it.</p><hr /><p><strong>Effect</strong> Shadowy tendrils impale the body of the creature as the haunt makes a blood sample Strike.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "reaction"
+				},
+				"category": null,
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "wdA0nAhiSTY7znrs",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/default-icons/melee.svg",
+			"name": "Blood Sample",
+			"sort": 200000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"sap-vitality"
+					]
+				},
+				"bonus": {
+					"value": 18
+				},
+				"damageRolls": {
+					"vyild2eqx4ge0c61qqpd": {
+						"damage": "2d10+9",
+						"damageType": "void",
+						"category": null
+					},
+					"a9TSZ8FRKt8fbYHU": {
+						"damage": "1d6",
+						"damageType": "bleed",
+						"category": "persistent"
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "shadow-barbs",
+				"traits": {
+					"value": [],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "17gJOHIRtWXfYMKa",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/Passive.webp",
+			"name": "Sap Vitality",
+			"sort": 300000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A creature hit by the reflection's blood sample must attempt a @Check[fortitude|dc:22] save as the haunt tries to draw a portion of its vital essence into the mirror. The target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} on a failed saving throw, or @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure.</p>"
+				},
+				"rules": [],
+				"slug": "sap-vitality",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "passive"
+				},
+				"category": null,
+				"actions": {
+					"value": null
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/OneAction.webp",
+			"name": "Become The Experiment",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Effect</strong> The image of the Ghost Queen, Belcorra, whispers in your mind, compelling you to submit to the experiments of her servants. The haunt deals @Damage[(2d10+9)[mental]] damage to a single non-unholy creature in the room. The creature must attempt a @Check[will|dc:23|traits:damaging-effect] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The creature takes full damage, becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}, and gains the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 round, driven to take one of the ladders down the east hatch.</p><p><strong>Critical Failure</strong> The creature takes double damage. It also becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} and gains the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 minute, driven to take one of the ladders down the east hatch.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"auditory",
+						"emotion",
+						"fear",
+						"mental",
+						"occult"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"actionType": {
+					"value": "action"
+				},
+				"category": null,
+				"actions": {
+					"value": 1
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Actor.PfYyAnbFEQXH5eCm.Item.oZGdTS4jvoAj1myH",
+				"duplicateSource": "Actor.PfYyAnbFEQXH5eCm.Item.oZGdTS4jvoAj1myH",
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"_id": "sZFhm7GrFWwQXm7E",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"pf2e": {
+			"editHazard": {
+				"value": false
+			}
+		},
+		"pf2e-graphics": {
+			"effectiveSize": {
+				"enabled": false,
+				"size": 1
+			}
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1771870286472,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": {
+			"worldId": "abomination-vaults-new",
+			"uuid": null,
+			"coreVersion": "12.331",
+			"systemId": "pf2e",
+			"systemVersion": "6.9.0"
+		}
+	},
+	"ownership": {
+		"default": 0
+	}
+}

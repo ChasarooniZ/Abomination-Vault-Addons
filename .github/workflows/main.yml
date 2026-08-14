@@ -78,7 +78,13 @@ jobs:
       # "version" key required for a valid module manifest.
       - name: Extract Version From Tag
         id: get_version
-        uses: battila7/get-version-action@v2
+        uses:
+          battila7/get-version-action@v2
+
+          # https://github.com/MrVauxs/trigger-animations/blob/master/.github/workflows/main.yml
+      - name: Extract Changelog
+        id: changelog
+        run: node .github/scripts/extract-changelog.mjs ${{steps.get_version.outputs.version-without-v}} "## " "CHANGELOG.md"
 
       # Modify "module.json" with values specific to the release.
       # Since the values for the "version" and "url" keys aren't known ahead of
@@ -120,6 +126,7 @@ jobs:
             styles/                              \
             packs/                               \
             languages/                           \
+            --exclude \*_source\*              
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
 
@@ -128,11 +135,21 @@ jobs:
         id: create_version_release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true
-          name: ${{ github.event.release.name }}
+          allowUpdates: trues
+          name: ${{ github.event.release.tag_name }}
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: "./module.json, ./module.zip"
           tag: ${{ github.event.release.tag_name }}
-          body: ${{ github.event.release.body }}
+          body: ${{ steps.changelog.outputs.changelog }}
+
+      - name: Publish FoundryVTT Package
+        env:
+          PACKAGE_TOKEN: ${{ secrets.FVTT_API_TOKEN }}
+        if: ${{!github.event.release.prerelease && env.PACKAGE_TOKEN}}
+        uses: cs96and/FoundryVTT-release-package@v1.0.3
+        with:
+          package-token: ${{ secrets.FVTT_API_TOKEN }}
+          manifest-url: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json
+          notes-url: https://github.com/${{github.repository}}/releases/tag/${{github.event.release.tag_name}}

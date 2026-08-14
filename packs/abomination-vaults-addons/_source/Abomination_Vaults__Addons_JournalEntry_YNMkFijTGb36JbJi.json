@@ -1,0 +1,966 @@
+{
+	"pages": [
+		{
+			"name": "Nhimbaloth Curses",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Sourced from @weepingminotaur.</em></p><h2>Minor Curse - <em>The Wind, Her Voice</em></h2><p>@UUID[Item.ZCmQhpzHnxCmXylz]{Nhimbaloth - Minor Curse}<br /><em>Even the briefest of encounters with dread Nhimbaloth's presence is enough to affect the health of the unwary. This curse causes you to hear whispering voices, footsteps, and other odd noises during your next long rest. If left untreated, the loss of sleep starts to take a toll on your wellbeing.</em></p><ul><li><p><strong>Timeline</strong> Abomination Vaults floors A through C</p></li><li><p><strong>Suggested Triggers</strong> Contact with the shrine altar on floor A, or the first time a character moves into the ribbon of light in @JournalEntry[B: Servants' Quarters#B35. Gauntlight Basement]{B35} or @JournalEntry[C: Library#C15. Gauntlight Reading Room]{C15}</p></li></ul><h2>Moderate Curse - <em>The Wisp, Her Eye</em></h2><p>@UUID[Item.Xc13QNzVsZToAs7o]{Nhimbaloth - Moderate Curse}</p><p><em>The ongoing effect of investigating the machinations of Nhimbaloth and her servants moves from the realm of sleep to your waking moments. Ominous cracks in the fabric of reality appear before your eyes, fraying the edges of your sanity. You are no longer certain of who your friends are.</em></p><ul><li><p><strong>Timeline</strong> Abomination Vaults Book 2</p></li><li><p><strong>Trigger</strong> Any encounter with Belcorra, her most powerful servants, or areas consecrated to Nhimbaloth. In addition, the party and any other allies travelling with them are exposed to the curse at 7am and 7pm every day (to correspond with the 7 arms of Nhimbaloth).</p></li></ul><h2>Major Curse - <em>Your Lot, To Die</em></h2><p>@UUID[Item.CyWfBIXA8CKVFMK4]{Nhimbaloth - Major Curse}</p><p><em>So close to the unspeakable horror of Nhimbaloth's realm, you can no longer distinguish friend from foe, reason from madness, or even life from death.</em></p><ul><li><p><strong>Timeline</strong> Abomination Vaults Book 3</p></li><li><p><strong>Suggested Triggers</strong> Entering any area consecrated to Nhimbaloth, or during the initial @JournalEntry[Abomination Vaults#Belcorra Attacks]{Belcorra Attacks!} encounter. In addition, the party and any other allies travelling with them are exposed to the curse at 7am and 7pm every day (to correspond with the 7 arms of Nhimbaloth).</p></li></ul>"
+			},
+			"_id": "hOMUDNapQMRjV1kQ",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 300000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": null,
+				"modifiedTime": 1771948774310,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 100000,
+			"name": "Table of Contents",
+			"type": "text",
+			"_id": "4jhRn6b0Wz9HrtsK",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p>This module consists of misc changes and addons for <strong>Abomination Vaults</strong>. This in some ways is an amalgamation of advice and ideas created, as always pick and choose what to use in your games.</p><h2>Table of Contents</h2><ul><li><p><strong>Misc</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{Animations}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{Nhimbaloth Curses}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{Craftable Items from Creatures}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{Swarm of Will o' Wisp}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{Helper Indicator Drawings}</p></li></ul></li><li><p><strong>Otari</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{Wrin's Wonders Exterior}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{The Log Fume}</p></li></ul></li><li><p><strong>A. Gauntlight Ruins</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. Lore Through Tapestries}</p></li></ul></li><li><p><strong>E. Arena</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. Belcorra's Reflection}</p></li></ul></li><li><p><strong>G. Prison</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. Prison Door Flame FX}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. He Who Collects Hands}</p></li></ul></li><li><p><strong>I. Hunting Grounds</strong></p><ul><li><p>@UUID[.XSouJfqO8f0ptYya]{Yldaris Settlement Treatment}</p></li></ul></li><li><p><strong>J. Temple</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. Lever Puzzle Implementation}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. Belcorra's Pet}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{Epilogue. Gauntlight's Revenge}</p><p></p></li></ul></li></ul>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": null,
+				"modifiedTime": 1768233677610,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "Animations",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<h4>Misc</h4><ul><li><p>@UUID[Macro.iSNnAqaq5h73FSUN]{Title Card Animation} - Show the title card and plays a sound plus the legendary Ward E. Sexton reading the title aloud (of RE4 fame)</p></li></ul><ul><li><p>@UUID[Macro.l1nf3CAxWQpWtos6]{Belcorra Attacks} - Animation for @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.em5wJ44hCXP8mGGG]{Belcorra Attacks} that either makes Belcorra appear flying in from the side, or if you have Belcorra's token selected and hidden will run the animation on that Belcorra</p></li><li><p>@UUID[Macro.XoRI9jJBmsh26uQV]{Nhimbaloth's Presence} - Animation that covers the players' screens with tentacles to show Nhimbaloth's presence</p></li><li><p>@UUID[Macro.AA6MqMXNiSe1YgIr]{Nhimbaloth's Symbol} - Animation to display Nhimbaloth's symbol to indicate something Nhimbaloth Adjacent</p></li></ul><h4>Floor 4</h4><ul><li><p>@UUID[Macro.PkE3U7qHg7NBniJW]{Destroy the Barrier} - Animation of the Barrier being destroyed</p></li></ul><h4>Floor 10</h4><ul><li><p>@UUID[Macro.W1QOzaP485TKNJQi]{10 - Belcorra Death} - Animation of Nhimbaloth consuming Belcorra after the Party uses the Lenses on her</p></li><li><p>@UUID[Macro.3IWW7fvMRghHzikg]{10 - Gauntlight Collapses} - Animation for the Gauntlight Collapsing</p></li></ul>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 250000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": null,
+				"modifiedTime": 1765486995356,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "IEochnYWMkLR8UNU",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "J20. Belcorra's Pet",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Remember that giant dead cave worm in room @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35. Gauntlight Basement}.<br /><br />Well for the finale @UUID[Actor.wX2jNFncThTLvG9F]{Belcorra's Cave Worm} is back and ghostlier than ever, also rocking a cool new Fly Speed, and a cool animation see its <strong>Regurgitate</strong>.<br /><br />Use her pet cave worm to replace the <strong>Soul Feeders</strong> that originally accompany <strong>Belcorra</strong> in her final stand.</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 1800000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.IEochnYWMkLR8UNU",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": 1740808750569,
+				"modifiedTime": 1765487111709,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "Hkl27s1LqzyTXdj0",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "The Log Fume",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Added the following maps to facilitate running perhaps a burning of the log fume. The intention is to be a tower further to the north where logs are loaded into the fume before they make it all the way down to <strong>The Giant's Wheel</strong>.<br /><br />The Down Hill scene provides a cool opportunity for you to have an encounter while riding on logs down the flume (I recommend looking at opportunities in <strong>AV:E's</strong> <strong>Consortium Conspiracy</strong> specifically @UUID[JournalEntry.2hfULzZn5NL03aDy.JournalEntryPage.EyBtkejRJ5WGQzxT]{The Loading Flume Fire}.</p><p></p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.PPRhwtJVSjtgpGes]{Log Flume | Down Hill}</p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.VSmG1Rmn9tARM2Xx]{Log Flume | Loading Tower}</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 700000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.IEochnYWMkLR8UNU",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": 1740808754514,
+				"modifiedTime": 1772772230247,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "OrgJZPV2wlI3iX2g",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "Swarm of Will o' Wisp",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Added a @UUID[Actor.kNeQ2UqyyhrmyLp0]{Will-o'-Wisp Swarm}<br /></p><img src=\"modules/abomination-vaults-addons/assets/npc/will_o_wisp_swarm.avatar.webp\" width=\"250\" /><p><br /><em>(Statblock by @Blablablablitz)</em><br /><em>(art by @Chasarooni)</em></p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 475000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.OrgJZPV2wlI3iX2g",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": 1741158168396,
+				"modifiedTime": 1772772341427,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "r3dHY95N5ieG3U16",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "J15. Lever Puzzle Implementation",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Add a macro to add the Lever Puzzle mentioned in @UUID[JournalEntry.yn21bNM6kpV4xRol.JournalEntryPage.1Ov1191GpaTDBaAE]{J15. Deadly Swamp} <em>(credit to @darkim for much of the original implementation)</em></p><p></p><p>You'll need the <strong>Tagger</strong> and <strong>Monk's Active Tiles</strong> modules for this to function, but simply run the @UUID[Macro.btHyWcte8PX6Omgz]{J15. Add Lever Puzzle} macro, and Voila!<br /><br />To interact with the levers you'll need a selected token nearby, and then <strong>Right Click</strong> it.</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 1700000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.r3dHY95N5ieG3U16",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": 1741158385099,
+				"modifiedTime": 1765487375838,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "gHUVbKpOvXV43UWQ",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "Helper Indicator Drawings",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Add a macro to add little helper indicator drawings to parts of the maps that were unclear as well as adding in some height clarifications for certain height drop offs to see on the fly. These are all interface drawings only visible to the GM.<br />@UUID[Macro.sb4hhwJqMfJCjuAR]{Helper Drawing Setup Dialog}</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 487500,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gHUVbKpOvXV43UWQ",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": 1741165756377,
+				"modifiedTime": 1765487026260,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "dJoTiJpOkVx9mJGD",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "Epilogue. Gauntlight's Revenge",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>This is a pretty lengthy addition for the <strong>end</strong> of the Abomination Vaults adventure, involving one last set piece \"The Gauntlight\" rushing to attack the town one last time. The goal of this is to be one last set piece, and it takes place when the party is most likely drained of resource or at least low after the Belcorra fight.</p><p>(Setup macro to setup your @UUID[Scene.lQkXSdxvO9CRxohD]{Otari Map} for this Encounter @UUID[Macro.7g27xSMFTUSYiqHe]{Setup: Gauntlight's Revenge})</p><h2>The premise</h2><p>After the players have slain Belcorra banished her to be fed to her Ancient God and escaped the collapsing Gauntlight, there is left behind a large amount of latent necromantic energy from <strong>Nhimbaloth</strong>. As the party existed the Vaults, describe them seeing a ghostly glowing beam rise out of the hole where the tower was as 6 more rise to join it raising up the <strong>Gauntlight</strong>, support by 7 ghostly legs (think the Guardians from Zelda BoTW). The Gauntlight then begins (powered by this energy and vague desire to consume souls) rush its way towards the town of Otari.</p><h3>Handling Dead PCs</h3><p>After the party escapes the Gauntlight's collapse, and makes it back to the surface, you might have lost a PC or two along the way, if so, and you don't want to have those players sit out the following scene, I recommend giving those characters the @UUID[Compendium.pf2e.feats-srd.Item.52nzskpmUt9AjUf8]{Ghost Dedication}, and specifying that their spirit seems to have been temporary tied to this area due to where they were killed. (Similar to the Roseguard, also under similar implication that the servants of @UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]{Pharasma} will come to escort them beyond when their final task is done)</p><p></p><h2>The Chase</h2><p>The first element of this is a chase, IE the Gauntlight as it moves forward towards the town on its humungous Nhimbaloth empowered necromantic energy legs. While it is surprisingly more nimble than expected, it also lumbers slowly when it doesn't perceive a threat to conserve energy.</p><h3><strong>Chase Special Rules</strong></h3><p>The Chase will consist of 7 obstacles, each of which takes place over the long trek back to Otari.</p><p>In addition, the major element about this chase that is different from other chases, is that <em>failing to clear an objective does not mean the party falls behind</em>, they simply will not gain an opportunity to engage with and stop the tower (the <strong>Takedown phase</strong>) for that round. (If you wish for this to be a more difficult set piece, you can however I prefer to make sure the final set piece after along fight is something that my players can triumphantly engage with as a last Hurrah). But each round consists of a <strong>Chase</strong> <strong>phase</strong> and a <strong>Takedown</strong> <strong>phase</strong> (which will be explained below)</p><h3>All Your Friends are back</h3><p>This part generally relies on you having run the @UUID[JournalEntry.ZPTalN8eYZyKYfz0.JournalEntryPage.fKVTu0SPpNOMwRCJ]{Zarmavdian's Ritual} from <strong>Abomination Vaults: Expanded</strong>, if you chose not to run that for whatever reason and want this, perhaps have either Wrin have a premonition or see the Gauntlight's energy acting weird.</p><p>Either way, the @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.5KstOkXabrOlZaKR]{nosoi} from the ritual has returned and brought friends. At the start of round 2, as a party member goes to either participate in the <strong>Chase</strong> phase or the <strong>Takedown</strong> phase, have a character whom the players have formed a bond or relationship with (or someone who would represent them if they say have people that serve them) show up to help!</p><p><strong>When do they show?</strong></p><ul><li><p>As a player starts their turn in the <strong>Chase phase</strong> make a @Check[flat|dc:11] on a success, any remaining NPC they have a bond with shows up during the <strong>Chase phase</strong>, on a failure they are delayed and show up in the <strong>Takedown</strong> <strong>phase</strong>.</p></li><li><p><em><strong>Note. </strong>Many NPCs may have a bond with multiple players, if that is the case they may show up for each player, however each NPC will only show once <strong>per player</strong>.</em></p></li></ul><p><strong>Helping Out</strong></p><ul><li><p><strong>Non Fighting NPCs</strong>. Some NPC clearly do not have combat prowess (such as say <strong>Brelda Venkervale</strong>), if she would come to assist your player instead narrate either some Sailor, Guard, or other Town NPC that was spurred to action by them insisting to help</p></li><li><p>@UUID[Item.E0OKIog3W01BhtAB]{Effect: The Bonds that Give us Strength}</p></li></ul><p><strong>Help Bonus.</strong> The NPC aids in your check giving you either an untyped bonus of:</p><ul><li><p><strong>+1</strong> - Something the NPC wouldn't really be proficient in (IE <strong>Carman</strong> in Religion)<br /><strong>+2</strong> - Something the NPC would be proficient in (IE <strong>Morliblint</strong> and Arcana)<br /><strong>+3</strong> - If you share an especially close bond with the NPC (their presence inspires you)</p></li></ul><h3>Chase Phase</h3><p>The Chase phase functions as a normal Chase, the party will have to clear an obstacle set before them. If the obstacle is cleared before other player's turns they may instead take their turn in the <strong>Chase Phase</strong> to participate in the <strong>Takedown phase</strong> (they still get their normal turn in the takedown phase so this effectively an extra turn).</p><h3>Chase Obstacles</h3><p>Each obstacle unless otherwise noted requires <span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\"># of players</span></strong><span style=\"text-decoration:underline\"> </span><strong><span style=\"text-decoration:underline\">- 1</span></strong></span> success to pass. (if you want to raise or lower the difficulty you can increase this count by 1 or lower by 1 respectively)</p><h4>Predator's Gaze</h4><p><em>Primal dread freezes your muscles as you feel an unseen horror watch over you</em></p><p>@Check[Occultism|dc:28] - Recognize the hunter's grip over your mind and deduct you way out of it</p><p>@Check[Will|dc:30] - Fight against the fear</p><p>@Check[Performance|dc:28] - Rally your allies</p><h4>Sucking Mire</h4><p><em>The bog below your feet impedes your progress, as you feel ghostly hands grasp to pull you under</em></p><p>@Check[Athletics|dc:30] - Fight against the pull</p><p>@Check[Acrobatics|dc:28] - Jump around over nearby debris</p><p>@Check[Arcana|dc:28] - Disrupt the ghostly pulling</p><p>@UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk} or equivalent expenditure results in an instant critical success (if it is a free ability count as an instant normal success)</p><h4>Swarm of Wisps</h4><p><em>Hundreds of glowing orbs descend upon you from the Gauntlight like a mass of angry hornets</em></p><p>@Check[Occultism|dc:30] - Identify weak points in the swarm's formation</p><p>@Check[Religion|dc:28] - Wards them off with holy power</p><p>@Check[Athletics|dc:28] - Force your way through the mass of wisps</p><h4>Mangled Forest</h4><p><em>A mangled array of twisted trees lay across the ground, with a glowing moss beginning to grow upon the wreckage</em></p><p>@Check[Nature|dc:30] - Use your knowledge of nature to find a way to traverse the trees avoiding the moss</p><p>@Check[survival|dc:28] - Forge a path across the trees using your canniness</p><p>@Check[Acrobatics|dc:28] - Move your way through the trees using your reflexes</p><h4>Haunted Fog</h4><p><em>The fog stirs with the spirits of dead warriors, reenacting their final moments of a long dead battlefield</em></p><p>@Check[Performance|dc:30] - Act or Dance your way through the battlefield in time to the fog warriors</p><p>@Check[Intimidation|dc:30] - Assert your presence causing your ghostly foes to avoid you</p><p>@Check[Deception|dc:29] - Trick your ghostly foes into believing you are on their side</p><p>@Check[Society|dc:28] - Recall knowledge of the battle that took place here and use it to navigate the battlefield</p><h4>Soul Trapping Puddles</h4><p><em>Pools of water begin to form each flowing with spirits, as the sight of them pulls you towards them as they attack at you</em></p><p>@Check[Religion|dc:30] - Exorcise spirits as you travel</p><p>@Check[Diplomacy|dc:30] - Calm the spirits as your travel</p><p>@Check[Occultism|dc:30] - Follow the flow of necromatic energy to weave through</p><p>@Check[tealthS|dc:28] - Skulk through the area avoiding being attacked</p><h4>Necrotic Bloom</h4><p><em>The moss has begun to spread over the trees, covering the area in a memory stealing mist</em></p><p>@Check[Survival|dc:30] - Locate the quickest path through</p><p>@Check[Medicine|dc:30] - Find a quick counteracting agent to prevent the effects</p><p>@Check[Crafting|dc:28] - Neutralize the mist using alchemical Catalysts<br /></p><h3>Takedown Phase</h3><p>During the takedown phase there are 2 two targets, <strong>the Legs</strong> and <strong>the Lenses</strong> (which float above the lighthouse). These both use the <strong>Victory Point</strong> system</p><h4>The Legs</h4><p>To take out the legs (and stop the tower from moving for a round, before it regrows its legs).</p><p><em><strong>Note:</strong> You can click on the effect on the <strong>Gauntlight's Revenge</strong> token to toggle down the amount of legs visually</em></p><p><strong>7 Victory Points </strong>(1 for each leg)</p><ul><li><p><strong>3</strong> <strong>VP Threshold</strong> (slowed down, lower the number of Chase Points needed by 1)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Attack rolls <strong>DC 32</strong></p></li><li><p>@Check[athletics|dc:30] - To attack a leg</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] - Use knowledge of magic to disable it</p></li></ul><h4>The Lenses</h4><p>To remove a lens from the area they float at above the Gauntlight, When all the lenses are removed or destroyed the encounter ends with the Gauntlight falling over onto the ground.</p><p><em><strong>Note.</strong> A character can attempt to climb the tower as a part of their action @Check[athletics|dc:30]</em></p><p><em><br /><strong>8 Victory Points</strong> (2 for each lens)</em></p><ul><li><p><em><strong>6 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 1)</p></li><li><p><em><strong>4 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 2</p></li><li><p><em><strong>2 VP Threshold</strong> </em>(Lower the DC of all <strong>Chase Phase</strong> checks by 3)</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Relevant Checks</span></span></p><ul><li><p>Ranged Attack rolls <strong>DC 32</strong></p></li><li><p>Melee Attack rolls <strong>DC 31</strong></p></li><li><p>@Check[athletics|dc:30], @Check[thievery|dc:30]</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] (within 5 ft)</p></li><li><p></p></li></ul><p></p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 1900000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.r3dHY95N5ieG3U16",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": 1741923561807,
+				"modifiedTime": 1765487580829,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "gZOh73c8ur7rq6gl",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "E13. Belcorra's Reflection",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies </strong>@UUID[JournalEntry.JT0zCcIwsSpKnbB5.JournalEntryPage.72MOBw46cojkIGrb]{E13. Gladiator Readiness Room}</p><p>Remove the mimic encounter from this room, and instead replace it with a mirror in the room (note not to read the part in the room description about the mimic). The mirror is the following haunt</p><p>@UUID[Actor.emEX7UJahRAIdKPv]{Ghost Queen's Reflection}</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 1000000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl",
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "6.10.2",
+				"createdTime": 1741928398427,
+				"modifiedTime": 1765487076050,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"_id": "WS5LyEaTKaiXxLvl",
+			"category": null,
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "A7. Lore Through Tapestries",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>This was created by user Tight-Branch8678</em></p><hr /><h2>Finding them</h2><p>In the dining room as described there are a number of tapestries that are described as rotten and moldy. This addon seeks to use the option to restore them as a way to pass on information about some of the keep lore, as such they tell the story of Belcorra's life up to the completion of the Gauntlight.<br /><br />There are 7 in total, corresponding to Nhimbaloth's favored number 7. Also of note this retcons <strong>Caliddo's</strong> connection to <strong>Belcorra</strong> from distant relative, to a first cousin.</p><h3>Restoration</h3><p>Inform players that these tapestries can be restored, either through someone who has specialization with canvas (<strong>Morliblint</strong>) or if a PC has a relevant skill (IE @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting}: Artistry etc.). Regardless of the chosen method only one tapestry can be restored per day (having Morliblint do it would give the party a reason to return to Otari often, he does not charge for it but perhaps consider requiring them to be in his good graces first)</p><h2>The Seven Tapestries</h2><h3><strong>1. Birth</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>Trigger Warning: </em></span><span class=\"inner\" aria-hidden=\"false\" style=\"opacity:1;transition:opacity 1s ease-out;margin-right:-0.25rem\"><span style=\"font-family:inherit\"><em>Human Sacrifice and Cannibalism</em></span></span></p><p class=\" box-text narrative\">This tapestry depicts Belcorra as a babe in the arms of her mother. She does not weep, and instead looks into the stars through the ceiling. There is a prominent constellation of seven stars. The midwife and doctor lay dead on the ground, each with seven perfectly spaced incisions in the shape of a circle on their chests. Blood pools around the bed from other bodies in the periphery.</p><h3><strong>2. Human Sacrifice</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>Begin by saying that this tapestry depicts human sacrifice and cannibalism. Ask if they want more details below.</em></span></p><p class=\" box-text narrative\">The tapestry depicts Belcorra as a toddler in a damp, moss-covered cavern. Coils of light (flicker wisps) light the interior. She stands watching several unfortunate souls who are being sacrificed/devoured while still alive. The Haruvexs' each are tormenting an individual; one forced to read <em>The Whispering Reeds</em>. Their face becoming stretched beyond comprehension, with their spirit splitting from their body, another impaled by a rod with seven points, and the last consumed by wild-eyed men and women.</p><h3><strong>3. Exile</strong></h3><p class=\" box-text narrative\">The tapestry depicts a family sailing away from land. Their faces range from sorrow to anger and disdain. A young girl is the center of the tapestry— she is the only one making eye contact with the viewer. There appears to be a dark ring about her head.</p><p>This tapestry shows the Haruvexs' exile from their home in Absalom.</p><p>A @Check[religion|dc:12] check indicates that the dark ring is a halo and represents a strong connection to divine entities. A <strong>critical success</strong> reveals that this halo represents a connection to a dark and evil deity.</p><h3><strong>4. Death and Poverty</strong></h3><p class=\" box-text narrative\">The tapestry depicts Belcorra as a 17 year old. She is dressed in rags, but has a regal and defiant face. Surrounding Belcorra, her relatives lie in squalor and emaciated. She has her eyes on the horizon while everyone else has eyes only for the dirt beneath them. One other relative, wearing plate armor, looks to Belcorra with a look of loyalty. He appears as undead.</p><h3><strong>5. Visions from Nhimbaloth</strong></h3><p><em>Trigger Warning: Animal Sacrifice and Cruelty</em></p><p class=\" box-text narrative\">The tapestry depicts Belcorra at 17 in winter apparel standing above a wild-eyed grizzly bear in the snow. A salmon tail is seen protruding from his mouth. The bear's entrails have splilled out from a massive wound in his belly. Fog escapes from the beast nostrils, indicating that he still lives. Belcorra is consuming a bit of the bear's flesh and looking at the blood of the beast pooling on the snowy ground. Within the pool of blood, Belcorra sees a vision of serpentfolk in a deep cavern constructing a shrine. Carved at the front of the shrine is a massive skull with moss jutting from the jaw. Beside this is another pool of blood with a vision of Belcorra building Gauntlight.periphery.</p><h3><strong>6. Return to Kortos</strong></h3><p class=\" box-text narrative\">This tapestry depicts Belcorra at 17, sailing towards an island. The coastline is that of Otari before it had been settled. Cliffs and trees cover the island. Aboard the ship is an undead man clad in heavy armor.</p><h3><strong>7. Gauntlight Built</strong></h3><p class=\" box-text narrative\">This tapestry shows the completion of Gauntlight being built. It glows with baleful light. Belcorra stands beside a drow man with his back facing the viewer, he has long silver hair. Beside him is a whirling ball of light and energy with floating eyes and tendrils each ending in 7 fingers. Standing near Belcorra is an undead clad in heavy armor. An enormous worm-like creature on dozens of legs stands next to the undead. It has an alchemical toolbelt around its body. Last is a red bodied man with large horns.</p><p>Volluk, the Voidglutton, Caliddo Harruvex, Jafaki, and Urevian are the figures standing around Belcorra.</p>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 812500,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.2.0",
+				"createdTime": 1750312429954,
+				"modifiedTime": 1765487198648,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"category": null,
+			"_id": "yKJu9ptH7WHJZ8L1",
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "G18. He Who Collects Hands",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>This was created by user weepingminotaur</em></p><hr /><p>In this modification, Ysondkhelir fights the party in a dreamscape, allowing him more room to maneuver than in the tiny war room on floor G. Combat can trigger either when the party tries to open the door to G18, or after RP in Dorianna's chamber in town, as you prefer.</p><p>Ysondkhelir, in this dream sequence, is feeding on Dorianna's psychic energy, which makes him considerably more powerful than written in AV. The party will want to sever his link to Dorianna as soon as they can, using the Set Her Free activity below. Once his link is broken, he becomes far less powerful.</p><p>@UUID[Actor.sqaoZDUyrwFmj8to]{Ysondkhelir, Nightmare Addict}</p><h3><span class=\"action-glyph\">2</span> Set Her Free</h3><section class=\"traits\"><p>Mental</p><p>spirit</p></section><hr /><section class=\"statblock\"><p>Weaken Ysondkhelir's control on Dorianna with an appropriate skill check. A total of four successful checks are required to break control and set Dorianna free. Each skill can only be successfully used once. All checks are based on Ysondkhelir's level with the standard adjustments for difficulty.</p><ul><li><p><strong>Range</strong> The PC attempting the check must be adjacent to either Dorianna or Ysondkhelir. Other characters may use the @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} action to support a check but only if they are within 30 feet of Dorianna, Ysondkhelir, or the active PC (as appropriate for their action). A character cannot make a check or Aid if they are in a nightmare space.</p></li><li><p><strong>Critical success</strong> Two successes.</p></li><li><p><strong>Success</strong> One success.</p></li><li><p><strong>Failure</strong> No change.</p></li><li><p><strong>Critical failure</strong> The PC is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied 1}.</p></li></ul><hr /><ul><li><p><strong>Arcana</strong> Use your knowledge of magic to weaken the spiritual link between Ysonkhelir and Dorianna.</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{Arcana (Very Hard)}</p></li></ul></li><li><p><strong>Diplomacy</strong> Give Dorianna the courage to fight her tormentor.</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{Diplomacy (Hard)}</p></li></ul></li><li><p><strong>Intimidation</strong> Frighten the dream-catcher with threats of retribution.</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{Intimidation (Very Hard)}</p></li></ul></li><li><p><strong>Medicine</strong> Tend to Dorianna's wounds to restore her strength.</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{Medicine (Normal)}</p></li></ul></li><li><p><strong>Occultism</strong> Decipher the esoteric basis of Ysonkhelir's control over Dorianna.</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{Occultism (Normal)}</p></li></ul></li><li><p><strong>Society</strong> Remind Dorianna of her family and friends and her connection to Otari.</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{Society (Hard)}</p></li></ul></li><li><p><strong>Spirit Lore</strong> Draw on your knowledge of the spiritual to bolster Dorianna in her fight against the dream-catcher.</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{Spirit Lore (Easy)}</p></li></ul></li></ul><hr /><ul><li><p><strong>One success</strong> Ysondkhelir's resistance to physical damage drops to 5. The south section of his window wall disappears.</p></li><li><p><strong>Two successes</strong> No more crawling hands can spawn. The north section of Ysondkhelir's window wall disappears.</p></li><li><p><strong>Three successes</strong> Ysondkhelir is no longer quickened. The remaining sections of his window wall disappear.</p></li><li><p><strong>Four successes</strong> Ysondkhelir loses his Attack of Opportunity and his resistance to physical damage. He also reverts to his normal size and loses 15 feet reach on melee strikes. Dorianna is temporarily free of his mental influence, though he will eventually reassert control if left alive.</p></li></ul></section><h1>Exiting the Dreamspace</h1><p>Killing Ysondkhelir permanently sets Dorianna free and brings the party out of the dreamscape.</p><h2>Agony In Every Breath</h2><section class=\"statblock\"><p>A PC who attempts to exit the dreamscape by the southern stairs can do so, but only after making a @Check[type:will|dc:26|showDC:all]{basic Will save} and take @Damage[(2d10+9)[spirit,mental]], Ysondkhelir is healed for the same amount of damage.</p></section>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 1300000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.yKJu9ptH7WHJZ8L1",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.4.3",
+				"createdTime": 1758090772141,
+				"modifiedTime": 1772780143972,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"category": null,
+			"_id": "52X3NzrFQ7Kd0sX4",
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"name": "Craftable Items from Creatures",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"text": {
+				"format": 1,
+				"content": "<p></p><table><tbody><tr><td><p><strong>Creature</strong></p></td><td><p><strong>Level</strong></p></td><td><p><strong>Item</strong></p></td></tr><tr><td><p>@UUID[Actor.LHHgGSs0ELCR4CYK]{Ghoul}</p></td><td><p>3</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.VOmOhm3Rc3VUkIu0]{Ghoul Stiletto}</p></td></tr><tr><td><p>@UUID[Actor.irrXrWxJ0LYSUCQB]{Ravirex}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.4jZqYIyouoK7xe8u]{Dragonscale Staff}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Q8BscHUFiM1a86PO]{Dragonslayer's Shield}</p></td></tr><tr><td><p></p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Blo642O1qsgsvYEB]{Dragontooth Leiomano}</p></td></tr><tr><td><p>@UUID[Actor.RiKjpztTt7tZbOeo]{Hydra}</p></td><td><p>7</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.oHVCB96LOYobSQ0I]{Splithead Bow}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.ssS1yEAZwZun8yFw]{Growth Gun}</p></td></tr><tr><td><p>@UUID[Actor.nEOvW0LBt9vFETUp]{Goliath Spider}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.70H54rIRjO9fJkdt]{Spider Gun}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.NIyJqiW1Wci6gP9m]{Arachnid Harness (Greater)}</p></td></tr><tr><td><p>@UUID[Actor.fxYMucI5b2IUoBpw]{Shuln}</p></td><td><p>12</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.MBd6Fr0jk4XpUc4l]{Shuln Fang Katar}</p></td></tr><tr><td><p>@UUID[Actor.FHfrIJCdKTzy2rrR]{Cauthooj}</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.C7LDHqjqxpmhn8QY]{Cauthooj Bagpipes}</p></td></tr><tr><td><p>@UUID[Actor.mlifDVJJWwjFtUxv]{Murmur} (if you're evil)</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.nzQKwdUxzmmwWtzT]{Medusa's Scream}</p></td></tr></tbody></table>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 450000,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-addons-pf2e.abomination-vaults-addons-journals.JournalEntry.MFrzwRpQ8PaZhTY9.JournalEntryPage.hOMUDNapQMRjV1kQ",
+				"duplicateSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.52X3NzrFQ7Kd0sX4",
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.6.4",
+				"createdTime": 1762807636234,
+				"modifiedTime": 1765486999474,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"category": null,
+			"_id": "YBMl3YcfpuQyWqea",
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 600000,
+			"name": "Wrin's Wonders Exterior",
+			"type": "image",
+			"_id": "jK0TK9fuzT5RDGFH",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"image": {
+				"caption": "Wrin's Wonders Exterior (@morlockhater) a round tower with elven wooden mechanical winches affixed to the side, allowing the canvas rooftop to open up to expose the night's sky as described in the book."
+			},
+			"text": {
+				"format": 1
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": "modules/abomination-vaults-addons/assets/maps/morlockhater/wrins_wonders_exterior.webp",
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765486803220,
+				"modifiedTime": 1765487295934,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 200000,
+			"name": "Misc",
+			"type": "text",
+			"_id": "7XYTYzeXuWgjmg3E",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p>Misc Items without a Specific Floor</p>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765486894221,
+				"modifiedTime": 1765486981986,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1600000,
+			"name": "J. Temple",
+			"type": "text",
+			"_id": "ot2tOGYqZyhP2Hq6",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765486945386,
+				"modifiedTime": 1765486981986,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 500000,
+			"name": "Otari",
+			"type": "text",
+			"_id": "j9mQVcT4xMMpmbkm",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765486975525,
+				"modifiedTime": 1765486981986,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 850000,
+			"name": "E. Arena",
+			"type": "text",
+			"_id": "ilHabflTXrNTCUea",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765487066425,
+				"modifiedTime": 1765487072757,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 775000,
+			"name": "A. Gauntlight Ruins",
+			"type": "text",
+			"_id": "lyfBoblrRHehtuRp",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765487132844,
+				"modifiedTime": 1765487142171,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1150000,
+			"name": "G. Prison",
+			"type": "text",
+			"_id": "Ns4dJK2ohpo95mQ6",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765487155508,
+				"modifiedTime": 1765487162624,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1225000,
+			"name": "G. Prison Door Flame FX",
+			"type": "text",
+			"_id": "BHqj0KyG7qzPC5L2",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p>In this module's settings there is a setting which when enabled (assuming you have <code>Sequencer</code> and <code>JB2a</code> installed will play a little flame effect when each door is opened/closed on the prison level as described in the floor description.</p><p>@UUID[JournalEntry.OyNcqrpRClyhr8BJ.JournalEntryPage.8V5lwumIxcPPnYMP]{Chapter 7: Soul Keepers}</p>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1765487407338,
+				"modifiedTime": 1772772311010,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1450000,
+			"name": "I. Hunting Grounds",
+			"type": "text",
+			"_id": "Gge2ITrX73Rpfhun",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p></p>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1768233595931,
+				"modifiedTime": 1768233604116,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1525000,
+			"name": "Yldaris Settlement Treatment",
+			"type": "text",
+			"_id": "XSouJfqO8f0ptYya",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p><em>It never sat right to me that in the Abomination Vaults book Yldaris is written as if it's a dungeon encounter, when it is far more likely the party will interact with them on friendly terms. This seeks to remedy that, as well as remedy access to some higher level items the party might have to wait longer to acquire if they only ship them from Absalom.</em></p><p>See @UUID[JournalEntry.67686KaEPc6XAlKJ.JournalEntryPage.4kOuPeKxK4TbdcuO] for explanations of certain tags</p><section class=\"location-head\"><header><h1>Yldaris</h1><h1>Settlement 9</h1></header><article><ul class=\"traits\"><li>Underground</li><li>Town</li></ul></article></section><ul class=\"features\"><li>Underground insulated settlement of Drow Shootists.</li><li>(<strong>Note:</strong> Increased settlement level to 9 to distiniguish it more from Otari)</li></ul><hr /><p></p><section class=\"location-head\"><header><h2>Lozardyn Caravan</h2><h2>Courier 9</h2></header><article><ul class=\"traits\"><li>Garrison</li></ul><p><strong>Yldaris Caravan</strong></p></article></section><ul class=\"features\"><li><strong>Delivieries</strong>: Deliveries of items <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">level 9 and below</span></span> from the drow settlement of Lozardyn can be requested. Items can be purchased at their original price with an added fee of 1 GP per bulk for them to be delivered within 3 days, or at 20% extra for them to be delivered within a day.</li></ul><hr /><p>The drow of Yldaris run caravans to the nearby drow city of Lozardyn which has access to more items, but is limited to access due to the network of twisting Darklands caverns needed to be traversed to access it.</p><p></p><section class=\"location-head\"><header><h2>The Lone Ranger</h2><h2>Shootist 8</h2></header><article><ul class=\"traits\"><li>Workshop</li></ul><p><strong>Tanieth</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: @UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow}, @UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{Repeating Hand Crossbow Magazines}, @UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{Shootist Bandolier}, @UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{Lethargy Poison}, @UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{Stupor Poison}, Also repairs items</li></ul><hr /><p>Tanieth is a loner drow ranger with great expertise in the use and maintenance of repeating hand crossbows.</p><p></p><section class=\"location-head\"><header><h2>Master Warden's Quarter</h2><h2>Warden 9</h2></header><article><ul class=\"traits\"><li>Discount</li><li>Employer</li></ul><p><strong>Salaisa Malthus</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Adventuring Gear, Weapons, Shields, Armor, Fundamental Runes, @UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{Corrosive} property Runes, A small selection of magical weapons and armor</li></ul><hr /><p>As the settlement leader, she also is in charge of also the quartermaster of all general equipment for the settlement.</p><p></p><section class=\"location-head\"><header><h2>Kitchen</h2><h2>Kitchen 5</h2></header><article><ul class=\"traits\"><li>Parlor</li></ul><p><strong>Kitchen Staff</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Beverages, Meals, Rations (Sourced from local fauna/flora mushrooms etc. )</li></ul><hr /><p>The drow staffing the kitchen usually depends on who lost a card game last, so it is inconsistent.</p><p></p><section class=\"location-head\"><header><h2>Seer's Quarters</h2><h2>Spellcasting 9</h2></header><article><ul class=\"traits\"><li>Library</li><li>Church</li></ul><p><strong>Bhazrade &amp; Klathoreer</strong></p></article></section><ul class=\"features\"><li><strong>Wares</strong>: Occult scrolls, A few occult themed magic items (held items, staves, wands)</li><li><strong>Spellcasting</strong>: Their spellcasting services are available, but they are limited to the spells listed in their stat blocks.</li><li><strong>Meditation</strong>: Bhazrade &amp; Klathor can instruct the party in meditation in the meditation cave this acts as the spell @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{Read Fate}</li></ul><hr /><p>These drow seers can offer their spellcasting services and guidance in the darkland stone faith.</p>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.8.0",
+				"createdTime": 1768233616169,
+				"modifiedTime": 1772772016967,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1375000,
+			"name": "H. Farm",
+			"type": "text",
+			"_id": "QCsRsYxjuwhEd7nr",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": ""
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.QCsRsYxjuwhEd7nr",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772772027774,
+				"modifiedTime": 1772772133317,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		},
+		{
+			"sort": 1412500,
+			"name": "H38. Murmur the Implement of Empty Death",
+			"type": "text",
+			"_id": "9clhBJ4imVi2Ri9o",
+			"system": {},
+			"title": {
+				"show": true,
+				"level": 3
+			},
+			"image": {},
+			"text": {
+				"format": 1,
+				"content": "<p><em>This was created by user weepingminotaur</em></p><h2>Overview</h2><p>Murmur, the feebleminded Medusa, has been turned into an @UUID[Actor.aYaE9C8F2bjV7c2Q]{The Implement of Empty Death}. The implement currently resides in @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} (replacing the nilith). Additionally Murmur herself is no longer stationed at @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.pnTCbvQqpz0arkpz]{H38}.</p><p>Belcorra has taken some precautions to ensure that Murmur is neither found nor disabled. The sturdy stone door to @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} is locked and trapped with the @UUID[Item.CyWfBIXA8CKVFMK4]{Nhimbaloth - Major Curse}. Spotting the curse requires a @Check[perception|dc:30|traits:secret] check. Disabling the curse requires either a [[/act disable-device dc=33]]{Disable a Device (expert)} check or a @Check[type:Occultism|dc:33|showDC:all]{Occultism (master)} check.</p><p>Opening the door requires either its key (which is carried by <strong>Caliddo</strong>), five successful [[/act pick-a-lock dc=35]]{Pick a Lock (expert)} checks, or a single @Check[type:Athletics|dc:40|showDC: all|traits:action:force-open]{Force Open (expert)} check.</p><p>While the Implement of the Empty Death hazard is active, a number of elements of the lower levels of the Gauntlight are more dangerous:</p><ul><li><p>Both the Eyes of the Ghost Queen (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.0EtecMBSYJDok7n7]{H02. Hall of Eyes}) and Grasp of the Ghost Queen (@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.uWdCP78aS1lts5kr]{I64. Initiates' Chamber}) hazards reset after 1 minute if no creatures are in the area, even if they have been disabled.</p></li><li><p>The following creatures gain @UUID[Item.fPWpoxS7837pkegk]{regeneration 10 (vitality)}:</p><ul><li><p>Empty Death Bodaks (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.hD6CSfmfkrSopsaw]{H21. Ancients' Caves})</p></li><li><p>Dread Wisps (all locations)</p></li><li><p>Dread Wraith (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.Vwd8vMBerJCAoN4N]{H23. Shadowed Dock)}</p></li><li><p>Urthagul (@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.f02YPQGkiBbZ0Ijt]{H12. Island Cavern})</p></li><li><p>Bright Walkers (@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.iduGvMRKIN2B46hv]{I24. Strange Dead})</p></li></ul></li><li><p>Belcorra can project herself anywhere on floors H through J, not just in the Gauntlight footprint.</p></li></ul><h2>Design Considerations</h2><blockquote><p>I have no idea whether this modification will be to anyone's taste other than mine. I made it purely for the benefit of my own particular AV group. The emphasis on Spirit Lore, for example, allows my party's champion of Torag to play an important role in disabling the hazard, as is the option to call on Torag for the Release Spirit action. If no one in your group worships Torag, consider replacing him with Cayden Caelean, focusing on the freedom part of Cayden's portfolio to justify his involvement in the exhortation.</p><p>I was motivated to write this addition by my dissatisfaction with Murmur's use in AV. Some GMs may find Murmur (or the Ghost Queen hazards I have placed in H02 and I64) overpowered or overtuned, and fair play to you if you're in that group. Belcorra is the adventure's final boss, and I wanted to show evidence of her evil genius in the lower levels of the Gauntlight while also augmenting the Nhimbaloth horror vibe.</p><p>-weepingminotaur</p></blockquote><h2>Disabling the Haunt</h2><p>The party must perform three sequential checks to disable the haunt: Rouse Sentience, Study Implement, and Release Spirit. Reveal the Rouse Sentience description and options if the party succeeds on a Recall Knowledge (Occultism) check to find out the hazard's Disable conditions. On a <strong>success</strong> at Rouse Sentience, reveal the options for Study Implement. On a <strong>success</strong> at Study Implement, reveal its development, the Send False Signal block, and the full Release Spirit section.</p><p>If the PCs choose to leave the task unfinished and return to complete it later, they must perform the same three sequential checks, unless they already achieved success in Study Implement, in which case they only need to perform Rouse Sentience and Release Spirit.</p><hr /><p>@Embed[Item.Q5N7Px8ZVaocxC92]{Rouse Sentience}</p><hr /><p>@Embed[Item.aEZqJZBbCp3fJSV0]{Study Implement}</p><hr /><p>@Embed[Item.WFCyQ30Rj6DXwrxk]{Send False Signal (Optional)}</p><hr /><p>@Embed[Item.pkCt6MdQHmoPKHyV]{Release Spirit}</p><p></p>"
+			},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"category": null,
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.9clhBJ4imVi2Ri9o",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.351",
+				"systemId": "pf2e",
+				"systemVersion": "7.11.2",
+				"createdTime": 1772772190190,
+				"modifiedTime": 1772775636687,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"ownership": {
+				"default": -1
+			}
+		}
+	],
+	"name": "Abomination Vaults: Addons",
+	"folder": "OfH0ZqG3hwnrSdpa",
+	"flags": {
+		"pf2e-abomination-vaults": {
+			"isAV": true
+		},
+		"scene-packer": {
+			"hash": "cf2a20b9f08e3404dfed96adaf89cafbba6ff92b",
+			"sourceId": "JournalEntry.3dNQCvcANkMSsK5i"
+		},
+		"core": {
+			"sheetClass": "core.JournalEntrySheet"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.6jMFCIti4rR7goXl",
+		"duplicateSource": "JournalEntry.NrNp6wwO5NKtMfLW",
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1771948843455,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": {
+			"worldId": "pathfinder-test",
+			"uuid": null,
+			"coreVersion": "12.331",
+			"systemId": "pf2e",
+			"systemVersion": "6.5.1"
+		}
+	},
+	"sort": 100000,
+	"_id": "YNMkFijTGb36JbJi",
+	"categories": [],
+	"ownership": {
+		"default": 0
+	}
+}

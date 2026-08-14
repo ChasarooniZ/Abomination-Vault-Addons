@@ -1,0 +1,35 @@
+{
+	"folder": "6Gz5T8izaH4RvkL6",
+	"name": "Nhimbaloth's Presence",
+	"type": "script",
+	"_id": "XoRI9jJBmsh26uQV",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+	"scope": "global",
+	"command": "// Animates Nhimbaloth Encounter/presenece\n// Adds tentacles and an overlay over the screen for the duration\n// Requires Sequencer & can use JB2A Patreon\nconst duration = 10; // In seconds\nconst fadeInDuration = 1; // In seconds\nconst fadeOutDuration = 1; // In seconds\nconst sfx = \"modules/pf2e-abomination-vaults/assets/audio/motifs/whispering-reeds/010H.ogg\"; // BG sound to play\nconst volume = 1; // Volume Level 0 - 1 (1 = 100%)\n\nawait game.abomVaultAddons.animations.nhimbalothPresence({duration, fadeInDuration, fadeOutDuration, sfx, volume});",
+	"sort": 200000,
+	"flags": {
+		"scene-packer": {
+			"hash": "e4622acceccd075a27426869d01d0e9e9d0aa0b8"
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

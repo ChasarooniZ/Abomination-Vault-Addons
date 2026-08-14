@@ -1,0 +1,1598 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 30,
+						"otherVisibility": 0,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"hideHud": false,
+						"indentLeft": null,
+						"indentRight": null,
+						"shareHeight": false,
+						"style": "user",
+						"label": "",
+						"invert": false,
+						"invertDirection": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null
+					}
+				}
+			},
+			"tagger": {},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"aedifs-tactical-grid": {
+				"viewDistance": null,
+				"viewShape": "",
+				"color": ""
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"MountingEffectsFlag": "",
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"CanbePilotedFlag": false,
+				"CheckPilotedCollisionFlag": false,
+				"PilotedbyDefaultFlag": false
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			},
+			"pf2e": {
+				"linkToActorSize": true,
+				"autoscale": true
+			}
+		},
+		"prependAdjective": true,
+		"name": "Ghostly Cave Worm",
+		"actorLink": false,
+		"appendNumber": false,
+		"width": 4,
+		"height": 4,
+		"texture": {
+			"src": "modules/pf2e-tokens-monster-core/assets/tokens/cave-worm.webp?1733901950713",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 17,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/pf2e-tokens-monster-core/assets/tokens/cave-worm.webp?1733901950713"
+			}
+		},
+		"randomImg": false,
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null
+	},
+	"img": "modules/pf2e-tokens-monster-core/assets/portraits/cave-worm.webp",
+	"items": [
+		{
+			"_id": "HRuAKCIYZlriHOGv",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Ghostly Jaws",
+			"sort": 100000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"improved-grab"
+					]
+				},
+				"bonus": {
+					"value": 28
+				},
+				"damageRolls": {
+					"1ct5xtyrbqxkeve4gasj": {
+						"damage": "3d10+15",
+						"damageType": "void",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "jaws",
+				"traits": {
+					"value": [
+						"deadly-2d10",
+						"reach-15"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": 1733901686295,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"pf2e-graphics": {
+					"customAnimations": {
+						"item:slug:jaws": [
+							{
+								"trigger": "attack-roll",
+								"preset": "onToken",
+								"file": "jb2a.bite.400px.yellow",
+								"options": {
+									"filter": {
+										"type": "ColorMatrix",
+										"options": {
+											"hue": 125
+										}
+									},
+									"preset": {
+										"location": "target"
+									},
+									"scaleToObject": {
+										"value": 2
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "hj2HivadIMJbB0cD",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Stinger",
+			"sort": 200000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"purple-worm-venom"
+					]
+				},
+				"bonus": {
+					"value": 28
+				},
+				"damageRolls": {
+					"u7glfm4e26u0qq9lf0ii": {
+						"damage": "2d12+15",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"agile",
+						"poison",
+						"reach-15"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "fkSqSiW3qLpaq6hp",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Body",
+			"sort": 300000,
+			"system": {
+				"attackEffects": {
+					"value": []
+				},
+				"bonus": {
+					"value": 26
+				},
+				"damageRolls": {
+					"c9wyts2r994eq8jhnch0": {
+						"damage": "1d10+13",
+						"damageType": "bludgeoning",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"reach-15"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": null
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "9AEzHj5y2T93e7EF",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Regurgitate",
+			"sort": 400000,
+			"system": {
+				"attackEffects": {
+					"value": [
+						"regurgitate"
+					]
+				},
+				"bonus": {
+					"value": 26
+				},
+				"damageRolls": {},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"brutal"
+					],
+					"otherTags": [],
+					"config": {}
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"action": "strike",
+				"area": null,
+				"range": {
+					"increment": 60,
+					"max": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "BJ1PhJfeJAlUL4sL",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Tremorsense (Imprecise) 100 feet",
+			"sort": 500000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "tremorsense",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "IoAJluZoGb9mgLGv",
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Inexorable",
+			"sort": 600000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>The cave worm recovers from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} conditions at the end of its turn. It's also immune to penalties to its Speeds and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} condition, and it ignores difficult terrain and greater difficult terrain.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"key": "Immunity",
+						"type": "immobilized"
+					}
+				],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "y0G6Hcirsc4uakIL",
+			"img": "systems/pf2e/icons/actions/Reaction.webp",
+			"name": "Slough Skin",
+			"sort": 700000,
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Effect</strong> The cave worm negates the triggering condition or effect by sloughing an outer layer of its skin. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>",
+					"gm": ""
+				},
+				"frequency": {
+					"max": 1,
+					"per": "day",
+					"value": 1
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "53LkbbyoyISSppMe",
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Cave Worm Venom",
+			"sort": 800000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[5d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[6d6[poison]] damage, and enfeebled 2 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[8d6[poison]] damage and enfeebled 2 (1 round)</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "purple-worm-venom",
+				"traits": {
+					"value": [
+						"poison"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "rGTmjeER3V1KY02w",
+			"img": "systems/pf2e/icons/actions/Reaction.webp",
+			"name": "Fast Swallow",
+			"sort": 900000,
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p><strong>Trigger</strong> The cave worm @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} a creature.</p>\n<hr />\n<p><strong>Effect</strong> The worm uses Swallow Whole.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "fast-swallow",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "crXV18abZr2DcEh8",
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Regurgitate",
+			"sort": 1000000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The purple worm can violently regurgitate a creature or boulder it has swallowed to make a ranged Strike. The Strike deals bludgeoning damage depending on the size of the projectile:</p><ul><li>Tiny @Damage[(2d6+13)[bludgeoning]]{2d6+13}</li><li>Small @Damage[(3d6+13)[bludgeoning]]{3d6+13}</li><li>Medium @Damage[(4d6+13)[bludgeoning]]{4d6+13}</li><li>Large @Damage[(5d6+13)[bludgeoning]]{5d6+13}</li><li>Huge @Damage[(6d6+13)[bludgeoning]]{6d6+13}</li></ul><p>A regurgitated creature takes falling damage from the height of the target or from 20 feet, whichever is greater.</p><p>Boulders occupy space in the worm's stomach as a creature of equivalent size, and purple worms often have several boulders swallowed. A purple worm can use a single action to swallow a new boulder.</p><p>@UUID[Macro.X28HKDQaNJxl4fci]{Regurgitate Animation}</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "regurgitate",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": null,
+				"modifiedTime": 1740804660663,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "8EY2qfk7YZdvckfJ",
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Rock Tunneler",
+			"sort": 1100000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>A cave worm can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "rTDme0840mDZkokU",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.9.0",
+				"createdTime": null,
+				"modifiedTime": 1740809286487,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"img": "systems/pf2e/icons/actions/OneAction.webp",
+			"name": "Swallow Whole",
+			"sort": 1200000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>Huge, @Damage[(3d6+9)[bludgeoning]], Rupture 24</p><p>@UUID[Item.7xKOXwUKrcg8gD3y]{Effect: Swallowed Whole (Cave Worm)}</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "swallow-whole",
+				"traits": {
+					"value": [
+						"attack"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				},
+				"deathNote": false
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				}
+			},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "zEZW1atU8KQCSsNi",
+			"img": "systems/pf2e/icons/actions/TwoActions.webp",
+			"name": "Thrash",
+			"sort": 1300000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 2
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"_id": "TKaqHg2KqjNmg24t",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null,
+				"exportSource": null
+			},
+			"img": "systems/pf2e/icons/actions/FreeAction.webp",
+			"name": "Improved Grab",
+			"sort": 1400000,
+			"system": {
+				"actionType": {
+					"value": "free"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "improved-grab",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"flags": {},
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Void Healing",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"key": "ActiveEffectLike",
+						"mode": "override",
+						"path": "system.attributes.hp.negativeHealing",
+						"value": true
+					}
+				],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"slug": "void-healing",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": 1733901474901,
+				"modifiedTime": 1733901474901,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "e91e5bab47760d61df23e357cf9ae07238ae03a8"
+				}
+			},
+			"_id": "Daf5xGj3gVIVPAWQ",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "(Ghost) Site Bound",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"description": {
+					"value": "<p>A typical ghost can stray only a short distance from where it was killed or the place it haunts. A typical limit is 120 feet. Some ghosts are instead bound to a room, building, item, or creature that was special to it rather than a location.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"slug": "ghost-site-bound",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.BcSlVpaN72LoQ5BV",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": 1733901984395,
+				"modifiedTime": 1733901984395,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "1c72b25a3debf284d0707a50c239708918292441"
+				}
+			},
+			"_id": "5T8kAJ39XXg1JDU8",
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "(Ghost) Rejuvenation",
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"deathNote": true,
+				"description": {
+					"value": "<p>When a ghost is destroyed, it re-forms after [[/br 2d4 #days]]{2d4 days} within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "ORC",
+					"remaster": true,
+					"title": "Pathfinder Monster Core",
+					"authors": ""
+				},
+				"rules": [],
+				"traits": {
+					"value": [
+						"divine"
+					],
+					"otherTags": []
+				},
+				"slug": "ghost-rejuvenation",
+				"_migration": {
+					"version": 0.955,
+					"previous": {
+						"schema": 0.948,
+						"foundry": "13.351",
+						"system": "7.10.1"
+					}
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB",
+				"duplicateSource": null,
+				"coreVersion": "13.345",
+				"systemId": "pf2e",
+				"systemVersion": "6.7.2",
+				"createdTime": 1733901990949,
+				"modifiedTime": 1733901990949,
+				"lastModifiedBy": "J3oConv1eQRLao6j",
+				"exportSource": null
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"flags": {
+				"scene-packer": {
+					"hash": "1f0643afd7ef329675a2173654b0ac31c8adc9be"
+				}
+			},
+			"_id": "L26LaGdn9r5Sghzr",
+			"ownership": {
+				"default": 0
+			}
+		}
+	],
+	"name": "Belcorra's Cave Worm",
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 270,
+				"temp": 0,
+				"max": 270,
+				"details": ""
+			},
+			"ac": {
+				"value": 32,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			},
+			"speed": {
+				"value": 40,
+				"otherSpeeds": [
+					{
+						"type": "burrow",
+						"value": 40
+					},
+					{
+						"type": "fly",
+						"value": 40
+					},
+					{
+						"type": "swim",
+						"value": 20
+					}
+				],
+				"details": ""
+			},
+			"immunities": [
+				{
+					"type": "bleed",
+					"exceptions": []
+				},
+				{
+					"type": "death-effects",
+					"exceptions": []
+				},
+				{
+					"type": "disease",
+					"exceptions": []
+				},
+				{
+					"type": "paralyzed",
+					"exceptions": []
+				},
+				{
+					"type": "poison",
+					"exceptions": []
+				}
+			],
+			"resistances": [
+				{
+					"type": "all-damage",
+					"value": 10,
+					"exceptions": [
+						"force",
+						"ghost-touch",
+						"spirit",
+						"vitality"
+					],
+					"doubleVs": [
+						"non-magical"
+					]
+				},
+				{
+					"type": "precision",
+					"value": 13,
+					"exceptions": [],
+					"doubleVs": []
+				}
+			]
+		},
+		"initiative": {
+			"statistic": "perception"
+		},
+		"details": {
+			"languages": {
+				"value": [],
+				"details": ""
+			},
+			"level": {
+				"value": 13
+			},
+			"blurb": "",
+			"publicNotes": "<p>This Cave worm was Belcorra's Pet Worm from @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35. Gauntlight Basement}.</p>",
+			"privateNotes": "<p><strong>Note:</strong> This assumes you own the <strong>Pathfinder Monster Core</strong> module to display the art</p>",
+			"publication": {
+				"title": "Pathfinder Monster Core",
+				"authors": "",
+				"license": "ORC",
+				"remaster": true
+			}
+		},
+		"resources": {},
+		"_migration": {
+			"version": 0.955,
+			"previous": {
+				"schema": 0.948,
+				"foundry": "13.351",
+				"system": "7.10.1"
+			}
+		},
+		"abilities": {
+			"str": {
+				"mod": 9
+			},
+			"dex": {
+				"mod": -1
+			},
+			"con": {
+				"mod": 7
+			},
+			"int": {
+				"mod": -5
+			},
+			"wis": {
+				"mod": -1
+			},
+			"cha": {
+				"mod": -1
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 20,
+			"senses": [
+				{
+					"type": "darkvision"
+				},
+				{
+					"acuity": "imprecise",
+					"range": 100,
+					"type": "tremorsense"
+				}
+			],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 28,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 21,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 21,
+				"saveDetail": ""
+			}
+		},
+		"skills": {
+			"athletics": {
+				"base": 30
+			}
+		},
+		"traits": {
+			"value": [
+				"ghost",
+				"incorporeal",
+				"spirit",
+				"undead"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "grg"
+			}
+		}
+	},
+	"type": "npc",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.10.1",
+		"modifiedTime": 1771870288435,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"effects": [],
+	"folder": "OnSr4fT6nycZJs7E",
+	"flags": {
+		"scene-packer": {
+			"hash": "075b73be7560b5c2206e5e0341eb03bbea8007bb"
+		},
+		"pf2e-rpg-numbers": {
+			"version": "12.7.6",
+			"critical": {
+				"success": {
+					"default": {
+						"enabled": "default",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1,
+						"art": "",
+						"type": "default"
+					},
+					"checks": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					},
+					"saves": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					},
+					"strikes": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					}
+				},
+				"failure": {
+					"default": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					},
+					"checks": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					},
+					"saves": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					},
+					"strikes": {
+						"enabled": "default",
+						"type": "default",
+						"art": "",
+						"offset": {
+							"x": 0,
+							"y": 0
+						},
+						"rotation": 0,
+						"sfx": "",
+						"volume": 100,
+						"scale": 1
+					}
+				}
+			},
+			"token": {
+				"rotation": {
+					"offset": 0
+				}
+			}
+		}
+	},
+	"_id": "wX2jNFncThTLvG9F",
+	"sort": 100000,
+	"ownership": {
+		"default": 1
+	}
+}

@@ -1,5 +1,12 @@
 ## Unreleased
 
+## 2.1.0
+
+- **Updates**
+  - Updated to Foundry VTT version `14`
+  - Updated how data is packed and unpacked from compendiums (should also fix the scenes with no bg issue)
+  - Changed SFX to use `GGG` for the `Break the Seal` animation
+
 ## 2.0.3
 
 - Fixed bug where "Update Available" message is sent everytime someone logs in (🐛 @Dio)

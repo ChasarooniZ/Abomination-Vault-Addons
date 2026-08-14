@@ -1,0 +1,25 @@
+{
+	"name": "05: Into The Training Grounds",
+	"sorting": "a",
+	"folder": "BkS6povLS9GAqOEb",
+	"type": "Actor",
+	"_id": "RAbvwXiC80nMnRXm",
+	"description": "",
+	"sort": 0,
+	"color": "#155610",
+	"flags": {
+		"scene-packer": {
+			"hash": "5e310fc332c5c37d42cc0988363c5482591ef151"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

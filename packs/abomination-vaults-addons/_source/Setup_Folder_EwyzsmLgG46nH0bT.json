@@ -1,0 +1,30 @@
+{
+	"name": "Setup",
+	"sorting": "a",
+	"folder": "sWA0tCYFgBfHnof6",
+	"type": "Macro",
+	"_id": "EwyzsmLgG46nH0bT",
+	"description": "",
+	"sort": 0,
+	"color": "#3a7439",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "4977337f6c9416052104738341c01ff162351e9a"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}

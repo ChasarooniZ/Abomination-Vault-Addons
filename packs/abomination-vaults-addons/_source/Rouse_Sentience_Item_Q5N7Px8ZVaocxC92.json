@@ -1,0 +1,54 @@
+{
+	"folder": "9tUABwBdHlCnHxW0",
+	"name": "Rouse Sentience",
+	"type": "action",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.955,
+			"previous": null
+		},
+		"description": {
+			"value": "<section><p>You must find a way to rouse the tattered shreds of sentience in this creature, providing a mild disruption in the implement that will allow you to discover how to disable it. Rousing the creature in this way lasts for 1 minute and causes the implement to become @UUID[Actor.8xX9yeGs7iCSoQ7m.Item.RpJ9AbFpL8ZWsJSX]{Slowed 1} for one round.</p><p><strong>Options</strong></p><ul><li><p>@Check[type:Medicine|dc:28|showDC:all]{Medicine (Expert)}</p></li><li><p>@Check[type:Society|dc:30|showDC:all]{Society (Master)}</p></li><li><p>@Check[type:Diplomacy|dc:31|showDC:all]{Diplomacy (Master)}</p></li></ul></section>",
+			"gm": "<section><p>A PC who mentions a piece of lore specific to the creature before it became an implement receives a +1 status bonus to this check</p></section>"
+		},
+		"publication": {
+			"title": "AV Addons",
+			"authors": "weepingminotaur",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": "rouse-sentience",
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"category": "interaction",
+		"deathNote": false
+	},
+	"_id": "Q5N7Px8ZVaocxC92",
+	"img": "systems/pf2e/icons/default-icons/action.svg",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Item.Q5N7Px8ZVaocxC92",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.11.2",
+		"createdTime": 1772774843511,
+		"modifiedTime": 1772775008782,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"ownership": {
+		"default": 0
+	}
+}

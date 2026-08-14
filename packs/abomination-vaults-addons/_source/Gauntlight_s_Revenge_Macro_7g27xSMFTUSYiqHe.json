@@ -1,0 +1,35 @@
+{
+	"folder": "bdTfXP3geLwrwh3E",
+	"name": "Gauntlight's Revenge",
+	"type": "script",
+	"_id": "7g27xSMFTUSYiqHe",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/magic/light/beam-impact-deflect-teal.webp",
+	"scope": "global",
+	"command": "// Add the hole tile, Gauntlight Token, and Zone Drawings to the Otari Map\n// These allow for running the Gauntlight's revenge (each section representing a different part of the final chase)\ngame.abomVaultAddons.setup.scenes.otari.setupGauntlightRevenge();",
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "2e63278f9ec65ac90bc3edb9ddbd6705242bd5ea"
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Macro.7g27xSMFTUSYiqHe",
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"ownership": {
+		"default": 0
+	}
+}

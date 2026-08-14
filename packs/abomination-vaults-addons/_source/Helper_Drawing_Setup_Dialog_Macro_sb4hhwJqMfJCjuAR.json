@@ -1,0 +1,35 @@
+{
+	"folder": "EwyzsmLgG46nH0bT",
+	"name": "Helper Drawing Setup Dialog",
+	"type": "script",
+	"author": "x15saXbCHNahbJqq",
+	"img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+	"scope": "global",
+	"command": "// Adds Hidden Interface Journaals to indicate some areas that were a unclear\n// Also adds some labels for height differences in some areas\ngame.abomVaultAddons.setup.labels.dialog()",
+	"sort": 100000,
+	"flags": {
+		"scene-packer": {
+			"hash": "8a1204794a3f43e25bdf18e48a7cca3ef9906389"
+		},
+		"advanced-macros": {
+			"runForSpecificUser": ""
+		},
+		"macro-wheel": {
+			"activeCondition": ""
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Macro.sb4hhwJqMfJCjuAR",
+		"duplicateSource": "Macro.btHyWcte8PX6Omgz",
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297781,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	},
+	"_id": "sb4hhwJqMfJCjuAR",
+	"ownership": {
+		"default": 0
+	}
+}

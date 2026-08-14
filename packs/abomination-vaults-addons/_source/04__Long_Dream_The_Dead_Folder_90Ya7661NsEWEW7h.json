@@ -1,0 +1,30 @@
+{
+	"name": "04: Long Dream The Dead",
+	"sorting": "a",
+	"folder": "6Gz5T8izaH4RvkL6",
+	"type": "Macro",
+	"_id": "90Ya7661NsEWEW7h",
+	"description": "",
+	"sort": 0,
+	"color": "#1f8e5a",
+	"flags": {
+		"macro-wheel": {
+			"folderImg": "icons/svg/d20-grey.svg",
+			"presetCondition": "",
+			"condition": ""
+		},
+		"scene-packer": {
+			"hash": "98b43122f427f4f3ff5f1b04f1a4779b34c89d43"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "13.351",
+		"systemId": "pf2e",
+		"systemVersion": "7.2.0",
+		"modifiedTime": 1765486297837,
+		"lastModifiedBy": "J3oConv1eQRLao6j",
+		"exportSource": null
+	}
+}
