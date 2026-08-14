@@ -84,7 +84,7 @@ jobs:
           # https://github.com/MrVauxs/trigger-animations/blob/master/.github/workflows/main.yml
       - name: Extract Changelog
         id: changelog
-        run: node .github/scripts/extract-changelog.mjs ${{steps.get_version.outputs.version-without-v}} "## " "CHANGELOG.md"
+        run: node .github/scripts/extract-changelog.mjs ${{steps.get_version.outputs.version-without-v}} "## " "CHANGELOG.MD"
 
       # Modify "module.json" with values specific to the release.
       # Since the values for the "version" and "url" keys aren't known ahead of
@@ -136,7 +136,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: trues
-          name: ${{ github.event.release.tag_name }}
+          name: ${{ github.event.release.name }}
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
